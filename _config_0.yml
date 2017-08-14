@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "es"
-title                    : "SIGdeletras :: Tecnologías de Información Geográfica"
+locale                   : "en"
+title                    : "Site Title"
 title_separator          : "-"
-name                     : "Patricio Soriano"
-description              : "Página web de Patricio Soriano. SIGdeletras. Tecnologías de Información Geográfica"
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "sigdeletras"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Patricio Soriano Castro"
-  avatar           : "/images/sigdeletras.jpg"
-  bio              : "Geógrafo :: Full-stack geographer"
-  location         : 
-  email            : "pasoriano@sigdeletras.com"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an amazing person."
+  location         : "Somewhere"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -89,19 +89,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sigdeletras"
+  github           :
   gitlab           :
-  google_plus      : "PatricioSorianoCastro"
+  google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "patriciosorianocastro/"
+  linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "sigdeletras"
+  twitter          :
   vine             :
   weibo            :
   xing             :

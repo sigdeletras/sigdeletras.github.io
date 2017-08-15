@@ -5,11 +5,11 @@ header:
 categories: 
 	- blog
 tags:
-	- webmapping
-	- gis
-	- sig
-	- charla
-	- formación
-	- universidad
+  - webmapping
+  - gis
+  - sig
+  - charla
+  - formación
+  - universidad
 ---
         

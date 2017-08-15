@@ -1,7 +1,7 @@
 ---
 title:  "Uso de la información catastral para estudios urbanos"
 header:
-teaser: ""
+        teaser: ""
 categories: 
 - blog
 tags:

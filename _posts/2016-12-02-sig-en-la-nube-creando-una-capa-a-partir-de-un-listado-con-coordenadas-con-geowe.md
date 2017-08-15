@@ -1,8 +1,8 @@
 ---
 title:  "SIG en la nube. Creando una capa a partir de un listado con coordenadas con GeoWE"
 header:
-	teaser: "/images/header/img_cabcera_plugin.jpg"
-categories: 
+teaser: "/images/header/img_cabcera_plugin.jpg"
+categories:
 	- blog
 tags:
 	- GeoWE

@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Enlace"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Sobre mi"
+    url: /sobremi/
   - title: "Documentos"
     url: /documentos/
   - title: "Servicios"

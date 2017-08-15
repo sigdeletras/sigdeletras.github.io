@@ -1,5 +1,5 @@
 ---
-title:  "Taller "Publicación de Información Geográfica en Internet""
+title:  "Taller Publicación de Información Geográfica en Internet"
 header:
   teaser: "/images/header/img_cabcera_plugin.jpg"
 categories: 
@@ -12,4 +12,3 @@ tags:
   - formación
   - universidad
 ---
-        

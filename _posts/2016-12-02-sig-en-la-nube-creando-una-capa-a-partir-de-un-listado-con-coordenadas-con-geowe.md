@@ -11,6 +11,7 @@ tags:
 - SIG
 - webmapping
 ---
+![Conversión de datos](/images/blog/12_geowe_csv/datos.png)
 
 Gracias a los comentarios y aportes de la comunidad  y el buen hacer de los desarrolladores del proyecto, **[GeoWE](http://geowe.org/)** va incorporando a sus funcionalidades herramientas que hace cada vez más sencillo realizar operaciones SIG en la nube. Aunque ya estaba disponible la carga de ficheros CSV con la información geográfica en formato WKT, en la versión Beta 1.3.8 se ha añadido la posibilidad de **cargar CSV pero con las coordenadas en columnas X e Y**. Esta mejora resuelve  un issue que puse en el [repositorio GitHub de GeoWE](https://github.com/geowe/geowe-core/issues/238). Es un buen ejemplo del flujo dinámico de trabajo que mantienen sus creadores.
 

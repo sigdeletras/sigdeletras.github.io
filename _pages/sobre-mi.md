@@ -4,9 +4,7 @@ permalink: /sobre-mi/
 date: 2017-08-15T03:02:20+00:00
 ---
 
-## Sobre mi
-
-“Full-stack” geographer. I specialized in Geographical Information Technology for the Public Administration, urban plannig and cultural heritage. IGIS instructor. I am the person in charge of SIGdeletras.com. Front-end web mapping developer. Geoinquieto.
+Geógrafo “Full-stack” especializado en Tecnologías de Información Geográfica, gestión de la ciudad, administración públicageographery patrimonio cultural. Profesor de Sistemas de Información Geográfica. Desarrollador de mapas en web. Geoinquieto cordobés.
 
 ## Educacion
 

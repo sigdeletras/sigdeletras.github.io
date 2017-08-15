@@ -1,7 +1,7 @@
 ---
 title:  "Uso de la información catastral para estudios urbanos"
 header:
-        teaser: ""
+        teaser: "/images/header/img_cabcera_plugin.jpg"
 categories: 
 - blog
 tags:

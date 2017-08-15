@@ -23,4 +23,4 @@ En la parte práctica, los alumnos aprendieron a crear su propia página web en 
 
 <iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="http://www.slideshare.net/slideshow/embed_code/key/poJgdIuw90QAAr" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="485"></iframe>
 
-<div style="margin-bottom: 5px;">**[Publicación de datos geográficos en Internet](http://www.slideshare.net/PatricioSoriano/publicacin-de-datos-geogrficos-en-internet "Publicación de datos geográficos en Internet")** de **[Patricio Soriano Castro](http://www.slideshare.net/PatricioSoriano)**</div>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

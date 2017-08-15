@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Sobre mi"
-    url: /sobremi/
+    url: /sobre-mi/
   - title: "Documentos"
     url: /documentos/
   - title: "Servicios"

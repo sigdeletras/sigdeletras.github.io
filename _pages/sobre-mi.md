@@ -17,13 +17,17 @@ University of Almería (Spain).
 ## Experiencia profesional
 
 
-| 2017 | SIGdeletras.com. “Full-stack” geographer |
+| 2017 | Vimcorsa. Profesor del curso "" |
+| 2017 | Curso Arquitectos "SIG y Ciudad|
+| 2017 | Oficina del Casco GMU Córdoba. Solares |
 | 2014-2016 | Roquetas de Mar (Almería) City Council. Geographer. Street naming and numbering GIS project (CDAU Junta de Andalucía). |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tags. |
+| 2016 | Almagre Patrimonio y Formación. GIS Instructor. “Sistemas de Información Geográfica y aqueología QGIS”. 100 hours On-line. |
+| 2011-2014 | Almagre Patrimonio y Formación. Front-end web mapping developer. |
+| 2011 | Colegio de Arquitectos Técnico y Aparejadores de Córdoba. GIS Instructor “Sistemas de Información Geográfica Libre. GvSIG”. 20 hours.. |
+| 2008-2010 | IT Office. Gerencia Municipal de Urbanismo de Córdoba. Geographer. Corporate GIS Proyect (OGC Services, Metadata, Spatial Data Infrastructure). |
+| 2005 | SCAI. University of Córdoba. GIS Instructor “Sistemas de Información Geográfica: ArcGIS”. 40 hours Córdoba. |
+| 2007 | Csd-systems Valencia. Geographer. Cadastral mapping and web mapping services. |
+| 2005-2007 | University of Córdoba Technician associated with cultural research project. |
 
 ## C O M P U T E R A N D T E C H N I C A L S K I L L S
 
@@ -33,19 +37,9 @@ University of Almería (Spain).
 - PostgreSQL/PostGIS
 - HTML, CSS, Javascript (Leaflet and OpenLayers)
 
-## O T H E R S
+## Otros
 
 - Startup School 2016 Pre-acceleration Program alumni. Tetuam Valley & Cosfera
 - GeoWE, Geodata web editing platform collaborator Carto Ambassador
 - OSGeo Foundation Charter member since 2014. 
 - Geoinquietos Córdoba founding member
-
-2017 SIGdeletras.com. “Full-stack” geographer.
-2014-2016 Roquetas de Mar (Almería) City Council. Geographer. Street naming and numbering GIS project (CDAU Junta de Andalucía)
-2016 Almagre Patrimonio y Formación. GIS Instructor. “Sistemas de Información Geográfica y aqueología QGIS”. 100 hours On-line
-2011-2014 Almagre Patrimonio y Formación. Front-end web mapping developer.
-2011 Colegio de Arquitectos Técnico y Aparejadores de Córdoba. GIS Instructor “Sistemas de Información Geográfica Libre. GvSIG”. 20 hours.
-2008-2010 IT Office. Gerencia Municipal de Urbanismo de Córdoba. Geographer. Corporate GIS Proyect (OGC Services, Metadata, Spatial Data Infrastructure) 
-2007 Csd-systems Valencia. Geographer. Cadastral mapping and web mapping services
-2005 SCAI. University of Córdoba. GIS Instructor “Sistemas de Información Geográfica: ArcGIS”. 40 hours Córdoba
-2005-2007 University of Córdoba Technician associated with cultural research project.

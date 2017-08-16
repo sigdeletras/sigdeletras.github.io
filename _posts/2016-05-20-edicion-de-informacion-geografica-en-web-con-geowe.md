@@ -3,7 +3,7 @@ title:  "Edición de Información Geográfica en Web con GeoWE"
 categories: 
        - blog
 tags:
-       - Geowe
+       - GeoWE
        - Webmapping
 ---
 

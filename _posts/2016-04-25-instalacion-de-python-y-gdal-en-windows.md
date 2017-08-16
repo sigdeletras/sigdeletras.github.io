@@ -1,9 +1,13 @@
 ---
 title:  "Instalación de Python y GDAL en Windows"
+header:
+  teaser: "/images/blog/01.png"
 categories: 
 - blog
 tags:
-- catastro, python, script, gdal, windows
+- Catastro
+- Python
+- GDAL
 ---
 
 Dentro del programa de la [11ª reunión de Geoinquietos Córdoba](http://wiki.osgeo.org/wiki/Reuni%C3%B3n_11_Geoinquietos_C%C3%B3rdoba) voy a realizar de mini taller donde explicar cómo se usa el script Pyhton [**dxf2gmlcatastro**](https://github.com/sigdeletras/dxf2gmlcatastro) que estoy generando para convertir un archivo CAD DXF al formato GML definido por tras la [Resolución conjunta Catastro-Registro](http://www.catastro.minhap.es/documentos/formatos_intercambio/Formato%20GML%20parcela%20catastral.pdf).

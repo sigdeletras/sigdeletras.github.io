@@ -1,5 +1,7 @@
 ---
 title:  "Qué es un Modelo Digital de Terreno"
+header:
+  teaser: "/images/header/2016-05-09-portada_mde.jpg"
 categories: 
  - blog
 tags:

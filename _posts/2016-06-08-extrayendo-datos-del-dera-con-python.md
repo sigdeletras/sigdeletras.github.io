@@ -1,5 +1,7 @@
 ---
 title:  "Extrayendo datos del DERA con Python"
+header:
+  teaser: "/images/header/2016-06-08-dera.jpg"
 categories:
 - blog
 tags:

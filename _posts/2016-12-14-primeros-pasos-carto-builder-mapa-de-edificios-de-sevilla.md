@@ -1,7 +1,7 @@
 ---
 title:  "Primeros pasos CARTO Builder. Mapa de edificios de Sevilla"
 header:
-  teaser: ""
+  teaser: "/images/header/2017-04-18-mapa.png"
 categories:
   - blog
 tags:

@@ -1,7 +1,7 @@
 ---
 title:  "Lidar y Urbanismo"
 header:
-  teaser: "/images/header/img_cabcera_plugin.jpg"
+  teaser: "/images/header/2017-03-15-pendiente.png"
 categories: 
   - blog
 tags:

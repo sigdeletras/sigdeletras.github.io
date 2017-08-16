@@ -1,5 +1,7 @@
 ---
 title:  "GeoAcciones para la Transformación Digital de Córdoba"
+header:
+  teaser: "/images/header/2016-06-06-100acciones.jpg"
 categories: 
  - blog
 tags:

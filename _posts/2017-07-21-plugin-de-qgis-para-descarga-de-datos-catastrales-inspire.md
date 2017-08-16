@@ -5,11 +5,11 @@ header:
 categories: 
   - blog
 tags:
-  - Inspire
-  - Catastral Downloader
-  - Plugin,Catastro
+  - Catastro
   - España
   - Python
+  - QGIS
+  - Plugins
 ---
 
 Hoy por hoy, podemos afirmar que en España nos encontramos en un buen momento respecto al acceso a la Información Geográfica. Existen numerosos [geoportales oficiales para la descarga](http://www.idee.es/web/guest/centros-de-descarga) de cartografía de referencia y temática. El número de [servicios de mapas interoperables](http://www.idee.es/web/guest/directorio-de-servicios) accesibles desde las IDEs es bastante numeroso. Los propios usuarios cuentan con proyectos como [OpenStreetMap](https://www.openstreetmap.org/) para generar datos a escala mundial. Y por último, hay que  tener en cuenta que podemos acceder mediante sus API a los datos geolocalizados de determinadas aplicaciones, ej. [Twitter](https://dev.twitter.com/rest/reference/get/geo/search).

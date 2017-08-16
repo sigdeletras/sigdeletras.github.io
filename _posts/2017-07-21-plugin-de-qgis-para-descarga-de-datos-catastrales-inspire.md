@@ -29,30 +29,23 @@ Desde hace ya unos años, tanto los datos geográficos en formato Shape como los
 A este recurso, se añadió recientemente los [Servicios de Cartografía Catastral según Inspire](http://www.catastro.minhap.es/webinspire/index.html) que ofrece la Dirección General de Catastro. La información catastral adaptada a la directiva europea Inspire es ofrecida mediante servicios interoperables (WMS y WFS) y puede realizarse la descarga de los tres conjuntos de datos (Parcelas Catastrales, Edificios y Direcciones) mediante un servicio ATOM. Cada conjunto de datos , distribuidos en archivos ZIP,  contiene varias capas en formato GML, en el sistema de referencia ETRS89 y son descargados por municipios.
 
 <!-- ![Apartado de servicio ATOM de datos catastrales INSPIRE](/images/blog/201707_plugin/atom.PNG) -->
-
+<!-- _Apartado de servicio ATOM de datos catastrales INSPIRE_ -->
 <figure>
   <img src="/images/blog/201707_plugin/atom.PNG" alt="Apartado de servicio ATOM de datos catastrales INSPIRE">
   <figcaption>Apartado de servicio ATOM de datos catastrales INSPIRE.</figcaption>
 </figure>
 
-_Apartado de servicio ATOM de datos catastrales INSPIRE_
-
 Los archivos geográficos (GML) contenidos en cada conjunto de datos son:
 
 *   Conjunto de Datos de **Parcela Catastral** **(CP Cadastral Parcel)**
-
-*   CadastralParcel. Parcela catastral.
-*   CadastralZoning. Manzanas en suelo urbano o a los polígonos en suelo rústico.
-
+	*   CadastralParcel. Parcela catastral.
+	*   CadastralZoning. Manzanas en suelo urbano o a los polígonos en suelo rústico.
 *   Conjunto de Datos de **Edificios (BU Buildings)**
-
-*   Building. Edificio.
-*   BuildingPart. Cada una de las construcciones de una parcela catastral que tiene volumen homogéneo, y pueden ser sobre y bajo rasante.
+	*   Building. Edificio.
+	*   BuildingPart. Cada una de las construcciones de una parcela catastral que tiene volumen homogéneo, y pueden ser sobre y bajo rasante.
 *   OtherConstructions. Piscinas que contienen el atributo OtherConstructionNatureValue calificado cómo openAirPool.
-
-*   Conjunto de Datos de **Direcciones (AD Addresses)**
-
-*   Address. Geometría del punto donde georreferencia la dirección física (centroide de la parcela o entrada del portal)
+	*   Conjunto de Datos de **Direcciones (AD Addresses)**
+	*   Address. Geometría del punto donde georreferencia la dirección física (centroide de la parcela o entrada del portal)
 
 El PDF con la descripción completa de la estructura de datos puede consultarse en el siguiente [enlace](http://www.catastro.minhap.es/webinspire/documentos/Conjuntos%20de%20datos.pdf).
 
@@ -62,17 +55,23 @@ La descarga mediante ATOM pasa por : la selección de conjunto de datos, selecci
 
 El complemento puede ser instalado desde el menú **_Complementos>Administrar e instalar complementos de QGIS_**. Para localizar de forma rápida el complemento puede introducirse el término "catastro" en la herramienta de búsqueda.
 
-![Búsqueda del complemento en QGIS](/images/blog/201707_plugin/search.PNG "Búsqueda del complemento en QGIS")
-
-_Instalación del complemento desde QGIS_
+<!-- ![Búsqueda del complemento en QGIS](/images/blog/201707_plugin/search.PNG "Búsqueda del complemento en QGIS")
+_Instalación del complemento desde QGIS_ -->
+<figure>
+  <img src="/images/blog/201707_plugin/search.PNG" alt="Búsqueda del complemento en QGIS">
+  <figcaption>Búsqueda del complemento en QGIS.</figcaption>
+</figure>
 
 Los archivos están igualmente disponibles en un [repositorio de GitHub](https://github.com/sigdeletras/Spanish_Inspire_Catastral_Downloader) y pueden descargarse directamente y copiarlos en la carpeta de _plugins_.
 
 Tras su instalación el plugin puede ser ejecutado desde la barra de herramientas o bien desde el menú **_Complementos>Descarga Catastro_** _**Inspire**_.  Si tenemos instalado QGIS en otro idioma la opción del menú es _Spanish Inspire Catastral Downloader ._
 
-![Formulario de opciones del complemento](/images/blog/201707_plugin/ui.PNG)
-
-_Formulario de opciones_
+<!-- ![Formulario de opciones del complemento](/images/blog/201707_plugin/ui.PNG)
+_Formulario de opciones_ -->
+<figure>
+  <img src="/images/blog/201707_plugin/ui.PNG" alt="Formulario de opciones del complemento">
+  <figcaption>Formulario de opciones del complemento.</figcaption>
+</figure>
 
 Una vez ejecutado el complemento se debe obligatoriamente:
 
@@ -83,9 +82,12 @@ Una vez ejecutado el complemento se debe obligatoriamente:
 
 Si se desea añadir las capas GML descargadas al proyecto QGIS activo se debe marcar la casilla correspondiente.
 
-![Carga de capas en proyecto QGIS](/images/blog/201707_plugin/cadastral_layers.PNG)
-
-_Ejemplo de carga de capas en proyecto QGIS_
+<!-- ![Carga de capas en proyecto QGIS](/images/blog/201707_plugin/cadastral_layers.PNG)
+_Ejemplo de carga de capas en proyecto QGIS_ -->
+<figure>
+  <img src="/images/blog/201707_plugin/cadastral_layers.PNG" alt="Ejemplo de carga de capas en proyecto QGIS">
+  <figcaption>Ejemplo de carga de capas en proyecto QGIS.</figcaption>
+</figure>
 
 ### Agradecimientos
 

@@ -1,23 +1,14 @@
 ---
-title:  "Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot; -  Geoinquietos Sevilla"
-header:
-  teaser: "/images/header/img_cabcera_plugin.jpg"
+title:  "Presentación del Visor Turístico Patrimonial de Posadas (Córdoba)"
 categories: 
   - Presentaciones
 tags:
-  - Formación
-  - Catastro
-  - Sevilla
-  - Carto
+  - Webmapping
+  - Patrimonio
+  - Turismo
+  - Posadas
 ---
-
-## Presentaciones
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/xtobBaGP6nAW7X" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-<div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/charla-mapa-de-edificios-de-sevilla-uso-de-carto-builder-con-datos-de-catastro-inspire" title="Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot;" target="_blank">Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot; -  Geoinquietos Sevilla Abril 2017</a></div>
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/poJgdIuw90QAAr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-<div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/publicacin-de-datos-geogrficos-en-internet" title="Publicación de datos geográficos en Internet" target="_blank">Publicación de datos geográficos en Internet - Participación en el Máster en Estrategias para el Desarrollo Rural y Territorial de Universidad de Córdoba en Internet " en la asignatura "Información Territorial de libre acceso, análisis mediante herramientas open-source" Enero 2017</a> </div>
+2016-12-01-presentacion-del-visor-turistico-patrimonial-de-posadas-cordoba
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5ym7Qx3u5lgPID" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 <div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/visor-turstico-patrimonial-de-posadas-crdoba" title="Visor Turístico Patrimonial de Posadas (Córdoba)" target="_blank">Visor Turístico Patrimonial de Posadas (Córdoba) - Presentación del Visor Turístico Patrimonial de Posadas (Córdoba) realizado por Almagre Patrimonio y Formación para el Ayuntamiento de Posadas Córdoba (Diciembre 2016)</a>  </div>

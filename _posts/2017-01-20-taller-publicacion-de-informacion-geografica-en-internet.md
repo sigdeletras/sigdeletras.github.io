@@ -3,7 +3,7 @@ title:  "Taller Publicación de Información Geográfica en Internet"
 header:
   teaser: "/images/header/img_cabcera_plugin.jpg"
 categories: 
-  - blog
+  - Presentaciones
 tags:
   - Webmapping
   - Sistemas de Información Geográfica

@@ -9,7 +9,7 @@ tags:
   - Urbanismo
   - QGIS
   - Sistemas de Información Geográfica
-  - Lastools
+  - LAStools
 ---
 
 Desde hace unos años, los datos [LiDAR](https://wikipedia.org/wiki/LIDAR "Lidar Wikipedia") se han convertido en la fuente de datos geográficos “de moda”. LiDAR un sistema de medida basado en determinar la distancia desde un emisor láser a un objeto, midiendo el tiempo transcurrido entre la emisión del pulso láser y la recepción de la señal reflejada por el objeto.

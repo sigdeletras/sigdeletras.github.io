@@ -48,10 +48,10 @@ Los requisitos para ejecutar el código son
 *   Tener instalada la librería GDAL/OGR.
 
 Un ejemplo
-
-<pre>$ python clipShapesZip.py 'G15_Patrimonio.zip' 'clip_area.shp' 'clipFolder'</pre>
+```$ python clipShapesZip.py 'G15_Patrimonio.zip' 'clip_area.shp' 'clipFolder'
+```
 
 Como nota importante comentar que si el geoproceso se aplica sobre una lineal o poligonal, la función hará su función y "recortará" las geometrías a partir del la capa indicada.
 
-<script type="text/javascript" src="https://gist-it.appspot.com/github/sigdeletras/clipShapesZip/blob/master/clipShapesZip.py"></script>
+{% gist sigdeletras/8f89f36cdc1a0246aea0342357fbbf3d %}
         

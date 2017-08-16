@@ -49,7 +49,7 @@ Los requisitos para ejecutar el código son
 
 Un ejemplo
 
-```
+```python
 $ python clipShapesZip.py 'G15_Patrimonio.zip' 'clip_area.shp' 'clipFolder'
 ```
 

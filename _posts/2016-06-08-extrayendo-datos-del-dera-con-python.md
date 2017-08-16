@@ -1,6 +1,6 @@
 ---
 title:  "Extrayendo datos del DERA con Python"
-categories: 
+categories:
 	- blog
 tags:
 	- Python
@@ -9,32 +9,32 @@ tags:
 	- IECA
 ---
 
-Los **Datos Espaciales de Referencia de Andalucía para escalas intermedias -DERA-** "_es un repertorio de bases cartográficas de diferente naturaleza geométrica (puntos, líneas, polígonos, imágenes raster) referidas al territorio andaluz_". Más información en esta página del [Instituto de Estadística y Cartografía de Andalucía](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/).
+Los **Datos Espaciales de Referencia de AndalucÃ­a para escalas intermedias -DERA-** "_es un repertorio de bases cartogrÃ¡ficas de diferente naturaleza geomÃ©trica (puntos, lÃ­neas, polÃ­gonos, imÃ¡genes raster) referidas al territorio andaluz_". MÃ¡s informaciÃ³n en esta pÃ¡gina del [Instituto de EstadÃ­stica y CartografÃ­a de AndalucÃ­a](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/).
 
-Los datos pueden descargarse en un archivo comprimido zip por cada uno de los bloques. Dentro de cada zip la información se encuentra accesibles por capas en formato shapefile (.shp), en sistema de referencia geodésico ETRS89 y proyectadas en UTM huso 30.
+Los datos pueden descargarse en un archivo comprimido zip por cada uno de los bloques. Dentro de cada zip la informaciÃ³n se encuentra accesibles por capas en formato shapefile (.shp), en sistema de referencia geodÃ©sico ETRS89 y proyectadas en UTM huso 30.
 
 ### Filtrado de datos con SIG
 
-La extensión espacial de las capas es el ámbito geográfico de la comunidad autónoma de Andalucía. Esto significa que por ejemplo en la capa _sv01_sanidad_centro_salud.shp_ se encuentran todos los centros de salud existentes en Andalucía y sus diferentes tipologías. Si queremos trabajar con una selección de datos, por ejemplo por provincia, deberemos:
+La extensiÃ³n espacial de las capas es el Ã¡mbito geogrÃ¡fico de la comunidad autÃ³noma de AndalucÃ­a. Esto significa que por ejemplo en la capa _sv01_sanidad_centro_salud.shp_ se encuentran todos los centros de salud existentes en AndalucÃ­a y sus diferentes tipologÃ­as. Si queremos trabajar con una selecciÃ³n de datos, por ejemplo por provincia, deberemos:
 
 *   Descarga el zip correspondiente desde la web del [IECA](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/)
 *   Descomprimirlo el zip
-*   Abrir un Sistema de Información Geográfica (ArcGIS, QGIS, gvSIG...)
+*   Abrir un Sistema de InformaciÃ³n GeogrÃ¡fica (ArcGIS, QGIS, gvSIG...)
 *   Cargar la capa (ej. _sv01_sanidad_centro_salud.shp_)
 
-Normalmente las capa del DERA incluyen información del municipio y provincia, por lo que podemos hacer una consulta por el atributo que deseemos, seleccionar los datos y crear una nueva capa a partir de la selección.
+Normalmente las capa del DERA incluyen informaciÃ³n del municipio y provincia, por lo que podemos hacer una consulta por el atributo que deseemos, seleccionar los datos y crear una nueva capa a partir de la selecciÃ³n.
 
 Una vez que tenemos los datos en nuestro SIG, se nos pueden plantear algunas preguntas:
 
-*   **¿Qué ocurre si la capa no dispone de un atributo como municipio o provincia que permita filtrarla?** Esto puede suceder para capas de tipo lineal o poligonal cuya extensión supere un límite administrativo.
-*   **¿Cómo extraer información de ámbitos geográficos definidos por nosotros?** Este puede ser el caso de un barrio, o la delimitación de una mancomunidad. En este caso debemos contar con la capa de delimitación y a continuación seleccionar los elementos geométricos (ej. centros de salud) mediante una consulta espacial (superposición, dentro de, toca...).
-*   **¿Y si quiero obtener todos los datos de un bloque temático, como por ejemplo "Servicios", para un barrio?** En este caso, tendremos que repetir la operación anterior para cada una de las capas.
+*   **Â¿QuÃ© ocurre si la capa no dispone de un atributo como municipio o provincia que permita filtrarla?** Esto puede suceder para capas de tipo lineal o poligonal cuya extensiÃ³n supere un lÃ­mite administrativo.
+*   **Â¿CÃ³mo extraer informaciÃ³n de Ã¡mbitos geogrÃ¡ficos definidos por nosotros?** Este puede ser el caso de un barrio, o la delimitaciÃ³n de una mancomunidad. En este caso debemos contar con la capa de delimitaciÃ³n y a continuaciÃ³n seleccionar los elementos geomÃ©tricos (ej. centros de salud) mediante una consulta espacial (superposiciÃ³n, dentro de, toca...).
+*   **Â¿Y si quiero obtener todos los datos de un bloque temÃ¡tico, como por ejemplo "Servicios", para un barrio?** En este caso, tendremos que repetir la operaciÃ³n anterior para cada una de las capas.
 
 ### Trabajando con Python y GDAL
 
-Algunos de los problemas que he planteado antes pueden solucionarse con las herramientas de creación de modelos de procesado integradas en los SIG. En el siguiente enlace a [MappingGIS](http://mappinggis.com/2014/08/crear-un-modelo-de-procesado-en-qgis-el-model-builder-de-qgis/) hay una sencilla guía de cómo hacerlo en QGIS.
+Algunos de los problemas que he planteado antes pueden solucionarse con las herramientas de creaciÃ³n de modelos de procesado integradas en los SIG. En el siguiente enlace a [MappingGIS](http://mappinggis.com/2014/08/crear-un-modelo-de-procesado-en-qgis-el-model-builder-de-qgis/) hay una sencilla guÃ­a de cÃ³mo hacerlo en QGIS.
 
-Como sigo con el aprendizaje de Python que comencé con [dxf2gmlcatastro](2016/dxf2gmlcatastro-script-python-para-convertir-de-dxf-a-gml-parcela-catastral) he decidido crear un pequeño código que haga lo siguiente:
+Como sigo con el aprendizaje de Python que comencÃ© con [dxf2gmlcatastro](2016/dxf2gmlcatastro-script-python-para-convertir-de-dxf-a-gml-parcela-catastral) he decidido crear un pequeÃ±o cÃ³digo que haga lo siguiente:
 
 *   Descomprimir un archivo zip de capas Shape, en este caso del DERA.
 *   Localizar una archivo poligonal que va a ser usado para "recortar" las capas Shape del zip
@@ -42,16 +42,16 @@ Como sigo con el aprendizaje de Python que comencé con [dxf2gmlcatastro](2016/dx
 *   Generar nuevas capas recortadas en una carpeta concreta y con un sufijo (_clip).
 *   Borrar la carpeta donde se ha descomprimido el zip.
 
-Los requisitos para ejecutar el código son
+Los requisitos para ejecutar el cÃ³digo son
 
 *   Tener instalado Python.
-*   Tener instalada la librería GDAL/OGR.
+*   Tener instalada la librerÃ­a GDAL/OGR.
 
 Un ejemplo
 
 <pre>$ python clipShapesZip.py 'G15_Patrimonio.zip' 'clip_area.shp' 'clipFolder'</pre>
 
-Como nota importante comentar que si el geoproceso se aplica sobre una lineal o poligonal, la función hará su función y "recortará" las geometrías a partir del la capa indicada.
+Como nota importante comentar que si el geoproceso se aplica sobre una lineal o poligonal, la funciÃ³n harÃ¡ su funciÃ³n y "recortarÃ¡" las geometrÃ­as a partir del la capa indicada.
 
 <script type="text/javascript" src="https://gist-it.appspot.com/github/sigdeletras/clipShapesZip/blob/master/clipShapesZip.py"></script>
         

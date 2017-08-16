@@ -5,13 +5,10 @@ header:
 categories:
   - blog
 tags:
-  - carto
-  - cartodb
-  - carto builder
-  - catastro
-  - inspire
-  - sevilla
-  - edificios
+  - Carto
+  - Catastro
+  - Sevilla
+  - Ciudad
 ---
         
 Hace tiempo que tenía pendiente probar **Builder,** la nueva herramienta de [CARTO.](https://carto.com/ "Carto Web") Junto a una gran cantidad de cambios en la interfaz y en el flujo de trabajo, a los que habrá que ir poco a poco acostumbrándose, existen dos novedades que hacen de Carto la empresa más potente a día de hoy  que aplicada el modelo _SaaS_ al ámbito de los ‘mapas’. La primera novedad es la  la incorporación de asistentes para la realización de análisis espaciales y la segunda la posibilidad de añadir a nuestros mapas  aplicaciones o complementos (_widgets_) basados en los datos disponibles.

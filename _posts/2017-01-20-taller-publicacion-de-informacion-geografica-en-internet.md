@@ -5,12 +5,9 @@ header:
 categories: 
   - blog
 tags:
-  - webmapping
-  - gis
-  - sig
-  - charla
-  - formación
-  - universidad
+  - Webmapping
+  - Sistemas de Información Geográfica
+  - Formación
 ---
 
 El 2017 parece que empieza centrado en **proyectos de formación**, de los que pronto habrá noticias. Como ejemplo, el pasado lunes tuve la posibilidad participar en el [Máster en Estrategias para el Desarrollo Rural y Territorial de la UCO](https://www.uco.es/estudios/idep/masteres/estrategias-desarrollo-rural-y-territorial "Master") invitado por el profesor Alfonso García-Ferrer de la  ETS Ingenieros Agrónomos y Montes en Universidad de Córdoba. Mi participación consistió en una [charla/taller sobre **"Publicación de Información Geográfica en Internet "**](http://es.slideshare.net/PatricioSoriano/publicacin-de-datos-geogrficos-en-internet "Presentación") en la asignatura "_Información Territorial de libre acceso, análisis mediante herramientas open-source_"

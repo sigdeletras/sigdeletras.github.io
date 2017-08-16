@@ -5,14 +5,12 @@ header:
 categories: 
   - blog
 tags:
-  - curso
-  - sig
-  - qgis
-  - urbanismo
-  - ciudad
-  - arquitectura
-  - territorio
-  - córdoba
+  - Formación
+  - Sistemas de Información Geográfica
+  - QGIS
+  - Urbanismo
+  - Ciudad
+  - Córdoba
 ---
 
 Es para mi un verdadero placer poder informar entre el **23 de febrero y el 31 de marzo de 2017**,  tendrá lugar en **Córdoba**, la primera edición del **curso semi-presencial “SIG y Ciudad: Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”.** El curso, con un total de 40 horas, estará destinado a profesionales vinculados con las disciplinas del planeamiento urbanístico, la ordenación territorial, la gestión de la ciudad o la sostenibilidad urbana.

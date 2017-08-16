@@ -7,8 +7,8 @@ categories:
 tags:
   - LiDAR
   - Urbanismo
-  - PNOA
   - QGIS
+  - Sistemas de Información Geográfica
   - Lastools
 ---
 

@@ -5,10 +5,9 @@ header:
 categories: 
   - blog
 tags:
-  - Sentinel 2A
+  - Sentinel 2
   - Copernicus
   - Teledetección
-  - Remote sensing
 ---
 
 La teledetección, percepción remota o “remote sensing” es ciencia de obtener información (imágenes) de la superficie de nuestro planeta a distancia, sin entrar en contacto directo con él. Pero la teledetección también incluye todo el trabajo de procesamiento e interpretación realizado a posteriori con esas imágenes.

@@ -8,13 +8,6 @@ tags:
   - Turismo
   - Posadas
 ---
-2016-12-01-presentacion-del-visor-turistico-patrimonial-de-posadas-cordoba
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5ym7Qx3u5lgPID" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-<div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/visor-turstico-patrimonial-de-posadas-crdoba" title="Visor Turístico Patrimonial de Posadas (Córdoba)" target="_blank">Visor Turístico Patrimonial de Posadas (Córdoba) - Presentación del Visor Turístico Patrimonial de Posadas (Córdoba) realizado por Almagre Patrimonio y Formación para el Ayuntamiento de Posadas Córdoba (Diciembre 2016)</a>  </div>
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/sUDuD4dmrFvF6R" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-<div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/tecnologas-de-informacin-geogrfica-aplicadas-a-arqueologa-el-proyecto-sigeac" title="Tecnologías de información geográfica aplicadas a Arqueología. El proyecto SIGEAC." target="_blank">Tecnologías de información geográfica aplicadas a Arqueología. El proyecto SIGEAC - Conferencia inaugural de la sesión de Novedades arqueológicas dentro de las I Jornadas ArqueoCórdoba (15 Septiembre 2016). </a> </div>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/1yBFEHgZE6skLy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 <div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/geocampes-sevilla-junio2015" title="Nubes, plugins y HTML para visores patrimoniales" target="_blank">Nubes, plugins y HTML para visores patrimoniales - Geocamp ES Sevilla 2015</a> </div>

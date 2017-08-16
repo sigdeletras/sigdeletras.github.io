@@ -28,7 +28,12 @@ Desde hace ya unos años, tanto los datos geográficos en formato Shape como los
 
 A este recurso, se añadió recientemente los [Servicios de Cartografía Catastral según Inspire](http://www.catastro.minhap.es/webinspire/index.html) que ofrece la Dirección General de Catastro. La información catastral adaptada a la directiva europea Inspire es ofrecida mediante servicios interoperables (WMS y WFS) y puede realizarse la descarga de los tres conjuntos de datos (Parcelas Catastrales, Edificios y Direcciones) mediante un servicio ATOM. Cada conjunto de datos , distribuidos en archivos ZIP,  contiene varias capas en formato GML, en el sistema de referencia ETRS89 y son descargados por municipios.
 
-![Apartado de servicio ATOM de datos catastrales INSPIRE](/images/blog/201707_plugin/atom.PNG)
+<!-- ![Apartado de servicio ATOM de datos catastrales INSPIRE](/images/blog/201707_plugin/atom.PNG) -->
+
+<figure>
+  <img src="/images/blog/201707_plugin/atom.PNG" alt="Apartado de servicio ATOM de datos catastrales INSPIRE">
+  <figcaption>Apartado de servicio ATOM de datos catastrales INSPIRE.</figcaption>
+</figure>
 
 _Apartado de servicio ATOM de datos catastrales INSPIRE_
 

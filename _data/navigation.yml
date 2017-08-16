@@ -6,6 +6,8 @@ main:
     url: /documentos/
   - title: "Servicios"
     url: /servicios/
+  - title: "Temas"
+    url: /tags/    
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   #- title: Presentaciones

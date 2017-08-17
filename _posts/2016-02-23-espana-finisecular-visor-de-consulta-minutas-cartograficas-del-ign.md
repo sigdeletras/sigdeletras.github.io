@@ -1,5 +1,5 @@
 ---
-title:  "\"España Finisecular\" visor de consulta Minutas Cartográficas del IGN"
+title:  "EspaÃ±a Finisecular. Visor de consulta Minutas CartogrÃ¡ficas del IGN"
 header:
       teaser: "/images/header/206-02-23-visorminutas.jpg"
 categories: 
@@ -10,58 +10,58 @@ tags:
 - Servicios OGC
 ---
 
-**España finisecular** es **un visor web de visualización del [servicio de mapas WMS  de las Minutas Cartográficas](http://www.ign.es/wms/minutas-cartograficas?request=GetCapabilities&service=WMS)** mantenido por el Instituto Geográfico Nacional e incluido en la Infraestructura de Datos Espaciales de España. <span style="font-size: 12.16px; line-height: 1.3em;">Para saber más sobre este servicio se puede consultar esta e[ntrada en el Blog de la IDEE](http://blog-idee.blogspot.com.es/2015/09/servicio-de-mapas-de-minutas.html).</span>
+**EspaÃ±a finisecular** es **un visor web de visualizaciÃ³n del [servicio de mapas WMS Â de las Minutas CartogrÃ¡ficas](http://www.ign.es/wms/minutas-cartograficas?request=GetCapabilities&service=WMS)** mantenido por el Instituto GeogrÃ¡fico Nacional e incluido en la Infraestructura de Datos Espaciales de EspaÃ±a.Â <span style="font-size: 12.16px; line-height: 1.3em;">Para saber mÃ¡s sobre este servicio se puede consultar esta e[ntrada en el Blog de la IDEE](http://blog-idee.blogspot.com.es/2015/09/servicio-de-mapas-de-minutas.html).</span>
 
-<span style="font-size: 12.16px; line-height: 1.3em;">Desde este visor, accesible desde la dirección [sigdeletras.com/visorminutas/](http://sigdeletras.com/visorminutas/), se acceder a la capa cartográfica continua generada a partir del recorte y la georreferenciación de los mapas manuscritos en papel conservados en el Archivo Técnico del IGN. Estos mapas, según se refleja en la página del IGN,  son el resultado de los trabajos previos a la realización del Mapa Topográfico Nacional y se realizaron principalmente entre 1870 y 1950 y fueron  dibujados a escala 1:25.000, con una precisión de obtención de la información correspondiente a escala 1:50.000.</span>
+<span style="font-size: 12.16px; line-height: 1.3em;">Desde este visor, accesible desde la direcciÃ³n [sigdeletras.com/visorminutas/](http://sigdeletras.com/visorminutas/), se acceder a la capa cartogrÃ¡fica continua generada a partir del recorte y la georreferenciaciÃ³n de los mapas manuscritos en papel conservados en el Archivo TÃ©cnico del IGN. Estos mapas, segÃºn se refleja en la pÃ¡gina del IGN, Â son el resultado de los trabajos previos a la realizaciÃ³n del Mapa TopogrÃ¡fico Nacional y se realizaron principalmente entre 1870 y 1950 y fueron Â dibujados a escala 1:25.000, con una precisiÃ³n de obtenciÃ³n de la informaciÃ³n correspondiente a escala 1:50.000.</span>
 
-Los datos, de gran valor para trabajos o estudios históricos sobre el territorio nacional, ofrecen información de gran interés vinculaba principalmente a la red de comunicaciones, pero también incluyen datos sobre nombres geográficos, construcciones, topónimos red hidrográfica  o cultivos entre otros.
+Los datos, de gran valor para trabajos o estudios histÃ³ricos sobre el territorio nacional, ofrecen informaciÃ³n de gran interÃ©s vinculaba principalmente a la red de comunicaciones, pero tambiÃ©n incluyen datos sobre nombres geogrÃ¡ficos, construcciones, topÃ³nimos red hidrogrÃ¡fica Â o cultivos entre otros.
 
 ###   
 <iframe style="border: 1px solid black;" src="http://sigdeletras.com/visorminutas" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
 
-<small>[Ver mapa más grande](http://visorminutas.sigdeletras.com/)</small>
+<small>[Ver mapa mÃ¡s grande](http://visorminutas.sigdeletras.com/)</small>
 
 ### **Funciones principales**
 
-#### Consulta visual de la información geográfica
+#### Consulta visual de la informaciÃ³n geogrÃ¡fica
 
-Junto a la posibilidad de visualizar la información geográfica, el visor “España finisecular” permite la comparación de los mapas de las minutas con otros servicios de ortofotografías y mapas tanto reciente como antiguos. Para ello se ha incluido una barra que permite aplicar transparencia a la capa de las minutas.
+Junto a la posibilidad de visualizar la informaciÃ³n geogrÃ¡fica, el visor â€œEspaÃ±a finisecularâ€ permite la comparaciÃ³n de los mapas de las minutas con otros servicios de ortofotografÃ­as y mapas tanto reciente como antiguos. Para ello se ha incluido una barra que permite aplicar transparencia a la capa de las minutas.
 
-<span style="font-size: 12.16px; line-height: 1.3em;">Las capas disponibles en esta primera versión del Visor:</span>
+<span style="font-size: 12.16px; line-height: 1.3em;">Las capas disponibles en esta primera versiÃ³n del Visor:</span>
 
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Ortofotos máxima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).</span>
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Cartografía Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la Dirección General del Catastro.</span>
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Primera edición de cada hoja del Mapa Topográfico Nacional 1:50.000](http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&service=WMS) (MTN50).</span>
+*   <span style="font-size: 12.16px; line-height: 1.3em;">[Ortofotos mÃ¡xima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).</span>
+*   <span style="font-size: 12.16px; line-height: 1.3em;">[CartografÃ­a Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la DirecciÃ³n General del Catastro.</span>
+*   <span style="font-size: 12.16px; line-height: 1.3em;">[Primera ediciÃ³n de cada hoja del Mapa TopogrÃ¡fico Nacional 1:50.000](http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&service=WMS) (MTN50).</span>
 *   [<span style="font-size: 12.16px; line-height: 1.3em;">OpenStreetMap</span>](http://www.openstreetmap.org/)
-*   <span style="font-size: 12.16px; line-height: 1.3em;">Sobre las minutas, también puede activarse los [límites administrativos de España](http://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&service=WMS).</span>
+*   <span style="font-size: 12.16px; line-height: 1.3em;">Sobre las minutas, tambiÃ©n puede activarse los [lÃ­mites administrativos de EspaÃ±a](http://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&service=WMS).</span>
 
 #### Consulta de datos
 
-Activando la opción **“Consulta de datos de minutas”** se realiza una petición GetFeatureInfo al WMS de las minutas de la que se obtiene la la fecha de creación de la minuta entre otros datos.
+Activando la opciÃ³n **â€œConsulta de datos de minutasâ€** se realiza una peticiÃ³n GetFeatureInfo al WMS de las minutas de la que se obtiene la la fecha de creaciÃ³n de la minuta entre otros datos.
 
 ![](/images/blog/04_wms.jpg)
 
-Desde esta misma consulta, se puede acceder al **enlace de descarga de la minuta** existente en el Centro de Descargas del CNIG. Los archivos georrerenciados completan la información del servicio al permitir consultar información de interés incluida en las leyendas, cartelas y anotaciones manuscritas. Estos archivos pueden ser cargados en cualquier Sistema de Información Geográfica.
+Desde esta misma consulta, se puede acceder al **enlace de descarga de la minuta** existente en el Centro de Descargas del CNIG. Los archivos georrerenciados completan la informaciÃ³n del servicio al permitir consultar informaciÃ³n de interÃ©s incluida en las leyendas, cartelas y anotaciones manuscritas. Estos archivos pueden ser cargados en cualquier Sistema de InformaciÃ³n GeogrÃ¡fica.
 
-#### Buscador de nombres geográficos
+#### Buscador de nombres geogrÃ¡ficos
 
-Usando la extensión [Geocoder,](https://github.com/perliedman/leaflet-control-geocoder) se ha incluido una buscador que accede a la base de datos de nombres geográficos [Nominatim](http://wiki.openstreetmap.org/wiki/Nominatim).
+Usando la extensiÃ³n [Geocoder,](https://github.com/perliedman/leaflet-control-geocoder) se ha incluido una buscador que accede a la base de datos de nombres geogrÃ¡ficos [Nominatim](http://wiki.openstreetmap.org/wiki/Nominatim).
 
 ![](/images/blog/01_loc.jpg)
 
 #### <span style="line-height: 1.3em;">Opciones de compartir</span>
 
-De desarrollo propio, se ha incluido en la barra de herramientas la opción de obtener el correspondiente código HMTL para i**ncluir el visor en otras páginas web**. También se ha añadido un botón para compartir el visor en **Twitter**.
+De desarrollo propio, se ha incluido en la barra de herramientas la opciÃ³n de obtener el correspondiente cÃ³digo HMTL para i**ncluir el visor en otras pÃ¡ginas web**. TambiÃ©n se ha aÃ±adido un botÃ³n para compartir el visor en **Twitter**.
 
 ![](/images/blog/02_measue.jpg)
 
 #### Mediciones
 
-Gracias a la extensión  [Leaflet.measure](https://github.com/ljagis/leaflet-measure) se ha habilitado la herramienta, en inglés, de captura de longitudes y áreas. 
+Gracias a la extensiÃ³n Â [Leaflet.measure](https://github.com/ljagis/leaflet-measure)Â se ha habilitado la herramienta, en inglÃ©s, de captura de longitudes y Ã¡reas.Â 
 
 ![](/images/blog/03_embeber.jpg)
 
-### Tecnología<span style="font-size: 12.16px; line-height: 1.3em;"> </span>
+### TecnologÃ­a<span style="font-size: 12.16px; line-height: 1.3em;">Â </span>
 
-El diseño del visor está basado en la plantilla [Bootleaf](http://bmcbride.github.io/bootleaf/) utilizando la [Bootstrap](http://getbootstrap.com/) y la librería JavaScrip de mapas [Leaflet](http://leafletjs.com/).
+El diseÃ±o del visor estÃ¡ basado en la plantillaÂ [Bootleaf](http://bmcbride.github.io/bootleaf/)Â utilizando laÂ [Bootstrap](http://getbootstrap.com/)Â y la librerÃ­a JavaScrip de mapasÂ [Leaflet](http://leafletjs.com/).
         

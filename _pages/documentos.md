@@ -9,6 +9,17 @@ date: 2016-02-24T03:02:20+00:00
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/xtobBaGP6nAW7X" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 <div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/charla-mapa-de-edificios-de-sevilla-uso-de-carto-builder-con-datos-de-catastro-inspire" title="Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot;" target="_blank">Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot; -  Geoinquietos Sevilla Abril 2017</a></div>
 
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="https://docs.google.com/presentation/d/1FdWEb2iwmHnCYP-KIBK8Fo8MZf23Odr_nJDRrS_vE0Q/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+[Presentación del curso "SIG y Ciudad" cosFera Febrero 2017](presentaciones/presentacion-mas-cafe-del-curso-sig-y-ciudad-en-cosfera/)
+
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/poJgdIuw90QAAr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 <div style="margin-bottom:5px"> <a href="//www.slideshare.net/PatricioSoriano/publicacin-de-datos-geogrficos-en-internet" title="Publicación de datos geográficos en Internet" target="_blank">Publicación de datos geográficos en Internet - Participación en el Máster en Estrategias para el Desarrollo Rural y Territorial de Universidad de Córdoba en Internet " en la asignatura "Información Territorial de libre acceso, análisis mediante herramientas open-source" Enero 2017</a> </div>
 

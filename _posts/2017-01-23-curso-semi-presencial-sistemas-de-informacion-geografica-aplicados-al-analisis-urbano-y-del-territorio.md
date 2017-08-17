@@ -3,7 +3,7 @@ title:  "Curso semi-presencial “Sistemas de Información Geográfica aplicados
 header:
   teaser: "/images/header/2017-01-23-portada_sigdeletras.jpg"
 categories: 
-  - blog
+  - Blog
 tags:
   - Formación
   - Sistemas de Información Geográfica

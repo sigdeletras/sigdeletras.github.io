@@ -3,7 +3,7 @@ title:  "Trabajando con datos LiDAR. Algunos ejemplos del Conjunto Arqueológico
 header:
   teaser: "/images/header/2016-07-20-lidar_sombras.png"
 categories: 
-  - blog
+  - Blog
 tags:
   - LiDAR
   - Arqueología

@@ -3,7 +3,7 @@ title:  "Lidar y Urbanismo"
 header:
   teaser: "/images/header/2017-03-15-pendiente.png"
 categories: 
-  - blog
+  - Blog
 tags:
   - LiDAR
   - Urbanismo

@@ -3,7 +3,7 @@ title:  "SIG en la nube. Creando una capa a partir de un listado con coordenadas
 header:
   teaser: "/images/header/geowe.jpg"
 categories:
-- blog
+- Blog
 tags:
 - GeoWE
 - Sistemas de Información Geográfica

@@ -3,7 +3,7 @@ title:  "Spanish Inspire Catastral Downloader. Plugin de QGIS para descarga de d
 header:
   teaser: "/images/header/2017-07-21-img_cabcera_plugin.jpg"
 categories: 
-  - blog
+  - Blog
 tags:
   - Catastro
   - España

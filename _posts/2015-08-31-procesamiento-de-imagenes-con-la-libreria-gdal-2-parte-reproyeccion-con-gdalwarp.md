@@ -14,7 +14,9 @@ Este artículo continua la [entrada anterior](blog/procesamiento-de-imagenes-con
 
 El uso básico es sencillo: partimos de la base de que la imagen ya posee un SRC definido, tras el comando indicaremos el SRC de salida usando el [código EPSG](https://es.wikipedia.org/wiki/European_Petroleum_Survey_Group "EPSG") (ej. -t_srs "EPSG:4326"), el fichero a reproyectar y el nombre la imagen proyectada.
 
-<pre>$ gdalwarp  -t_srs "EPSG:4326"  -of GTiff img.tif img4326.tif</pre>
+'''
+$ gdalwarp  -t_srs "EPSG:4326"  -of GTiff img.tif img4326.tif
+'''
 
 Las opciones de _gdalwarp_ son muchos más variadas establecer un valor sin datos (_- dstnodata_) o usar una archivo vectorial para recortar la imagen de salida (_-cutline_). Todas las opciones pueden consultarse en la siguiente dirección [http://www.gdal.org/gdalwarp.html](http://www.gdal.org/gdalwarp.html "gdalwarp")
 
@@ -28,7 +30,9 @@ Si queremos trasformar con _gdalwarp_ una imagen en ED50 UTM30N (EPGS:23030) a E
 
 Suponiendo que hemos almacenado la rejilla de la península en nuestro disco duro C: en la carpeta "rejillas", el comando quedaría así:
 
-<pre>$ gdalwarp -s_srs "+init=epsg:23030 +nadgrids=C/:rejilla/PENR2009.gsb +wktext" -t_srs "+init=epsg:25830 +nadgrids=null +wktext" -of GTiff img23030.tif img25830.tif</pre>
+'''
+$ gdalwarp -s_srs "+init=epsg:23030 +nadgrids=C/:rejilla/PENR2009.gsb +wktext" -t_srs "+init=epsg:25830 +nadgrids=null +wktext" -of GTiff img23030.tif img25830.tif
+'''
 
 ### Un poco de programación: procesando de múltiples imágenes con _gdalwarp_
 
@@ -45,9 +49,13 @@ El código hace lo siguiente:
 
 Si es necesario le asignamos, los correspondientes permisos de ejecución con chmod
 
-<pre>$ chmod +x ed50etrs89.sh</pre>
+'''
+$ chmod +x ed50etrs89.sh
+'''
 
 Y a continuación, lo ejecutamos
 
-<pre>$ ./ed50etrs89.sh</pre>
+'''
+$ ./ed50etrs89.sh
+'''
         

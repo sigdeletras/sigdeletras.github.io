@@ -2,6 +2,7 @@
 title:  "Spanish Inspire Catastral Downloader. Plugin de QGIS para descarga de datos catastrales INSPIRE"
 header:
   teaser: "/images/header/2017-07-21-img_cabcera_plugin.jpg"
+related: true
 categories: 
   - Blog
 tags:

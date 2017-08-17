@@ -2,6 +2,7 @@
 title:  "Edición de Información Geográfica en Web con GeoWE"
 header:
   teaser: "/images/header/2016-05-20-geowe_catastro.png"
+related: true
 categories: 
        - Blog
 tags:

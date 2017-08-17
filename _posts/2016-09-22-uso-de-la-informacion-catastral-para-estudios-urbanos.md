@@ -1,5 +1,6 @@
 ---
 title:  "Uso de la información catastral para estudios urbanos"
+related: true
 header:
   teaser: "/images/header/2016-09-22-catastro.jpg"
 categories: 

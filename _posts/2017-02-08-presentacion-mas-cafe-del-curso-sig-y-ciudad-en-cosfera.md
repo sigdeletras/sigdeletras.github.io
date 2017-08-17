@@ -2,6 +2,7 @@
 title:  "Presentacion & Café del curso SIG y Ciudad en coSfera"
 header:
   teaser: "/images/header/2017-01-23-portada_sigdeletras.jpg"
+related: true
 categories: 
   - Presentaciones
 tags:

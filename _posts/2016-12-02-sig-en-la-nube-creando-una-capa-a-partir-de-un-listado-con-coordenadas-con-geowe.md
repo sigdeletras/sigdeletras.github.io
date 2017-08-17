@@ -1,5 +1,6 @@
 ---
 title:  "SIG en la nube. Creando una capa a partir de un listado con coordenadas con GeoWE"
+related: true
 header:
   teaser: "/images/header/geowe.jpg"
 categories:

@@ -2,6 +2,7 @@
 title:  "Cómo usar módulos de Python en QGIS. Un ejemplo con dxf2gmlcatastro"
 header:
   teaser: "/images/header/2016-05-03-portada.jpg"
+related: true
 categories: 
    - Blog
 tags:

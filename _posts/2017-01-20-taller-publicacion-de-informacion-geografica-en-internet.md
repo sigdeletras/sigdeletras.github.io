@@ -1,5 +1,6 @@
 ---
 title:  "Taller Publicación de Información Geográfica en Internet"
+related: true
 header:
   teaser: "/images/header/img_cabcera_plugin.jpg"
 categories: 

@@ -2,6 +2,7 @@
 title:  "Ejemplos de combinaciones de bandas del satélite Sentinel 2A"
 header:
   teaser: "/images/header/2017-06-13-portada.png"
+related: true
 categories: 
   - Blog
 tags:

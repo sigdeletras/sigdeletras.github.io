@@ -2,6 +2,7 @@
 title:  "Curso semi-presencial “Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”"
 header:
   teaser: "/images/header/2017-01-23-portada_sigdeletras.jpg"
+related: true
 categories: 
   - Blog
 tags:

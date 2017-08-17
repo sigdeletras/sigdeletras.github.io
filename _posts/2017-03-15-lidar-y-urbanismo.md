@@ -2,6 +2,7 @@
 title:  "Lidar y Urbanismo"
 header:
   teaser: "/images/header/2017-03-15-pendiente.png"
+related: true
 categories: 
   - Blog
 tags:

@@ -2,6 +2,7 @@
 title:  "Procesamiento de imágenes con la librería GDAL (2ª parte). Reproyección con gdalwarp"
 header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
+related: true
 categories: 
 - Blog
 tags:

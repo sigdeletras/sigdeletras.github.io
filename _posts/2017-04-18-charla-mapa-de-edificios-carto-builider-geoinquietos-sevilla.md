@@ -1,5 +1,6 @@
 ---
 title:  "Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot; -  Geoinquietos Sevilla"
+related: true
 categories: 
   - Presentaciones
 tags:

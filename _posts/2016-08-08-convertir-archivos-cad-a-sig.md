@@ -1,5 +1,6 @@
 ---
 title:  "Convertir archivos CAD a SIG"
+related: true
 categories: 
   - Blog
 tags:

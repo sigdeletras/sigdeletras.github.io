@@ -1,5 +1,6 @@
 ---
 title:  "Presentación del Visor Turístico Patrimonial de Posadas (Córdoba)"
+related: true
 categories: 
   - Presentaciones
 tags:

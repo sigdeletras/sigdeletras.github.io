@@ -2,6 +2,7 @@
 title:  "dxf2gmlcatastro. Script Python para convertir de DXF a GML parcela catastral"
 header:
       teaser: "/images/header/2016-05-03-dxf2gmlcatastro.jpg"
+related: true
 categories:
       - Blog
 tags:

@@ -1,5 +1,6 @@
 ---
 title:  "Conferencia Tecnologías de información geográfica aplicadas a Arqueología. El proyecto SIGEAC"
+related: true
 categories: 
   - Presentaciones
 tags:

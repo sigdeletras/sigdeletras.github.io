@@ -2,6 +2,7 @@
 title:  "Instalación de Python y GDAL en Windows"
 header:
   teaser: "/images/blog/01.png"
+related: true
 categories: 
 - Blog
 tags:

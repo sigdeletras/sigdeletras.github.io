@@ -27,7 +27,7 @@ Los datos, de gran valor para trabajos o estudios históricos sobre el territori
 
 Junto a la posibilidad de visualizar la información geográfica, el visor “España finisecular” permite la comparación de los mapas de las minutas con otros servicios de ortofotografías y mapas tanto reciente como antiguos. Para ello se ha incluido una barra que permite aplicar transparencia a la capa de las minutas.
 
-<span style="font-size: 12.16px; line-height: 1.3em;">Las capas disponibles en esta primera versión del Visor:</span>
+Las capas disponibles en esta primera versión del Visor:
 
 *   <span style="font-size: 12.16px; line-height: 1.3em;">[Ortofotos máxima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).</span>
 *   <span style="font-size: 12.16px; line-height: 1.3em;">[Cartografía Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la Dirección General del Catastro.</span>
@@ -49,7 +49,7 @@ Usando la extensión [Geocoder,](https://github.com/perliedman/leaflet-control-g
 
 ![](/images/blog/01_loc.jpg)
 
-#### <span style="line-height: 1.3em;">Opciones de compartir</span>
+#### Opciones de compartir
 
 De desarrollo propio, se ha incluido en la barra de herramientas la opción de obtener el correspondiente código HMTL para i**ncluir el visor en otras páginas web**. También se ha añadido un botón para compartir el visor en **Twitter**.
 
@@ -61,7 +61,7 @@ Gracias a la extensión  [Leaflet.measure](https://github.com/ljagis/leaflet-me
 
 ![](/images/blog/03_embeber.jpg)
 
-### Tecnología<span style="font-size: 12.16px; line-height: 1.3em;"> </span>
+### Tecnología
 
 El diseño del visor está basado en la plantilla [Bootleaf](http://bmcbride.github.io/bootleaf/) utilizando la [Bootstrap](http://getbootstrap.com/) y la librería JavaScrip de mapas [Leaflet](http://leafletjs.com/).
         

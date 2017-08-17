@@ -3,7 +3,7 @@ title:  "Trabajando con listados de coordenadas en QGIS"
 header:
       teaser: "/images/header/2015-10-09-cabecera_ategua.png"
 categories: 
- - blog
+ - Blog
 tags:
  - Formación
  - QGIS

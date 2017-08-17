@@ -16,8 +16,7 @@ Desde este visor, accesible desde este [enlace](/visorminutas/), se acceder a la
 
 Los datos, de gran valor para trabajos o estudios históricos sobre el territorio nacional, ofrecen información de gran interés vinculaba principalmente a la red de comunicaciones, pero también incluyen datos sobre nombres geográficos, construcciones, topónimos red hidrográfica  o cultivos entre otros.
   
-<iframe style="border: 1px solid black;" src="/visorminutas" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
-
+![Visor minutas](/images/header/206-02-23-visorminutas.jpg)
 *[Ver mapa más grande](/visorminutas)*
 
 ### Funciones principales

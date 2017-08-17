@@ -29,7 +29,7 @@ Junto a la posibilidad de visualizar la información geográfica, el visor “Es
 
 Las capas disponibles en esta primera versión del Visor:
 
-*   [Ortofotos máxima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).
+*   [Ortofotos máxima actualidad del PNOA](http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).
 *   [Cartografía Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la Dirección General del Catastro.
 *   [Primera edición de cada hoja del Mapa Topográfico Nacional 1:50.000](http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&service=WMS) (MTN50).
 *   [OpenStreetMap](http://www.openstreetmap.org/)

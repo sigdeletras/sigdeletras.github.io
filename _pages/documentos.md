@@ -14,7 +14,7 @@ date: 2016-02-24T03:02:20+00:00
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-  <iframe src="https://docs.google.com/presentation/d/1FdWEb2iwmHnCYP-KIBK8Fo8MZf23Odr_nJDRrS_vE0Q/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/1FdWEb2iwmHnCYP-KIBK8Fo8MZf23Odr_nJDRrS_vE0Q/embed?start=false&loop=false&delayms=3000" frameborder="0" width="595" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 

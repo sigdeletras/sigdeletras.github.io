@@ -3,13 +3,11 @@ title:  "Trabajando con listados de coordenadas en QGIS"
 header:
       teaser: "/images/header/2015-10-09-cabecera_ategua.png"
 categories: 
-- Blog
+      - Blog
 tags:
-- Formación
-- QGIS
-- Sistemas de Información Geográfica
-- Arqueología
-- Webmapping
+      - Formación
+      - Arqueología
+      - Webmapping
 ---
 
 En numerosas ocasiones el resultado de la toma de datos en campo con un GPS, una estación total o capturando datos sobre bases cartográficas es un listado de coordenadas que identifican una serie de localizaciones, como podrían ser elementos arqueológicos, un elemento poligonal como un entorno de protección o un corte, o una estructura lineal tipo infraestructura o camino.

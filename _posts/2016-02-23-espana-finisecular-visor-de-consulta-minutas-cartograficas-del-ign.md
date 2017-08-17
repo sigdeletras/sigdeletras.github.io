@@ -29,11 +29,11 @@ Junto a la posibilidad de visualizar la información geográfica, el visor “Es
 
 Las capas disponibles en esta primera versión del Visor:
 
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Ortofotos máxima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).</span>
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Cartografía Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la Dirección General del Catastro.</span>
-*   <span style="font-size: 12.16px; line-height: 1.3em;">[Primera edición de cada hoja del Mapa Topográfico Nacional 1:50.000](http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&service=WMS) (MTN50).</span>
-*   [<span style="font-size: 12.16px; line-height: 1.3em;">OpenStreetMap</span>](http://www.openstreetmap.org/)
-*   <span style="font-size: 12.16px; line-height: 1.3em;">Sobre las minutas, también puede activarse los [límites administrativos de España](http://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&service=WMS).</span>
+*   [Ortofotos máxima actualidad del PNOA]((http:/www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS).
+*   [Cartografía Catastral](http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?request=GetCapabilities&service=WMS) de la Dirección General del Catastro.
+*   [Primera edición de cada hoja del Mapa Topográfico Nacional 1:50.000](http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&service=WMS) (MTN50).
+*   [OpenStreetMap](http://www.openstreetmap.org/)
+*   Sobre las minutas, también puede activarse los [límites administrativos de España](http://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&service=WMS).
 
 #### Consulta de datos
 

@@ -15,8 +15,7 @@ tags:
 Desde este visor, accesible desde este [enlace](/visorminutas/), se acceder a la capa cartográfica continua generada a partir del recorte y la georreferenciación de los mapas manuscritos en papel conservados en el Archivo Técnico del IGN. Estos mapas, según se refleja en la página del IGN,  son el resultado de los trabajos previos a la realización del Mapa Topográfico Nacional y se realizaron principalmente entre 1870 y 1950 y fueron  dibujados a escala 1:25.000, con una precisión de obtención de la información correspondiente a escala 1:50.000.
 
 Los datos, de gran valor para trabajos o estudios históricos sobre el territorio nacional, ofrecen información de gran interés vinculaba principalmente a la red de comunicaciones, pero también incluyen datos sobre nombres geográficos, construcciones, topónimos red hidrográfica  o cultivos entre otros.
-
-###   
+  
 <iframe style="border: 1px solid black;" src="/visorminutas" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
 
 *[Ver mapa más grande](/visorminutas)*

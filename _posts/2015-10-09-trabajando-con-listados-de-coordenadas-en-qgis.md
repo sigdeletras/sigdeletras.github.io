@@ -12,9 +12,9 @@ tags:
 
 En numerosas ocasiones el resultado de la toma de datos en campo con un GPS, una estación total o capturando datos sobre bases cartográficas es un listado de coordenadas que identifican una serie de localizaciones, como podrían ser elementos arqueológicos, un elemento poligonal como un entorno de protección o un corte, o una estructura lineal tipo infraestructura o camino.
 
-<iframe style="border: 1px solid black;" src="/webpamming/visorategua/" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
+<iframe style="border: 1px solid black;" src="/webmapping/visorategua/" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
 
-_Visor Zona Arqueológica de Ategua.BIC y entorno de protección. [Ver mapa más grande](/webpamming/visorategua/)_
+_Visor Zona Arqueológica de Ategua.BIC y entorno de protección. [Ver mapa más grande](/webmapping/visorategua/)_
 
 Este tipo de información geográfica, me refiero al listado de coordenadas, suele ser solicitado por administraciones públicas como parte de los informes finales de proyectos y pueden encontrarse en boletines y publicaciones de la administración. Saber extraer esta información de nuestras entidades geográficas digitales o convertir estos datos en información que pueda ser tratada con una herramienta informática, como un SIG, puede ser un aprendizaje interesante y de gran utilidad desde el punto de vista profesional.
 

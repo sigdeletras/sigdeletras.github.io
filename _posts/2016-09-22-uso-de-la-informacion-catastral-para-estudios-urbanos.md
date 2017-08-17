@@ -3,7 +3,7 @@ title:  "Uso de la información catastral para estudios urbanos"
 header:
   teaser: "/images/header/2016-09-22-catastro.jpg"
 categories: 
-- blog
+- Blog
 tags:
 - Catastro
 - Ciudad

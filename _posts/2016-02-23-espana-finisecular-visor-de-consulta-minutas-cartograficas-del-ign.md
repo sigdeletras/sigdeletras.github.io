@@ -3,7 +3,7 @@ title:  "España Finisecular. Visor de consulta Minutas Cartográficas del IGN"
 header:
       teaser: "/images/header/206-02-23-visorminutas.jpg"
 categories: 
-	- Blog
+- Blog
 tags:
 - Webmapping
 - Leaflet

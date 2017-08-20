@@ -4,7 +4,7 @@ permalink: /sobre-mi/
 date: 2017-08-15T03:02:20+00:00
 ---
 
-Geógrafo “Full-stack” especializado en Tecnologías de Información Geográfica, gestión de la ciudad, administración pública y patrimonio cultural. Formado de Sistemas de Información Geográfica. Desarrollador de mapas en web. Geoinquieto cordobés.
+![Yo](/images/yo.png){: .align-left} Geógrafo “Full-stack” especializado en Tecnologías de Información Geográfica, gestión de la ciudad, administración pública y patrimonio cultural. Formado de Sistemas de Información Geográfica. Desarrollador de mapas en web. Geoinquieto cordobés.
 
 ## Experiencia profesional
 

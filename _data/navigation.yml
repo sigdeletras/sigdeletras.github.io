@@ -2,10 +2,10 @@
 main:
   - title: "Sobre mi"
     url: /sobre-mi/
-  - title: "Documentos"
-    url: /documentos/
-  - title: "Servicios"
-    url: /servicios/
+  # - title: "Documentos"
+  #   url: /documentos/
+  # - title: "Servicios"
+  #   url: /servicios/
   - title: "Temas"
     url: /tags/    
   # - title: "About"

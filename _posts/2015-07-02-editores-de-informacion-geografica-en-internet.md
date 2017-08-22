@@ -32,7 +32,6 @@ Si tenemos una cuenta Gmail podemos acceder a [My Maps](https://www.google.com/m
 
 [uMap](http://umap.openstreetmap.fr/es/) es una herramienta de código abierto que puede servir de alternativa a _My Map_ de Google. La gran diferencia es que nuestros datos se localizarán sobre mapas basados OpenStreetMap, pero por lo demás las funcionalidades son numerosas. uMap nos permite, al igual que geojson.io trabajar con gran variedad de formatos geográficos, a los que se suma los datos de [OpenStreetMap](http://www.openstreetmap.org/ "OpenStreetMap") , vincular nuestros mapas a nuestra cuentas cuentas de GitHub, OpenStreetMap, Twitter o Bitbucket o incluir los mapas en nuestra web. Un aspecto que me interesa es gran variedad de opciones relativas a simbología y usos de CSS, la opción de trabajar con múltiples capas, las presentaciones de mapas estilo diapositivas...
 
-
 ![Mapa con la localización de los centros vecinales de Almería con Umap](/images/blog/201507_editores/umap.PNG)
 
 *Mapa con la localización de los centros vecinales de Almería. [Ver pantalla completa](http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435)*

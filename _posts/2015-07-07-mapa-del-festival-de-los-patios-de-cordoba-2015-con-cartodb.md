@@ -1,78 +1,77 @@
 ---
-title:  "Mapa del Festival de los Patios de CÛrdoba 2015 con CartoDB"
+title:  "Mapa del Festival de los Patios de C√≥rdoba 2015 con CartoDB"
 header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
 related: true
 categories: 
-      - Blog
+- Blog
 tags:
-      - Webmapping
-      - Carto
-      - CÛrdoba
-      - Patrimonio
-
+- Webmapping
+- Carto
+- C√≥rdoba
+- Patrimonio
 ---
       
-Mayo es uno de los meses m·s importantes de CÛrdoba. Durante estos dÌas tienen lugar algunos de los acontecimientos festivos m·s relevantes de la ciudad como las [Cruces de Mayo](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/cruces_de_mayo.html "Cruces de Mayo") , la [Feria de Nuestra seÒora de la Salud](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/feria_de_cordoba.html "Feria de CÛrdoba") o el Festival de los Patios. En la Fiesta de los Patios, declarada [Patrimonio Cultural Inmaterial por la UNESCO en 2012](http://www.unesco.org/culture/ich/index.php?lg=es&pg=00011&RL=00846 "UNESCO"), cordobeses y turistas pueden disfrutar de estos espacio arquitectÛnicos y sociales visitando los patios inscritos a concurso y cuidadosamente decorados con plantas (macetas) y otros objetos tÌpicos para tal evento.
+Mayo es uno de los meses m√°s importantes de C√≥rdoba. Durante estos d√≠as tienen lugar algunos de los acontecimientos festivos m√°s relevantes de la ciudad como las [Cruces de Mayo](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/cruces_de_mayo.html "Cruces de Mayo") , la [Feria de Nuestra se√±ora de la Salud](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/feria_de_cordoba.html "Feria de C√≥rdoba") o el Festival de los Patios. En la Fiesta de los Patios, declarada [Patrimonio Cultural Inmaterial por la UNESCO en 2012](http://www.unesco.org/culture/ich/index.php?lg=es&pg=00011&RL=00846 "UNESCO"), cordobeses y turistas pueden disfrutar de estos espacio arquitect√≥nicos y sociales visitando los patios inscritos a concurso y cuidadosamente decorados con plantas (macetas) y otros objetos t√≠picos para tal evento.
 
-Este aÒo, toda la informaciÛn del Festival con las fichas de cada uno los patios y muchos otros apartados ha podido ser consultada en la p·gina web [Los Patios de CÛrdoba](http://patios.cordoba.es/). Revisando los contenidos, y sobre todo viendo los mapas, se me ocurriÛ usar la informaciÛn para hacer mi propio [**mapa del Festival de los Patios de CÛrdoba 2015**](https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/public_map%20 "mapa en CartoDB") usando el servicio de mapas en nube [CartoDB](https://cartodb.com "CartoDB"). Aunque los contenidos de la web se encuentran bajo licencia-tipo Creative Commons Reconocimiento 3.0, mi intenciÛn se ha centrado en la localizaciÛn de los patios y la incorporaciÛn de los datos asociados mediante de enlaces a las fichas de la propia web del Festival.
+Este a√±o, toda la informaci√≥n del Festival con las fichas de cada uno los patios y muchos otros apartados ha podido ser consultada en la p√°gina web [Los Patios de C√≥rdoba](http://patios.cordoba.es/). Revisando los contenidos, y sobre todo viendo los mapas, se me ocurri√≥ usar la informaci√≥n para hacer mi propio [**mapa del Festival de los Patios de C√≥rdoba 2015**](https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/public_map%20 "mapa en CartoDB") usando el servicio de mapas en nube [CartoDB](https://cartodb.com "CartoDB"). Aunque los contenidos de la web se encuentran bajo licencia-tipo Creative Commons Reconocimiento 3.0, mi intenci√≥n se ha centrado en la localizaci√≥n de los patios y la incorporaci√≥n de los datos asociados mediante de enlaces a las fichas de la propia web del Festival.
 
-### GeolocalizaciÛn
+### Geolocalizaci√≥n
 
-El primer paso fue **generar una tabla con el listado de los patios en formato CSV** en los que incluÌ el nombre, la zona, la ruta relativa de acceso a la ficha de la p·gina web y la ruta una imagen. Una vez generado este listado, el siguiente paso fue la geocodificaciÛn de las direcciones de cada uno de los patios utilizando la herramienta ìGeocode CSVî de [MMQGIS](https://plugins.qgis.org/plugins/mmqgis/ "MMQGIS") de QGIS. CartoDB posee su propia herramienta de geocodifiaciÛn pero tiene un lÌmite de operaciones que en mi caso ya habÌa sobrepasado hace tiempo.
+El primer paso fue **generar una tabla con el listado de los patios en formato CSV** en los que inclu√≠ el nombre, la zona, la ruta relativa de acceso a la ficha de la p√°gina web y la ruta una imagen. Una vez generado este listado, el siguiente paso fue la geocodificaci√≥n de las direcciones de cada uno de los patios utilizando la herramienta ‚ÄúGeocode CSV‚Äù de [MMQGIS](https://plugins.qgis.org/plugins/mmqgis/ "MMQGIS") de QGIS. CartoDB posee su propia herramienta de geocodifiaci√≥n pero tiene un l√≠mite de operaciones que en mi caso ya hab√≠a sobrepasado hace tiempo.
 
 ![Archivo CSV](/images/blog/201507_patios/csv.png)
 
 _Tabla de datos_
 
-El funcionamiento de esta extensiÛn sencillo: cargamos un archivo CSV que contenga un campo con la direcciÛn, en nuestro caso el nombre del patio, la ciudad y el paÌs. La aplicaciÛn nos permite geolocalizar las direcciones utilizando los servicios de Google o de OpenStreetMap. Tras revisar la precisiÛn geogr·fica y ajustar la localizaciÛn de algunos puntos, la capa puntual con los 48 puntos fue convertida a formato GeoJSON y subida a CartoDB.
+El funcionamiento de esta extensi√≥n sencillo: cargamos un archivo CSV que contenga un campo con la direcci√≥n, en nuestro caso el nombre del patio, la ciudad y el pa√≠s. La aplicaci√≥n nos permite geolocalizar las direcciones utilizando los servicios de Google o de OpenStreetMap. Tras revisar la precisi√≥n geogr√°fica y ajustar la localizaci√≥n de algunos puntos, la capa puntual con los 48 puntos fue convertida a formato GeoJSON y subida a CartoDB.
 
 ![Web Service Geocode](/images/blog/201507_patios/Web Service Geocode_356.png)
 
-_ConfiguraciÛn de la herramienta de Geocoding de MMQGIS_
+_Configuraci√≥n de la herramienta de Geocoding de MMQGIS_
 
-Los datos geogr·ficos pueden **descargarse en distintos formatos** (CSV, SHP, KML, SVG, GEOJSON) desde e enlace al conjunto de datos o _dataset_ en cartoDB desde este [enlace](https://sigdeletras.cartodb.com/tables/festival_patios_cordoba_2015/public "dataset patios cartodb"). TambiÈn es posible **hacer una llamada a la API SQL** de CartoDB desde ese mismo enlace.
+Los datos geogr√°ficos pueden **descargarse en distintos formatos** (CSV, SHP, KML, SVG, GEOJSON) desde e enlace al conjunto de datos o _dataset_ en cartoDB desde este [enlace](https://sigdeletras.cartodb.com/tables/festival_patios_cordoba_2015/public "dataset patios cartodb"). Tambi√©n es posible **hacer una llamada a la API SQL** de CartoDB desde ese mismo enlace.
 
 ### Capas auxiliares
 
-Una de las cosas que echÈ en falta en los mapas de la p·gina web oficial fue la incorporaciÛn de datos turÌsticos. Esta informaciÛn puede servir a los visitantes a completar el recorrido por la ciudad visitando cada uno de los patios. Por esta razÛn decidÌ incorporar a CartoDB una **capa puntual denominada ìturismo_cordobaî** con localizaciones turÌsticas tipo monumentos, museos u oficinas de turismo. Estas datos forman parte de una capa propia procedente de varias fuentes oficiales como la Junta de AndalucÌa o el propio Ayuntamiento.
+Una de las cosas que ech√© en falta en los mapas de la p√°gina web oficial fue la incorporaci√≥n de datos tur√≠sticos. Esta informaci√≥n puede servir a los visitantes a completar el recorrido por la ciudad visitando cada uno de los patios. Por esta raz√≥n decid√≠ incorporar a CartoDB una **capa puntual denominada ‚Äúturismo_cordoba‚Äù** con localizaciones tur√≠sticas tipo monumentos, museos u oficinas de turismo. Estas datos forman parte de una capa propia procedente de varias fuentes oficiales como la Junta de Andaluc√≠a o el propio Ayuntamiento.
 
-Gracias los comentarios de [Alejandro Alameda](https://twitter.com/AlxAlameda "Twitter"), vi interesante aportar la localizaciÛn de las "**fuentes de agua"** Los datos de la capa proceden de OpenStreetMap y para obtenerlos utilicÈ la herramienta [OverPass Turbo](http://overpass-turbo.eu/ "OverPass") . Aunque faltan muchas fuentes, hay que destacar OpenStreetMap es la ˙nica base de datos geogr·fica donde podemos encontrar este tipo de informaciÛn. Si os interesa completar los datos de vuestra ciudad echarle un vistazo a la iniciativa [ìAÒade una fuenteî de OpenStreetMap EspaÒa](http://www.openstreetmap.es/2014/07/03/anade-una-fuente/ "OSM EspaÒa").
+Gracias los comentarios de [Alejandro Alameda](https://twitter.com/AlxAlameda "Twitter"), vi interesante aportar la localizaci√≥n de las "**fuentes de agua"** Los datos de la capa proceden de OpenStreetMap y para obtenerlos utilic√© la herramienta [OverPass Turbo](http://overpass-turbo.eu/ "OverPass") . Aunque faltan muchas fuentes, hay que destacar OpenStreetMap es la √∫nica base de datos geogr√°fica donde podemos encontrar este tipo de informaci√≥n. Si os interesa completar los datos de vuestra ciudad echarle un vistazo a la iniciativa [‚ÄúA√±ade una fuente‚Äù de OpenStreetMap Espa√±a](http://www.openstreetmap.es/2014/07/03/anade-una-fuente/ "OSM Espa√±a").
 
-### SimbologÌa
+### Simbolog√≠a
 
-Una vez cargadas las tres capas y completados sus metadatos, el trabajo siguiente se centrÛ en el diseÒo del mapa (view). CartoDB dispone de herramientas asistidas o _wizards_ que ayudan a crear una mapa interactivo estÈticamente atractivo.
+Una vez cargadas las tres capas y completados sus metadatos, el trabajo siguiente se centr√≥ en el dise√±o del mapa (view). CartoDB dispone de herramientas asistidas o _wizards_ que ayudan a crear una mapa interactivo est√©ticamente atractivo.
 
-![Tipos de simbologÌa usando CartoCSS](/images/blog/201507_patios/simbologia_patios.png)
+![Tipos de simbolog√≠a usando CartoCSS](/images/blog/201507_patios/simbologia_patios.png)
 
-_Ejemplo de simbologÌa en CartoDB_
+_Ejemplo de simbolog√≠a en CartoDB_
 
-Para la capa de patios utilicÈ la **simbologÌa _ìcategoryî_** que permite representar elementos geogr·ficos seg˙n una columna de la tabla. Me pareciÛ correcto ìpintarî los patios seg˙n su zona lo que dio una capa puntual con siete colores, un por cada zona. A esta capa se le aÒadiÛ una etiqueta (_label_) del mismo color que la zona con el nombre del patio. Para trabajos m·s avanzados puede ser interesante usar la pestaÒa CSS que permite editar el cÛdigo [CartoCSS](https://www.mapbox.com/tilemill/docs/manual/carto/) de la simbologÌa. Os dejo un ejemplo del cÛdigo generado para la capa patios.
+Para la capa de patios utilic√© la **simbolog√≠a _‚Äúcategory‚Äù_** que permite representar elementos geogr√°ficos seg√∫n una columna de la tabla. Me pareci√≥ correcto ‚Äúpintar‚Äù los patios seg√∫n su zona lo que dio una capa puntual con siete colores, un por cada zona. A esta capa se le a√±adi√≥ una etiqueta (_label_) del mismo color que la zona con el nombre del patio. Para trabajos m√°s avanzados puede ser interesante usar la pesta√±a CSS que permite editar el c√≥digo [CartoCSS](https://www.mapbox.com/tilemill/docs/manual/carto/) de la simbolog√≠a. Os dejo un ejemplo del c√≥digo generado para la capa patios.
 
-La capa "Turismo" fue representada tambiÈn seg˙n el tipo de elemento diferenciando entre Patrimonio, Museo y Oficina de Turismo. En este caso la representaciÛn se realizÛ usando algunos de los iconos de las galerÌas incorporadas con CartoDB. Podemos utilizar subir nuestros propios iconos o hacer referencia a otros sÌmbolos alojados en Internet. Para las fuentes busquÈ y editÈ con GIMP un sÌmbolo representativo que posteriormente subÌa a CartoDB.
+La capa "Turismo" fue representada tambi√©n seg√∫n el tipo de elemento diferenciando entre Patrimonio, Museo y Oficina de Turismo. En este caso la representaci√≥n se realiz√≥ usando algunos de los iconos de las galer√≠as incorporadas con CartoDB. Podemos utilizar subir nuestros propios iconos o hacer referencia a otros s√≠mbolos alojados en Internet. Para las fuentes busqu√© y edit√© con GIMP un s√≠mbolo representativo que posteriormente sub√≠a a CartoDB.
 
 ### Datos asociados
 
-Al pinchar en cada uno de los patios se obtiene una† **ventana emergentes con informaciÛn** sobre el nombre del patio y la zona en la que se encuentra. CartoDB permite elegir entre varias plantillas de _pop-ups_ entre las que se encuentra una que aÒade una imagen en la cabecera. Para obtener la ruta competa de la imagen cree un **campo virtual mediante SQL** denominado _imghead_ que concatenaba la direcciÛn de la web oficial con el campo img de la capa m·s su extensiÛn.
+Al pinchar en cada uno de los patios se obtiene una¬† **ventana emergentes con informaci√≥n** sobre el nombre del patio y la zona en la que se encuentra. CartoDB permite elegir entre varias plantillas de _pop-ups_ entre las que se encuentra una que a√±ade una imagen en la cabecera. Para obtener la ruta competa de la imagen cree un **campo virtual mediante SQL** denominado _imghead_ que concatenaba la direcci√≥n de la web oficial con el campo img de la capa m√°s su extensi√≥n.
 
 	SELECT *,'http://patios.cordoba.es/patios/'|| img ||'.jpg' as imghead FROM festival_patios_cordoba_2015
 
-_CÛdigo SQL† para genera el campo "imghead"_
+_C√≥digo SQL¬† para genera el campo "imghead"_
 
-Una vez generado el nuevo campo y pinchando en la pestaÒa ìinfoviewî , debemos arrastrarlo al principio del listado de campos disponibles. En segundo lugar de esta lista ponemos el campo que queramos aparezca sobre la imagen, en este caso el nombre del patio.
+Una vez generado el nuevo campo y pinchando en la pesta√±a ‚Äúinfoview‚Äù , debemos arrastrarlo al principio del listado de campos disponibles. En segundo lugar de esta lista ponemos el campo que queramos aparezca sobre la imagen, en este caso el nombre del patio.
 
 ![](/images/blog/201507_patios/popup.png)
 
 _Ventana de datos con plantilla de imagen en cabecera_
 
-Para terminar de diseÒar la ventana de datos, y accediendo en este caso a la **vista del cÛdigo HTML** que conforma la ventana de datos, decidÌ aÒadir tres enlaces, uno por los idiomas disponibles, a la ficha de datos alojada en la web oficial. Aunque esto pueda parecer m·s complejo, sÛlo es necesario tener algunos conocimientos de HTML para sacarle m·s partido a esta funciÛn de CartoDB.
+Para terminar de dise√±ar la ventana de datos, y accediendo en este caso a la **vista del c√≥digo HTML** que conforma la ventana de datos, decid√≠ a√±adir tres enlaces, uno por los idiomas disponibles, a la ficha de datos alojada en la web oficial. Aunque esto pueda parecer m√°s complejo, s√≥lo es necesario tener algunos conocimientos de HTML para sacarle m√°s partido a esta funci√≥n de CartoDB.
 
-<pre><a href='http://patios.cordoba.es/patios/detallar/pag/{{link}}' target='_blank' title='Web Patios de CÛrdoba'>EspaÒol</a></pre>
+<pre><a href='http://patios.cordoba.es/patios/detallar/pag/{{link}}' target='_blank' title='Web Patios de C√≥rdoba'>Espa√±ol</a></pre>
 
-_CÛdigo HTML de ejemplo para generar enlaces a la ficha del patio oficial_
+_C√≥digo HTML de ejemplo para generar enlaces a la ficha del patio oficial_
 
-### †Herramientas del visor
+### ¬†Herramientas del visor
 
-El visor incorpora varias herramientas que pueden ser activadas o desactivadas desde el botÛn ìOptionsî. CreÌ interesante aÒadir el tÌtulo y la descripciÛn del mapa, asÌ como las herramientas de callejero, control de capas y herramientas de zum. Para terminar, y utilizando algunas de las herramientas incorporadas en la ˙ltima actualizaciÛn de la aÒadÌ un par de marcos a la vista con la imagen corporativa de la UNESCO y un texto con la procedencia de los datos.
+El visor incorpora varias herramientas que pueden ser activadas o desactivadas desde el bot√≥n ‚ÄúOptions‚Äù. Cre√≠ interesante a√±adir el t√≠tulo y la descripci√≥n del mapa, as√≠ como las herramientas de callejero, control de capas y herramientas de zum. Para terminar, y utilizando algunas de las herramientas incorporadas en la √∫ltima actualizaci√≥n de la a√±ad√≠ un par de marcos a la vista con la imagen corporativa de la UNESCO y un texto con la procedencia de los datos.
 
 <iframe src="https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/embed_map" frameborder="0" width="100%" height="520"></iframe>       

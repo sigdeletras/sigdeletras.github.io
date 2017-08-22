@@ -20,7 +20,7 @@ Pienso que una buena manera de comenzar es utilizar algunas de las herramientas 
 
 *Visor geojson.io*
 
-# My Maps_ de  Google
+# *My Maps* de  Google
 
 Si tenemos una cuenta Gmail podemos acceder a [My Maps](https://www.google.com/maps/d/?hl=es "My Map Google")  o lo que era hace poco GoogleMap Engine Lite, para generar mapas sobre el callejero, la imagen satélite o cualquier estilo basado en Google Map. _My Map_ está totalmente vinculado con Google Drive, por lo que podemos trabajar con archivos CSV, XLSX o KML almacenados en nuestra cuenta y diseñar nuestro mapa a partir de los mismos. Si nos sentimos cómodos trabajando con Google Drive podemos probar [Fusion Tables](https://support.google.com/fusiontables/answer/2571232).
 
@@ -32,7 +32,8 @@ Si tenemos una cuenta Gmail podemos acceder a [My Maps](https://www.google.com/m
 
 [uMap](http://umap.openstreetmap.fr/es/) es una herramienta de código abierto que puede servir de alternativa a _My Map_ de Google. La gran diferencia es que nuestros datos se localizarán sobre mapas basados OpenStreetMap, pero por lo demás las funcionalidades son numerosas. uMap nos permite, al igual que geojson.io trabajar con gran variedad de formatos geográficos, a los que se suma los datos de [OpenStreetMap](http://www.openstreetmap.org/ "OpenStreetMap") , vincular nuestros mapas a nuestra cuentas cuentas de GitHub, OpenStreetMap, Twitter o Bitbucket o incluir los mapas en nuestra web. Un aspecto que me interesa es gran variedad de opciones relativas a simbología y usos de CSS, la opción de trabajar con múltiples capas, las presentaciones de mapas estilo diapositivas...
 
-<iframe width="100%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+
+![Mapa con la localización de los centros vecinales de Almería con Umap](/images/blog/201507_editores/umap.PNG)
 
 *Mapa con la localización de los centros vecinales de Almería. [Ver pantalla completa](http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435)*
 

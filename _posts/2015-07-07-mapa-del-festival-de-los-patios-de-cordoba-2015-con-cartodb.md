@@ -1,5 +1,6 @@
 ---
 title:  "Mapa del Festival de los Patios de Córdoba 2015 con CartoDB"
+excerpt_separator: "<!--more-->"
 header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
 related: true
@@ -13,7 +14,7 @@ tags:
 ---
       
 Mayo es uno de los meses más importantes de Córdoba. Durante estos días tienen lugar algunos de los acontecimientos festivos más relevantes de la ciudad como las [Cruces de Mayo](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/cruces_de_mayo.html "Cruces de Mayo") , la [Feria de Nuestra señora de la Salud](http://www.spain.info/es/que-quieres/agenda/fiestas/cordoba/feria_de_cordoba.html "Feria de Córdoba") o el Festival de los Patios. En la Fiesta de los Patios, declarada [Patrimonio Cultural Inmaterial por la UNESCO en 2012](http://www.unesco.org/culture/ich/index.php?lg=es&pg=00011&RL=00846 "UNESCO"), cordobeses y turistas pueden disfrutar de estos espacio arquitectónicos y sociales visitando los patios inscritos a concurso y cuidadosamente decorados con plantas (macetas) y otros objetos típicos para tal evento.
-
+<!--more-->
 Este año, toda la información del Festival con las fichas de cada uno los patios y muchos otros apartados ha podido ser consultada en la página web [Los Patios de Córdoba](http://patios.cordoba.es/). Revisando los contenidos, y sobre todo viendo los mapas, se me ocurrió usar la información para hacer mi propio [**mapa del Festival de los Patios de Córdoba 2015**](https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/public_map%20 "mapa en CartoDB") usando el servicio de mapas en nube [CartoDB](https://cartodb.com "CartoDB"). Aunque los contenidos de la web se encuentran bajo licencia-tipo Creative Commons Reconocimiento 3.0, mi intención se ha centrado en la localización de los patios y la incorporación de los datos asociados mediante de enlaces a las fichas de la propia web del Festival.
 
 ### Geolocalización

@@ -1,5 +1,6 @@
 ---
 title:  "dxf2gmlcatastro. Script Python para convertir de DXF a GML parcela catastral"
+excerpt_separator: "<!--more-->"
 header:
       teaser: "/images/header/2016-05-03-dxf2gmlcatastro.jpg"
 related: true
@@ -12,7 +13,7 @@ tags:
 ---
 
 Estas últimas semanas conocidos y amigos que se dedican a la arquitectura, la tasación inmobiliaria me han hecho consultas sobre la generación del archivo GML que debe añadirse a la descripción grafíca que describe informáticamente las parcelas catastrales.
-
+<!--more-->
 Laboralmente no he tenido que realizar trabajos vinculados con Catastro, por para enterarme un poco de que iba el tema tuve que leer algunos documentos técnicos colgados en la web de la Dirección General de Catastro, blog especializados y algún que otro foro.
 
 Según he podido, leer cuando la certificación catastral descriptiva y gráfica no coincide con la realidad es necesario elaborar una representación gráfica alternativa a la que se debe añadir un XML con contenido geográfico que no es otro que el famoso GML.

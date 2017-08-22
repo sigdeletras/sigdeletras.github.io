@@ -1,5 +1,6 @@
 ---
 title:  "Trabajando con listados de coordenadas en QGIS"
+excerpt_separator: "<!--more-->"
 header:
       teaser: "/images/header/2015-10-09-cabecera_ategua.png"
 related: true
@@ -12,7 +13,7 @@ tags:
 ---
 
 En numerosas ocasiones el resultado de la toma de datos en campo con un GPS, una estación total o capturando datos sobre bases cartográficas es un listado de coordenadas que identifican una serie de localizaciones, como podrían ser elementos arqueológicos, un elemento poligonal como un entorno de protección o un corte, o una estructura lineal tipo infraestructura o camino.
-
+<!--more-->
 <iframe style="border: 1px solid black;" src="/webmapping/visorategua/" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" height="350"></iframe>
 
 _Visor Zona Arqueológica de Ategua.BIC y entorno de protección. [Ver mapa más grande](/webmapping/visorategua/)_

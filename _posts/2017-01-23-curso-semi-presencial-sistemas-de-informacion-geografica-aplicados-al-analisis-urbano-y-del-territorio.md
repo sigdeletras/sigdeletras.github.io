@@ -1,5 +1,6 @@
 ---
 title:  "Curso semi-presencial “Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”"
+excerpt_separator: "<!--more-->"
 header:
   teaser: "/images/header/2017-01-23-portada_sigdeletras.jpg"
 related: true
@@ -15,7 +16,7 @@ tags:
 ---
 
 Es para mi un verdadero placer poder informar entre el **23 de febrero y el 31 de marzo de 2017**,  tendrá lugar en **Córdoba**, la primera edición del **curso semi-presencial “SIG y Ciudad: Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”.** El curso, con un total de 40 horas, estará destinado a profesionales vinculados con las disciplinas del planeamiento urbanístico, la ordenación territorial, la gestión de la ciudad o la sostenibilidad urbana.
-
+<!--more-->
 Llevo ya un tiempo con verdadero interés en podar realizar este curso por varias razones: en primer lugar porque, desde hace unos años, la ciudad como espacio geográfico , es mi campo profesional de aplicación de las Tecnologías de Información Geográfica, y en segundo lugar, porque son numerosos los compañeros, colegas y amigos que me han demandado una labor formativa centrada en esta temática.
 
 Como no podía ser de otra forma,** [QGIS](http://www.qgis.org/es/site/ "QGIS") será nuestro SIG de cabecera**. Este potente herramienta _open source_, multiplataforma y gratuita, es el Sistema de Información Geográfica de uso más extendido en estos últimos años, tanto en el ámbito de la administración pública como entre los profesionales del sector.

@@ -1,5 +1,6 @@
 ---
 title:  "Cómo usar módulos de Python en QGIS. Un ejemplo con dxf2gmlcatastro"
+excerpt_separator: "<!--more-->"
 header:
   teaser: "/images/header/2016-05-03-portada.jpg"
 related: true
@@ -13,7 +14,7 @@ tags:
 ---
 
 Como he venido comentando en las dos últimas entradas, en el repositorio de GitHub de SIGdeletras podéis encontrar el script [**dxf2gmlcatastro**](https://github.com/sigdeletras/dxf2gmlcatastro) permite transformar un archivo de parcela catastral CAD con extensión DXF al formato GML establecido por Catastro para conseguir su validación gráfica en la Sede Electrónica del Catastro.
-
+<!--more-->
 Tras verlo con algunos compañeros, presentarlo en las última reunión de [Geoinquietos Córdoba](http://wiki.osgeo.org/wiki/Reuni%C3%B3n_11_Geoinquietos_C%C3%B3rdoba) y recibir varios correos de personas interesadas en usarlo, la conclusión a la que he llegado es la de que por muy útil que sea una herramienta **si la gente no sabe utilizarla ya se está perdiendo el sentido básico que motiva su creación.**
 
 En esta línea, y poco después de publicar el _script_, [Óscar Martínez de MásqueSIG](https://twitter.com/masquesig?lang=es "Twitter de másquesig") escribió una estupenda entrada en la que explicaba [cómo usar dxf2gmlcatastro en gvSIG](https://masquesig.com/2016/03/16/script-para-convertir-dxf-a-gml-con-gvsig-2-3-gracias-a-sigdeletras/). Siguiendo las reflexiones de Óscar, podemos decir que integrar código en un SIG como gvSIG, o en nuestro caso [QGIS](http://www.qgis.org/en/site/), permite:

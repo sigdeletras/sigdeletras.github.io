@@ -1,5 +1,6 @@
 ---
 title:  "Edición de Información Geográfica en Web con GeoWE"
+excerpt_separator: "<!--more-->"
 header:
   teaser: "/images/header/2016-05-20-geowe_catastro.png"
 related: true
@@ -11,7 +12,7 @@ tags:
 ---
 
 Como se indica en su [página web](http://www.geowe.org/), **GeoWE** _es un proyecto software orientado a la edición de Información Geográfica en Web, cuya culminación toma la forma de una aplicación cliente disponible para edición en diversos dispositivos. Se trata de una iniciativa de código abierto basada en el framework Google Web Toolkit (GWT), cuyo desarrollo y mantenimiento se lleva a cabo por parte de un equipo experimentado en SIG, abierto a todo el mundo a colaborar en el proyecto_.
-
+<!--more-->
 El primer contacto que tuve con el equipo GeoWe fue en el pasado [Geonquietos Córdoba](https://wiki.osgeo.org/wiki/Category:Geoinquietos_C%C3%B3rdoba) y tras comenzar a utilizar esta estupenda aplicación y conocer al magnífico [equipo](http://www.geowe.org/index.php?id=equipo) que está detrás del proyecto he de reconocer que me he convertido en un auténtico _groupie_ de GeoWE.
 
 Tras nuestra última reunión, con café y dulzaina incluida, he decido apoyar al proyecto testeado la aplicación y [aportando](https://github.com/geowe/geowe-core/issues) los _bugs_, mejoras o comentarios que me van surgiendo.

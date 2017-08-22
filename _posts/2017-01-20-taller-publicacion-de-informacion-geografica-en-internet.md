@@ -1,5 +1,6 @@
 ---
 title:  "Taller Publicación de Información Geográfica en Internet"
+excerpt_separator: "<!--more-->"
 related: true
 header:
   teaser: "/images/header/img_cabcera_plugin.jpg"
@@ -12,7 +13,7 @@ tags:
 ---
 
 El 2017 parece que empieza centrado en **proyectos de formación**, de los que pronto habrá noticias. Como ejemplo, el pasado lunes tuve la posibilidad participar en el [Máster en Estrategias para el Desarrollo Rural y Territorial de la UCO](https://www.uco.es/estudios/idep/masteres/estrategias-desarrollo-rural-y-territorial "Master") invitado por el profesor Alfonso García-Ferrer de la  ETS Ingenieros Agrónomos y Montes en Universidad de Córdoba. Mi participación consistió en una [charla/taller sobre **"Publicación de Información Geográfica en Internet "**](http://es.slideshare.net/PatricioSoriano/publicacin-de-datos-geogrficos-en-internet "Presentación") en la asignatura "_Información Territorial de libre acceso, análisis mediante herramientas open-source_"
-
+<!--more-->
 Mi objetivo principal durante la sesión, fue la de dar a conocer las posibilidades que hoy por hoy nos ofrece la Web para crear, publicar y analizar geográficos con herramientas en la nube como [Carto](https://carto.com/ "Carto"), [GeoWE](http://geowe.org/ "GeoWE"), [Google My Maps](https://www.google.com/maps/d/u/0/), [Instamaps](http://www.instamaps.cat/ "Instamaps"), [geojson.io](http://geojson.io/#map=2/20.0/0.0 "geojson") ...
 
 Como punto de partida, creí interesante que los alumnos comprendieran la importancia que las herramientas de visualización ofrecen para la presentación de realidades, ideas o propuestas vinculadas con el territorio. Pasamos a continuación a asentar algunos términos vinculados Internet, medio en el que vamos a presentar nuestra geoinformación.

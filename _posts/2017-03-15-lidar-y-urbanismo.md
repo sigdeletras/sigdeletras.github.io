@@ -1,5 +1,6 @@
 ---
 title:  "Lidar y Urbanismo"
+excerpt_separator: "<!--more-->"
 header:
   teaser: "/images/header/2017-03-15-pendiente.png"
 related: true
@@ -14,7 +15,7 @@ tags:
 ---
 
 Desde hace unos años, los datos [LiDAR](https://wikipedia.org/wiki/LIDAR "Lidar Wikipedia") se han convertido en la fuente de datos geográficos “de moda”. LiDAR un sistema de medida basado en determinar la distancia desde un emisor láser a un objeto, midiendo el tiempo transcurrido entre la emisión del pulso láser y la recepción de la señal reflejada por el objeto.
-
+<!--more-->
 La información que capturan (coordenadas, altura, retorno, ángulo de barrido) y la precisión (puntos por metros cuadrados) han permitido una magnífica incorporación en trabajos vinculados con estudios de biomasa, inundaciones, mapas de ruido, explotación de minas, [arqueología](2016/trabajando-con-datos-lidar-algunos-ejemplos-del-conjunto-arqueologico-de-madinat-al-zahra "Lidar y Arqueología en SIGdeletras") o simplemente en trabajos topográficos y cartográficos de detalle entre otros.
 
 ![Lidar imaging comparing old-growth forest (right) to a new plantation of trees (left).](/images/blog/201703_lidar_urbanismo/Forest_LIDAR.jpg "Lidar e Ingeniería Forestal (Wikipedia https://en.wikipedia.org/wiki/Lidar)")

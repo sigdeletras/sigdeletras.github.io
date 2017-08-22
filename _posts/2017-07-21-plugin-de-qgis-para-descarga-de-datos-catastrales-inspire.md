@@ -1,5 +1,6 @@
 ---
 title:  "Spanish Inspire Catastral Downloader. Plugin de QGIS para descarga de datos catastrales INSPIRE"
+excerpt_separator: "<!--more-->"
 header:
   teaser: "/images/header/2017-07-21-img_cabcera_plugin.jpg"
 related: true
@@ -14,7 +15,7 @@ tags:
 ---
 
 Hoy por hoy, podemos afirmar que en España nos encontramos en un buen momento respecto al acceso a la Información Geográfica. Existen numerosos [geoportales oficiales para la descarga](http://www.idee.es/web/guest/centros-de-descarga) de cartografía de referencia y temática. El número de [servicios de mapas interoperables](http://www.idee.es/web/guest/directorio-de-servicios) accesibles desde las IDEs es bastante numeroso. Los propios usuarios cuentan con proyectos como [OpenStreetMap](https://www.openstreetmap.org/) para generar datos a escala mundial. Y por último, hay que  tener en cuenta que podemos acceder mediante sus API a los datos geolocalizados de determinadas aplicaciones, ej. [Twitter](https://dev.twitter.com/rest/reference/get/geo/search).
-
+<!--more-->
 Frente a esta variedad de fuentes, es interesante contar con herramientas que permitan la adquisición ágil de estos georrecursos. Con esta finalidad se ha creado el **complemento para el SIG de escritorio QGIS "****Spanish Inspire Catastral Downloader****" para la descarga de los conjuntos de datos catastrales según INSPIRE de España** y que ya está disponible en el repositorio oficial de plugins de QGIS.
 
 ### Los complementos de QGIS

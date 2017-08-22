@@ -4,9 +4,9 @@ header:
       teaser: "/images/header/2015-07-07-gdal.jpg"
 related: true
 categories: 
-	- Blog
+- Blog
 tags:
-	- GDAL
+- GDAL
 ---
         
 **GDAL** ([http://www.gdal.org/](http://www.sigdeletras.com/)) es una biblioteca de software para la lectura y escritura de formatos de datos geoespaciales publicada bajo la MIT License por la Fundación [OSGeo](%20http:/www.osgeo.org/ "OSGeo"). Con esta librería se pueden realizar multitud de operaciones de transformación y procesamiento sobre gran variedad de datos [raster](http://www.gdal.org/formats_list.html "Raster") y [vectoriales](http://www.gdal.org/ogr_formats.html "Formatos vectoriales").

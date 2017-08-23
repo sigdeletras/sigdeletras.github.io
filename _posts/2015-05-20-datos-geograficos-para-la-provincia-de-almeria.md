@@ -16,11 +16,9 @@ El aspecto tecnológico vinculado a la creación de un visor de mapas parece un 
 
 Con esta finalidad, la de conocer las principales fuentes de información geográficas para el diseño de un mapa en Internet, la gente de **HackLab Almería** organizó el pasado día 12 de mayo el [Taller «Fuentes de información geográfica para la provincia de Almería»](http://hacklabalmeria.net/actividades/2015/05/12/fuentes-datos-almeria.html "http://hacklabalmeria.net/actividades/2015/05/12/fuentes-datos-almeria.html"). Durante la charla presenté una recopilación de enlaces a páginas web de la administración como el Centro Nacional de Información Geográfica del Ministerio de Fomento o el Instituto de Estadística y Cartografía de Andalucía, desde la que se puede descargar información geográfica. También incluí datos sobre el estado de los datos geográficos en distintas web municipales y de la provincia de Almería.  
 
-[![](/images/blog/Captura.PNG)](http://sigdeletras.github.io/2015-ig-almeria/ "Enlace a la presentación")
+[![](/images/blog/2015_almeria/Captura.PNG)](http://sigdeletras.github.io/2015-ig-almeria/ "Enlace a la presentación")
 
 Dentro del [repositorio de Github](https://github.com/sigdeletras/2015-ig-almeria/) donde se encuentra la presentación, he creado la [carpeta DATOS con conjuntos temáticos de datos para la provincia de Almería](https://github.com/sigdeletras/2015-ig-almeria/tree/gh-pages/datos) procedentes de los *Datos Espaciales de Referencia de Andalucía (DERA)*. Las capas están en formato [geoJSON](http://geojson.org/ "http://geojson.org/") y se encuentran convertidos al sistema de coordenadas WGS84.
-
-_ Localización de los ayuntamientos de los municipios de Almería. Fuente DERA_
 
 A modo de reflexión, sólo apuntar que cada vez me encuentro en este tipo de actividades con asistentes cuyos perfiles profesionales no están tradicionalmente vinculados al mundo “geo”, pero que empiezan a estar interesados en el uso de las Tecnologías de Información Geográficas. Un buen ejemplo son los profesionales que trabajan en el ámbito del Periodismo de Datos o los diseñadores gráficos. Por otro lado, una vez que se empiezan a conocer estas herramientas, por propia evolución, en estos casos se hace necesario ir adquiriendo conocimientos más concretos sobre tipos de formatos geográficos, sistema de referencia de coordenadas o incluso plantearse empezar a manejar aplicaciones como los Sistemas de Información Geográfica para generar y preparar los datos geográficos que van a ser presentados en Internet.
         

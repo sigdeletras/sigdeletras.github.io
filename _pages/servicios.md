@@ -7,7 +7,7 @@ gallery:
     image_path: /images/servicios/almagre.PNG
     alt: "Almagre Patriminio y Formación"
     title: "Almagre Patriminio y Formación"
-  - url: /images/servicios/aparejadores.png
+  - url: /images/servicios/aparejadores.PNG
     image_path: /images/servicios/aparejadores.png
     alt: "Colegio de Arquitectos Técnicos de Córdoba"
     title: "Colegio de Arquitectos Técnicos de Córdoba"

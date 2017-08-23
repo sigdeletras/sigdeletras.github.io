@@ -9,7 +9,7 @@ categories:
 tags:
  - QGIS
  - Sistemas de Información Geográfica
- - Arqueologia
+ - Arqueología
  - MDT
 ---
 

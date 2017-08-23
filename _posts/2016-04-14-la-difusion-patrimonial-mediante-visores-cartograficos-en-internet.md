@@ -1,18 +1,19 @@
 ---
-title:  "Charla &quot;Mapa de Edificios de Sevilla. Uso de CARTO Builder con datos de Catastro INSPIRE&quot; -  Geoinquietos Sevilla"
+title:  "Comunicación \"La difusión patrimonial mediante visores cartográficos en Internet\""
 excerpt_separator: "<!--more-->"
 related: true
 categories: 
   - Presentaciones
 tags:
   - Formación
-  - Catastro
-  - Sevilla
-  - Carto
+  - Patrimonio
+  - Webmapping
 ---
 
-Presentación en la reunión del [Grupo Geoinquietos Sevilla](https://www.meetup.com/es-ES/Geoinquietos-Sevilla/events/238765606/) el 18 de abril de 2017. En esta ocasión la charla se centró en el mapa Edificios de Sevilla realizado en Carto con los datos del Catastro Inspire.
+Comunicación presentada en del Congreso Internacional: RESCATE Del Registro Estratigráfico a la Sociedad del Conocimiento: el patrimonio Arqueológico como agente de desarrollo sostenible (Ciudad y Territorio) celebrado en  Córdoba/Puente Genil, 11-14 abril de 2016. 
 <!--more-->
-En la misma sesión tuve la suerte de estar acompañado por **Atanasio Muñoz** (@AtaMunoz) Desarrollador GIS Senior. Director técnico de proyectos y **José María Martínez Luna** (@jmmluna_sig). Jefe de Proyectos SIG y Desarrollador Java, miembros del equipo de GeoWE que dieron la charla **"De GeoWE a startup. Desarrollos y vivencias"**
+La comunicación fue realizada junto a Mª Teresa del Pino de la empresa Almagre :: Patrimonio y Formación
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/xtobBaGP6nAW7X" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+El artículo en pdf puede consultarse en  [Academia.edu](http://www.academia.edu/32096621/SORIANO_P._J._DEL_PINO_Ma_T._2016_La_difusi%C3%B3n_patrimonial_mediante_visores_cartogr%C3%A1ficos_en_Internet_en_Vaquerizo_D._Ruiz_A._Delgado_M._Eds._Rescate._Del_registro_estratigr%C3%A1fico_a_la_sociedad_del_conocimiento_C%C3%B3rdoba_Vol._II_pp._447-454)
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/o9tqrsqzTCPeOc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 

@@ -3,40 +3,40 @@ title: "Servicios"
 permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
 gallery:
-  - url: /images/almagre.PNG
-    image_path: /images/almagre.PNG
+  - url: /images/servicios/almagre.PNG
+    image_path: /images/servicios/almagre.PNG
     alt: "Almagre Patriminio y Formación"
     title: "Almagre Patriminio y Formación"
-  - url: /images/aparejadores.png
-    image_path: /images/aparejadores.png
+  - url: /images/servicios/aparejadores.png
+    image_path: /images/servicios/aparejadores.png
     alt: "Colegio de Arquitectos Técnicos de Córdoba"
     title: "Colegio de Arquitectos Técnicos de Córdoba"
-  - url: /images/decabo.png
-    image_path: /images/decabo.png
+  - url: /images/servicios/decabo.png
+    image_path: /images/servicios/decabo.png
     alt: "DCabo Consultores"
     title: "DCabo Consultores"
-  - url: /images/hornachuelos.PNG
-    image_path: /images/hornachuelos.PNG
+  - url: /images/servicios/hornachuelos.PNG
+    image_path: /images/servicios/hornachuelos.PNG
     alt: "Ayuntamiento de Hornachuelos"
     title: "Ayuntamiento de Hornachuelos"
-  - url: /images/pippa.png
-    image_path: /images/pippa.png
+  - url: /images/servicios/pippa.png
+    image_path: /images/servicios/pippa.png
     alt: "Plan PIPPA"
     title: "Plan PIPPA"
-  - url: /images/roquetas.jpg
-    image_path: /images/roquetas.jpg
+  - url: /images/servicios/roquetas.jpg
+    image_path: /images/servicios/roquetas.jpg
     alt: "Ayuntamiento de Roquetas de Mar"
     title: "Ayuntamiento de Roquetas de Mar"
-  - url: /images/gmucordoba.png
-    image_path: /images/gmucordoba.png
+  - url: /images/servicios/gmucordoba.png
+    image_path: /images/servicios/gmucordoba.png
     alt: "GMU Córdoba"
     title: "GMU Córdoba"
-  - url: /images/uco.png
-    image_path: /images/uco.png
+  - url: /images/servicios/uco.png
+    image_path: /images/servicios/uco.png
     alt: "Universidad de Córdoba"
     title: "Universidad de Córdoba"
-  - url: /images/vimcorsa.jpg
-    image_path: /images/vimcorsa.jpg
+  - url: /images/servicios/vimcorsa.jpg
+    image_path: /images/servicios/vimcorsa.jpg
     alt: "VIMCORSA"
     title: "VIMCORSA"
 ---

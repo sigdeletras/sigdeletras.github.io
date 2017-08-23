@@ -3,7 +3,7 @@ title: "Servicios"
 permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
 gallery:
-  - url: /images/servicios/almagre.PNG
+  - url: http://www.almagre.es/
     image_path: /images/servicios/almagre.PNG
     alt: "Almagre Patriminio y Formación"
     title: "Almagre Patriminio y Formación"

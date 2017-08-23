@@ -17,4 +17,4 @@ El taller fue organizado por el grupo de Meetup ["Aprendiendo a programar en Có
 
 El guión de las prácticas puede consultarse en [Github](https://github.com/sigdeletras/taller-leaflet-geoinquietos )
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTL_pjkTDvunsAikA1681gPYtolmaf4hHanOdFusxYYvCzywxlwjS285qbRlg2XyZwVTSGx3m2USS45/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTL_pjkTDvunsAikA1681gPYtolmaf4hHanOdFusxYYvCzywxlwjS285qbRlg2XyZwVTSGx3m2USS45/embed?start=false&loop=false&delayms=3000" frameborder="0" width="595" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

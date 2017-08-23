@@ -7,36 +7,36 @@ gallery:
     image_path: /images/servicios/almagre.PNG
     alt: "Almagre Patriminio y Formación"
     title: "Almagre Patriminio y Formación"
-  - url: /images/servicios/aparejadores.PNG
+  - url: https://www.coaatcordoba.com/
     image_path: /images/servicios/aparejadores.PNG
     alt: "Colegio de Arquitectos Técnicos de Córdoba"
     title: "Colegio de Arquitectos Técnicos de Córdoba"
-  - url: /images/servicios/decabo.png
+  - url: http://www.dcaboconsultores.com/
     image_path: /images/servicios/decabo.png
     alt: "DCabo Consultores"
     title: "DCabo Consultores"
-  - url: /images/servicios/hornachuelos.PNG
+  - url: http://www.hornachuelos.es/
     image_path: /images/servicios/hornachuelos.PNG
     alt: "Ayuntamiento de Hornachuelos"
     title: "Ayuntamiento de Hornachuelos"
-  - url: /images/servicios/pippa.png
+  - url: https://planpippa.carto.com/me
     image_path: /images/servicios/pippa.png
     alt: "Plan PIPPA"
     title: "Plan PIPPA"
-  - url: /images/servicios/roquetas.jpg
+  - url: http://www.aytoroquetas.org/
     image_path: /images/servicios/roquetas.jpg
     alt: "Ayuntamiento de Roquetas de Mar"
     title: "Ayuntamiento de Roquetas de Mar"
-  - url: /images/servicios/gmucordoba.png
+  - url: http://www.gmucordoba.es/
     image_path: /images/servicios/gmucordoba.png
     alt: "GMU Córdoba"
     title: "GMU Córdoba"
-  - url: /images/servicios/uco.png
+  - url: http://www.arqueocordoba.com/sigeac/
     image_path: /images/servicios/uco.png
     alt: "Universidad de Córdoba"
     title: "Universidad de Córdoba"
   - url: /images/servicios/vimcorsa.jpg
-    image_path: /images/servicios/vimcorsa.jpg
+    image_path: http://www.vimcorsa.com/
     alt: "VIMCORSA"
     title: "VIMCORSA"
 ---
@@ -57,7 +57,7 @@ Servicios de consultoría técnica para empresas, particulares o entidades públ
 
 - Formación presencial/virtual sobre Tecnologías de Información Geográfica (QGIS, ArcGIS, Servicios OGC, Visores de mapas, mapas en nube)
 - Gestión de proyectos SIG en entidades públicas.
-- Formación Bonificada
+- Formación Bonificada para empresas [+](https://www.fundae.es/Pages/default.aspx "Información Formación Bonificada)
 
 ## Difusión
 

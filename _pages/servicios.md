@@ -43,7 +43,7 @@ gallery:
 
 ## Consultoría
 
-Servicios de consultoría técnica para empresas, particulares o entidades públicas vinculadas con la información geográfica: análisis urbano, gestión catastral, territorio, patrimonio, turismo... Identificación  y preparación de datos geolocalizados. 
+Servicios de consultoría técnica para **empresas, particulares o entidades públicas vinculadas con la información geográfica**: *análisis urbano, gestión catastral, territorio, patrimonio, turismo...*. Identificación  y preparación de datos geolocalizados. 
 
 ## Desarrollo
 

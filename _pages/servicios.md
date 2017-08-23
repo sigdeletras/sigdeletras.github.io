@@ -2,7 +2,7 @@
 title: "Servicios"
 permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
-gallery_services:
+gallery:
   - url: /images/almagre.PNG
     image_path: /images/almagre.PNG
     alt: "Almagre Patriminio y Formación"
@@ -63,6 +63,6 @@ Servicios de consultoría técnica para empresas, particulares o entidades públ
 
 Charlas y Talleres sobre TIG, Visualización de datos espaciales, Recursos cartográficos
 
-{% include gallery_services caption="Entidades" %}
+{% include gallery caption="Entidades" %}
 
 

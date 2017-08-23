@@ -63,6 +63,6 @@ Servicios de consultoría técnica para empresas, particulares o entidades públ
 
 Charlas y Talleres sobre TIG, Visualización de datos espaciales, Recursos cartográficos
 
-{% include gallery caption="Entidades" %}
+{% include gallery %}
 
 

@@ -4,8 +4,8 @@ main:
     url: /sobre-mi/
   - title: "Documentos"
     url: http://www.sigdeletras.com/categories/#presentaciones
-  # - title: "Servicios"
-  #   url: /servicios/
+  - title: "Servicios"
+    url: /servicios/
   - title: "Temas"
     url: /tags/    
   # - title: "About"

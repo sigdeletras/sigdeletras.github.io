@@ -20,5 +20,7 @@ Con esta finalidad, la de conocer las principales fuentes de información geogr�
 
 Dentro del [repositorio de Github](https://github.com/sigdeletras/2015-ig-almeria/) donde se encuentra la presentación, he creado la [carpeta DATOS con conjuntos temáticos de datos para la provincia de Almería](https://github.com/sigdeletras/2015-ig-almeria/tree/gh-pages/datos) procedentes de los *Datos Espaciales de Referencia de Andalucía (DERA)*. Las capas están en formato [geoJSON](http://geojson.org/ "http://geojson.org/") y se encuentran convertidos al sistema de coordenadas WGS84.
 
+La página con la **presentación** es accesible desde este [enlace](http://sigdeletras.github.io/2015-ig-almeria)
+
 A modo de reflexión, sólo apuntar que cada vez me encuentro en este tipo de actividades con asistentes cuyos perfiles profesionales no están tradicionalmente vinculados al mundo “geo”, pero que empiezan a estar interesados en el uso de las Tecnologías de Información Geográficas. Un buen ejemplo son los profesionales que trabajan en el ámbito del Periodismo de Datos o los diseñadores gráficos. Por otro lado, una vez que se empiezan a conocer estas herramientas, por propia evolución, en estos casos se hace necesario ir adquiriendo conocimientos más concretos sobre tipos de formatos geográficos, sistema de referencia de coordenadas o incluso plantearse empezar a manejar aplicaciones como los Sistemas de Información Geográfica para generar y preparar los datos geográficos que van a ser presentados en Internet.
         

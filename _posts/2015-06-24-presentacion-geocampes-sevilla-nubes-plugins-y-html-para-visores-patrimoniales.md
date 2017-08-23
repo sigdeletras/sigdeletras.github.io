@@ -18,4 +18,4 @@ El objetivo de la charla era dar a conocer algunas de las posibilidades tecnoló
 
 El [vídeo de la charla](https://www.youtube.com/watch?v=rxLjUGfSEPg) se puede ver en el canal de Youtube de [Antonio Pérez](http://www.nonopp.com/).
 
-<iframe width="560" height="485" src="https://www.youtube.com/embed/rxLjUGfSEPg" frameborder="0" allowfullscreen></iframe>
+<iframe width="595" height="485" src="https://www.youtube.com/embed/rxLjUGfSEPg" frameborder="0" allowfullscreen></iframe>

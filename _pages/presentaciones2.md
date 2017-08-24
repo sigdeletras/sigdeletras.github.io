@@ -12,7 +12,7 @@ author_profile: true
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
   {% for post in posts %}
-    {% if post.categories contains "presentaciones" %}
+    {% if post.categories contains "Presentaciones" %}
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}

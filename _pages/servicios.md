@@ -39,6 +39,12 @@ gallery:
     image_path: /images/servicios/vimcorsa.jpg
     alt: "VIMCORSA"
     title: "VIMCORSA"
+header:
+  overlay_image: /images/servicios/vimcorsa.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  cta_label: "More Info"
+  cta_url: "https://unsplash.com"
 ---
 
 ## Consultoría

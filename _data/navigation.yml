@@ -2,8 +2,8 @@
 main:
   - title: "Sobre mi"
     url: /sobre-mi/
-  - title: "Documentos"
-    url: http://www.sigdeletras.com/categories/#presentaciones
+  - title: "Presentaciones"
+    url: /presentaciones/
   - title: "Servicios"
     url: /servicios/
   - title: "Temas"

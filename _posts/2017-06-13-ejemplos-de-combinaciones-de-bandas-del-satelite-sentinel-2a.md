@@ -13,7 +13,9 @@ tags:
 ---
 
 La teledetección, percepción remota o “remote sensing” es ciencia de obtener información (imágenes) de la superficie de nuestro planeta a distancia, sin entrar en contacto directo con él. Pero la teledetección también incluye todo el trabajo de procesamiento e interpretación realizado a posteriori con esas imágenes.
+
 <!--more-->
+
 En las últimas décadas, la teledetección se ha convertido  en una herramienta imprescindible en numerosos ámbitos de nuestra sociedad. Son muchos los ejemplos de su aplicación como base para la toma de decisiones en la gestión eficiente de la agricultura y los bosques, los recursos naturales, la meteorología, la ordenación del territorio o la elaboración de cartografía entre otros.
 
 ![](/images/blog/06_sentinel2a/01_color_verdadero_50.png)

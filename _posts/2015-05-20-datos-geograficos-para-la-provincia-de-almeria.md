@@ -3,7 +3,7 @@ title:  "Datos geográficos para la provincia de Almería"
 excerpt_separator: "<!--more-->"
 related: true
 categories:
-        - Presentación
+        - Presentaciones
 tags:
         - Almería
 ---

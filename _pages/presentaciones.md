@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /presentaciones2/
+permalink: /presentaciones/
 title: "Presentaciones"
 author_profile: true
 ---

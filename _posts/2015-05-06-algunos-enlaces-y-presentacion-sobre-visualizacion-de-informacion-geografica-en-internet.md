@@ -1,6 +1,7 @@
 ---
 title:  "Algunos enlaces y presentación sobre visualización de información geográfica en Internet"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories: 
       - Presentaciones
@@ -11,6 +12,8 @@ tags:
 ---
 
 Aprovechando mi estancia en Almería, y gracias a la invitación de Ismael Olea de la comunidad [HackLab Almería](http://hacklabalmeria.net/), el pasado de abril realicé un taller sobre visualización de datos geográficos en Internet con [CartoDB](item/82-taller-visualizacion-de-datos-geograficos-en-internet-con-cartodb-almeria-29-de-abril-2015). Este mismo taller lo realicé el año pasado en el espacio de coworking cordobés [coSfera](http://www.cosfera.es/)y en ambos casos los resultados, al menos para mí y por comentarios de algunos de los asistentes, fueron satisfactorios.
+
+<!--more-->
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/Jy8clAySEKKr2b" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="476" height="400"></iframe>
 

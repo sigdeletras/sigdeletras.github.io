@@ -1,6 +1,7 @@
 ---
-title:  "Lidar y Urbanismo"
+title:  "LiDAR y Urbanismo"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/header/2017-03-15-pendiente.png"
 related: true

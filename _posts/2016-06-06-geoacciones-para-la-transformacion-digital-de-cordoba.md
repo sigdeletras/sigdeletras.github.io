@@ -1,6 +1,7 @@
 ---
 title:  "GeoAcciones para la Transformación Digital de Córdoba"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/header/2016-06-06-100acciones.jpg"
 related: true
@@ -10,8 +11,10 @@ tags:
  - Córdoba
 ---
 
-El sábado día 4 de junio tuve la oportunidad de asistir a la ‘desconferencia’  titulada **[100 Acciones para la Transformación Digital de Córdoba](http://100accionescordoba.co/)**. Esta actividad promovida por un nutrido grupo personas vinculadas con el sector tecnológico de Córdoba tenía como objetivo _“concretar 100 acciones que transformen y aceleren a la ciudad en la senda de esta nueva economía, sociedad y cultura del siglo XXI fruto de la transformación digital_”. Más información en estas entradas en [Cordópolis](http://cordopolis.es/?s=100acciones). Para ver las opiciones, fotos y comentarios del evento se puede consultar l seguimiento en Twitter de [#100AccionesODB.](https://twitter.com/search?q=%23100accionesODB)
+El sábado día 4 de junio tuve la oportunidad de asistir a la ‘desconferencia’  titulada **[100 Acciones para la Transformación Digital de Córdoba](http://100accionescordoba.co/)**. Esta actividad promovida por un nutrido grupo personas vinculadas con el sector tecnológico de Córdoba tenía como objetivo _“concretar 100 acciones que transformen y aceleren a la ciudad en la senda de esta nueva economía, sociedad y cultura del siglo XXI fruto de la transformación digital_”. Más información en estas entradas en [Cordópolis](http://cordopolis.es/?s=100acciones). Para ver las opiciones, fotos y comentarios del evento se puede consultar l seguimiento en Twitter de [#100AccionesODB.](https://twitter.com/search?q=%23100accionesODB).
+
 <!--more-->
+
 Este tipo de actividades, aunque suele tener muy buenos resultados, me suele producir el **síndrome del carril de autovía** (piensas que en un atasco el otro carril va más rápido que el tuyo). Viendo los [resultados de las mesas](https://docs.google.com/presentation/d/1fYPHj_AbyzC8qbpcSrVHTlQth568fnP-cI9R1jW6hc4/present#slide=id.p) me gustaría haber participado en ellas, pero la gran cantidad de ideas, personas y limitación en el tiempo del evento lo hace imposible.
 
 Las cuatro sesiones que asistí fueron: Digitalización sectores tradicionales, OpenData, Ciudad Física y Universidad-Empresas. Dos de estas sesiones incluían algunas de mis propuestas: **creación (reapertura) de portal de [datos abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) de [Córdoba](http://sigdeletras.blogspot.com.es/2011/03/open-data-cordoba.html) y el uso de [OpenStreetMap](https://www.openstreetmap.org) como reflejo del estado actual de la ciudad**.

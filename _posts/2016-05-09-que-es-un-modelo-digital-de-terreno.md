@@ -1,6 +1,7 @@
 ---
 title:  "Qué es un Modelo Digital de Terreno"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/header/2016-05-09-portada_mde.jpg"
 related: true
@@ -14,7 +15,9 @@ tags:
 ---
 
 Un **_Modelo Digital de Terreno (MDT)_** es una estructura numérica de datos que representa la distribución espacial de una variable cuantitativa y continua. El tipo de MDT más conocido es el **Modelo Digital de Elevaciones (MDE)**, un caso particular de aquel, en el que la variable representada es la cota del terreno en relación a un sistema de referencia concreto (Fuente:[Wikipedia](https://es.wikipedia.org/wiki/Modelo_digital_del_terreno)).
+
 <!--more-->
+
 Su campo uso es muy variado:
 
 *   Extracción de los parámetros del terreno.

@@ -1,6 +1,7 @@
 ---
 title:  "Convertir archivos CAD a SIG"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories: 
   - Blog
@@ -10,7 +11,9 @@ tags:
 ---
 
 Trabajar con archivos CAD en un Sistema de Información Geográfica no es tarea fácil. Por regla general, cuando se dibuja en un programa CAD comi AutoCAD o MicroStation, no se hace pensando en incluir procedimientos que faciliten la conversión de la información espacial a un modelo de datos SIG. En esta entrada, comentaré algunas de las características estos archivos CAD que influirán en su conversión a un SIG. A continuación, y basándome en mi experiencia personal, se enumerarán los procesos básicos para intentar llevar a cabo con el mayor éxito posible este tipo de trabajo.
+
 <!--more-->
+
 ## ¿Porqué pasar de CAD a SIG?
 
 Podemos decir que hay dos motivos generales por las que nos vemos obligados a trabajar con datos CAD en un proyecto SIG. La primera causa es simplemente que **necesitemos usar como base una fuente de datos creados con CAD**. Suele ser frecuente que para escalas grandes, de 500 a 2000, la información cartográfica de referencia se encuentre en este formato. Quizás el caso que mejor ejemplifique este motivo es la generación de un planeamiento urbanístico. Tras los trabajos de información y ordenación, el resultado principal no deja de ser mapas temáticos (clasificaciones, calificaciones, usos, sistemas…) que usan como base CAD.

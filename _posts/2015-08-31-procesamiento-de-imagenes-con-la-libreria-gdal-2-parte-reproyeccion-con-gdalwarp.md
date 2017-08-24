@@ -1,6 +1,7 @@
 ---
 title:  "Procesamiento de imágenes con la librería GDAL (2ª parte). Reproyección con gdalwarp"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
 related: true
@@ -11,7 +12,9 @@ tags:
 ---
 
 Este artículo continua la [entrada anterior](blog/procesamiento-de-imagenes-con-la-libreria-gdal-1-parte "GDAL 1") en la se expusieron algunos de los usos de los comandos _gdalinfo_ y _gdaltranslate_ de la librería GDAL. En el siguiente texto nos vamos a centrar en el comando _gdalwarp_. Este comando se usa para hacer reproyecciones del Sistema de Referencia de Coordenadas de una imagen georeferenciada.
+
 <!--more-->
+
 ### Reproyección de una imagen georeferenada con gdalwarp
 
 El uso básico es sencillo: partimos de la base de que la imagen ya posee un SRC definido, tras el comando indicaremos el SRC de salida usando el [código EPSG](https://es.wikipedia.org/wiki/European_Petroleum_Survey_Group "EPSG") (ej. -t_srs "EPSG:4326"), el fichero a reproyectar y el nombre la imagen proyectada.

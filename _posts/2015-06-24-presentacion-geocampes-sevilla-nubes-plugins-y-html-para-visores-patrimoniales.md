@@ -1,6 +1,7 @@
 ---
 title:  "Presentación GeocampEs 2015 \"Nubes, plugins y HTML para visores patrimoniales\""
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories: 
   - Presentaciones
@@ -11,6 +12,8 @@ tags:
 ---
 
 Charla **"Nubes, plugins y HTML para visores patrimoniales"** realizada en la tercera edición de [Geocamp ES](http://geocamp.es/), desconferencia de temas geo organizada por el equipo de [Geoinquietos Sevilla](http://geoinquietos.blogspot.com.es/).
+
+<!--more-->
 
 El objetivo de la charla era dar a conocer algunas de las posibilidades tecnológicas que hoy existen para publicar datos patrimoniales en la web mediante visores cartográficos.
 

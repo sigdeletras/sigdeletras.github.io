@@ -1,6 +1,7 @@
 ---
 title:  "Instalación de Python y GDAL en Windows"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/blog/01.png"
 related: true
@@ -13,7 +14,9 @@ tags:
 ---
 
 Dentro del programa de la [11ª reunión de Geoinquietos Córdoba](http://wiki.osgeo.org/wiki/Reuni%C3%B3n_11_Geoinquietos_C%C3%B3rdoba) voy a realizar de mini taller donde explicar cómo se usa el script Pyhton [**dxf2gmlcatastro**](https://github.com/sigdeletras/dxf2gmlcatastro) que estoy generando para convertir un archivo CAD DXF al formato GML definido por tras la [Resolución conjunta Catastro-Registro](http://www.catastro.minhap.es/documentos/formatos_intercambio/Formato%20GML%20parcela%20catastral.pdf).
+
 <!--more-->
+
 Desde hace unos meses he empezado a aprender Python y su aplicación temas geo. Este ejercicio de programación me está sirviendo bastante para ir adquiriendo los conocimientos básicos de este lenguaje. Además de las lecturas y pruebas, la ayuda de Marcos Ortega de [Indavelopers](http://www.indavelopers.com/) está siendo crucial.
 
 Un rápido sondeo ha puesto de manifiesto que la mayoría de las personas que asistente a las reuniones de geoinquietos usan Windows. Aunque todo la programación está hecha en Linux (Ubuntu), he montado una máquina virtual con Virtual Box para ver los pasos a dar para poder ejecutar el script en este sistema operativo. Existe una manera más rápida de configurar GDAL para Python que es instalando OSGeo4W y usar la _shell_ incorporada. Pero como siempre es un buen momento para aprender he decido tomar el camino más largo y aprovechar para escribir esta entrada.

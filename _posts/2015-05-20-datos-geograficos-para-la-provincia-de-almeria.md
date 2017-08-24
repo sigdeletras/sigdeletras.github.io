@@ -1,6 +1,7 @@
 ---
 title:  "Datos geográficos para la provincia de Almería"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories:
         - Presentaciones
@@ -9,6 +10,8 @@ tags:
 ---
         
 Navegando por Internet podemos apreciar que la visualización o presentación de información geográfica en páginas web está cada vez más presente. Hoy por hoy, no es muy complicado incluir en nuestra página un mapa con la localización de nuestro negocio o la sede de un evento. La forma más rápida es obtener dicho mapa directamente desde Google Maps, usando otras alternativas abiertas como [OpenStreetMap](http://www.openstreetmap.org/ "http://www.openstreetmap.org/"), o trabajar con alguna de las extensiones de mapas que incorpora Wordpress, Joomla o Drupal. 
+
+<!--more-->
 
 Sin embargo, si queremos dar un paso más en la presentación de nuestros datos, por ejemplo mostrando un mapa de densidad o una visualización temática de una determinada variable, podemos usar servicios de mapas en nube como [CartoDB](http://cartodb.com/ "http://cartodb.com/") o [My Maps de Google](https://www.google.com/maps/d/ "https://www.google.com/maps/d/"). Para proyectos más personalizados, en las que ya es necesario tener conocimientos básicos de HTML, CSS y JavaScript podemos recurrir a librerías de mapas como [OpenLayers](http://openlayers.org/ "http://openlayers.org/") o [Leaflet](http://leafletjs.com/ "http://leafletjs.com/").
 

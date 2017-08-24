@@ -1,6 +1,7 @@
 ---
 title:  "Uso de la información catastral para estudios urbanos"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 header:
   teaser: "/images/header/2016-09-22-catastro.jpg"
@@ -13,7 +14,9 @@ tags:
 ---
 
 La cartografía catastral constituye uno de los conjuntos de datos de más uso en los Sistemas de Información Geográfica. A pesar de estar dentro de la categoría de cartografía temática ([Real Decreto 1545/2007](%20https:/www.boe.es/diario_boe/txt.php?id=BOE-A-2007-20556) ), su nivel de precisión (entre 1:500 y 1:5.000), la cobertura a escala nacional (salvo País Vasco y Navarra), la posibilidad de descarga mediante certificado, a través de la [Sede Electrónica de Catastro](http://www.sedecatastro.gob.es/) y las [características de la licencia de uso](http://www.catastro.meh.es/documentos/resoluciondgc20110323_tfs.pdf), hace que muchos sistemas cartográficos, sobre todo de ámbito local, la estén utilizando como información topográfica de referencia.
+
 <!--more-->
+
 De forma sencilla podemos definir la información catastral como aquella que recoge la descripción parcelaria o superficial de los bienes inmuebles. Para un descripción más detallada podemos usar la la siguiente  descripción de Sereno (2009) que se aplica al catastro en España:
 
 _"Catastro Inmobiliario es un registro administrativo dependiente del Ministerio de Economía y Hacienda en el que se describen los bienes inmuebles rústicos, urbanos y de características especiales. La descripción catastral de los bienes inmuebles contenida en el Catastro Inmobiliario comprende sus características físicas, económicas y jurídicas, entre las que se encuentra la localización y la referencia catastral, la superficie, el uso o destino, la clase de cultivo o aprovecha- miento, la calidad de las construcciones, la representación gráfica, el valor catastral y el titular catastral."_  

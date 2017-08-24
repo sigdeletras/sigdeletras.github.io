@@ -1,6 +1,7 @@
 ---
 title:  "Participación en la Jornada ‘Gestión geoespacial de las infraestructuras y equipamientos de la provincia de Córdoba'"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
       teaser: "/images/header/2015-05-06-jornadageo2015.jpg"
 related: true
@@ -14,6 +15,8 @@ tags:
 ---
 
 El pasado día 20 de abril tuvo lugar en la sede de la Diputación de Córdoba la **Jornada técnica ‘Gestión geoespacial de las infraestructuras y equipamientos de la provincia de Córdoba. Información geográfica 2.0’.** Un rápido vistazo a las tuits bajo el la etiqueta [#jornadageo2015](https://twitter.com/search?f=realtime&q=%23jornadageo2015&src=typd "Seguimiento de #jornadageo2015") o ver las fotografías que fueron colgadas en las redes sociales pueden servir de idea para ver que la jornada fue todo un éxito. No solo se llenó el aforo de la sala, sino que superando toda previsión hubo incluso personas que se quedaron sin sitio.
+
+<!--more-->
 
 El programa fue realmente interesante. Pudimos comprobar de la mano de los técnicos de la Diputación de Córdobay de Eprinsa que los distintos proyectos basados en las Tecnologías de la Información Geográfica que se están desarrollando en la administración provincial siguen un curso imparable. La tónica general fue la de potenciar la creación del dato único dentro de la administración y remarcar la necesidad de compartir y aunar esfuerzo bajo ese objetivo.
 

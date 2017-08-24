@@ -1,6 +1,7 @@
 ---
 title:  "Taller básico de visores de mapas con Leaflet"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories: 
   - Presentaciones
@@ -12,7 +13,9 @@ tags:
 ---
 
 Presentación del taller sobre visores de mapas con Leaflet realizado en Córdoba en junio del 2016. El objetivo principal fue la enseñar los conceptos básicos para desarrollar un visor de mapas en Internet utilizando la librería open-source JavaScript [Leaflet](http://leafletjs.com/).
+
 <!--more-->
+
 El taller fue organizado por el grupo de Meetup ["Aprendiendo a programar en Córdoba"](https://www.meetup.com/es-ES/Aprende-a-programar-en-Cordoba/events/231815400/) y celebrado en las instalaciones de coSfera Córdoba.
 
 El guión de las prácticas puede consultarse en [Github](https://github.com/sigdeletras/taller-leaflet-geoinquietos )

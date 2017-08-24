@@ -1,6 +1,7 @@
 ---
 title:  "Mapa del Festival de los Patios de Córdoba 2015 con CartoDB"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
 related: true

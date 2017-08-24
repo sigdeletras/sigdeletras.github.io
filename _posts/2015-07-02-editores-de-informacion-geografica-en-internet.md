@@ -1,6 +1,7 @@
 ---
 title:  "Editores de información geográfica en Internet"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories:
 - Blog

@@ -1,6 +1,7 @@
 ---
 title:  "Primeros pasos CARTO Builder. Mapa de edificios de Sevilla"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 header:
   teaser: "/images/header/2017-04-18-mapa.png"
@@ -14,7 +15,9 @@ tags:
 ---
         
 Hace tiempo que tenía pendiente probar **Builder,** la nueva herramienta de [CARTO.](https://carto.com/ "Carto Web") Junto a una gran cantidad de cambios en la interfaz y en el flujo de trabajo, a los que habrá que ir poco a poco acostumbrándose, existen dos novedades que hacen de Carto la empresa más potente a día de hoy  que aplicada el modelo _SaaS_ al ámbito de los ‘mapas’. La primera novedad es la  la incorporación de asistentes para la realización de análisis espaciales y la segunda la posibilidad de añadir a nuestros mapas  aplicaciones o complementos (_widgets_) basados en los datos disponibles.
+
 <!--more-->
+
 En el antiguo [_Editor_](https://carto.com/docs/carto-editor/ "Carto Editor") podrían realizar mediante consultas SQL y funciones espaciales gran cantidad de análisis derivados de nuestros datos geográficos. Toda esta potencialidad es ahora bastante más accesible con [**Builder**](https://carto.com/builder/ "Carto Builder"). Gracias a un conjunto de asistentes gráficos, el usuario puede crear de forma rápida complejos procesos espaciales como identificar lugar central, generación de líneas a partir de puntos, áreas de influencia, filtrado, análisis cluster... Para más información sobre estos procesos puede consultarse las [guías en la web](https://carto.com/learn/guides "Carto Guides") de CARTO.
 
 ![Asistentes análisis Carto](/images/blog/12_builder/analisis.png "Asistentes análisis Carto")

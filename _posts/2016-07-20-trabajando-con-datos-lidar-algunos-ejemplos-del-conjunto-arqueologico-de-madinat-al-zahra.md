@@ -1,6 +1,7 @@
 ---
 title:  "Trabajando con datos LiDAR. Algunos ejemplos del Conjunto Arqueológico de Madinat al-Zahra"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/header/2016-07-20-lidar_sombras.png"
 related: true
@@ -14,7 +15,9 @@ tags:
 ---
 
 El LiDAR (de light detection and ranging) es una técnica de teledetección óptica que utiliza la luz de láser para obtener una muestra densa de la superficie de la tierra produciendo mediciones exactas de x, y y z. LiDAR, que se utiliza principalmente en aplicaciones de representación cartográfica láser aéreas, está surgiendo como una alternativa rentable para las técnicas de topografía tradicionales como una fotogrametría. Cada punto LiDAR que es postprocesado puede tener una clasificación que define el tipo de objeto que reflejó el pulso láser. Los puntos LiDAR se pueden clasificar en varias categorías que incluyen suelo o terreno desnudo, parte superior de cubierta forestal y agua. (Fuente: [http://desktop.arcgis.com/](http://desktop.arcgis.com/es/arcmap/10.3/manage-data/las-dataset/what-is-lidar-data-.htm))
+
 <!--more-->
+
 Esta fuente de datos tienen múltiples aplicaciones: modelos digitales del terreno y de superficies (con edificios y vegetación), estudios de zonas inundables, detección automática de edificaciones nuevas, estudios de visibilidad y cobertura de antenas, inventarios forestales (cobertura arbórea y de matorral, las alturas máximas de la vegetación, la presencia de matorral o regeneración avanzada), etc.
 
 Gracias al [Plan Nacional de Ortografía Aérea](http://pnoa.ign.es/presentacion) contamos con cobertura de datos LiDAR para España (distintas fechas según Comunidades Autónomas). Los datos LiDAR del PNOA tienen una una densidad de 0,5 puntos/m y una precisión altimétrica obtenida es mejor de 20 cm RMSE Z. Los datos se distribuyen a través del [Centro de Descarga del CNIG](http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=LIDAR) en ficheros digitales de 2x2 km de extensión. El formato de descarga es LAZ (formato de compresión de ficheros LAS).

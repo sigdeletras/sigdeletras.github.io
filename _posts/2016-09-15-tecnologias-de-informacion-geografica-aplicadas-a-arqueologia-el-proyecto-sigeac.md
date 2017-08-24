@@ -1,6 +1,7 @@
 ---
 title:  "Conferencia Tecnologías de información geográfica aplicadas a Arqueología. El proyecto SIGEAC"
 excerpt_separator: "<!--more-->"
+comments: true
 related: true
 categories: 
   - Presentaciones
@@ -11,7 +12,9 @@ tags:
 ---
 
 Conferencia inaugural de la sesión de Novedades arqueológicas dentro de las [I Jornadas ArqueoCórdoba](http://www.arqueocordoba.com/2016/09/i-jornadas-cientifico-divulgativas-arqueocordoba/) (15 Septiembre 2016). 
+
 <!--more-->
+
 El Sistema de Información Geográfica y visor web de Excavaciones Arqueológicas en Córdoba o SIGEAC es un proyecto realizado por Almagre Patrimonio y Formación para el Grupo de Investigación Sísifo (PAIDI HUM-236) de la Universidad de Córdoba y su proyecto de Cultura Científica "Arqueología Somos Todos".
 
 Noticias relacionadas:

@@ -1,6 +1,7 @@
 ---
 title:  "Extrayendo datos del DERA con Python"
 excerpt_separator: "<!--more-->"
+comments: true
 header:
   teaser: "/images/header/2016-06-08-dera.jpg"
 related: true
@@ -14,7 +15,9 @@ tags:
 ---
 
 Los **Datos Espaciales de Referencia de Andalucía para escalas intermedias -DERA-** "_es un repertorio de bases cartográficas de diferente naturaleza geométrica (puntos, líneas, polígonos, imágenes raster) referidas al territorio andaluz_". Más información en esta página del [Instituto de Estadística y Cartografía de Andalucía](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/).
+
 <!--more-->
+
 Los datos pueden descargarse en un archivo comprimido zip por cada uno de los bloques. Dentro de cada zip la información se encuentra accesibles por capas en formato shapefile (.shp), en sistema de referencia geodésico ETRS89 y proyectadas en UTM huso 30.
 
 ### Filtrado de datos con SIG

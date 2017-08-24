@@ -2,6 +2,7 @@
 title:  "Taller \"Visualización de datos geográficos en Internet con CartoDB\" Almería 29 de Abril 2015"
 excerpt_separator: "<!--more-->"
 related: true
+comments: true
 categories:
       - Presentaciones
 tags:
@@ -11,6 +12,8 @@ tags:
 ---
         
 El próximo 29 de Abril, en Almería, voy a realizar de nuevo el **taller “Visualización de datos geográficos en Internet con CartoDB”**. Lugar para el taller será en la [La Oficina cultural](http://laoficinacultural.org/), Calle de las Tiendas, 26, 04001, Almería de 19:00 a 20:30.
+
+<!--more-->
 
 <iframe src="http://umap.fluv.io/es/map/mapa-sin-titulo_2738?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false#18/36.84097/-2.46593" frameborder="0" width="90%" height="300px"></iframe>
 

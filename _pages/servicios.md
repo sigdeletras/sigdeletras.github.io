@@ -35,8 +35,8 @@ gallery:
     image_path: /images/servicios/uco.png
     alt: "Universidad de Córdoba"
     title: "Universidad de Córdoba"
-  - url: /images/servicios/vimcorsa.jpg
-    image_path: http://www.vimcorsa.com/
+  - url: http://www.vimcorsa.com/ 
+    image_path: /images/servicios/vimcorsa.jpg
     alt: "VIMCORSA"
     title: "VIMCORSA"
 ---
@@ -57,11 +57,11 @@ Servicios de consultoría técnica para **empresas, particulares o entidades pú
 
 - Formación presencial/virtual sobre Tecnologías de Información Geográfica (QGIS, ArcGIS, Servicios OGC, Visores de mapas, mapas en nube)
 - Gestión de proyectos SIG en entidades públicas.
-- Formación Bonificada para empresas [+](https://www.fundae.es/Pages/default.aspx "Información Formación Bonificada)
+- Formación Bonificada para empresas [+](https://www.fundae.es/Pages/default.aspx "Información Formación Bonificada")
 
 ## Difusión
 
-Charlas y Talleres sobre TIG, Visualización de datos espaciales, Recursos cartográficos
+[Charlas, talleres y conferencias](/presentaciones " Ver presentaciones") sobre TIG, Visualización de datos espaciales, Recursos cartográficos
 
 {% include gallery %}
 

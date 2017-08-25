@@ -6,7 +6,6 @@ header:
   teaser: "/images/header/2017-07-21-img_cabcera_plugin.jpg"
 related: true
 categories: 
-  - Blog
   - 2017
 tags:
   - Catastro

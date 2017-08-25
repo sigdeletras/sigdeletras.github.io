@@ -6,7 +6,7 @@ header:
       teaser: "/images/header/2015-07-07-gdal.jpg"
 related: true
 categories: 
-- Blog
+- 2015
 tags:
 - GDAL
 ---

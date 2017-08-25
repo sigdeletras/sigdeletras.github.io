@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2017-03-15-pendiente.png"
 related: true
 categories: 
-  - Blog
+  - 2017
 tags:
   - LiDAR
   - Urbanismo

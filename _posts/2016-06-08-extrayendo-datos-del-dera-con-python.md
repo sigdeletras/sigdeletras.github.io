@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-06-08-dera.jpg"
 related: true
 categories:
-- Blog
+  - 2016
 tags:
 - Python
 - Andalucia

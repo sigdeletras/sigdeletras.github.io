@@ -6,7 +6,7 @@ related: true
 header:
   teaser: "/images/header/geowe.jpg"
 categories:
-- Blog
+  - 2016
 tags:
 - GeoWE
 - Sistemas de Información Geográfica

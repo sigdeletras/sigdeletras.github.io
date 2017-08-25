@@ -6,7 +6,7 @@ header:
       teaser: "/images/header/2015-10-09-gdal2.jpg"
 related: true
 categories: 
-- Blog
+- 2015
 tags:
 - Webmapping
 - Carto

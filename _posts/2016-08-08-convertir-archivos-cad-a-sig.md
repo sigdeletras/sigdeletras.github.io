@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: true
 related: true
 categories: 
-  - Blog
+  - 2016
 tags:
   - CAD
   - Sistemas de Información Geográfica

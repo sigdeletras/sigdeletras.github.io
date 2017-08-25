@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-05-03-portada.jpg"
 related: true
 categories: 
-   - Blog
+  - 2016
 tags:
    - Catastro
    - Python

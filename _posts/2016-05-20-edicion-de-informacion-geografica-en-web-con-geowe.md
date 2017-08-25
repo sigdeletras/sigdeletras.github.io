@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-05-20-geowe_catastro.png"
 related: true
 categories: 
-       - Blog
+       - 2016
 tags:
        - GeoWE
        - Webmapping

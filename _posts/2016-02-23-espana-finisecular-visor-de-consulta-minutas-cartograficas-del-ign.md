@@ -6,7 +6,7 @@ header:
       teaser: "/images/header/206-02-23-visorminutas.jpg"
 related: true
 categories: 
-- Blog
+  - 2016
 tags:
 - Webmapping
 - Leaflet

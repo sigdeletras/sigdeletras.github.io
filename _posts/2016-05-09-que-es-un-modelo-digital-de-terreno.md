@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-05-09-portada_mde.jpg"
 related: true
 categories: 
- - Blog
+  - 2016
 tags:
  - QGIS
  - Sistemas de Información Geográfica

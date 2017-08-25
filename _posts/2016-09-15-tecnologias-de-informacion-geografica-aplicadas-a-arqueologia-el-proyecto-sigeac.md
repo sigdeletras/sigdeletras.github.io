@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: true
 related: true
 categories: 
-  - Presentaciones
+  - 2016
 tags:
   - Webmapping
   - Arqueología

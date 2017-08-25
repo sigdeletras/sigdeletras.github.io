@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2017-01-23-portada_sigdeletras.jpg"
 related: true
 categories: 
-  - Blog
+  - 2017
 tags:
   - Formación
   - Sistemas de Información Geográfica

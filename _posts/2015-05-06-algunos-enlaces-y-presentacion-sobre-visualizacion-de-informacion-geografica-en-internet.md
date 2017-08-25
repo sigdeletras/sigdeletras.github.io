@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: true
 related: true
 categories: 
-      - Presentaciones
+      - 2015
 tags:
       - Formación
       - Almería

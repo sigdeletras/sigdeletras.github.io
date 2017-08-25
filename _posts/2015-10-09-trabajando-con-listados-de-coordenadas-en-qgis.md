@@ -6,7 +6,7 @@ header:
       teaser: "/images/header/2015-10-09-cabecera_ategua.png"
 related: true
 categories: 
-      - Blog
+      - 2015
 tags:
       - Formación
       - Arqueología

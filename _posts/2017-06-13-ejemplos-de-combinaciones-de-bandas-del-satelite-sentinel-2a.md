@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2017-06-13-portada.png"
 related: true
 categories: 
-  - Blog
+  - 2017
 tags:
   - Sentinel 2
   - Copernicus

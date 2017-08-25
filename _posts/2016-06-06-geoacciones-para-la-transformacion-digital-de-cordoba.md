@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-06-06-100acciones.jpg"
 related: true
 categories: 
- - Blog
+  - 2016
 tags:
  - Córdoba
 ---

@@ -6,7 +6,7 @@ related: true
 header:
   teaser: "/images/header/2017-04-18-mapa.png"
 categories:
-  - Blog
+  - 2016
 tags:
   - Carto
   - Catastro

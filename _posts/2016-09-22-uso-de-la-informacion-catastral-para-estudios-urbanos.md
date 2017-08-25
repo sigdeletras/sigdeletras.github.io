@@ -6,7 +6,7 @@ related: true
 header:
   teaser: "/images/header/2016-09-22-catastro.jpg"
 categories: 
-- Blog
+  - 2016
 tags:
 - Catastro
 - Ciudad

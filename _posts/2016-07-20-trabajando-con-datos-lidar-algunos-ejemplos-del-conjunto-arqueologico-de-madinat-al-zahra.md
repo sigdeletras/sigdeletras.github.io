@@ -6,7 +6,7 @@ header:
   teaser: "/images/header/2016-07-20-lidar_sombras.png"
 related: true
 categories: 
-  - Blog
+  - 2016
 tags:
   - LiDAR
   - Arqueología

@@ -1,5 +1,6 @@
 ---
 title: "Servicios"
+excerpt: "¿Qué puedo hacer por ti?"
 permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
 gallery:

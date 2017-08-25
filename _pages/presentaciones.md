@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /presentaciones/
+excerpt: "Hablando de TIG..."
 title: "Presentaciones"
 author_profile: true
 header:

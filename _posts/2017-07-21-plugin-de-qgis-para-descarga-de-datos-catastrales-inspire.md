@@ -7,6 +7,7 @@ header:
 related: true
 categories: 
   - Blog
+  - 2017
 tags:
   - Catastro
   - España

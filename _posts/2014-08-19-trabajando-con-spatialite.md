@@ -3,34 +3,34 @@ title:  "Trabajando con Spatialite"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true
-categories: 
+categories:
       - 2014
 tags:
       - QGIS
-      - Sistemas de Información Geográfica
-      - Spatialite
+      - Sistemas de InformaciÃ³n GeogrÃ¡fica
+      - Bases de datos geogrÃ¡ficas
 ---
         
-Una de las características que más me atrae de lo SIG _open source_ es la capacidad de trabajar con gran variedad de formatos geográficos tanto de tipo archivo (shape, geojson, kml,csv o dxf) como en bases de datos geográficas (Postgres/PostGIS, MySQL o Geodatabase de ESRI).
+Una de las caracterÃ­sticas que mÃ¡s me atrae de lo SIGÂ _open source_Â es la capacidad de trabajar con gran variedad de formatos geogrÃ¡ficos tanto de tipo archivo (shape, geojson, kml,csv o dxf) como en bases de datos geogrÃ¡ficas (Postgres/PostGIS, MySQL o Geodatabase de ESRI).
 
-Esta ventaja conlleva por otro lado un problema centrado en la elección del formato de almacenamiento según el tipo proyecto, encargo o trabajo SIG. Una buena entrada para comprender las ventajas/desventajas de cada sistema titulada**[Shapefiles vs bases de datos espaciales](http://mappinggis.com/2012/08/shapefiles-vs-bases-de-datos-espaciales/)** puede encontrarse en la web MappingGIS de Aurelio Morales.
+Esta ventaja conlleva por otro lado un problema centrado en la elecciÃ³n del formato de almacenamiento segÃºn el tipo proyecto, encargo o trabajo SIG. Una buena entrada para comprender las ventajas/desventajas de cada sistema titulada**[Shapefiles vs bases de datos espaciales](http://mappinggis.com/2012/08/shapefiles-vs-bases-de-datos-espaciales/)**Â puede encontrarse en la web MappingGIS de Aurelio Morales.
 
 En mi caso, cuando el proyecto GIS tiene
 
-*   cierta entidad respecto al número de capas,
-*   es necesario crear información geográfica combinado varias capas de datos mediante (views),
+*   cierta entidad respecto al nÃºmero de capas,
+*   es necesario crear informaciÃ³n geogrÃ¡fica combinado varias capas de datos mediante (views),
 *   requiere campos de tipo texto exceden la capacidad de 254 caracteres o
-*   se necesitan estilos gráficos prediseñados de visualización
+*   se necesitan estilos grÃ¡ficos prediseÃ±ados de visualizaciÃ³n
 
-mi decisión se decanta por el uso de una base de datos geográfica, normalmente **PostgreSQL/PostGIS**.
+mi decisiÃ³n se decanta por el uso de una base de datos geogrÃ¡fica, normalmenteÂ **PostgreSQL/PostGIS**.
 
-Como bien se indica en el trabajo **[Panorama del SIG Libre](https://panorama-sig-libre.readthedocs.org/es/latest/bbdd/index.html)** presentado en las 8ª Jornadas de SIG Libre, el uso de PostGIS dentro del sector GIS es fundamental y _"aunque su uso a nivel general no está tan extendido como MySQL, dentro del sector GIS su uso es casi canónico"_. Pero existen algunas ocasiones, sobre todo cuando el usuario/cliente no tiene los conocimientos suficientes para la instalación y administración de bases de datos tipo Postgres/PostGIS, el volumen de datos no requeire el despliegue de una infraestructura de gran tamaño o no es necesario el trabajo la edición simultánea de varios usuarios (concurrencia) donde PostgreSQL/PostGIS puede quedarnos un poco largo. En esos momentos es cuando entra en acción base de datos basada en ficheros **Spatialite**.
+Como bien se indica en el trabajoÂ **[Panorama del SIG Libre](https://panorama-sig-libre.readthedocs.org/es/latest/bbdd/index.html)**Â presentado en las 8Âª Jornadas de SIG Libre, el uso de PostGIS dentro del sector GIS es fundamental yÂ _"aunque su uso a nivel general no estÃ¡ tan extendido como MySQL, dentro del sector GIS su uso es casi canÃ³nico"_. Pero existen algunas ocasiones, sobre todo cuando el usuario/cliente no tiene los conocimientos suficientes para la instalaciÃ³n y administraciÃ³n de bases de datos tipo Postgres/PostGIS, el volumen de datos no requeire el despliegue de una infraestructura de gran tamaÃ±o o no es necesario el trabajo la ediciÃ³n simultÃ¡nea de varios usuarios (concurrencia) donde PostgreSQL/PostGIS puede quedarnos un poco largo. En esos momentos es cuando entra en acciÃ³n base de datos basada en ficherosÂ **Spatialite**.
 
-Spatialite es ua extensión que agrega a SQLite el soporte para datos espaciales según las especificaciones de la OGC. Podríamos decir que **Spatialite es a SQLite lo que PostGIS es a PostgreSQL**. La gran diferencia entre las dos sistemas de almacenamiento es que SQLite/Spatialite está configurado por un único fichero lo que facilita su "portabilidad" (no sé si es muy adecuado utilizar este adjetivo pero creo que se entiende) y es bastante sencillo de instalar y configurar. Para saber más sobre las funcionalidades principales de Spatialite se puede acceder a la [página oficial del proyecto Spatialite](http://www.gaia-gis.it/gaia-sins/)o a este enlace de la [documentación de OSGeoLive](http://live.osgeo.org/es/overview/spatialite_overview.html) sobre la extensión.
+Spatialite es ua extensiÃ³n que agrega a SQLite el soporte para datos espaciales segÃºn las especificaciones de la OGC. PodrÃ­amos decir queÂ **Spatialite es a SQLite lo que PostGIS es a PostgreSQL**. La gran diferencia entre las dos sistemas de almacenamiento es que SQLite/Spatialite estÃ¡ configurado por un Ãºnico fichero lo que facilita su "portabilidad" (no sÃ© si es muy adecuado utilizar este adjetivo pero creo que se entiende) y es bastante sencillo de instalar y configurar. Para saber mÃ¡s sobre las funcionalidades principales de Spatialite se puede acceder a laÂ [pÃ¡gina oficial del proyecto Spatialite](http://www.gaia-gis.it/gaia-sins/)o a este enlace de laÂ [documentaciÃ³n de OSGeoLive](http://live.osgeo.org/es/overview/spatialite_overview.html)Â sobre la extensiÃ³n.
 
-## [](https://github.com/sigdeletras/sigdeletras.github.io/blob/master/_posts/2014/2014-08-20-trabajando-con-spatialite.md#spatialite-para-rude-men)Spatialite para _rude men_
+## [](https://github.com/sigdeletras/sigdeletras.github.io/blob/master/_posts/2014/2014-08-20-trabajando-con-spatialite.md#spatialite-para-rude-men)Spatialite paraÂ _rude men_
 
-Tras obtener los archivos binarios desde la [página oficial](http://www.gaia-gis.it/gaia-sins/) e instalar según el sistema operativo (en mi caso con sudo apt-get install spatialite-bin), podemos trabajar con Spatialite desde la terminal usando el comando _spatialite_. A continuación tenéis un ejemplo de conexión
+Tras obtener los archivos binarios desde laÂ [pÃ¡gina oficial](http://www.gaia-gis.it/gaia-sins/)Â e instalar segÃºn el sistema operativo (en mi caso con sudo apt-get install spatialite-bin), podemos trabajar con Spatialite desde la terminal usando el comandoÂ _spatialite_. A continuaciÃ³n tenÃ©is un ejemplo de conexiÃ³n
 
     spatialite /home/user/data/spatialite/equipamientos_culturales.sqlite
 
@@ -38,7 +38,7 @@ y otro de una consulta.
 
     SELECT ROWID, "Name", "tipologia", "geometry"FROM "equipamientos_culturales"WHERE "tipologia" = "Museos";
     
-Si lo nuestro no es la consola o no somos unos verdaderos _rude men_ podemos instalar y utilizar la **interfaz gráfica****_spatialite_gui_**. Con esta herramienta podremos crear nuestras bases de datos, importar/exportar ficheros (shapes, csv/txt, dbf o xls), generar consultas, realizar operaciones geográficas, acceder a los metadatos de la base de datos o ver el historial de operaciones entre otras operaciones. Desde esta GUI podremos también obtener una vista geográfica simple de nuestros datos y salvarla a un formato gráfico como png, svg o pdf. Para la versión 1.5 existe un tutorial rápido en inglés en este [enlace](http://www.gaia-gis.it/gaia-sins/spatialite-gui-docs/spatialite_gui-1.5.0.pdf).
+Si lo nuestro no es la consola o no somos unos verdaderosÂ _rude men_Â podemos instalar y utilizar laÂ **interfaz grÃ¡fica****_spatialite_gui_**. Con esta herramienta podremos crear nuestras bases de datos, importar/exportar ficheros (shapes, csv/txt, dbf o xls), generar consultas, realizar operaciones geogrÃ¡ficas, acceder a los metadatos de la base de datos o ver el historial de operaciones entre otras operaciones. Desde esta GUI podremos tambiÃ©n obtener una vista geogrÃ¡fica simple de nuestros datos y salvarla a un formato grÃ¡fico como png, svg o pdf. Para la versiÃ³n 1.5 existe un tutorial rÃ¡pido en inglÃ©s en esteÂ [enlace](http://www.gaia-gis.it/gaia-sins/spatialite-gui-docs/spatialite_gui-1.5.0.pdf).
 
 [![03_spatialite_gui](https://camo.githubusercontent.com/ff558accea4389444dd946b0e9af07c24a91fe90/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333837312f31343739323639383334385f326161376463373866615f7a2e6a7067)](https://camo.githubusercontent.com/ff558accea4389444dd946b0e9af07c24a91fe90/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333837312f31343739323639383334385f326161376463373866615f7a2e6a7067)
 
@@ -46,25 +46,25 @@ _Spatialite GUI_
 
 ## [](https://github.com/sigdeletras/sigdeletras.github.io/blob/master/_posts/2014/2014-08-20-trabajando-con-spatialite.md#trabajando-con-spatialite-con-qgis)Trabajando con Spatialite con QGIS
 
-Para ponerlo aun más fácil, desde **QGIS** podremos trabajar, crear y editar sin problemas datos espaciales en Spatialite, ya que este SIG permite por defecto conectarnos a este tipo bases de datos geográficas. Los menús, operaciones y accesos más comunes son:
+Para ponerlo aun mÃ¡s fÃ¡cil, desdeÂ **QGIS**Â podremos trabajar, crear y editar sin problemas datos espaciales en Spatialite, ya que este SIG permite por defecto conectarnos a este tipo bases de datos geogrÃ¡ficas. Los menÃºs, operaciones y accesos mÃ¡s comunes son:
 
-*   Creación de una nueva capa y su correspondiente fichero rápidamente desde el menú _Capa>Nueva>Nueva Capa Spatialite_
-*   Añadir una capa desde una una bbdd ya existente desde _Capa>Añadir capa Spatialite_
-*   Gestionar la base de datos desde el Administrador de Bases de datos del menú _Base de Datos_. Desde aquí podremos realizar algunas tareas administrativas como crear, borrar o renombrar capas o importar/exportar archivos.
+*   CreaciÃ³n de una nueva capa y su correspondiente fichero rÃ¡pidamente desde el menÃºÂ _Capa>Nueva>Nueva Capa Spatialite_
+*   AÃ±adir una capa desde una una bbdd ya existente desdeÂ _Capa>AÃ±adir capa Spatialite_
+*   Gestionar la base de datos desde el Administrador de Bases de datos del menÃºÂ _Base de Datos_. Desde aquÃ­ podremos realizar algunas tareas administrativas como crear, borrar o renombrar capas o importar/exportar archivos.
 
 [![06_administrador_bbdd](https://camo.githubusercontent.com/a91f340882cd5112f424df2ff457edd44c48ce7e/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333833372f31343739323631393133395f306261326139636664355f7a2e6a7067)](https://camo.githubusercontent.com/a91f340882cd5112f424df2ff457edd44c48ce7e/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333833372f31343739323631393133395f306261326139636664355f7a2e6a7067)
 
 _Administrador de BBDD_
 
-Podemos también trabajar con la **[extensión QSpatiaLite](https://code.google.com/p/qspatialite/)** que incluye muchas de las operaciones que podemos realizar desde _spatialite_gui_ pero sin salirnos de QGIS. Podemos crear sentencias SQL avanzadas o importar/exportar ficheros según los formatos espaciales OGR. En el siguiente ejemplo obtenemos una tabla con el número de equipamientos culturales por cada barrio del conjunto histórico de Córdoba.
+Podemos tambiÃ©n trabajar con laÂ **[extensiÃ³n QSpatiaLite](https://code.google.com/p/qspatialite/)**Â que incluye muchas de las operaciones que podemos realizar desdeÂ _spatialite_gui_Â pero sin salirnos de QGIS. Podemos crear sentencias SQL avanzadas o importar/exportar ficheros segÃºn los formatos espaciales OGR. En el siguiente ejemplo obtenemos una tabla con el nÃºmero de equipamientos culturales por cada barrio del conjunto histÃ³rico de CÃ³rdoba.
 
     SELECT  "da04_barrio_ch".'barrio' , COUNT(*) FROM  "equipamientos_culturales" ,  "da04_barrio_ch"      WHERE  Within( "equipamientos_culturales".'geometry' ,  "da04_barrio_ch".'geom' ) GROUP BY   "da04_barrio_ch".'barrio';
 
 [![08_qgis_QspatiaLite](https://camo.githubusercontent.com/c39d0a7f9b5768ca9ad29d912cda61159a6f8b9f/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333835322f31343935363331393239365f623839353030303739625f7a2e6a7067)](https://camo.githubusercontent.com/c39d0a7f9b5768ca9ad29d912cda61159a6f8b9f/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333835322f31343935363331393239365f623839353030303739625f7a2e6a7067)
 
-_Extensión QSpatiaLite_
+_ExtensiÃ³n QSpatiaLite_
 
-Por último, y no menos importante, la última versión de QGIS (2.4) permite **añadir a nuestra base de datos los estilos de visualización** y consulta de datos definidos para nuestras capas y asignarlos como estilos por defecto. Este opción es realimente interesante, ya que en un mismo fichero podemos incluir el aspectos gráficos de nuestras capas. Para guardar el estilo, accederemos a la pestaña _Estilo_ del formulario _Propiedades de la capa_. Tras definir el tipo de visualización, pincharemos el botón "Guardar estilo" y la opción "Guardar en base de datos (spatialite)"
+Por Ãºltimo, y no menos importante, la Ãºltima versiÃ³n de QGIS (2.4) permiteÂ **aÃ±adir a nuestra base de datos los estilos de visualizaciÃ³n**Â y consulta de datos definidos para nuestras capas y asignarlos como estilos por defecto. Este opciÃ³n es realimente interesante, ya que en un mismo fichero podemos incluir el aspectos grÃ¡ficos de nuestras capas. Para guardar el estilo, accederemos a la pestaÃ±aÂ _Estilo_Â del formularioÂ _Propiedades de la capa_. Tras definir el tipo de visualizaciÃ³n, pincharemos el botÃ³n "Guardar estilo" y la opciÃ³n "Guardar en base de datos (spatialite)"
 
 [![09_qgis_salvar_estilo](https://camo.githubusercontent.com/25bffe657f1c1289ce37a529a18a932030579e60/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353537322f31343739323631393631395f366335336265633636635f7a2e6a7067)](https://camo.githubusercontent.com/25bffe657f1c1289ce37a529a18a932030579e60/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353537322f31343739323631393631395f366335336265633636635f7a2e6a7067)
 

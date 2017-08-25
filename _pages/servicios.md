@@ -41,7 +41,7 @@ gallery:
     alt: "VIMCORSA"
     title: "VIMCORSA"
 header:
-  overlay_image: /images/pages/nik-macmillan-280300.jpg
+  overlay_image: /images/pages/servicios.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo by Nik MacMillan on [**Unsplash**](https://unsplash.com)"
 ---

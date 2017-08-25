@@ -48,8 +48,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related 
-# google_site_verification : "OHtnT9oWSqEcVIHxAtA0pmFZSuGCNajkXlHz5QDYdZ8"
-google_site_verification : "5Ei_G2OSDe5JZCTF3SC0LlgN8ILvogeLjm8ar7kEu4w"
+google_site_verification : "OHtnT9oWSqEcVIHxAtA0pmFZSuGCNajkXlHz5QDYdZ8"
+# google_site_verification : "5Ei_G2OSDe5JZCTF3SC0LlgN8ILvogeLjm8ar7kEu4w"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :

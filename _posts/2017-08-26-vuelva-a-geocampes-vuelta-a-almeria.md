@@ -1,7 +1,6 @@
 ---
 title:  "Vuelta a Geocamp Es, vuelta a Almería"
 comments: true
-excerpt_separator: "Este año toca volver a Geocamp ES y a la vez, volver a Almería. La última vez que tuve la oportunidad de participar en esta desconferencia sobre temas Geo fue [2015 en Sevilla](/presentaciones/presentacion-geocampes-sevilla-nubes-plugins-y-html-para-visores-patrimoniales/ "Presentación GeocampEs 2015 “Nubes, plugins y HTML para visores patrimoniales”"). La organización del evento corrió a cargo de Geoinquietos Sevilla y puedo decir que fue una experiencia bastante gratificante. GeoCamp ES nació en 2013 como el resultado de la participación en GeoCamp 2012 en Campo Maior, Portugal"
 header:
   teaser: "/images/blog/201708_geocampes_almeria/geocampes-es.png"
 related: true

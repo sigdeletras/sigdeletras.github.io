@@ -12,12 +12,10 @@ tags:
 ---
 
 Este año toca volver a Geocamp ES y a la vez, volver a Almería. La última vez que tuve la oportunidad de participar en esta desconferencia sobre temas Geo fue [2015 en Sevilla](/presentaciones/presentacion-geocampes-sevilla-nubes-plugins-y-html-para-visores-patrimoniales/ "Presentación GeocampEs 2015 “Nubes, plugins y HTML para visores patrimoniales”"). La organización del evento corrió a cargo de Geoinquietos Sevilla y puedo decir que fue una experiencia bastante gratificante. GeoCamp ES nació en 2013 como el resultado de la participación en GeoCamp 2012 en Campo Maior, Portugal.
-
 <figure>
   <img src="/images/blog/201708_geocampes_almeria/geocampes.png" alt="Logo de Geocamp Es.">
   <figcaption>Logo de Geocamp Es.</figcaption>
 </figure>
-
 La cita de este año será en el **16 de Septiembre, en la Universidad de Almería** y está organizada por el grupo geoinquieto almeriense y gracias al especial empeño de **Ismael Olea** del colectivo [HackLab Almería](http://hacklabalmeria.net/). Toda la información del evento está en la web [http://2017.geocamp.es/](http://2017.geocamp.es/). También puede estarse al día en las cuentas [@geocampes](https://twitter.com/geocampes) y [@geinquietosalmería](https://twitter.com/GeoinquietosALM)
 
 En un evento de estas características siempre tiempo de :

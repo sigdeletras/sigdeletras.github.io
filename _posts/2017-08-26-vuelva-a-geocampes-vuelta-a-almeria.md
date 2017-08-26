@@ -22,11 +22,11 @@ La cita de este año será en el 16 de Septiembre, en la Universidad de Almería
 
 En un evento de estas características siempre tiempo de :
 
-* Aprender, conocer y estar a la última sobre un amplio abanico de temas vinculadas con las TIG gracias a la intensa agenda de charlas y presentaciones que tienen lugar a lo largo del día. La asistencia de importante por lo que es necesario [sacar tu entrada](https://www.eventbrite.es/e/entradas-geocamp-2017-34316616925?ref=ebtn "Sacar entrada") antes de que se agoten.
+* **Aprender, conocer y estar a la última sobre un amplio abanico de temas vinculadas con las TIG** gracias a la intensa agenda de charlas y presentaciones que tienen lugar a lo largo del día. La asistencia de importante por lo que es necesario [sacar tu entrada](https://www.eventbrite.es/e/entradas-geocamp-2017-34316616925?ref=ebtn "Sacar entrada") antes de que se agoten.
 
-* Compartir conocimiento y darte a conocer realizando una charla. No hay que mandar una propuesta de charla, un resumen para que lo acepten. Basta con tener un tema que pueda interesar, asistir a la desconferencia y comentarlo. El programa del evento se realiza justo después del registro.
+* **Compartir conocimiento y darte a conocer** realizando una charla. No hay que mandar una propuesta de charla, un resumen para que lo acepten. Basta con tener un tema que pueda interesar, asistir a la desconferencia y comentarlo. El programa del evento se realiza justo después del registro.
 
-* Relacionarte, establecer contactos, desvirtalizar y ver a viejos amigos...geoinquietos todos, al fin y al cabo. Entre charla y charla, a la hora de la comida o en algunas de las actividades paralelas que se organizan siempre habrá tiempo de charlar, compartir experiencias, establecer relaciones profesionales.
+* **Relacionarte, establecer contactos, desvirtalizar y ver a viejos amigos...geoinquietos todos**. Entre charla y charla, a la hora de la comida o en algunas de las actividades paralelas que se organizan siempre habrá tiempo de charlar, compartir experiencias, establecer relaciones profesionales.
 
 ¿Y cuánto cuesta todo esto? Pues **la entrada es totalmente gratuita**, pero hay bastantes gastos. Ya hay entidades públicas y varias empresas del sector que están patrocinando el evento. Sobre todo esto, es mejor ponerse en contacto con la gente de la organización.
 
@@ -43,6 +43,7 @@ Yo me dirigiría ahora a la [Puerta Purchena](https://es.wikipedia.org/wiki/Puer
 Bajando por el Paseo, a medio camino a la izquierda está el Mercado y cerca se encuentra [El Quinto Toro](https://www.tripadvisor.es/Restaurant_Review-g187429-d3750990-Reviews-El_Quinto_Toro-Almeria_Province_of_Almeria_Andalucia.html "El Quinto Toro"). Aquí, tapa de patatas a lo pobre con huevo y otra  de lomo. Seguimos por el Paseo hasta el Teatro Cervantes y su mini 'Paseo de la Fama'. Detrás del Teatro, está la Escuela de Artes donde  Steven Spielberg metió un Rolls-Royce Phantom II para Indiana Jones y la última cruzada.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oMRRzYJjOw4" frameborder="0" allowfullscreen></iframe>
+
 
 Si queremos seguir de museos es muy recomendable visitar el [Museo Arqueológico de Almería](http://www.museosdeandalucia.es/cultura/museos/MAL/ "Museo Arqueológico de Almería"), está un poco más alejado de la zona del centro y habrá que ir por la mañana pero realmente merece la pena. Pero si no es cosa de alejarse de la zona podemos visitar el [Museo de Arte Doña Pakita](https://www.museodeartealmeria.com/ "Museo de Arte Doña Pakita"), una pequeña pero el edificio es bastante singular. Es la hora de bajar hasta el Puerto y ver el **Cable Inglés** y si hay ganas acercarse a la **playa del Zapillo**.
 

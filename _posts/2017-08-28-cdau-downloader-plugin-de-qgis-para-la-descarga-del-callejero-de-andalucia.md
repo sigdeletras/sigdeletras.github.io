@@ -32,7 +32,7 @@ Es importante reseñar que la licencia de uso general es la CC BY 4.0 que *impli
 
 Las capas geométricas disponibles son:
 
-* **Vial** . Entidad lineal que representa el eje de vía. Se incluyen tanto vías urbanas (calles, avenidas, plazas, etc.) como interurbanas (autovías, carreteras, caminos, etc.). Los tres datos principales de una vía son su código INE, su nombre 
+* **Vial** . Entidad lineal que representa el eje de vía. Se incluyen tanto vías urbanas (calles, avenidas, plazas, etc.) como interurbanas (autovías, carreteras, caminos, etc.). Los tres datos principales de una vía son su código INE y su nombre. 
 
 * **Tramo**. Entidad lineal básica de un callejero en la que puede descomponerse una vía.
 

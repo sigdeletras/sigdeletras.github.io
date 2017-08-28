@@ -69,7 +69,7 @@ Se ha incluído la posibilidad de **añadir simbología básica a las capas** *V
 * Capa **Portal/PK**: Visibilidad de la capa capa a partir de la escala 1:3000, simbología puntal y etiquetado por número (campo *"num_por_desde"*)
 
 <figure>
-    <img src="/images/blog/201708_cdau/cdau_simbologia_qgis.png" alt="Opción simbología de capas"  title="Opción simbología de capas" style="width="50%";">
+    <img src="/images/blog/201708_cdau/cdau_simbologia_qgis.png" alt="Opción simbología de capas"  title="Opción simbología de capas"  width="100%">
     <figcaption><i>Comparativa de carga de capas con o sin simbología. Roquetas de Mar (Almería). Base PNOA</i></figcaption>
 </figure>
 

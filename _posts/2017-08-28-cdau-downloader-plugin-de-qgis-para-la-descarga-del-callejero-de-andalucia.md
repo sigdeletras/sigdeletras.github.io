@@ -28,7 +28,7 @@ La calidad de las capas del CDAU es relevente, ya que cuenta con el apoyo de aqu
 
 Disponer de estas capas en nuestro proyecto nos permitirá realizar labores de geocodificación de datos a direcciones postales, tramos o viales completos. Este tipo de geodatos es fundamental en cualquier administración pública, pero sin duda tiene un papel fundamental para empresas de logística (*routing*), gestión inmobiliaria o geomarketing...
 
-Es importante reseñar que la licencia de uso general es la Creative Commons Reconocimiento 4.0 (CC BY 4.0) que **implica la autorización para la reutilización de la información en condiciones no restrictivas, siendo posible la copia, distribución y comunicación pública, así como la producción de obras derivadas, incluso con finalidad comercial citando la autoría de la fuentes**. 
+Es importante reseñar que la licencia de uso general es la CC BY 4.0 que *implica la autorización para la reutilización de la información en condiciones no restrictivas, siendo posible la copia, distribución y comunicación pública, así como la producción de obras derivadas, incluso con finalidad comercial citando la autoría de la fuentes*. 
 
 Las capas geométricas disponibles son:
 

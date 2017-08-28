@@ -22,7 +22,7 @@ La idea es poder descarga desde el SIG de escritorio [QGIS](http://www.qgis.org/
 
 ## Algunos dato sobre el Callejero Digital de Andalucía Unificado
 
-La información geográfica del CDAU es accesible desde distintos servicios OGC (WMS y WFS). Incluso puede ser descargada por municipio desde la misma web.[http://www.callejerodeandalucia.es/portal/web/cdau/cdau;jsessionid=11EEA3601F82237365A5A8335242CE96]. En nuestro caso, el plugin aprovecha las posibilidades del servicio WFS para la descarga de las capas directamente desde el SIG. 
+La información geográfica del CDAU es accesible desde distintos servicios OGC (WMS y WFS). Incluso puede ser descargada por municipio desde la misma [web](http://www.callejerodeandalucia.es/portal/web/cdau/cdau;jsessionid=11EEA3601F82237365A5A8335242CE96). En nuestro caso, el plugin aprovecha las posibilidades del servicio WFS para la descarga de las capas directamente desde el SIG. 
 
 La calidad de las capas del CDAU es relevente, ya que cuenta con el apoyo de aquellas entidades que generan y mantienen estos datos, o sea los ayuntamientos o en su defecto las diputaciones provinciales. Disponer de estas capas en nuestro proyecto nos permitirá realziar labores de geocodificación de datos a direcciones postales, tramos o viales completos. Este tipo de geodatos es fundamental en cualquier administración pública, pero sin duda tiene un papel fundamental para empresas de logística (*routing*), gestión inmobiliaria o geomarketing...
 

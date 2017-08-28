@@ -16,7 +16,7 @@ tags:
   - Plugins
 ---
 
-Continuando con la filosofía del plugin [Spanish Inspire Catastral Downloader](http://www.sigdeletras.com/2017/blog/plugin-de-qgis-para-descarga-de-datos-catastrales-inspire/) y aprovechando el código generado, he aprovechado para crear el complemento para QGIS **CDAU Downloader** (...es verdad, no me he estrujado mucho la cabeza para el nombre ;-).
+Continuando con la filosofía del plugin [Spanish Inspire Catastral Downloader](http://www.sigdeletras.com/2017/blog/plugin-de-qgis-para-descarga-de-datos-catastrales-inspire/) y aprovechando el código generado, he programado el complemento para QGIS **CDAU Downloader** (...es verdad, no me he estrujado mucho la cabeza para el nombre ;-).
 
 La idea es poder descarga desde el SIG de escritorio QGIS, las capas del proyecto [CDAU, Callejero Digital de Andalucía Unificado]()http://www.callejerodeandalucia.es/portal/web/cdau/. Además de ser la base para cualquier proyecto SIG que necesite una capa de viales y direcciones postales de un municipio de Andalucía, hace un par de años tuve la oportunidad de conocer a fondo este ambicioso proyecto de la Junta de Andalucía y ponerlo en marcha en el Ayuntamiento de Roquetas de Mar (Almería).
 

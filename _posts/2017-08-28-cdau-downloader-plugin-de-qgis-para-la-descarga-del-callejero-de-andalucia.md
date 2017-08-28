@@ -72,5 +72,4 @@ Se ha incluído la posibilidad de **añadir simbología básica a las capas** *V
     <img src="/images/blog/201708_cdau/cdau_simbologia_qgis.png" alt="Opción simbología de capas"  title="Opción simbología de capas"  width="100%">
     <figcaption><i>Comparativa de carga de capas con o sin simbología. Roquetas de Mar (Almería). Base PNOA</i></figcaption>
 </figure>
-
 Aunque el conjunto de datos está limitado a la comunidad autónoma andaluza, espero que este complemento pueda ser de utilidad. Igualmente, todo el código Python disponible en el [repositorio GitHub](https://github.com/sigdeletras/CDAUDownloader) puede ser adaptado para otros servicios WFS.

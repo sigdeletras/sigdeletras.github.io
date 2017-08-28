@@ -62,7 +62,7 @@ Una vez ejecutado el complemento se debe <b>obligatoriamente</b>:
 
 El plugin hará las correspondientes peticiones al servicio [WFS](http://www.callejerodeandalucia.es/portal/web/cdau/descarga "Información sobre el servicio WFS") y descargará las capas en formato **GeoJSON** en la carpeta indicada. **El sistema de referencia de las capas es ETRS89 (EPGS:4258)**.
 
-Se ha incluído la posibilidad de **añadir simbología básica a las capas** *Vial* y *Portalero/PK". La simbología incluye:
+Se ha incluído la posibilidad de **añadir simbología básica a las capas** *Vial* y *Portalero/PK*. La simbología incluye:
 
 * Capa **Vial**: Color negro y etiquetado por nombre de calle (campo *"nom_normalizado"*) visible a partir de la escala 1:5000
 

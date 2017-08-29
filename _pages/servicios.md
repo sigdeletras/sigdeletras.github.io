@@ -5,11 +5,11 @@ permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
 gallery:
   - url: http://www.almagre.es/
-    image_path: /images/servicios/almagre.png
+    image_path: /images/servicios/almagre.PNG
     alt: "Almagre Patrimonio y Formación"
     title: "Almagre Patrimonio y Formación"
   - url: https://www.coaatcordoba.com/
-    image_path: /images/servicios/aparejadores.png
+    image_path: /images/servicios/aparejadores.PNG
     alt: "Colegio de Arquitectos Técnicos de Córdoba"
     title: "Colegio de Arquitectos Técnicos de Córdoba"
   - url: http://www.dcaboconsultores.com/
@@ -17,7 +17,7 @@ gallery:
     alt: "DCabo Consultores"
     title: "DCabo Consultores"
   - url: http://www.hornachuelos.es/
-    image_path: /images/servicios/hornachuelos.png
+    image_path: /images/servicios/hornachuelos.PNG
     alt: "Ayuntamiento de Hornachuelos"
     title: "Ayuntamiento de Hornachuelos"
   - url: https://planpippa.carto.com/me
@@ -25,7 +25,7 @@ gallery:
     alt: "Plan PIPPA"
     title: "Plan PIPPA"
   - url: http://www.aytoroquetas.org/
-    image_path: /images/servicios/roquetas.jpg
+    image_path: /images/servicios/roquetas.png
     alt: "Ayuntamiento de Roquetas de Mar"
     title: "Ayuntamiento de Roquetas de Mar"
   - url: http://www.gmucordoba.es/
@@ -37,7 +37,7 @@ gallery:
     alt: "Universidad de Córdoba"
     title: "Universidad de Córdoba"
   - url: http://www.vimcorsa.com/ 
-    image_path: /images/servicios/vimcorsa.jpg
+    image_path: /images/servicios/vimcorsa.png
     alt: "Viviendas Municipales de Córdoba, S.A."
     title: "Viviendas Municipales de Córdoba, S.A."
 header:

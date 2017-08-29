@@ -5,11 +5,11 @@ permalink: /servicios/
 date: 2017-08-15T03:02:20+00:00
 gallery:
   - url: http://www.almagre.es/
-    image_path: /images/servicios/almagre.PNG
-    alt: "Almagre Patriminio y Formación"
-    title: "Almagre Patriminio y Formación"
+    image_path: /images/servicios/almagre.png
+    alt: "Almagre Patrimonio y Formación"
+    title: "Almagre Patrimonio y Formación"
   - url: https://www.coaatcordoba.com/
-    image_path: /images/servicios/aparejadores.PNG
+    image_path: /images/servicios/aparejadores.png
     alt: "Colegio de Arquitectos Técnicos de Córdoba"
     title: "Colegio de Arquitectos Técnicos de Córdoba"
   - url: http://www.dcaboconsultores.com/
@@ -17,7 +17,7 @@ gallery:
     alt: "DCabo Consultores"
     title: "DCabo Consultores"
   - url: http://www.hornachuelos.es/
-    image_path: /images/servicios/hornachuelos.PNG
+    image_path: /images/servicios/hornachuelos.png
     alt: "Ayuntamiento de Hornachuelos"
     title: "Ayuntamiento de Hornachuelos"
   - url: https://planpippa.carto.com/me
@@ -30,16 +30,16 @@ gallery:
     title: "Ayuntamiento de Roquetas de Mar"
   - url: http://www.gmucordoba.es/
     image_path: /images/servicios/gmucordoba.png
-    alt: "GMU Córdoba"
-    title: "GMU Córdoba"
+    alt: "Gerencia Municipal de Córdoba"
+    title: "Gerencia Municipal de Córdoba"
   - url: http://www.arqueocordoba.com/sigeac/
     image_path: /images/servicios/uco.png
     alt: "Universidad de Córdoba"
     title: "Universidad de Córdoba"
   - url: http://www.vimcorsa.com/ 
     image_path: /images/servicios/vimcorsa.jpg
-    alt: "VIMCORSA"
-    title: "VIMCORSA"
+    alt: "Viviendas Municipales de Córdoba, S.A."
+    title: "Viviendas Municipales de Córdoba, S.A."
 header:
   overlay_image: /images/pages/servicios.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background

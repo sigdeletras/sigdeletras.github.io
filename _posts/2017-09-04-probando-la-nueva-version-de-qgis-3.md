@@ -69,5 +69,5 @@ Una vez instalado podemos ir "curiosando" algunas de las mejoras como:
 - El buscador de herramientas.
 - Panel de hacer/deshacer ediciones.
 
-{% include gallery %}
+{% include gallery caption="Capturas de nuevas funcionalidades en QGIS 2.99." %}
 

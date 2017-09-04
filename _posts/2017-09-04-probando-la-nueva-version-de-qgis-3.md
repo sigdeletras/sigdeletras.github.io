@@ -20,7 +20,7 @@ gallery:
   - image_path: /images/blog/201709_qgis299/qgis_simbologia.PNG
     alt: "QGIS 2.99 Nuevas simbologías"
     title: "QGIS 2.99 Nuevas simbologías"
-  - image_path: /images/blog/201709_qgis299/qgis_simbologia.PNG
+  - image_path: /images/blog/201709_qgis299/qgis_opcionesguardar.PNG
     alt: "QGIS 2.99 Mejoras Guardar como imágen/PDF"
     title: "QGIS 2.99 Mejoras Guardar como imágen/PDF"   
 ---

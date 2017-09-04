@@ -62,9 +62,9 @@ Si hemos instalado nuestro QGIS usando [OSGeo4W](https://qgismx.wordpress.com/20
 
 ![Búsqueda de qgis-dev](/images/blog/201709_qgis299/paquetes.PNG)
 
-## Algunas novedades
-
 La instalación de QGIS en Windows mediante OSGeo4W también nos permitirá actualizar nuestro QGIS estable, sin necesidad de desistalar.
+
+## Algunas novedades
 
 Una vez instalado podemos ir "curiosando" algunas de las mejoras como:
 

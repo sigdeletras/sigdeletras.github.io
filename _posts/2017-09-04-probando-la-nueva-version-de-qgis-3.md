@@ -50,7 +50,7 @@ Aunque la versión no está lanzada oficialmente, si queremos ir viendo algunos 
 
 	- Con toda seguridad, el instalador nos avisará que se necesitan añadir algunas dependencias que aceptaremos.
 
-![Búsqueda de qgis-dev](/images/blog/201709_qgis299/descarga_ejecutable.PNG)
+![Búsqueda de qgis-dev](/images/blog/201709_qgis299/paquetes.PNG)
 
 La instalación de QGIS en Windows mediante OSGeo4W también nos permitirá actualizar nuestro QGIS estable, sin necesidad de desistalar.
 

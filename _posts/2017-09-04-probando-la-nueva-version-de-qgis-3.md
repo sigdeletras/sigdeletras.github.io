@@ -40,11 +40,15 @@ Sobre este tema puede ser interesante revisar la presentación de [Nyall Dawson]
 
 Aunque la versión no está lanzada oficialmente, si queremos ir viendo algunos de los nuevos cambios podemos instalar de forma conjunta con nuestro QGIS 2.18/2.14 esta versión. Para **probar la versión de desarrollo en Windows** tenemos dos opciones:
 
-- Descarga desde [esta dirección](http://qgis.org/downloads/weekly/?C=M;O=D) el ejecutable acorde a nuestra arquitectura e instalarlo. 
+### Opción 1: Descarga ejecutable
+
+Descarga desde [esta dirección](http://qgis.org/downloads/weekly/?C=M;O=D) el ejecutable acorde a nuestra arquitectura e instalarlo. 
 
 ![Repositorio de descarga](/images/blog/201709_qgis299/descarga_ejecutable.PNG)
 
-- Si hemos instalado nuestro QGIS usando [OSGeo4W](https://qgismx.wordpress.com/2016/10/10/instalacion-avanzada-de-qgis-con-osgeo4w/ "Instalación Avanzada de QGIS con OSGeo4W"):
+### Opción 2: Usar OSGeo4W
+
+Si hemos instalado nuestro QGIS usando [OSGeo4W](https://qgismx.wordpress.com/2016/10/10/instalacion-avanzada-de-qgis-con-osgeo4w/ "Instalación Avanzada de QGIS con OSGeo4W"):
 
 	- Ejecutar el programa "Setup" de OSGeo4W.
 

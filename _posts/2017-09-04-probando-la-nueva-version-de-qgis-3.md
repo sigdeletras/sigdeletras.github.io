@@ -10,7 +10,8 @@ categories:
 tags:
   - QGIS
 gallery:
-  - image_path: /images/blog/201709_qgis299/qgis_data_source_manager.PNG
+  - url: /images/blog/201709_qgis299/qgis_data_source_manager.PNG
+    image_path: /images/blog/201709_qgis299/qgis_data_source_manager.PNG
     alt: "QGIS 2.99 Fomrulario de orígenes de datos"
     title: "QGIS 2.99 Fomrulario de orígenes de datos"
   - image_path: /images/blog/201709_qgis299/qgis_edicion.png

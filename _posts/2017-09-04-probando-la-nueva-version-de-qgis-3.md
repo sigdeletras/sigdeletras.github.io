@@ -50,15 +50,15 @@ Descarga desde [esta dirección](http://qgis.org/downloads/weekly/?C=M;O=D) el e
 
 Si hemos instalado nuestro QGIS usando [OSGeo4W](https://qgismx.wordpress.com/2016/10/10/instalacion-avanzada-de-qgis-con-osgeo4w/ "Instalación Avanzada de QGIS con OSGeo4W"):
 
-	- Ejecutar el programa "Setup" de OSGeo4W.
+- Ejecutar el programa "Setup" de OSGeo4W.
 
-	- Marcar la opción "Advanced Install".
+- Marcar la opción "Advanced Install".
 
-	- Aceptar las opciones por defecto.
+- Aceptar las opciones por defecto.
 
-	- En el formulario Selección de paquetes (Select packages), localizar el paquete **qgis-dev** (categoría Desktop) y marcarlo para su instalación.
+- En el formulario Selección de paquetes (Select packages), localizar el paquete **qgis-dev** (categoría Desktop) y marcarlo para su instalación.
 
-	- Con toda seguridad, el instalador nos avisará que se necesitan añadir algunas dependencias que aceptaremos.
+- Con toda seguridad, el instalador nos avisará que se necesitan añadir algunas dependencias que aceptaremos.
 
 ![Búsqueda de qgis-dev](/images/blog/201709_qgis299/paquetes.PNG)
 

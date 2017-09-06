@@ -75,7 +75,7 @@ Tras su instalación el plugin puede ser ejecutado desde la barra de herramienta
 <!-- ![Formulario de opciones del complemento](/images/blog/201707_plugin/ui.PNG)
 _Formulario de opciones_ -->
 <figure>
-  <img src="/images/blog/201707_plugin/ui.PNG" alt="Formulario de opciones del complemento">
+  <img src="/images/blog/201707_plugin/ui2.PNG" alt="Formulario de opciones del complemento">
   <figcaption>Formulario de opciones del complemento.</figcaption>
 </figure>
 

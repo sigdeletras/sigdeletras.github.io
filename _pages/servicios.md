@@ -16,6 +16,10 @@ gallery:
     image_path: /images/servicios/decabo.png
     alt: "DCabo Consultores"
     title: "DCabo Consultores"
+  - url: https://in.linkedin.com/company/planem-ingenier-a-arquitectura-y-urbanismo
+    image_path: /images/servicios/planem.png
+    alt: "Planem. Ingeniería, Arquitectura y Urbanimo"
+    title: "Planem. Ingeniería, Arquitectura y Urbanimo"      
   - url: http://www.hornachuelos.es/
     image_path: /images/servicios/hornachuelos.PNG
     alt: "Ayuntamiento de Hornachuelos"
@@ -28,6 +32,10 @@ gallery:
     image_path: /images/servicios/roquetas.png
     alt: "Ayuntamiento de Roquetas de Mar"
     title: "Ayuntamiento de Roquetas de Mar"
+  - url: http://ricoandco.es/
+    image_path: /images/servicios/ricoco.png
+    alt: "Estudio de arquitectura Rico&Ro"
+    title: "Estudio de arquitectura Rico&Ro"  
   - url: http://www.gmucordoba.es/
     image_path: /images/servicios/gmucordoba.png
     alt: "Gerencia Municipal de Córdoba"

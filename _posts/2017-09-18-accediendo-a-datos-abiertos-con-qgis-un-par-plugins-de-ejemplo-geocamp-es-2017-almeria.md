@@ -14,7 +14,8 @@ tags:
   - Python
 ---
 
-Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Almería y organizada por el Grupo de Geoinquietos Almería. El objetivo principal de la charla fue mostrar como mediante complementos de QGIS se puede facilitar el acceso a datos abiertos oficiales. Los complementos, desarrollados en Python, descargan los datos del [Catastro español según Inspire](http://www.sigdeletras.com/2017/blog/plugin-de-qgis-para-descarga-de-datos-catastrales-inspire/) y de las capas del [Callejero Digital de Andalucía Unificado](http://www.sigdeletras.com/2017/blog/cdau-downloader-plugin-de-qgis-para-la-descarga-del-callejero-de-andalucia/).
+Aquí os dejo la presentación realizar en [Geomcap ES 2017](http://2017.geocamp.es/), celebrada en Almería y organizada por el Grupo de Geoinquietos local. El objetivo principal de la charla fue mostrar como mediante complementos de QGIS se puede facilitar el acceso a datos abiertos oficiales. Los complementos, desarrollados en Python, descargan los datos del [Catastro español según Inspire](http://www.sigdeletras.com/2017/blog/plugin-de-qgis-para-descarga-de-datos-catastrales-inspire/) y de las capas del [Callejero Digital de Andalucía Unificado](http://www.sigdeletras.com/2017/blog/cdau-downloader-plugin-de-qgis-para-la-descarga-del-callejero-de-andalucia/).
+
 
 <!--more-->
 <style>
@@ -27,7 +28,7 @@ Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Alm
 </div>
 
 
-Sin duda fue una fnde de semana estupendo, aprendiendo, compartiendo y siempre estableciendo contactos y relaciones interesantes. Queda un año pero ya estamos expectantes de la próxima Geocamp ES.
+Sin duda fue una fin de semana estupendo, aprendiendo, compartiendo y siempre estableciendo contactos y relaciones interesantes. Queda un año pero ya estamos expectantes de la próxima Geocamp ES.
 
 Aquí tenéis la foto de grupo cortesía de [Guillermo Fuertes](https://twitter.com/FuertesJG), pero hubo bastante movimiento en Twitter bajo la etiqueta [#geocampes](https://twitter.com/search?q=geocampes&src=typd). También se puede consultar la [revista de prensa en el foro de Hacklab Almería](https://foro.hacklabalmeria.net/t/revista-de-prensa-geocamp-es-2017/8836)
 

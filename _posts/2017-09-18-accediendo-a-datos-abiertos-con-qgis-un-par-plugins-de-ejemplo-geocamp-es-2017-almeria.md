@@ -1,0 +1,32 @@
+---
+title:  "&quot;Accediendo a datos abiertos con QGIS. Un par plugins de ejemplo.&quot; Geocamp ES 2017 Almería"
+excerpt_separator: "<!--more-->"
+comments: true
+related: true
+header:
+  teaser: "/images/blog/201709_geocampes/fotogrupo.png"
+categories: 
+  - Presentaciones
+tags:
+  - Formación
+  - Almería
+  - QGIS
+  - Python
+---
+
+Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Almería y organizada por el Grupo de Geoinquietos Almería. El objetivo principal de la charla fue mostrar como mediante el complementos o plugins para el Sistema de Información Geográfica QGIS se podía facilitar el acceso a datos abiertos oficiales. Los complementos, desarrollados en Python, descargan los datos del [Catastro español según Inspire]() y de las capas del [Callejero Digital de Andalucía Unificado]().
+
+<!--more-->
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3KBPleI2hYwmtaf8xPPanzLMFXpaISrHJpX8eOP_njHZ7PvDfgNIccvqjPBvKxjdpX3HhS7O69L1F/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+Sin duda fue una fnde de semana estupendo, aprendiendo, compartiendo y siempre estableciendo contactos y relaciones interesantes. Queda un año pero ya estamos expectantes de la próxima Geocamp ES.
+
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Fotaza de grupo, merced de <a href="https://twitter.com/FuertesJG">@FuertesJG</a> <a href="https://twitter.com/hashtag/GeoCampES?src=hash">#GeoCampES</a> <a href="https://t.co/UqM8O3SKRd">pic.twitter.com/UqM8O3SKRd</a></p>&mdash; GeoCamp ES (@geocampes) <a href="https://twitter.com/geocampes/status/909127983931289608">16 de septiembre de 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

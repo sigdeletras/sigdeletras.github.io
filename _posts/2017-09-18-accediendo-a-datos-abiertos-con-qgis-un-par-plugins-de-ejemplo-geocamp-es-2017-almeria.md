@@ -14,7 +14,7 @@ tags:
   - Python
 ---
 
-Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Almería y organizada por el Grupo de Geoinquietos Almería. El objetivo principal de la charla fue mostrar como mediante el complementos o plugins para el Sistema de Información Geográfica QGIS se podía facilitar el acceso a datos abiertos oficiales. Los complementos, desarrollados en Python, descargan los datos del [Catastro español según Inspire]() y de las capas del [Callejero Digital de Andalucía Unificado]().
+Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Almería y organizada por el Grupo de Geoinquietos Almería. El objetivo principal de la charla fue mostrar como mediante complementos de QGIS se puede facilitar el acceso a datos abiertos oficiales. Los complementos, desarrollados en Python, descargan los datos del [Catastro español según Inspire](http://www.sigdeletras.com/2017/blog/plugin-de-qgis-para-descarga-de-datos-catastrales-inspire/) y de las capas del [Callejero Digital de Andalucía Unificado](http://www.sigdeletras.com/2017/blog/cdau-downloader-plugin-de-qgis-para-la-descarga-del-callejero-de-andalucia/).
 
 <!--more-->
 <style>
@@ -26,7 +26,10 @@ Aquí os dejo la presentación realizar en [Geomcap ES 2017](), celebrada en Alm
 <!-- Google embed ends -->
 </div>
 
+
 Sin duda fue una fnde de semana estupendo, aprendiendo, compartiendo y siempre estableciendo contactos y relaciones interesantes. Queda un año pero ya estamos expectantes de la próxima Geocamp ES.
+
+Aquí tenéis la foto de grupo cortesía de [Guillermo Fuertes](https://twitter.com/FuertesJG), pero hubo bastante movimiento en Twitter bajo la etiqueta [#geocampes](https://twitter.com/search?q=geocampes&src=typd). También se puede consultar la [revista de prensa en el foro de Hacklab Almería](https://foro.hacklabalmeria.net/t/revista-de-prensa-geocamp-es-2017/8836)
 
 <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Fotaza de grupo, merced de <a href="https://twitter.com/FuertesJG">@FuertesJG</a> <a href="https://twitter.com/hashtag/GeoCampES?src=hash">#GeoCampES</a> <a href="https://t.co/UqM8O3SKRd">pic.twitter.com/UqM8O3SKRd</a></p>&mdash; GeoCamp ES (@geocampes) <a href="https://twitter.com/geocampes/status/909127983931289608">16 de septiembre de 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

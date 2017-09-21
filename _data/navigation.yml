@@ -6,6 +6,8 @@ main:
     url: /presentaciones/
   - title: "Servicios"
     url: /servicios/
+  - title: "Formación"
+    url: /formacion/    
   - title: "Temas"
     url: /tags/    
   # - title: "About"

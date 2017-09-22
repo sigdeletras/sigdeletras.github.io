@@ -17,9 +17,11 @@ El [Instituto de Estadística y Cartografía de Andalucía](http://www.juntadean
 
 <!--more-->
 
-Mensualmente genera un boletín con una recopilación de noticias, enlaces y datos publicadas en su web. La recopilación llega via correo electrónico y para poder recibirlo basta com completar este [formulario sencillo](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/bd/suscripcion/faces/suscripcion.xhtml). 
+Mensualmente genera un boletín con una recopilación de noticias, enlaces y datos publicadas en su web. El boletín llega vía correo electrónico y para poder recibirlo basta com completar este [formulario sencillo](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/bd/suscripcion/faces/suscripcion.xhtml). 
 
-En el boletín de Setiembre se puede encontrar un [enlace a la entrevista que nos realizaron en relación al lanzamiento de **CDAU Dowloader**](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/blog/2017/09/plugin-de-qgis-facilita-la-descarga-de-cdau/), complemento QGIS para la descarga del Callejero Digital de Andalucía Unificado (CDAU). Además de hablar sobre este herramienta, el IECA se mostró ineresado en conocer la opinión como usuario y profesional sobre el CDAU, conjunto de datos alfanuméricos y geográficos de las vías y los portales de todos los municipios de Andalucía.
+En el boletín de septiembre se puede encontrar un [enlace a la entrevista que nos realizaron en relación al lanzamiento de **CDAU Dowloader**](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/blog/2017/09/plugin-de-qgis-facilita-la-descarga-de-cdau/), complemento QGIS para la descarga del Callejero Digital de Andalucía Unificado (CDAU). 
+
+Además de hablar sobre esta herramienta para QGIS, el IECA se mostró interesado en conocer la opinión como usuario y profesional sobre el [Proyecto CDAU](http://www.callejerodeandalucia.es/portal/web/cdau/), conjunto de datos alfanuméricos y geográficos de las vías y los portales de todos los municipios de Andalucía.
 
 ![Boletín Septiembre 2017](/images/blog/201709_boletinieca/boletinieca.PNG)
 

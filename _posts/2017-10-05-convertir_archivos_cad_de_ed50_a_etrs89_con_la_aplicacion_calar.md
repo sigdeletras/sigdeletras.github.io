@@ -11,7 +11,7 @@ tags:
   - CAD
 ---
 
-Cecilia, arquitecta y antigua alumna del curso  [**“SIG y Ciudad. Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”**](/formacion) nos hizo una consulta hace unos días sobre laa mejor forma de transformar  el sistema de coordendas de un archivo CAD.
+Cecilia, arquitecta y antigua alumna del curso  [**“SIG y Ciudad. Sistemas de Información Geográfica aplicados al análisis urbano y del territorio”**](/formacion), nos hizo una consulta hace unos días sobre laa mejor forma de transformar  el sistema de coordendas de un archivo CAD.
 
 <!--more-->
 

@@ -15,11 +15,11 @@ Cecilia, arquitecta y antigua alumna del curso  [**“SIG y Ciudad. Sistemas de 
 
 <!--more-->
 
-Durante el curso, vimos como desde QGIS se podía diseñar una sistema personalizado de coordendas para proyectar al vuelo capas en ED50 a ETRS89. Para ello era ncesario utilizar la rejilla de transformación del IGN. También hicimos alguna práctica para transformar definitivamente capas al sistema geodésico de referencia oficial de España.
+Durante el curso, vimos como desde QGIS se podía diseñar una sistema personalizado de coordendas para proyectar al vuelo capas en ED50 a ETRS89. Para ello era necesario utilizar la rejilla de transformación del IGN. También hicimos alguna práctica para transformar definitivamente capas al sistema geodésico de referencia oficial de España.
 
-A pesar de la potencia del SIG en esta materia, la cosulta se centraba directamente en la transformación desde aplicaciones CAD. Muchos profesionales y estudios de arquitectura están realizando textos refundidos del planeamiento municipal y parten de trabajos hechos en ED50. Sin embargo se les solicita que las planimetrías finales se encuentren en ETRS89.
+A pesar de la potencia del SIG en esta materia, la cosulta se centraba directamente en la transformación desde aplicaciones CAD. Muchos **profesionales y estudios de arquitectura están realizando textos refundidos del planeamiento municipal y parten de trabajos hechos en ED50**. Sin embargo se les solicita que las planimetrías finales se encuentren en ETRS89.
 
-Si no se dispone de un software tipo AutoCAD Map 3D, se puede usar algunas de las aplicaciones de transformación de coordenadas existentes. Muchas de ellas son de libre acceso ya que están desarrolladas por los mismos organismos productores de información geográfica. En este caso pensamos que la **calculadora geodésica Calar**, herramienta incluída en el SIG corporativo de la Junta de Andalucía, puede ser de utilidad para este tipo de trabajos.
+Si no se dispone de un software tipo AutoCAD Map 3D, se puede usar algunas de las aplicaciones de transformación de coordenadas existentes. Muchas de ellas son de libre acceso ya que están desarrolladas por los mismos organismos productores de información geográfica. En este caso pensamos que la **calculadora geodésica Calar**, herramienta incluída en el [SIG corporativo de la Junta de Andalucía](http://www.juntadeandalucia.es/repositorio/usuario/listado/fichacompleta.jsf?idProyecto=679), puede ser de utilidad para este tipo de trabajos.
 
 ## De DWG a DXF.
 
@@ -53,7 +53,7 @@ Podemos copiar el archivo de la rejilla (PENR2009.gsb) en la misma carpeta y edi
 
 Una vez instalado y configurado Calar, abrimos el programa. 
 
-- Elejimos los Sistema de referencia de origen (ED50) y destiano (ETRS89). En este caso trabajaremos en proyección UTM 30N.
+- Elegimos los Sistema de referencia de origen (ED50) y destiano (ETRS89). En este caso trabajaremos en proyección UTM 30N.
 - Selecionamos la pestaña **Fichero** e indicamos el archivos dxf de salida y la ruta y el nombre del archivo de salida ya transformado.
 - Para finalizar hacemos clic en **Transformar**
 
@@ -61,8 +61,8 @@ Una vez instalado y configurado Calar, abrimos el programa.
 
 Existe la posibilidad de realziar esta misma operación por lotes, es decir realizando la transformación de varios ficheros a la vez. 
 
-## 2015 fecha topoe según el RC 1071/2007.
+## 2015 fecha tope según el RC 1071/2007.
 
-En el REAL DECRETO 1071/2007, de 27 de julio, por el que se regula el sistema geodésico de referencia oficial en España, se adopta el sistema ETRS89 (European Terrestrial Reference System 1989) como nuevo sistema de referencia geodésico oficial en España. En este mismo decreto se dispuso un periodo transitorio hasta el 2015 en el que podrán convivir ambos sistemas. Esto significa que a fecha de hoy, todos los organismos oficiales productores de cartografía debería utilizar y ofrecer sus productos cartográficos en ETRS89. 
+En el [REAL DECRETO 1071/2007, de 27 de julio, por el que se regula el sistema geodésico de referencia oficial en España](https://www.boe.es/buscar/doc.php?id=BOE-A-2007-15822), se adopta el sistema ETRS89 (European Terrestrial Reference System 1989) como nuevo sistema de referencia geodésico oficial en España. En este mismo decreto se dispuso un periodo transitorio hasta el 2015 en el que podrán convivir ambos sistemas. Esto significa que a fecha de hoy, todos los organismos oficiales productores de cartografía debería utilizar y ofrecer sus productos cartográficos en ETRS89. 
 
-Sin duda, herramientas como Calar sonde gran utilidad para un número pequeño de ficheros. Pero si tenemos la necesidad **transformar grandes cantidades de ficheros puede que sea de interés contar con servicios profresionales que garanticen este trabajo**. Sobre este tema, y para cualquier consulta no dudéis en consultar con nosostros.
+Sin duda, herramientas como Calar son de gran utilidad para un número pequeño de ficheros. Pero si tenemos la necesidad **transformar grandes cantidades de ficheros puede que sea de interés contar con servicios profesionales que garanticen este trabajo**. Sobre este tema, y para cualquier consulta, no dudéis en contactar con nosostros.

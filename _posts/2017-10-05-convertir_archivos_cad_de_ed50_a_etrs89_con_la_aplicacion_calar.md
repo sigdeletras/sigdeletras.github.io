@@ -47,7 +47,7 @@ Para ello hay que ir a la carpeta en la que se haya instalado la aplicación Cal
 
 Podemos copiar el archivo de la rejilla (PENR2009.gsb) en la misma carpeta y editar el archivo *config.ini* cambiando el nombre del fichero.
 
-	ed_etrs_grid = res/data/PENR2009.gsb.gsb
+	ed_etrs_grid = res/data/PENR2009.gsb
 
 ## Transformando un archivo DXF CAD
 

@@ -13,7 +13,7 @@ tags:
   - Córdoba
 ---
 
-Bajo la etiqueta [#trabajosgeográficos](twitter) voy a iniciar una serie de textos centrados en la exposición de algunos de los trabajos que he realizado en estos últimos meses. El motivo de estas entradas en la web es doble.
+Bajo la etiqueta [#trabajosgeográficos](https://twitter.com/hashtag/trabajosgeogr%C3%A1ficos) voy a iniciar una serie de textos centrados en la exposición de algunos de los trabajos que he realizado en estos últimos meses. El motivo de estas entradas en la web es doble.
 
 - Revisando las últimas entradas, he apreciado que están principalmente centradas en dos de los servicios que ofrezco: **formación/divulgación** y trabajos informáticos basado en las *TIG* (SIG, webmapping o geodesarrollos con Python). Es, sin embargo, el ámbito de la **consultoría geográfica** donde estos últimos meses han surgido más proyectos, por lo que creo que es un buen momento (y una buena estrategia) para darlos a conocer.
 - Aunque parece que el tema se ha enfriado un poco, hace unos meses se pudo leer en distintos medios la noticia sobre la [desaparición del Grado de Geografía de la Universidad de Castilla-La Mancha](http://www.clm24.es/articulo/ciudad-real/uclm-no-ofertara-grado-geografia-profesores-alumnos-oponen/20170209194909146620.html). Han sido varias las manifestaciones y posiciones en contra tanto de alumnos y profesores, [colegios de geógrafos nacionales](http://cadenaser.com/emisora/2017/05/15/ser_toledo/1494866281_561732.html?ssm=tw) y de varios [profesionales del sector](https://gersonbeltran.com/2017/02/15/10-trabajos-que-hace-un-geografo/). Si con estas entradas puedo ayudar a un mejor conocimiento de la labor profesional del geógrafo, pues bienvenidas sean.

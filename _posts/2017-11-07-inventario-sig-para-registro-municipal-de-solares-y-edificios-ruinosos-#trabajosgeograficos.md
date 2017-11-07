@@ -43,7 +43,8 @@ El punto de partida del proyecto consistió en el análisis y normalización de 
 
 Para una mejor definición del modelo de datos, y teniendo en cuenta que los registros servirán de base para el futuro Registro Municipal de Solares y Edificaciones Ruinosas, fueron consultadas distintas ordenanzas en vigor en Andalucía ([Sevilla](https://www.sevilla.org/urbanismo/Guia_de_tramitacion/RegistroMunicipalSolares.asp), [Puerto de Santa María](http://www.elpuertodesantamaria.es/contenido/369/14010/registro-de-solares) o [Málaga](http://www.malaga.eu/ayto/temas/portal/seccion_0016?tipoVO=5&id=7257)). En dichas ordenanzas se pudo distinguir un primer grupo de atributos que describen la finca y otra serie de atributos vinculados a la gestión del registro, preceptos legales y /o reglamentarios.
 
-![Registro RMS. [IDE Sevilla](http://sig.urbanismosevilla.org/VisorGis/geoSevilla.aspx?Layers=RMS&Selected=01&xtheme=brown_12)](/images/blog/201711_rmse/ide_sevilla.PNG)
+![Registro RMS. IDE Sevilla](/images/blog/201711_rmse/ide_sevilla.PNG)
+*Registro RMS. [IDE Sevilla](http://sig.urbanismosevilla.org/VisorGis/geoSevilla.aspx?Layers=RMS&Selected=01&xtheme=brown_12)*
 
 Debido a las características de este trabajo, nos centramos en los campos descriptivos de la finca, que con pequeñas variaciones a los que se le añadieron otro conjunto tanto de control (origen de la información) como de orientados al posterior análisis de los datos (superficies, dirección normalizada, sección censal, códigos de zona, distrito y barrio).
 

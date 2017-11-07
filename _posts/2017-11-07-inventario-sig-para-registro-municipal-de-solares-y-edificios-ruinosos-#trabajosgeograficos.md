@@ -15,13 +15,13 @@ tags:
 
 Bajo la etiqueta [#trabajosgeográficos](twitter) voy a iniciar una serie de textos centrados en la exposición de algunos de los trabajos que he realizado en estos últimos meses. El motivo de estas entradas en la web es doble.
 
-- Revisando las últimas entradas, he apreciado que están principalmente centradas en dos de los servicios que ofrezco: formación/divulgación y trabajos informáticos basado en las TIG (SIG, webmapping o geodesarrollos con Python). Es, sin embargo, el ámbito de la **consultoría geográfica** donde estos últimos meses han surgido más proyectos, por lo que creo que es un buen momento (y una buena estrategia) para darlos a conocer.
+- Revisando las últimas entradas, he apreciado que están principalmente centradas en dos de los servicios que ofrezco: **formación/divulgación** y trabajos informáticos basado en las *TIG* (SIG, webmapping o geodesarrollos con Python). Es, sin embargo, el ámbito de la **consultoría geográfica** donde estos últimos meses han surgido más proyectos, por lo que creo que es un buen momento (y una buena estrategia) para darlos a conocer.
 - Aunque parece que el tema se ha enfriado un poco, hace unos meses se pudo leer en distintos medios la noticia sobre la [desaparición del Grado de Geografía de la Universidad de Castilla-La Mancha](http://www.clm24.es/articulo/ciudad-real/uclm-no-ofertara-grado-geografia-profesores-alumnos-oponen/20170209194909146620.html). Han sido varias las manifestaciones y posiciones en contra tanto de alumnos y profesores, [colegios de geógrafos nacionales](http://cadenaser.com/emisora/2017/05/15/ser_toledo/1494866281_561732.html?ssm=tw) y de varios [profesionales del sector](https://gersonbeltran.com/2017/02/15/10-trabajos-que-hace-un-geografo/). Si con estas entradas puedo ayudar a un mejor conocimiento de la labor profesional del geógrafo, pues bienvenidas sean.
 
 
 # Definición y objetivos del trabajo.
 
-El objetivo principal del proyecto es la *recopilación, tratamiento y depuración de fuentes de datos para la generación de una base de datos georreferenciada que incluya el inventario de solares y edificios ruinosos del Casco Histórico de Córdoba*. Gracias al trabajo se pretendía tener un primer acercamiento a esta realidad urbanística y que sirviera de base para la futura redacción y puesta en marcha de la correspondiente Ordenanza municipal reguladora del Registro Municipal de Solares y Edificaciones Ruinosas. El trabajo fue realizado para la Oficina del Casco Histórico de la Gerencia Municipal de Urbanismo de Córdoba. 
+El objetivo principal del proyecto es la *recopilación, tratamiento y depuración de fuentes de datos para la generación de una base de datos georreferenciada que incluya el inventario de solares y edificios ruinosos del Casco Histórico de Córdoba*. Gracias al trabajo se pretendía tener un primer acercamiento a esta realidad urbanística y que sirviera de base para la futura redacción y puesta en marcha de la correspondiente Ordenanza municipal reguladora del Registro Municipal de Solares y Edificaciones Ruinosas. El trabajo fue realizado para la Oficina del Casco Histórico de la [Gerencia Municipal de Urbanismo de Córdoba](http://www.gmucordoba.es/). 
 
 # Marco teórico y legislativo.
 
@@ -41,7 +41,9 @@ El punto de partida del proyecto consistió en el análisis y normalización de 
 
 ## Diseño del modelo de datos.
 
-Para una mejor definición del modelo de datos, y teniendo en cuenta que los registros servirán de base para el futuro Registro Municipal de Solares y Edificaciones Ruinosas, fueron consultadas distintas ordenanzas en vigor en Andalucía (Sevilla, Puerto de Santa María o Almería). En dichas ordenanzas se pudo distinguir un primer grupo de atributos que describen la finca y otra serie de atributos vinculados a la gestión del registro, preceptos legales y /o reglamentarios. 
+Para una mejor definición del modelo de datos, y teniendo en cuenta que los registros servirán de base para el futuro Registro Municipal de Solares y Edificaciones Ruinosas, fueron consultadas distintas ordenanzas en vigor en Andalucía ([Sevilla](https://www.sevilla.org/urbanismo/Guia_de_tramitacion/RegistroMunicipalSolares.asp), [Puerto de Santa María](http://www.elpuertodesantamaria.es/contenido/369/14010/registro-de-solares) o [Málaga](http://www.malaga.eu/ayto/temas/portal/seccion_0016?tipoVO=5&id=7257)). En dichas ordenanzas se pudo distinguir un primer grupo de atributos que describen la finca y otra serie de atributos vinculados a la gestión del registro, preceptos legales y /o reglamentarios.
+
+![Registro RMS. [IDE Sevilla](http://sig.urbanismosevilla.org/VisorGis/geoSevilla.aspx?Layers=RMS&Selected=01&xtheme=brown_12)](/images/blog/201711_rmse/ide_sevilla.PNG)
 
 Debido a las características de este trabajo, nos centramos en los campos descriptivos de la finca, que con pequeñas variaciones a los que se le añadieron otro conjunto tanto de control (origen de la información) como de orientados al posterior análisis de los datos (superficies, dirección normalizada, sección censal, códigos de zona, distrito y barrio).
 

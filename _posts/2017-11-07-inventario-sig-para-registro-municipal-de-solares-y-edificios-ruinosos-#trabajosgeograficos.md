@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: true
 related: true
 header:
-  teaser: "/images/blog/201711_rmse/calar.PNG"
+  teaser: "/images/blog/201711_rmse/inventario_por_edificacion.PNG"
 categories: 
   - 2017
 tags:

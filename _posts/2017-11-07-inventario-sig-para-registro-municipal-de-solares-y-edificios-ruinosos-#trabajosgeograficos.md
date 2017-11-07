@@ -1,5 +1,5 @@
 ---
-title:  "Inventario SIG para Registro Municipal de Solares y Edificios ruinosos. #trabajosgeográficos"
+title:  "Inventario SIG para Registro Municipal de Solares y Edificios ruinosos #trabajosgeográficos"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

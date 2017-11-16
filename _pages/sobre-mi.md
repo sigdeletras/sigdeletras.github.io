@@ -8,7 +8,7 @@ date: 2017-08-15T03:02:20+00:00
 
 ## Experiencia profesional
 
-
+| 2017 | Planem. Ingeniería. Arquitectura, Urbanismo. **Consultoría.  "Estudio previo de localización para uso de aparcamiento en Zuheros (Córdoba)"**. Programa de Planeamiento Urbanístico 2017. Servicio de Arquitectura y Urbanismo (SAU). Diputación de Córdoba |
 | 2017 | **Vimcorsa. Profesor del curso "SIG y Urbanismo"**. Proyecto Plan Municipal de Vivienda y Suelo de Córdoba  |
 | 2017 | [**Tutor del curso privado Arquitectos "SIG y Ciudad"**](/presentaciones/presentacion-mas-cafe-del-curso-sig-y-ciudad-en-cosfera/ "Entrada SIGdeletras") |
 | 2017 | Oficina del Casco Ayunyamiento de  Córdoba. **Consultoría.  "Inventario SIG para registro Municipal de Solares y Edificios ruinosos del Casco Histórico de Córdoba"** |

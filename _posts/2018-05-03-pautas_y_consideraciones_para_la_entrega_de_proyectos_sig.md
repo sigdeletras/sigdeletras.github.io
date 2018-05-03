@@ -84,6 +84,6 @@ Como información básica, este documento debe incluir:
 
 ![Ejemplo metadatos del proyecto](/images/blog/201805_proyectossig/metas.PNG)
 
-# CADA MAESTRILLO...
+# Cada maestrillo...
 
 Como dice el refrán "cada maestrillo tiene su librillo" y mi intención es compartir mi experiencia acumulada en varios años dedicado a estos de los SIG. Seguro que se os ocurrirán muchas otras recomendaciones. Si os apetece podéis indicarlas en comentarios y podemos ir generando entre todos un documento mejorado.

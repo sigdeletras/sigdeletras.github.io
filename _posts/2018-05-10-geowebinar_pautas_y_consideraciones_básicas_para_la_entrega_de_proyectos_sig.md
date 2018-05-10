@@ -26,7 +26,7 @@ El evento, que se realizará a través YouTube Live, tendrá lugar el **jueves 1
 
 La dirección de enlace al evento es [http://bit.ly/sigdeletras_geowebinar](http://bit.ly/sigdeletras_geowebinar)
 
-Los ponentes invitados, a los que quiero agradecer su disponibilidad en interés son:
+Los ponentes invitados, a los que quiero agradecer su disponibilidad e interés son:
 
 - **José Luis Caballano Alcántara** [@caballano_jl](https://twitter.com/caballano_jl) Ingeniero en Organización Industrial. Jefe Sección SIGE - Sistema de Información Geográfica y Estadística del Servicio de Arquitectura y Urbanismo. Diputación de Córdoba
 - **Carlos López Quintanilla** [@carlospsig](https://twitter.com/carlospsig) Físico y consultor SIG. [PSIG Implementació, gestió i formació SIG](http://psig.es/ca/nosaltres/)

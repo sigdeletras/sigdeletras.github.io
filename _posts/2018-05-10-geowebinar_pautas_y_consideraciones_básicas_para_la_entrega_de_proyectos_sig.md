@@ -14,7 +14,7 @@ tags:
 
 Tras el debate surgido con la pasada entrada  [Pautas y consideraciones para la entrega de proyectos SIG](http://www.sigdeletras.com/2018/pautas_y_consideraciones_para_la_entrega_de_proyectos_sig/), aprovecharemos este primer [#GeoWebinar](https://twitter.com/hashtag/GeoWebinar?src=hash) para profundizar en las cuestiones planteadas y poder escuchar la opinión varios profesionales, tanto del sector público como privado. 
 
-Los participantes ofrecerán su punto de vista sobre temas como la estructuración de la información a presentar, la variedad de formatos de entrega, definición de simbología y presentaciones, la generación de información asociada y metadatos de la capas o las dificultades en el intercambio de información.
+Los participantes ofrecerán su punto de vista sobre temas como la estructuración de la información a presentar, la variedad de formatos de entrega, definición de simbología y presentaciones, la generación de información asociada y metadatos de la capas, las dificultades en el intercambio de información, requisitos tecnológicos o aspectos sobre propiedad intelectual y licenciamiento.
 
 **La finalidad principal del evento es que, tras el  debate creado, puedan obtenerse unas directrices básicas y pautas a seguir que sean de  utilidad, tanto a los profesionales y empresas que vayan de presentar los trabajos realizados con un SIG, como a las entidades privadas o públicas que contraten proyectos en los que sea necesario trabajar con estas potentes herramientas geográficas.**
 

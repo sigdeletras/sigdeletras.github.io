@@ -1,0 +1,38 @@
+---
+title:  "GeoWebinar 'Pautas y consideraciones básicas para la entrega de proyectos SIG'"
+excerpt_separator: "<!--more-->"
+comments: true
+related: true
+header:
+  teaser: "/images/blog/201805_geowebinar_proyectossig/webinar.png"
+categories: 
+  - 2018
+tags:
+  - SIG
+  - geowebinar
+---
+
+Tras el debate surgido con la pasada entrada  [Pautas y consideraciones para la entrega de proyectos SIG](http://www.sigdeletras.com/2018/pautas_y_consideraciones_para_la_entrega_de_proyectos_sig/), aprovecharemos este primer GeoWebinar para poder escuchar la opinión varios profesionales, tanto del sector público como privado, en temas como la estructuración de los datos geográficos a presentar, variedad de formatos de entrega, simbología y representación, generación de información y metadatos del proyecto o  dificultades en el intercambio de información.
+
+**La finalidad principal del evento es que, tras el  debate creado, puedan obtenerse unas directrices básicas y pautas a seguir que sean de  utilidad, tanto a profesionales y empresas del sector geo, como a entidades privadas o administraciones públicas que contraten o liciten proyectos con base geográfica.**
+
+Después de las intervenciones, habrá un tiempo dedicado al debate y a la respuesta de las preguntas planteadas en el chat del evento.
+
+**El evento que se realizará a través YouTube Live tendrá lugar el jueves 17 de mayo de 18:30 a 20:00 (GMT +02:00 Madrid)**. No requiere ningún tipo de registro ni reserva para asistir. El la dirección de enlace al evento es [http://bit.ly/sigdeletras_geowebinar](http://bit.ly/sigdeletras_geowebinar)
+
+La sesión comenzará con una presentación e introducción al geowebinar, a la que seguirán las intervenciones de cada uno  los ponentes. Tras estas, habrá un tiempo para el debate y respuesta de temas planteados en el chat.
+
+![Ejemplo de estructura de capas](/images/blog/201805_geowebinar_proyectossig/webinar.png)
+
+Los ponentes invitados son:
+
+- José Luis Caballano Alcántara [@caballano_jl](https://twitter.com/caballano_jl) Ingeniero en Organización Industrial. Jefe Sección SIGE - Sistema de Información Geográfica y Estadística del Servicio de Arquitectura y Urbanismo. Diputación de Córdoba
+- Carlos López Quintanilla. [@carlospsig](https://twitter.com/carlospsig) Físico y consultor SIG. [PSIG Implementació, gestió i formació SIG](http://psig.es/ca/nosaltres/)
+- José Carlos Rico Córdoba. [@jcricocordoba](https://twitter.com/jcricocordoba)  Arquitecto - Urbanista - Experto en SIG (GIS) - Analista Risk Management. [ricoandco.es](https://t.co/QNGsKRb47r)
+- Alejandro Alameda Manzanares [@AlxAlameda](https://twitter.com/AlxAlameda) Ingeniero Agrónomo. Consultor SIG.  [Agencia de Gestión Agraria y Pesquera de Andalucía](http://www.juntadeandalucia.es/agenciaagrariaypesquera/agenciaagrariaypesquera/portal/web/principal).  Junta de Andalucía
+- David Portolés Rodríguez  [@dportoles](https://twitter.com/dportoles) Ingeniero Superior en Informática. Gerente de [Idearium Consultores, SL](http://www.idearium-consultores.com/). Consultor informático especializado en GIS. Open Data y Linked Data.
+- Rafael Martínez. [@Galactero](https://twitter.com/Galactero) Geógrafo. Delegado Territorial del Colegio de Geógrafos de Aragón. Especialista en TIG 
+
+
+Desde aquí agradecerles su disponibilidad e interés.
+

@@ -35,6 +35,7 @@ Los ponentes invitados, a los que quiero agradecer su disponibilidad e interés 
 - **David Portolés Rodríguez**  [@dportoles](https://twitter.com/dportoles) Ingeniero Superior en Informática. Gerente de [Idearium Consultores, SL](http://www.idearium-consultores.com/). Consultor informático especializado en GIS. Open Data y Linked Data.
 - **Rafael Martínez** [@Galactero](https://twitter.com/Galactero) Geógrafo. Delegado Territorial del Colegio de Geógrafos de Aragón. Especialista en TIG.
 
+Aquí podéis descarga documento [PDF con toda la información del evento](/images/blog/201805_geowebinar_proyectossig/sigdeltras_geowebinar_info.pdf). 
 
 ¡Nos vemos el jueves!
 

@@ -20,7 +20,7 @@ Los participantes ofrecerán su punto de vista sobre temas como la estructuraci�
 
 Después de las intervenciones, habrá un tiempo dedicado al debate y a la respuesta de las preguntas planteadas en el chat del evento.
 
-![Ejemplo de estructura de capas](/images/blog/201805_geowebinar_proyectossig/webinar.png)
+![Flayer Geowebinar](/images/blog/201805_geowebinar_proyectossig/webinar.png)
 
 El evento, que se realizará a través YouTube Live, tendrá lugar el **jueves 17 de mayo de 18:30 a 20:00 (GMT +02:00 Madrid)**. No requiere ningún tipo de registro ni reserva para asistir. 
 
@@ -34,4 +34,7 @@ Los ponentes invitados, a los que quiero agradecer su disponibilidad e interés 
 - **Alejandro Alameda Manzanares** [@AlxAlameda](https://twitter.com/AlxAlameda) Ingeniero Agrónomo. Consultor SIG.  [Agencia de Gestión Agraria y Pesquera de Andalucía](http://www.juntadeandalucia.es/agenciaagrariaypesquera/agenciaagrariaypesquera/portal/web/principal).  Junta de Andalucía
 - **David Portolés Rodríguez**  [@dportoles](https://twitter.com/dportoles) Ingeniero Superior en Informática. Gerente de [Idearium Consultores, SL](http://www.idearium-consultores.com/). Consultor informático especializado en GIS. Open Data y Linked Data.
 - **Rafael Martínez** [@Galactero](https://twitter.com/Galactero) Geógrafo. Delegado Territorial del Colegio de Geógrafos de Aragón. Especialista en TIG.
+
+
+¡Nos vemos el jueves!
 

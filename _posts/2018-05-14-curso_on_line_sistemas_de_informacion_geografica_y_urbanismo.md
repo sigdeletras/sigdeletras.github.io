@@ -16,19 +16,19 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/201805_curso_sig_urbanismo/curso_sig_urbanismo.png)
 
-Desde SIGdeletras queremos informaros que el próximo mes de junio (1 de junio al 12 julio de 2018) vamos a lanzar la edición virtual de nuestro curso **“Sistemas de Información Geográfica y Urbanismo”** con un total de 80 horas. 
+Desde SIGdeletras queremos informaros que del **1 de junio al 12 julio de 2018** vamos a lanzar la edición virtual del **Curso “Sistemas de Información Geográfica y Urbanismo”** con un total de 80 horas. 
 
-El motivo principal de la puesta en marcha de esta acción formativa viene dada por la gran cantidad de peticiones que hemos recibido tras la edición presencial del curso, en la que se nos pedía la posibilidad de realizarlo de forma virtual.  Esto será posible gracias a la colaboración de [Almagre: Patrimonio y Formación](http://www.almagre.es/) que nos apoyará técnicamente y facilitará su Aula de Formación virtual para impartirlo.
+El motivo principal de la puesta en marcha de esta acción formativa viene dada por la gran cantidad de peticiones recibimos tras la edición presencial del este mismo curso, en la que se nos pedía la posibilidad de realizarlo de forma virtual.  Esto será posible gracias a la colaboración con [Almagre: Patrimonio y Formación](http://www.almagre.es/) que nos apoyará técnicamente y facilitará su Aula de Formación Virtual para impartirlo.
 
 ![Componentes de un SIG](/images/blog/201805_curso_sig_urbanismo/sistema_sig.jpg)
 *Componentes de un SIG. Autor: Patricio Soriano y José Carlos Rico*
 
-El objetivo principal del curso es el de ***adquirir los conocimientos teóricos y prácticos básicos necesarios para la aplicación de los datos e información geográfica en la gestión urbana y del territorio***. Al final del mismo el alumno será capaz de afrontar las tareas de identificación, gestión, análisis y representación de la información territorial mediante el manejo combinado de herramientas SIG, en concreto del programa de escritorio [QGIS](https://www.qgis.org/es/site/).
+El objetivo principal del curso es el de ***adquirir los conocimientos teóricos y prácticos básicos necesarios para la aplicación de los datos e información geográfica en la gestión urbana y del territorio***. Al final del mismo los alumnos seréis capaces de afrontar las tareas de identificación, gestión, análisis y representación de la información territorial mediante el manejo de herramientas SIG. En en el cursos usaremos el SIG de escritorio [QGIS](https://www.qgis.org/es/site/).
 
 ![Cálculo de visibilidad desde hitos urbanos](/images/blog/201805_curso_sig_urbanismo/visibilidad.jpg)
 *Cálculo de visibilidad desde hitos urbanos. Autor: Patricio Soriano*
 
-El curso está destinado a profesionales, investigadores y técnicos, tanto del sector privado como público, vinculados con el urbanismo, la gestión urbana, edición catastral o planificación de la ciudad, así como a todos aquellos interesados en adquirir las competencias necesarias para el uso de herramientas de producción y análisis de información geográfica (SIG).
+El curso está destinado a profesionales, investigadores y técnicos, tanto del sector privado como público, vinculados con el urbanismo, la gestión urbana, edición catastral o planificación de la ciudad, así como a todos aquellos interesados en adquirir las competencias necesarias para el uso de herramientas de producción y análisis de información geográfica.
 
 Para esta edición, volveremos a contar con la experiencia y los conocimientos de [José Carlos Rico Córdoba](https://www.linkedin.com/in/jos%C3%A9-carlos-rico-c%C3%B3rdoba-659b1915/), arquitecto urbanista, experto en GIS  y analista Risk Management. 
 
@@ -41,7 +41,7 @@ Mediante el sistema de enseñanza e-learning a través del Aula Virtual Almagre,
 
 Tanto José Carlos Rico como yo estableceremos un sistema de tutorías a través de foros y correos de consulta que ayudarán tanto a resolver las dudas que se planteen como a generar un entorno de debate activo entorno al curso. La evaluación del curso se realizará mediante la entrega de las prácticas correspondientes.
 
-Os dejamos el listado de los temas que trabajaremos así como toda la [información del curso a través del siguiente PDF](/images/blog/201805_curso_sig_urbanismo/curso_sig_urbanismo2018.pdf).
+Os dejamos el listado de los temas que trabajaremos. El desarrollo de los mismos, así como toda la [información del curso está disponible en el siguiente PDF](/images/blog/201805_curso_sig_urbanismo/curso_sig_urbanismo2018.pdf).
 
 - Unidad 1 Los Sistemas de Información Geográfica.
 - Unidad 2 La información geográfica.
@@ -52,3 +52,5 @@ Os dejamos el listado de los temas que trabajaremos así como toda la [informaci
 
 ![Salida gráfica con vistas múltiples en QGIS](/images/blog/201805_curso_sig_urbanismo/alternativas.jpg)
 *Salida gráfica con vistas múltiples en QGIS. Autor: Planem Urbanismo, Arquiectura e Ingeniería*
+
+No dudéis en escribirnos para cualquier duda o consulta.

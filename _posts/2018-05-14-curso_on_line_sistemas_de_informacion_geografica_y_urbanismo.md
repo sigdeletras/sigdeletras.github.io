@@ -21,11 +21,13 @@ Desde SIGdeletras queremos informaros que del **1 de junio al 12 julio de 2018**
 El motivo principal de la puesta en marcha de esta acción formativa viene dada por la gran cantidad de peticiones recibimos tras la edición presencial del este mismo curso, en la que se nos pedía la posibilidad de realizarlo de forma virtual.  Esto será posible gracias a la colaboración con [Almagre: Patrimonio y Formación](http://www.almagre.es/) que nos apoyará técnicamente y facilitará su Aula de Formación Virtual para impartirlo.
 
 ![Componentes de un SIG](/images/blog/201805_curso_sig_urbanismo/sistema_sig.jpg)
+
 *Componentes de un SIG. Autor: Patricio Soriano y José Carlos Rico*
 
 El objetivo principal del curso es el de ***adquirir los conocimientos teóricos y prácticos básicos necesarios para la aplicación de los datos e información geográfica en la gestión urbana y del territorio***. Al final del mismo los alumnos seréis capaces de afrontar las tareas de identificación, gestión, análisis y representación de la información territorial mediante el manejo de herramientas SIG. En en el cursos usaremos el SIG de escritorio [QGIS](https://www.qgis.org/es/site/).
 
 ![Cálculo de visibilidad desde hitos urbanos](/images/blog/201805_curso_sig_urbanismo/visibilidad.jpg)
+
 *Cálculo de visibilidad desde hitos urbanos. Autor: Patricio Soriano*
 
 El curso está destinado a profesionales, investigadores y técnicos, tanto del sector privado como público, vinculados con el urbanismo, la gestión urbana, edición catastral o planificación de la ciudad, así como a todos aquellos interesados en adquirir las competencias necesarias para el uso de herramientas de producción y análisis de información geográfica.
@@ -37,6 +39,7 @@ El precio del curso es 250 €. Para realizar la **inscripción y formalizar la 
 Mediante el sistema de enseñanza e-learning a través del Aula Virtual Almagre, el curso se organizará en bloques teóricos y prácticos, donde se entregará una documentación sobre el tema y un guión de prácticas a seguir. Así, cada bloque contará con documentos, textos y enlaces de apoyo que faciliten la mejor compresión de cada uno de los temas. 
 
 ![Análisis de zonas inundables. Autor: José Carlos Rico](/images/blog/201805_curso_sig_urbanismo/zonas_inundables_jc.jpg)
+
 *Análisis de zonas inundables. Autor: José Carlos Rico*
 
 Tanto José Carlos Rico como yo estableceremos un sistema de tutorías a través de foros y correos de consulta que ayudarán tanto a resolver las dudas que se planteen como a generar un entorno de debate activo entorno al curso. La evaluación del curso se realizará mediante la entrega de las prácticas correspondientes.
@@ -51,6 +54,7 @@ Os dejamos el listado de los temas que trabajaremos. El desarrollo de los mismos
 - Unidad 6 Visualización. Generación de mapas y planos.
 
 ![Salida gráfica con vistas múltiples en QGIS](/images/blog/201805_curso_sig_urbanismo/alternativas.jpg)
+
 *Salida gráfica con vistas múltiples en QGIS. Autor: Planem Urbanismo, Arquiectura e Ingeniería*
 
 No dudéis en escribirnos para cualquier duda o consulta.

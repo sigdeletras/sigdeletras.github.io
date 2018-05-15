@@ -1,5 +1,5 @@
 ---
-title:  "Curso on-line 'Sistemas de Información Geográfica y Urbanismo"
+title:  "Curso on-line 'Sistemas de Información Geográfica y Urbanismo'"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

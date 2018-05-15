@@ -28,7 +28,7 @@ La dirección de enlace al evento es [http://bit.ly/sigdeletras_geowebinar](http
 
 Los ponentes invitados, a los que quiero agradecer su disponibilidad e interés son:
 
-- **Patricio Soriano Castro** [@sigdeletras](https://twitter.com/sigdeletras) Geógrafo. Consultor y formaión en TIG. [SIGdeletras](https://es.linkedin.com/in/patriciosorianocastro)
+- **Patricio Soriano Castro** [@sigdeletras](https://twitter.com/sigdeletras) Geógrafo. Consultor y formador en TIG. [SIGdeletras](https://es.linkedin.com/in/patriciosorianocastro)
 - **José Luis Caballano Alcántara** [@caballano_jl](https://twitter.com/caballano_jl) Ingeniero en Organización Industrial. Jefe Sección SIGE - Sistema de Información Geográfica y Estadística del Servicio de Arquitectura y Urbanismo. Diputación de Córdoba
 - **Carlos López Quintanilla** [@carlospsig](https://twitter.com/carlospsig) Físico y consultor SIG. [PSIG Implementació, gestió i formació SIG](http://psig.es/ca/nosaltres/)
 - **José Carlos Rico Córdoba** [@jcricocordoba](https://twitter.com/jcricocordoba)  Arquitecto - Urbanista - Experto en SIG (GIS) - Analista Risk Management. [ricoandco.es](https://t.co/QNGsKRb47r)

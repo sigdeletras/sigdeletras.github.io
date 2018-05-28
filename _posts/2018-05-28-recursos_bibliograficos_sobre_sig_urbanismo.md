@@ -31,7 +31,8 @@ A continuación, os dejo una selección de estos recursos, que se tratarán y us
 - GARCÍA CUESTA, J. L. (2004) **Análisis espacial de la complejidad del sistema urbano como soporte de una planificación y gestión urbana sostenibles** XI Congreso de Métodos Cuantitativos, SIG y Teledetección. pp. 71-84 [Enlace](http://uvadoc.uva.es/handle/10324/8595)
 
 - GÓMEZ DELGADO, M. (2012) **Análisis de la dinámica urbana y simulación de escenarios de desarrollo futuro con tecnologías de la información geográfica.** Editorial: RA-MA. ISBN: 978-84-9964-125-6. [Enlace](https://dialnet.unirioja.es/servlet/libro?codigo=509946)
-• GONZÁLEZ GARCÍA, J. L. (ed.) (2009) **Mapas de riesgos naturales en la ordenación territorial y urbanística**. ISBN: 978-84-692-2395-6 [Enlace](http://www.icog.es/files/mapariesgos.pdf)
+
+- GONZÁLEZ GARCÍA, J. L. (ed.) (2009) **Mapas de riesgos naturales en la ordenación territorial y urbanística**. ISBN: 978-84-692-2395-6 [Enlace](http://www.icog.es/files/mapariesgos.pdf)
 
 - LINARES, S. (coord.) (2016) **Soluciones espaciales a problemas sociales urbanos. Universidad Nacional del Centro de la Provincia de Buenos**. ISBN: 978-950-658-392-7 [Enlace](http://igehcsconicet.gob.ar/nuevo-libro-soluciones-espaciales-problemas-socialesurbanos/)
 

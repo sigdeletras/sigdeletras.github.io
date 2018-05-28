@@ -46,7 +46,7 @@ A continuación, os dejo una selección de estos recursos, que se tratarán y us
 
 - NIETO MASOT, A. (de.) (2016) **Tecnologías de la Información Geográfica en el análisis espacial** Grupo de Investigación en Desarrollo Sostenible y Planificación Territorial de la Universidad de Extremadura y Grupo de Investigación Geo-Ambiental de la Universidad de Extremadura. ISBN: 978-84-617-6760-1 [Enlace](https://dialnet.unirioja.es/servlet/libro?codigo=667265)
 
-- OLIVA, J. J., CERVERA, Y. (2013) **GvSig aplicado al planeamiento urbanístico: El caso del Plan Especial de Protección del Conjunto Histórico de Burriana**. 9ªs Jornadas Internacionales gvSIG - Cuestión de Soberanía [Enlace](http://downloads.gvsig.org/download/events/gvSIG-Conference/9thgvSIG-Conference/articles/Article-9j_Conjunto_historico_Burriana.pdf)
+- OLIVA, J. J., CERVERA, Y. (2013) **GvSig aplicado al planeamiento urbanístico: El caso del Plan Especial de Protección del Conjunto Histórico de Burriana**. 9ªs Jornadas Internacionales gvSIG - Cuestión de Soberanía [Enlace](http://downloads.gvsig.org/download/events/gvSIG-Conference/9th-gvSIG-Conference/articles/Article-9j_Conjunto_historico_Burriana.pdf)
 
 - PEÑA LLOPIS, J. (2009) **Sistemas de Información Geográfica aplicados a la gestión del territorio**. Editorial. ECU. ISBN: 9788484549192. [Enlace](http://www.editorial-club-universitario.es/libro.asp?ref=3775)
 

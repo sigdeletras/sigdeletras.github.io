@@ -34,7 +34,7 @@ A continuación, os dejo una selección de estos recursos, que se tratarán y us
 
 - GONZÁLEZ GARCÍA, J. L. (ed.) (2009) **Mapas de riesgos naturales en la ordenación territorial y urbanística**. ISBN: 978-84-692-2395-6 [Enlace](http://www.icog.es/files/mapariesgos.pdf)
 
-- LINARES, S. (coord.) (2016) **Soluciones espaciales a problemas sociales urbanos. Universidad Nacional del Centro de la Provincia de Buenos**. ISBN: 978-950-658-392-7 [Enlace](http://igehcsconicet.gob.ar/nuevo-libro-soluciones-espaciales-problemas-socialesurbanos/)
+- LINARES, S. (coord.) (2016) **Soluciones espaciales a problemas sociales urbanos. Universidad Nacional del Centro de la Provincia de Buenos**. ISBN: 978-950-658-392-7 [Enlace](https://www.researchgate.net/publication/304627289_Soluciones_espaciales_a_problemas_sociales_urbanos)
 
 - LÓPEZ CASADO, D., MULERO MENDIGORRI, A. (2015) **La contribución de los Datos Espaciales de Referencia de Andalucía (DERA) a la investigación geográfica: el caso de las parcelaciones ilegales del municipio de Córdoba**, DE LA RIVA, J., IBARRA, P., MONTORIO, R., RODRIGUES, M. (Eds.) Análisis espacial y representación geográfica: innovación y aplicación: 195-204 Universidad de Zaragoza-AGE. [Enlace](http://congresoage.unizar.es/eBook/trabajos/021_Lopez%20Casado.pdf)
 

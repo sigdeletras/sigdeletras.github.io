@@ -14,7 +14,7 @@ tags:
   - QGIS
 ---
 
-Como ya hemos indicado, del del **1 de junio al 12 julio de 2018** va a tener lugar el curso virtual **Curso “Sistemas de Información Geográfica y Urbanismo”** con un total de 80 horas. Para los más rezagad@s, comentaros que aún hay tiempo de matricularse y que toda la información (temario, precio, inscripción...) se encuentra en el [siguiente enlace](http://www.sigdeletras.com/2018/curso_on_line_sistemas_de_informacion_geografica_y_urbanismo/).
+Como ya hemos indicado, del del **1 de junio al 12 julio de 2018** va a tener lugar el curso virtual **Curso “Sistemas de Información Geográfica y Urbanismo”** con un total de 80 horas. Para los más rezagad@s, comentaros que aún hay tiempo de matricularse y que toda la información (temario, precio, inscripción...) se encuentra en la [siguiente entrada de la web](http://www.sigdeletras.com/2018/curso_on_line_sistemas_de_informacion_geografica_y_urbanismo/).
 
 ![Flayer Geowebinar](/images/blog/201805_curso_sig_urbanismo/curso_sig_urbanismo.png)
 
@@ -24,7 +24,7 @@ A continuación, os dejo una selección de estos recursos, que se tratarán y us
 
 - AZCÁRATE LUXÁN, et al. (2015): **La utilización del Catastro de Urbana en el análisis morfológico de una ciudad. Aplicación al estudio del paisaje urbano del municipio de Las Rozas (Madrid)**. DE LA RIVA, J., IBARRA, P., MONTORIO, R., RODRIGUES, M. (Eds.) Análisis espacial y representación geográfica: innovación y aplicación: 501-510 Universidad de Zaragoza-AGE. [Enlace](http://congresoage.unizar.es/eBook/trabajos/053_Azcarate%20Luxan.pdf)
 
-- CONESA GARCÍA, C. (2004) **El empleo de los SIG y la Teledeteccion en planificacion territorial**. Universidad de Murcia. [Enlace](https://www.um.es/congresoMCSIGT/XI%20Congreso%20del%20GMCSIGT %20Tomo%20III.pdf)
+- CONESA GARCÍA, C. (2004) **El empleo de los SIG y la Teledeteccion en planificacion territorial**. Universidad de Murcia. [Enlace](https://www.um.es/congresoMCSIGT/XI%20Congreso%20del%20GMCSIGT%20Tomo%20III.pdf)
 
 - GARCIA ALMIRALL, P., VALLS DALMAU, F., MOIX BERGADÀ, M. (2011) **SIG en la Gestión de la Información Urbanística en el ámbito local**. Centro de Política de Suelo y Valoraciones (CPSV). Universidad Politécnica de Cataluña. ISBN:978-84-8157-611-5.  [Enlace](http://upcommons.upc.edu/bitstream/handle/2117/17289/sig.pdf?sequence=1)
 

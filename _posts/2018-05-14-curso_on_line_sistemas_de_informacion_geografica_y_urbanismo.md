@@ -34,7 +34,7 @@ El curso está destinado a profesionales, investigadores y técnicos, tanto del 
 
 Para esta edición, volveremos a contar con la experiencia y los conocimientos de [José Carlos Rico Córdoba](https://www.linkedin.com/in/jos%C3%A9-carlos-rico-c%C3%B3rdoba-659b1915/), arquitecto urbanista, experto en GIS  y analista Risk Management. 
 
-El precio del curso es 250 €. Para realizar la **inscripción y formalizar la matrícula debe completarse el siguiente formulario**  [http://bit.ly/cursosigurbanisno](http://bit.ly/curso_sigurbanisno).
+El precio del curso es 250 €. Para realizar la **inscripción y formalizar la matrícula debe completarse el siguiente formulario**  [http://bit.ly/curso_sigurbanisno](http://bit.ly/curso_sigurbanisno).
 
 Mediante el sistema de enseñanza e-learning a través del Aula Virtual Almagre, el curso se organizará en bloques teóricos y prácticos, donde se entregará una documentación sobre el tema y un guión de prácticas a seguir. Así, cada bloque contará con documentos, textos y enlaces de apoyo que faciliten la mejor compresión de cada uno de los temas. 
 

@@ -1,5 +1,6 @@
+---
 title:  "Recursos bibliográficos sobre SIG y Urbanismo"
-excerpt_separator: "(!--more--)"
+excerpt_separator: "<!--more-->"
 comments: true
 related: true
 header:

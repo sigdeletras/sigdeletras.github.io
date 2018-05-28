@@ -23,13 +23,9 @@ Tanto [José Carlos Rico](https://www.linkedin.com/in/jos%C3%A9-carlos-rico-c%C3
 A continuación, os dejo una selección de estos recursos, que se tratarán y usaran durante el curso. Espero que os sean de interés.
 
 - AZCÁRATE LUXÁN, et al. (2015): **La utilización del Catastro de Urbana en el análisis morfológico de una ciudad. Aplicación al estudio del paisaje urbano del municipio de Las Rozas (Madrid)**. DE LA RIVA, J., IBARRA, P., MONTORIO, R., RODRIGUES, M. (Eds.) Análisis espacial y representación geográfica: innovación y aplicación: 501-510 Universidad de Zaragoza-AGE. [Enlace](http://congresoage.unizar.es/eBook/trabajos/053_Azcarate%20Luxan.pdf)
-
 - CONESA GARCÍA, C. (2004) **El empleo de los SIG y la Teledeteccion en planificacion territorial**. Universidad de Murcia. [Enlace](https://www.um.es/congresoMCSIGT/XI%20Congreso%20del%20GMCSIGT%20Tomo%20III.pdf)
-
 - GARCIA ALMIRALL, P., VALLS DALMAU, F., MOIX BERGADÀ, M. (2011) **SIG en la Gestión de la Información Urbanística en el ámbito local**. Centro de Política de Suelo y Valoraciones (CPSV). Universidad Politécnica de Cataluña. ISBN:978-84-8157-611-5.  [Enlace](http://upcommons.upc.edu/bitstream/handle/2117/17289/sig.pdf?sequence=1)
-
 - GARCÍA CUESTA, J. L. (2004) **Análisis espacial de la complejidad del sistema urbano como soporte de una planificación y gestión urbana sostenibles** XI Congreso de Métodos Cuantitativos, SIG y Teledetección. pp. 71-84 [Enlace](http://uvadoc.uva.es/handle/10324/8595)
-
 - GÓMEZ DELGADO, M. (2012) **Análisis de la dinámica urbana y simulación de escenarios de desarrollo futuro con tecnologías de la información geográfica.** Editorial: RA-MA. ISBN: 978-84-9964-125-6. [Enlace](https://dialnet.unirioja.es/servlet/libro?codigo=509946)
 
 - GONZÁLEZ GARCÍA, J. L. (ed.) (2009) **Mapas de riesgos naturales en la ordenación territorial y urbanística**. ISBN: 978-84-692-2395-6 [Enlace](http://www.icog.es/files/mapariesgos.pdf)

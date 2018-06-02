@@ -15,10 +15,6 @@ tags:
 Hace ya un par de semanas que tuvo lugar el [primer geowebinar organizado desde SIGdeletras](http://www.sigdeletras.com/2018/geowebinar_pautas_y_consideraciones_b%C3%A1sicas_para_la_entrega_de_proyectos_sig/) en la que varios profesionales del sector geo de España tuvimos la oportunidad de debatir y compartir experiencias sobre aspectos vinculados con la entrega de proyectos realizados con SIG. Por si alguno no pudo asistir o tiene ganas de verlo completo se encuentra accesible en YouTube desde la dirección [http://bit.ly/sigdeletras_geowebinar](http://bit.ly/sigdeletras_geowebinar).
 <!--more-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7woNQVpS9V4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-*Vídeo completo*
-
 Antes de nada quisiera agradecer la difusión que realizaron desde distintas administraciones públicas (el blog de la IDEE, el IECA o la IDERioja), asociaciones y grupos (Colegio Profesional de Geógrafos , Geoinquietos Valencia, Colegio Profesional de Geógrafos de Aragón o Asociación de ususrios QGIS de España), blog y páginas especializadas (NosoloSIG, Obermapa, Cartografía digital o Geotec UJI), y alguna que otra decena de profesionales (Sergio Domenech, David Piles, Gerson Beltrán, Carmen Diez, Paulino Vallejo, José María Martínez…) incluidos los propios ponentes.
 
 Durante la preparación del encuentro, entre los varios correos mantenidos con los seis ponentes, se planteó la posibilidad de que tras la iniciativa se generara un documento resumen de los puntos más relevantes que fueron planteados. Aunque un poco extenso, fueron casi dos horas de evento, aquí lo tenéis. Si se quiere acceder a momento concreto de cada una de las intervenciones se ha añadido el enlace.
@@ -105,3 +101,7 @@ Respecto a las *métricas*, de forma rápida indicar que hubo 115 accesos a la U
 Desde el punto de vista profesional, y porqué no personal, ha merecido la pena el esfuerzo y tiempo dedicado en la preparación del evento. Además de poder aportar a la comunidad sobre un tema candente, he tenido la oportunidad de establecer relación y “desvirtualizar” a otros profesionales del sector a los que sigo con interés hace tiempo. Gracias a sus aportaciones he podido aprender aún más en un tema de gran interés profesional y por lo que hemos tenido posibilidad de comprobar no del todo resuelto.
 
 Se abre a partir de hora la lluvia de ideas sobre temas para futuros geowebinar...se admiten propuestas.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7woNQVpS9V4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+*Vídeo completo*

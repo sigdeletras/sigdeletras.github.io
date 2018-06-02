@@ -17,6 +17,8 @@ Hace ya un par de semanas que tuvo lugar el [primer geowebinar organizado desde 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7woNQVpS9V4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+*Vídeo completo*
+
 Antes de nada quisiera agradecer la difusión que realizaron desde distintas administraciones públicas (el blog de la IDEE, el IECA o la IDERioja), asociaciones y grupos (Colegio Profesional de Geógrafos , Geoinquietos Valencia, Colegio Profesional de Geógrafos de Aragón o Asociación de ususrios QGIS de España), blog y páginas especializadas (NosoloSIG, Obermapa, Cartografía digital o Geotec UJI), y alguna que otra decena de profesionales (Sergio Domenech, David Piles, Gerson Beltrán, Carmen Diez, Paulino Vallejo, José María Martínez…) incluidos los propios ponentes.
 
 Durante la preparación del encuentro, entre los varios correos mantenidos con los seis ponentes, se planteó la posibilidad de que tras la iniciativa se generara un documento resumen de los puntos más relevantes que fueron planteados. Aunque un poco extenso, fueron casi dos horas de evento, aquí lo tenéis. Si se quiere acceder a momento concreto de cada una de las intervenciones se ha añadido el enlace.
@@ -27,7 +29,7 @@ Tras uno minutos introductorios, comenzamos el Geowebinar con una presentación 
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/s4HORJJBjua1mr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 
-*[Presentación del Geowebinar. P. Soriano](www.slideshare.net/PatricioSoriano/presentacin-geowebinar-pautas-y-consideraciones-bsicas-para-la-entrega-de-proyectos-sig)*
+*[Presentación del Geowebinar. P. Soriano](http://www.slideshare.net/PatricioSoriano/presentacin-geowebinar-pautas-y-consideraciones-bsicas-para-la-entrega-de-proyectos-sig)*
 
 El encargado de romper el hielo fue **José Luis Caballano** [17m:38s](https://youtu.be/7woNQVpS9V4?t=17m38s) de la Diputación de Córdoba. Inició su intervención con la definición de algunos conceptos y consideraciones básicas del **papel que juegan los datos espaciales y no espaciales dentro de la labor continua de toma de decisiones por parte de las administraciones públicas**. Se apuntó que la importancia de los datos geolocalizados es tal, que debería traducirse en la existencia de un departamento que vele por la creación del dato único y debería ser el receptor de los datos generados en proyectos. Esta “oficina SIG” deberá ejercer las función de proveedor de datos tanto a nivel interno, otros departamentos, como externo, empresas contratadas, otras administraciones….)
 

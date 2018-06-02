@@ -14,6 +14,7 @@ tags:
 
 Hace ya un par de semanas que tuvo lugar el [primer geowebinar organizado desde SIGdeletras](http://www.sigdeletras.com/2018/geowebinar_pautas_y_consideraciones_b%C3%A1sicas_para_la_entrega_de_proyectos_sig/) en la que varios profesionales del sector geo de España tuvimos la oportunidad de debatir y compartir experiencias sobre aspectos vinculados con la entrega de proyectos realizados con SIG. Por si alguno no pudo asistir o tiene ganas de verlo completo se encuentra accesible en YouTube desde la dirección [http://bit.ly/sigdeletras_geowebinar](http://bit.ly/sigdeletras_geowebinar).
 <!--more-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7woNQVpS9V4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Antes de nada quisiera agradecer la difusión que realizaron desde distintas administraciones públicas (el blog de la IDEE, el IECA o la IDERioja), asociaciones y grupos (Colegio Profesional de Geógrafos , Geoinquietos Valencia, Colegio Profesional de Geógrafos de Aragón o Asociación de ususrios QGIS de España), blog y páginas especializadas (NosoloSIG, Obermapa, Cartografía digital o Geotec UJI), y alguna que otra decena de profesionales (Sergio Domenech, David Piles, Gerson Beltrán, Carmen Diez, Paulino Vallejo, José María Martínez…) incluidos los propios ponentes.
 

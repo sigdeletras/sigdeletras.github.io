@@ -17,7 +17,7 @@ Hace ya un par de semanas que tuvo lugar el [primer geowebinar organizado desde 
 
 Antes de nada quisiera agradecer la difusión que realizaron desde distintas administraciones públicas (el blog de la IDEE, el IECA o la IDERioja), asociaciones y grupos (Colegio Profesional de Geógrafos , Geoinquietos Valencia, Colegio Profesional de Geógrafos de Aragón o Asociación de ususrios QGIS de España), blog y páginas especializadas (NosoloSIG, Obermapa, Cartografía digital o Geotec UJI), y alguna que otra decena de profesionales (Sergio Domenech, David Piles, Gerson Beltrán, Carmen Diez, Paulino Vallejo, José María Martínez…) incluidos los propios ponentes.
 
-Durante la preparación del encuentro, entre los varios correos mantenidos con los seis ponentes, se planteó la posibilidad de que tras la iniciativa se generara un **documento resumen de los puntos más relevantes que fueron tratados*. Aunque un poco extenso, fueron casi dos horas de evento, aquí lo tenéis. Si se quiere acceder a momento concreto de cada una de las intervenciones se ha añadido el enlace.
+Durante la preparación del encuentro, entre los varios correos mantenidos con los seis ponentes, se planteó la posibilidad de que tras la iniciativa se generara un **documento resumen de los puntos más relevantes que fueron tratados**. Aunque un poco extenso, fueron casi dos horas de evento, aquí lo tenéis. Si se quiere acceder a momento concreto de cada una de las intervenciones se ha añadido el enlace.
 
 # Intervención de ponentes
 

@@ -91,7 +91,7 @@ Creo que es también interesante indicar que, quitando algunas problemas técnic
 
 Respecto a las *métricas*, de forma rápida indicar que hubo 115 accesos a la URL del evento, procedentes en un 75% de España. Durante la retransmisión hubo un pico máximo de 43 personas conectadas de las cuales unas 16 participaron en el chat. El vídeo tiene una duración total de 1:49 minutos y a fecha de esta publicación, 15 días después del evento, cuenta con 320 visualizaciones y 27 me gusta.
 
-![Gráfico de visitas a la página del evento. Bitly](/images/blog/201805_notas_geowebinar/visitas.png)
+![Gráfico de visitas a la página del evento. Bitly](/images/blog/201805_notas_geowebinar/visitas2.png)
 
 *Gráfico de visitas a la página del evento. Bitly*
 

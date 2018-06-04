@@ -81,7 +81,7 @@ Terminado el turno de palabra se dedicaron los últimos minutos a contestar algu
 
 El **coste económico de la generación de los metadatos es tratado también por David Piles**. Este trabajo debe estar claro en lo presupuestos y no siempre las empresas están dispuestas a pagar por ellos.
 
-Carlos López respondió una pregunta de **Gonzalo Pousa** sobre **tamaño de los archivos GeoTIFF**, indicando que el uso de la librería GDAL es básica para la compresión. Ese comentario se completa con el aporte de David Portáles sobre el equilibrio entre compresión y calidad. Para ellos se indica la bajada de precio sen los sistemas de almacenamiento que ayudan a no perder calidad.
+Carlos López respondió una pregunta de **Gonzalo Pousa** sobre **tamaño de los archivos GeoTIFF**, indicando que el uso de la librería GDAL es básica para la compresión. Ese comentario se completa con el aporte de David Portolés sobre el equilibrio entre compresión y calidad. Para ellos se indica la bajada de precio sen los sistemas de almacenamiento que ayudan a no perder calidad.
 
 En un momento del debate, Carlos nos da la importante noticia de la [creación de la Asociación de usuarios de QGIS España](http://www.qgis.es/), que favorecerá el conocimiento de esta potente herramienta SIG, que poco a poco va siendo implantada en las administraciones locales, como el Ayuntamiento de Barcelona.
 

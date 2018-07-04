@@ -15,7 +15,7 @@ tags:
   - Webmapping
 ---
 
-Es habitual que cualquier proyecto realizado con un Sistema de Información Geográfica termine con una presentación, ya sea en forma de informe y planos adjuntos, de los resultados del trabajo. Junto a esta difusión de resultados más clásica, la presentación de datos geoposicionados en web mediante visores de mapas dinámicos, completa las posibilidades que las Tecnologías de Información Geográfica nos ofrecen para dar a conocer un determinado conjunto de datos espaciales.
+Es habitual que cualquier proyecto realizado con un Sistema de Información Geográfica termine con una presentación de los resultados del trabajo. La forma más común es añadir un anejo de planos y/o añadir alguna lámina en los informes o memorias. Junto a esta forma más clásica, la presentación de datos geoposicionados en web mediante visores de mapas dinámicos, completa las posibilidades que las Tecnologías de Información Geográfica nos ofrecen para dar a conocer un determinado conjunto de datos espaciales.
 <!--more-->
 Una buena muestra de estas posibilidades, la tenemos en numeroso conjunto de aplicaciones y tecnologías con la que hoy día contamos. Servicios como Carto, Google Maps, herramientas tipo GeoWE, ArcGIS online, Instamaps son algunas de ellas. Os recomiendo el artículo Paulino Vallejo titulado “10 aplicaciones GIS en la nube para publicar mapas” publico en MappingGIS para un completa visión sobre esta panorama.
 

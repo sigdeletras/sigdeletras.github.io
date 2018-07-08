@@ -11,11 +11,13 @@ tags:
   - Webmapping
 ---
 
-El pasado jueves 5 de junio tuvo lugar la [XIX Reunión de Geoinquietos Córdoba](https://wiki.osgeo.org/wiki/Reuni%C3%B3n_19_Geoinquietos_C%C3%B3rdoba). A pesar del esfuerzo que supone de convocar y "mover" cada reunión, que sin duda no sería posible sin la ayuda miembros del grupo con Antonio Fernández, son sin duda experiencias de gran interés por todo lo que se aprende y se comparte. Con el tiempo se están convirtiendo en citas ineludibles en Córdoba para todo aquel que de alguna u otra manera se mueva en el mundo geo. 
+El pasado jueves 5 de junio tuvo lugar la [XIX Reunión de Geoinquietos Córdoba](https://wiki.osgeo.org/wiki/Reuni%C3%B3n_19_Geoinquietos_C%C3%B3rdoba). A pesar del esfuerzo que supone de convocar y "mover" cada reunión, que sin duda no sería posible sin la ayuda miembros del grupo con Antonio Fernández, son sin duda experiencias de gran interés por todo lo que se aprende y se comparte. Con el tiempo se están convirtiendo en citas ineludibles en Córdoba para todo aquel que de alguna u otra manera se mueva en el mundo geo local. 
 
 <!--more-->
 
-En esta ocasión, el tema central de la reunión fue la presentación de la aplicación [RTC Mapping](http://rtcm.geowe.org/), desarrollada por el equipo de la iniciativa [GeoWE](http://www.geowe.org/). La presentación corrió a cargo de [Atanasio Muñoz y José María, que junto a Rafael López](http://www.geowe.org/index.php?id=equipo), son los tres desarrolladores (pilares) de GeoWE. La charla comenzó  una explicación sencilla de qué es RTC Mapping y para qué sirve. Aunque aún se encuentra en su versión Demo 1.0 en la dirección [http://rtcm-app.geowe.org/](http://rtcm-app.geowe.org/), RTC Mapping hace sencillamente lo que debe hacer, permitir a varios usuarios, como si un **Google Doc de mapas** se tratara, crear información geográfica de forma remota y en tiempo real.
+En esta ocasión, el **tema central de la reunión fue la presentación de la aplicación [RTC Mapping](http://rtcm.geowe.org/), desarrollada por el equipo de la iniciativa [GeoWE](http://www.geowe.org/)**. La presentación corrió a cargo de [Atanasio Muñoz y José María, que junto a Rafael López](http://www.geowe.org/index.php?id=equipo), son los tres desarrolladores (pilares) de GeoWE. 
+
+La charla comenzó  una explicación sencilla de qué es RTC Mapping y para qué sirve. Aunque aún se encuentra en su versión Demo 1.0 en la dirección [http://rtcm-app.geowe.org/](http://rtcm-app.geowe.org/), **RTC Mapping hace sencillamente lo que debe hacer, permitir a varios usuarios, como si un *Google Doc de mapas* se tratara, crear información geográfica de forma remota y en tiempo real**.
 
 ![Flayer de la XIX Reunión Geoinquietos Córdoba](/images/blog/201807_rtcmapping/xixgeoinquietos.png)
 

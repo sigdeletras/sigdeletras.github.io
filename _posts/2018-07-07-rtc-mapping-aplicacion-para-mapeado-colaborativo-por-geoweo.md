@@ -25,15 +25,19 @@ La charla comenzó  una explicación sencilla de qué es RTC Mapping y para qué
 
 Desde su presentación, RTC Mapping ya ha despertado cierto interés. Además de la información en el [blog del proyecto](http://geowegis.blogspot.com/2018/04/mapeo-colaborativo-en-tiempo-real.html), es recomendable el [artículo publicado en MappingGIS por el geógrafo Paulino Vallejo](https://mappinggis.com/2018/05/mapas-colaborativos-en-tiempo-real-con-rtcmapping-de-geowe/) que entra en detalle en las herramientas de la aplicación.
 
-Tras esta introducción, Atanasio y José María se pusieron manos a la obra y mostraron cómo trabaja RTCMapping, enseñando las funciones principales (dibujo y edición geográfica,), capas básicas de apoyo (OpenStreetMap, Bing o Catastro) o la edición de tabla atributos... Sin duda ,el fuerte de RTCMapping es permitir que varios usuarios trabajen de forma simultánea. Atanasio nos enseñó cómo crear una sala de trabajo y activar la opción de Compartir. La url obtenida fue dada a los asistentes y en un momento de la sesión estuvimos hasta 10 personas creando datos a la vez.
+Tras esta introducción, Atanasio y José María se pusieron manos a la obra y mostraron cómo trabaja RTCMapping, enseñando las funciones principales (dibujo y edición geográfica), mapas básicas de apoyo (OpenStreetMap, Bing y Catastro) o la edición de tabla atributos... 
+
+Sin duda ,el fuerte de RTCMapping es permitir que varios usuarios trabajen de forma simultánea. Atanasio nos enseñó **cómo crear una sala de trabajo y activar la opción de Compartir**. La url obtenida fue dada a los asistentes y en un momento de la sesión estuvimos hasta 10 personas creando datos a la vez.
 
 ![Ata y José María de GeoWE presentando RTCMapping](/images/blog/201807_rtcmapping/atajose.jpg)
 
 *Ata y José María de GeoWE presentando RTCMapping.*
 
-Tras esta primera parte, José María conectó el trabajo realizado con RTCMapping con la aplicación SIG web GeoWE. Pudimos ver cómo terminar de editar los datos generados, trabajar desde directorios GitHub o compartir nuestros mapas en la red. No quiero que se me pase, la referencia que hizo José María al [GeoJson CSS](https://github.com/jmmluna/Leaflet.geojsonCSS) y al complemento para Leaflet por él mejorado que permite trabajar con estilos dentro este formato geográfico estándar.
+Tras esta primera parte, José María **conectó el trabajo realizado con RTCMapping con la aplicación SIG web GeoWE**. Pudimos ver cómo terminar de editar los datos generados, trabajar desde directorios GitHub o compartir nuestros mapas en la red. No quiero que se me pase, la referencia que hizo José María al [GeoJSON CSS](https://github.com/jmmluna/Leaflet.geojsonCSS) y al complemento para Leaflet por él mejorado, que permite trabajar con estilos dentro este formato geográfico estándar.
 
-La reunión continuó con un breve anuncio de una actividad conjunta de la [Asociación de Amigos de Medina Azahara](http://www.amigosdemedinaazahara.com/) y el colectivo Geoinquietos Córdoba. [Curro Crespo](http://www.amasce.co/), arquitecto de Amásce y la arqueóloga Ana Zamorano comentaron el proyecto denominado "Laboratorio de Intervenciones Puntuales" en la que está planteado una inicaitiva de mapeado, análisis y estudio de distintos aspectos del Conjunto Arqueológico de Medina Azahara, recientemente declarado Patriminio de la Humanidad. En la sesiones se pretende tomar datos sobre aspectos vinculados con el  impacto visual, estado de conservación de zonas de la visita, señalética, etc. El objetivo es aprovechar el potencial de RTCMapping para que los grupos de trabajo capturen los datos en tiempo real en sesiones de documentación en el mismo yacmiento arqueológico.
+La reunión continuó con un breve anuncio de una **actividad conjunta de la [Asociación de Amigos de Medina Azahara](http://www.amigosdemedinaazahara.com/) y el colectivo Geoinquietos Córdoba**. [Curro Crespo](http://www.amasce.co/), arquitecto de Amásce y la arqueóloga Ana Zamorano comentaron el proyecto denominado "Laboratorio de Intervenciones Puntuales" en la que está planteado una inicaitiva de mapeado, análisis y estudio de distintos aspectos del Conjunto Arqueológico de Medina Azahara, recientemente declarado Patriminio de la Humanidad. 
+
+En la sesiones se pretende tomar datos sobre aspectos vinculados con el  impacto visual, estado de conservación de zonas de la visita, señalética, etc. El objetivo es aprovechar el potencial de RTCMapping para que los grupos de trabajo capturen los datos en tiempo real en sesiones de documentación en el mismo yacimiento arqueológico.
 
 ## Posilidades de RTCMapping.
 
@@ -49,11 +53,13 @@ Ya que mi trabajo últimamente está muy vinculado con urbanismo y ciudad, piens
 
 *Ejemplo de sala con dos usuarios generando datos en tiempo real.*
 
-Simplemente con poder dibujar sobre fotografías aéreas y Catastro, se abre un gran abanico de posibilidades para ese tipo de proyectos. Si a eso le sumamos la opción de enriquecer la información geográfica (parcelario, trazado de viales, localización de infraestructuras, análisis de acceso, análisis de usos actuales...) con datos alfanuméricos, RTCMapping tiene sin duda mucho que ofrecer en este campo.
+Simplemente con poder dibujar sobre fotografías aéreas y Catastro, se abre un gran abanico de posibilidades para ese tipo de proyectos. 
+
+Si a eso le sumamos la opción de enriquecer la información geográfica (parcelario, trazado de viales, localización de infraestructuras, análisis de acceso, análisis de usos actuales...) con datos alfanuméricos, RTCMapping tiene sin duda mucho que ofrecer en este campo.
 
 
-Una vez terminada la sesión los datos generados pueden ser descargados y posteriormente tratados con otras aplicaciones de escritorio como un SIG o incluso un CAD.
+Una vez terminada la sesión **los datos generados pueden ser descargados y posteriormente tratados con otras aplicaciones de escritorio como un SIG o incluso un CAD**.
 
 ![Datos de RTCMapping en QGIS](/images/blog/201807_rtcmapping/qgis.png)
 
-Poco a poco van surgiendo nuevos ámbitos de aplicación (emergencias, tracking, monitorización…) y con toda seguridad, como en el caso de la toma de datos en Medina Azahara, las posibilidades serán muchas. 
+Poco a poco van surgiendo nuevos **ámbitos de aplicación** (emergencias, tracking, monitorización…) y con toda seguridad, como en el caso de la toma de datos en Medina Azahara, las posibilidades serán muchas. 

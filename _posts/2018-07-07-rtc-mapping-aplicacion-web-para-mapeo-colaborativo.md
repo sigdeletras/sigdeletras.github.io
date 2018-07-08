@@ -11,7 +11,7 @@ tags:
   - Webmapping
 ---
 
-El pasado jueves 5 de junio tuvo lugar la [XIX Reunión de Geoinquietos Córdoba](https://wiki.osgeo.org/wiki/Reuni%C3%B3n_19_Geoinquietos_C%C3%B3rdoba). A pesar del esfuerzo que supone de convocar y "mover" cada reunión, que sin duda no sería posible sin la ayuda miembros del grupo con Antonio Fernández, son sin duda experiencias de gran interés por todo lo que se aprende y se comparte. Con el tiempo se están convirtiendo en citas ineludibles en Córdoba para todo aquel que de alguna u otra manera se mueva en el mundo geo local. 
+El pasado jueves 5 de junio tuvo lugar la [XIX Reunión de Geoinquietos Córdoba](https://wiki.osgeo.org/wiki/Reuni%C3%B3n_19_Geoinquietos_C%C3%B3rdoba). A pesar del esfuerzo que supone de convocar y "mover" cada reunión, que sin duda no sería posible sin la ayuda miembros del grupo como Antonio Fernández, son sin duda experiencias de gran interés por todo lo que se aprende y se comparte. Con el tiempo se están convirtiendo en citas ineludibles en Córdoba para todo aquel que de alguna u otra manera se mueva en el mundo geo local. 
 
 <!--more-->
 

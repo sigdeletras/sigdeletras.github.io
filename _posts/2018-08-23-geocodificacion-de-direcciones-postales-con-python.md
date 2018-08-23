@@ -244,6 +244,8 @@ Podemos ver el resultado en la aplicación [geojson.io](http://geojson.io/)
 
 ![Datos en geojson.io](/images/blog/201808_geocoder/geojsonio.PNG)
 
+# Nota final
+
 He querido mostrar a partir de un ejemplo sencillo las posibilidades que ofrece el usos de lenguajes como Python para trabajos geográficos de este tipo. Son utilidades que sin duda pueden ayudar a mejorar desde el punto de vista territorial la información disponible en una organización. 
 
 Un geosaludo

@@ -40,7 +40,7 @@ He comentado que los resultados de la primera prueba de concepto en la que se pr
 
 En esta entrada comentaré de forma muy simplifica **cómo usar estos servicios de geolocalización mediante la librería Geocoder de Python**.
 
-# Usando librería Geocoder de Python para geocodificar direcciones postales
+## Usando librería Geocoder de Python para geocodificar direcciones postales
 
 **[Geocoder](https://geocoder.readthedocs.io/) es una librería de Python** desarrollada por [Denis Carriere](https://twitter.com/DenisCarriere) **para realizar trabajos de geocodifiación** (obtener coordenadas a partir de una dirección) **y geocodificación inversa** (obtener dirección a partir de coordenadas) **mediante APIs de geocodificación** tales como Google, Nominatim, Bing, Yahoo, Here...
 
@@ -244,7 +244,7 @@ Podemos ver el resultado en la aplicación [geojson.io](http://geojson.io/)
 
 ![Datos en geojson.io](/images/blog/201808_geocoder/geojsonio.PNG)
 
-# Nota final
+## Nota final
 
 He querido mostrar a partir de un ejemplo sencillo las posibilidades que ofrece el usos de lenguajes como Python para trabajos geográficos de este tipo. Son utilidades que sin duda pueden ayudar a mejorar desde el punto de vista territorial la información disponible en una organización. 
 

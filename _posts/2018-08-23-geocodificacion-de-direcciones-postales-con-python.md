@@ -130,7 +130,7 @@ with open('csv_in.csv', encoding="utf8") as csv_file:
 
 Una vez cargados los datos haremos correr el script para que nos busque las coordenadas. Usaremos el servicio de Google al que le hemos añadido el nombre de la ciudad, a comunidad autónoma y el país para limitar más la búsqueda.
 
-Hay una cuestión que tenemos que tener en cuenta. Cada servicio tiene sus propias condiciones y restricciones de uso. En algunos casos como Google, Bing o Yahoo se necesita obtener una clave (API Key) para poder usarlo completamente. En otras ocasiones si no es necesario dicha clave en un principio, podremos usar el servicio con ciertas limitaciones respecto al tiempo y número de accesos. Este último es el caso del servicio de Google que vamos a manejar en el ejemplo. Estas restricciones pueden probocar diferencias de resultados en la misma consulta. El caso de Nominatim de OpenStreetMap es diferente. Es un servicio gratuíto pero lamentablemente deja mucho que desear a nivel de dirección postal según la ciudad.
+Hay una cuestión que tenemos que tener en cuenta. **Cada servicio tiene sus propias condiciones y restricciones de uso**. En algunos casos como Google, Bing o Yahoo se necesita obtener una clave (API Key) para poder usarlo completamente. En otras ocasiones, si no es necesario dicha clave en un principio, podremos usar el servicio con ciertas limitaciones respecto al tiempo y número de accesos. Este último es el caso del servicio de Google que vamos a manejar en el ejemplo. Estas restricciones pueden provocar diferencias de resultados en la misma consulta. El caso de Nominatim de OpenStreetMap es diferente. Es un servicio gratuíto pero lamentablemente deja mucho que desear a nivel de dirección postal según la ciudad.
 
 ```python
 with open('csv_in.csv', encoding="utf8") as csv_file:
@@ -139,7 +139,6 @@ with open('csv_in.csv', encoding="utf8") as csv_file:
         print(row[0], row[1], row[2])
         geodir = geocoder.google('{}, Córdoba, Andalucía, Spain'.format(row[1]))
         print('Coordenadas: {}'.format(geodir.latlng))
-
 ```
 
     id direccion tipo

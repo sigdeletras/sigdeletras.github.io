@@ -165,7 +165,7 @@ Para terminar y ahorrarnos un paso en el trabajo SIG posterior vamos a crear un 
 
 Para los registros no localizados también vamos generar un informe en formato texto que los almacene. En consola hemos añadido un pequeño contador de los resultados
 
-El código Python final sería el siguiente.
+El código Python final sería el siguiente. También puede accederse a [esta dirección en GitHub](https://github.com/sigdeletras/geopython/blob/master/geocoder/geocoder_sample.ipynb) con el **código en un notebook para Jupyter**.
 
 ```python
 import csv

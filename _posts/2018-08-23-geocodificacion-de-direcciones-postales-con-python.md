@@ -12,29 +12,29 @@ tags:
   - Geocodificación
 ---
 
-Hace unos meses he tenido que realziar un trabajo en el que era necesario la **georreferenciación de direcciones postales** de un numeroso conjunto de registros. Los datos formaban parte de una aplicación de expedientes administrativos que no contaba con un módulo geográfico, ni tampoco con un sistema normalizado de callejero implementado. **El objetivo de trabajo era dotar de componente territorial a la información para usarlos posteriormente en un análisis SIG vinculado con la planificación municipal en materia de vivienda**.
+Hace unos meses tuve que realziar un trabajo en el que era necesario la **georreferenciación de direcciones postales** de un numeroso conjunto de registros. Los datos formaban parte de una aplicación de expedientes administrativos que no contaba con un módulo geográfico, ni tampoco con un sistema normalizado de callejero implementado. **El objetivo de trabajo era dotar de componente territorial a la información para usarlos posteriormente en un análisis SIG vinculado con la planificación municipal en materia de vivienda**.
 
 <!--more-->
 
-Los datos de interés se encontraba dentro de la misma denominación del expediente. De manera más o menos repetitiva seguía una pauta: descripción del tipo específico de trámite,  dirección postal o referencia directa al inmueble afectado y otros atributos.
+Los datos de interés se encontraba dentro de la misma denominación del expediente. De manera más o menos repetitiva seguía una pauta: descripción del tipo específico de trámite seguido de la dirección postal o referencia directa al inmueble afectado y otros atributos relativos al expediente.
 
-Cuando se incluye la dirección postal en un texto "abierto" la formula más usada es *'tipo de via + nombre de via + número de portal'*. Lamentablemente al no contar un protocolo cerrado de edicion nos podemos encontrarnos "cien y una" variantes. Algunas de las más frecuentes son:
+Cuando se incluye la dirección postal en un texto "abierto" la **formula más usada es *'tipo de via + nombre de via + número de portal'***. Lamentablemente al no contar un protocolo cerrado de edicion nos podemos encontrarnos "cien y una" **variantes**. Algunas de las más frecuentes son:
 
-- Diferencias en las denominaciones de las vías (Calle La Plata-Plata, C/ José María Martínez-José Mª Castro) o simplemente calles incorrectas.
-- Uso de abreviaturas para identificar del tipo de vía (Calle-C/, Avenida-Avda, Pza-Plaza...). El sistema de abreviaturas puede o no estar normalizado.
+- Diferencias en las denominaciones de las vías (ej. *Calle La Plata-Plata, C/ José María Martínez-José Mª Castro*) o simplemente calles incorrectas.
+- Uso de abreviaturas para identificar del tipo de vía (ej. *Calle-C/, Avenida-Avda, Pza-Plaza...*). El sistema de abreviaturas puede o no estar normalizado.
 - Número de portal con o sin las abreviaturas ('nº', 'n.º'' o simplemente 'n')
-- Referencias a varios inmuebles (ej 'Calle Jose María Valdenebro 37 y Calle Previsión 24')
-- Uso del nombre del inmueble en en vez de su dirección (Ej. Iglesia de la Trinidad, Hotel Conquistador...)
+- Referencias a varios inmuebles (ej *'Calle Jose María Valdenebro 37 y Calle Previsión 24'*)
+- Uso del nombre del inmueble en en vez de su dirección (ej. *Iglesia de la Purificación, Hotel Conquistador...*)
 
-Hay otra serie de casuísticas que podemos encontrarlas por ejemplo al indicar las calles afectadas por  obras (ej. colectores) en vía o vías públicas por lo que no tienen número de portal (ej. Colector en Avenida del Marte). Tenemos también expedientes (probación de planeamiento, proyectos de urbanización, licencias de obras...) en zonas en proceso de urbanización y que por lo tanto no tienen dirección postal completa (ej. Manzana A, Parcela 3 del Plan Parcial P2). Por nombrar alguna más, hay  procesos administrativos en ámbitos no urbanos en los que es frecuente usar nombres geográficos o topónimos (Paraje..., Huerta de...) 
+Hay **otra serie de casuísticas** que podemos encontrar por ejemplo al indicar la ubicación de obras lineales en vía o vías públicas (ej. redes de abastacmiento o saneamiento, cableado, pavimentación...) por lo que no tienen número de portal (ej. *Pavimientación de la Calle Marte*). Tenemos también expedientes (probación de planeamiento, proyectos de urbanización, licencias de obras...) en zonas en proceso de urbanización y que por lo tanto no tienen dirección postal completa (ej. *Manzana A, Parcela 3 del Plan Parcial P2*). Por nombrar alguna más, hay  procesos administrativos en ámbitos no urbanos en los que es frecuente usar nombres geográficos o topónimos (*Paraje, Huerta de...*) 
 
-Dejando a un lado estas ejemplos espaciales y especiales, **las variaciones en la descripción de la dirección pueden ser corregidas con bastantes garantías de éxito gracias a la informática**. La forma más común es la usar hojas de cálculo o bases de datos y, con mucha paciencia y tiempo, normalizar la información. Otra metodología sería la diseñar, usando un lenguaje de porgramación como Python, *scripts* de búqueda y reemplazo usando expresiones regulares que se encargarán de automatizar estos arreglos y presentarnos los resultados tal y como nos sea de más entidad. 
+Dejando a un lado estas ejemplos espaciales y especiales, **las variaciones en la descripción de la dirección pueden ser corregidas con bastantes garantías de éxito gracias a la informática**. La forma más común es la usar hojas de cálculo o bases de datos y, con mucha paciencia y tiempo, normalizar la información. Otra metodología sería la **diseñar, usando un lenguaje de porgramación como Python, *scripts* de búqueda y reemplazo** que se encargarán de automatizar estos arreglos y presentarnos los resultados tal y como nos sea de más entidad. 
 
-En el proyecto al que hago referencia, una vez obtenido ficho fichero en formato CSV, se planteó la metodología de geolocalización que mayor y mejor número de resultados ofreciera. 
+En el proyecto al que hago referencia, una vez obtenido ficho fichero en formato CSV, se planteó la **metodología de geolocalización** que mayor y mejor número de resultados ofreciera. 
 
-Las localizaciones obtenidas mediante servicios de geocodifiación (ej. Google) no fueron muy satisfactorio por lo que se optó por una solución más "clásica". De forma resumida, el trabajo final consistió en el enrriquecimiento de la información con el código del callejero del INE que permitió la unión de los registros con la capa geográfica del Callejero Digital Unificado de Andalucía mediante la combinación de "códigoINE + nportal". Posteriormente se realizaron un conjunto de trabajos puramente SIG de asignación de refencia catastral a los registros pero eso es otro tema.
+Las localizaciones obtenidas mediante **servicios de geocodifiación (ej. Google)** no fueron muy satisfactorio por lo que se optó por una solución más "clásica". De forma resumida, el trabajo final consistió en el enrriquecimiento de la información con el código del callejero del INE que permitió la unión de los registros con la capa geográfica del Callejero Digital Unificado de Andalucía mediante la combinación de *"códigoINE + nportal"*. Posteriormente se realizaron un conjunto de trabajos puramente SIG de asignación de refencia catastral a los registros.
 
-Como era de esperar el número de coincidencias no fue total, pero permitió reducir el volumen de geolocalizaciones a realizar de forma manual. Esto supuso una considerable reducción de los tiempos del proyecto.
+Como era de esperar el número de coincidencias no fue total, pero **permitió disminuir el volumen de geolocalizaciones a realizar de forma manual**. Esto supuso una considerable reducción de los tiempos del proyecto.
 
 He comentado que los resultados de la primera prueba de concepto en la que se probaron las APIS de geocodifición no fueron los esperados. A pesar de esto, la experiencia sirvió para analizar, documentar y valorar los usos de estos recursos en futuros encargos.
 
@@ -42,11 +42,11 @@ En esta entrada comentaré de forma muy simplifica **cómo usar estos servicios 
 
 # Usando librería Geocoder de Python para geocodificar direcciones postales
 
-[Geocoder](https://geocoder.readthedocs.io/) es una librería de Python desarrollada por [Denis Carriere](https://twitter.com/DenisCarriere) para realizar trabajos de geocodifiación (obtener coordenadas a partir de una dirección) y geocodificación inversa (obtener dirección a partir de coordenadas) mediante APIs de geocodificación tales como Google, Nominatim, Bing, Yahoo, Here...
+**[Geocoder](https://geocoder.readthedocs.io/) es una librería de Python desarrollada por [Denis Carriere](https://twitter.com/DenisCarriere) para realizar trabajos de geocodifiación (obtener coordenadas a partir de una dirección) y geocodificación inversa (obtener dirección a partir de coordenadas) mediante APIs de geocodificación** tales como Google, Nominatim, Bing, Yahoo, Here...
 
 Antes de comenzar la librería debemos...
 
-- Tener [Python](https://www.python.org/downloads/) ;-) y si es Python 3 mejor que mejor....
+- Tener [Python](https://www.python.org/downloads/) ;-) y si es Python 3.* mejor que mejor....
 - Instalar el módulo en nuestro equipo  o entorno virtual, por ejemplo usando el [instalador de paquetes pip](https://pypi.org/project/pip/)
 
 Comenzamos importando el paquete Geocoder
@@ -54,7 +54,7 @@ Comenzamos importando el paquete Geocoder
 ```python
 import geocoder
 ```
-Una vez importada la librería podemos usar sus funciones. En la siguiente línea un ejemplo de geocodificación de una dirección usando el servicio de Google
+Una vez importada la librería podemos usar sus funciones. En la siguiente línea un ejemplo de geocodificación de una dirección usando el la [API de geocodificación de Google](https://geocoder.readthedocs.io/providers/Google.html).
 
 ```python
 loc = geocoder.google('Calle El Almendro 6, Córdoba, Spain')
@@ -64,40 +64,31 @@ Podemos comprobar que la dirección ha sido indetificada imprimiendo la variale
 
 ```python
 loc
+<[OK] Google - Geocode [Calle el Almendro, 6, 14006 Córdoba, Spain]>
 ```
-
-    <[OK] Google - Geocode [Calle el Almendro, 6, 14006 Córdoba, Spain]>
 
 Para obtener las coordenadadas accedemos a los atributos
 
 ```python
 loc.latlng
+[37.8961199, -4.7830962]
 ```
-
-    [37.8961199, -4.7830962]
 
 Al presentarse como una lista, el acceso a la latitud y longitud de forma independiente se realiza mediante su índice.
 
 ```python
 print('Latitud: {} Longitud: {}'.format(loc.latlng[0],loc.latlng[1]))
+Latitud: 37.8961199 Longitud: -4.7830962
 ```
-
-    Latitud: 37.8961199 Longitud: -4.7830962
 
 Podemos usar otros servicios de geocodifiación, por ejemplo [Nominatim de OpenStreetMap](https://nominatim.openstreetmap.org/). En este caso geocodificamos la dirección por el nombre del inmueble.
 
 ```python
 loc1 = geocoder.osm('Hospital Universitario Virgen del Rocío, Sevilla, Spain')
 loc1
-```
-
-    <[OK] Osm - Geocode [Hospital Universitario Virgen del Rocío, Calle Antonio Maura Montaner, Tabladilla-La Estrella, Distrito Sur, Sevilla, Andalucía, 41005, España]>
-
-```python
+<[OK] Osm - Geocode [Hospital Universitario Virgen del Rocío, Calle Antonio Maura Montaner, Tabladilla-La Estrella, Distrito Sur, Sevilla, Andalucía, 41005, España]>
 loc1.latlng
-```
-
-    [37.3629504, -5.97893023224876]
+```[37.3629504, -5.97893023224876]
 
 **La potencia de usar una lenguaje de programación es que podemos sistematizar operaciones repetidas creando un fragmento de código que haga este trabajo**. Así por ejemplo, nuestro programa podría leer el archivo CSV con el listado de direcciones, que buscara cada una de las direcciones usando la librería Geocoder y que nos devolviera las coordendas encontradas.
 

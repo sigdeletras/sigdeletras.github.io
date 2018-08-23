@@ -88,8 +88,8 @@ loc1 = geocoder.osm('Hospital Universitario Virgen del Rocío, Sevilla, Spain')
 loc1
 <[OK] Osm - Geocode [Hospital Universitario Virgen del Rocío, Calle Antonio Maura Montaner, Tabladilla-La Estrella, Distrito Sur, Sevilla, Andalucía, 41005, España]>
 loc1.latlng
-```[37.3629504, -5.97893023224876]
-
+[37.3629504, -5.97893023224876]
+```
 **La potencia de usar una lenguaje de programación es que podemos sistematizar operaciones repetidas creando un fragmento de código que haga este trabajo**. Así por ejemplo, nuestro programa podría leer el archivo CSV con el listado de direcciones, que buscara cada una de las direcciones usando la librería Geocoder y que nos devolviera las coordendas encontradas.
 
 Añadimos el módulo CSV para trabajar con este tipo de archivos.

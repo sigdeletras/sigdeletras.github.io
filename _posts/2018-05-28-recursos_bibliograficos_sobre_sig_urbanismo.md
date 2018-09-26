@@ -13,13 +13,11 @@ tags:
   - urbanismo
 ---
 
-Como ya hemos indicado, del del **1 de junio al 12 julio de 2018** va a tener lugar el curso virtual **Curso “Sistemas de Información Geográfica y Urbanismo”** con un total de 80 horas. Para los más rezagad@s, comentaros que aún hay tiempo de matricularse y que toda la información (temario, precio, inscripción...) se encuentra en la [siguiente entrada de la web](http://www.sigdeletras.com/2018/curso_on_line_sistemas_de_informacion_geografica_y_urbanismo/).
+Dentro de la documentación adjunta del  [**Curso “Sistemas de Información Geográfica y Urbanismo”**](http://www.sigdeletras.com/2018/curso_on_line_sistemas_de_informacion_geografica_y_urbanismo_2_edicion/) que impartimos desde SIGdeletras, tenemos una recopilación de enlaces, vídeos y referencias bibliográficas que sirvan a los alumnos para profundizar en los campos de aplicación de los SIG en el ámbito del urbanismo, planificación territorial, análisis de indicadores. 
 
-![Flayer Geowebinar](/images/blog/201805_curso_sig_urbanismo/curso_sig_urbanismo.png)
+![Flayer Geowebinar](/images/blog/201809_curso_sig_urbanismo/2ed_curso_sig_urbanismo.png)
 
-Tanto [José Carlos Rico](https://www.linkedin.com/in/jos%C3%A9-carlos-rico-c%C3%B3rdoba-659b1915/) como yo, tutores del curso, hemos creíado conveniente adjuntar a la documentación del curso una recopilación de enlaces, vídeos y referencias bibliográficas que sirvan a los asistentes en profundizar en los campos de aplicación de los SIG en el ámbito del urbanismo, planificación territorial, análisis de indicadores. 
-
-A continuación, os dejo una selección de estos recursos, que se tratarán y usaran durante el curso. Espero que os sean de interés.
+A continuación, os dejamos una selección de estos recursos que esperamos sean interés.
 
 - AZCÁRATE LUXÁN, et al. (2015): **La utilización del Catastro de Urbana en el análisis morfológico de una ciudad. Aplicación al estudio del paisaje urbano del municipio de Las Rozas (Madrid)**. DE LA RIVA, J., IBARRA, P., MONTORIO, R., RODRIGUES, M. (Eds.) Análisis espacial y representación geográfica: innovación y aplicación: 501-510 Universidad de Zaragoza-AGE. [Enlace](http://congresoage.unizar.es/eBook/trabajos/053_Azcarate%20Luxan.pdf)
 - CONESA GARCÍA, C. (2004) **El empleo de los SIG y la Teledeteccion en planificacion territorial**. Universidad de Murcia. [Enlace](https://www.um.es/congresoMCSIGT/XI%20Congreso%20del%20GMCSIGT%20Tomo%20III.pdf)

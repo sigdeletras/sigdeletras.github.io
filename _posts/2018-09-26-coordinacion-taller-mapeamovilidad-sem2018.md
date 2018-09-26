@@ -1,5 +1,5 @@
 ---
-title:  "Coordinación del Taller #MapeaMovilidad dentro de la Semana Europea de la Movilidad 2018"
+title:  "Coordinación del Taller MapeaMovilidad dentro de la Semana Europea de la Movilidad 2018"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

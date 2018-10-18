@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Sobre mi"
-    url: /sobre-mi/
-  - title: "Servicios"
-    url: /servicios/
   - title: "Formación"
     url: /formacion/ 
+  - title: "Servicios"
+    url: /servicios/
+  - title: "Sobre mi"
+    url: /sobre-mi/
   - title: "Presentaciones"
     url: /presentaciones/   
   - title: "Temas"

@@ -30,7 +30,7 @@ Como novedad comentar, que para esta nueva edición hemos adaptados los temarios
 El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación.**
 
 **Formulario de inscripción:** Inscripción y formalizar la matrícula . [Enlace](http://bit.ly/curso_sigurbanisno)
-{: .notice--info}
+{: .notice--warning}
 
 
 El **objetivo principal** del curso es el de adquirir los conocimientos teóricos y prácticos básicos necesarios para la aplicación de los datos e información geográfica en la gestión urbana y del territorio. Al final del mismo los alumnos seréis capaces de afrontar las tareas de identificación, gestión, análisis y representación de la información territorial mediante el manejo de herramientas SIG. 

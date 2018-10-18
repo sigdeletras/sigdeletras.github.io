@@ -7,7 +7,8 @@ date: 2017-08-15T03:02:20+00:00
 ![Yo](/images/yo_150x150.png){: .align-left} Geógrafo “Full-stack” especializado en Tecnologías de Información Geográfica, gestión de la ciudad, administración pública y patrimonio cultural. Formador  Sistemas de Información Geográfica. Desarrollador de mapas en web. Geoinquieto cordobés.
 
 ## Experiencia profesional
-
+| 2018 | CSIC. Estación Biológica de Doñana. Sevilla [**Tutor del curso presencial QGIS Avanzado"**] 60 horas|
+| 2018 | Empresa Pública de Vicienda y Suelo de Córdoba. **Coordinador de proyecto SIG Plan de Vivienda y Suelo de Córdoba 2018.)"** |
 | 2017 | Planem. Ingeniería. Arquitectura, Urbanismo. **Consultoría.  "Estudio previo de localización para uso de aparcamiento en Zuheros (Córdoba)"**. Programa de Planeamiento Urbanístico 2017. Servicio de Arquitectura y Urbanismo (SAU). Diputación de Córdoba |
 | 2017 | **Vimcorsa. Profesor del curso "SIG y Urbanismo"**. Proyecto Plan Municipal de Vivienda y Suelo de Córdoba  |
 | 2017 | [**Tutor del curso privado Arquitectos "SIG y Ciudad"**](/presentaciones/presentacion-mas-cafe-del-curso-sig-y-ciudad-en-cosfera/ "Entrada SIGdeletras") |

@@ -16,10 +16,10 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/201809_curso_sig_urbanismo/2ed_curso_sig_urbanismo.png)
 
-Nos alegra comentaros que del **6 de noviembre al 17 de diciembre 2018** tendrá lugar la 2º Edición de nuestro **curso-online “Sistemas de Información Geográfica y Urbanismo”**.
-
-**Ficha completa:** [**ficha en PDF del curso. (Enlace)**](/images/blog/201809_curso_sig_urbanismo/ficha_2ed_curso_sig_urbanismo_almagre_2018.pdf)
+**Datos del curso:** [**Descarga de la Ficha completa del curso. (Enlace)**](/images/blog/201809_curso_sig_urbanismo/ficha_2ed_curso_sig_urbanismo_almagre_2018.pdf)
 {: .notice--info}
+
+Nos alegra comentaros que del **6 de noviembre al 17 de diciembre 2018** tendrá lugar la 2º Edición de nuestro **curso-online “Sistemas de Información Geográfica y Urbanismo”**.
 
 Como novedad comentar, que para esta nueva edición hemos adaptados los temarios y las prácticas a la versión más reciente del Sistema de Información Geográfico QGIS. [**QGIS 3**](https://www.qgis.org/es/site/forusers/download.html) cuenta con un amplio repertorio de novedades que facilitan su usos y mejoran la rentabilidad del trabajo realizado con este conocido paquete SIG abierto.
 
@@ -37,7 +37,7 @@ El **objetivo principal** del curso es el de adquirir los conocimientos teórico
 
 El curso está destinado a todos aquellos interesados en adquirir las competencias necesarias para el uso de herramientas de producción y análisis de información geográfica. Entre los alumnos pueden encontrarse  profesionales, investigadores y técnicos, tanto del sector privado como público, vinculados con el urbanismo, la gestión urbana, edición catastral o planificación de la ciudad...
 
-Mediante el **sistema de enseñanza e-learning** a través del Aula Virtual Almagre, el curso se organizará en bloques teóricos y prácticos, donde se entregará una documentación sobre el tema y un guión de prácticas a seguir. Así, cada bloque contará con documentos, textos y enlaces de apoyo que faciliten la mejor compresión de cada uno de los temas.
+Mediante el **sistema de enseñanza e-learning** a través del [Aula Virtual Almagre](http://www.almagre.es), el curso se organizará en bloques teóricos y prácticos, donde se entregará una documentación sobre el tema y un guión de prácticas a seguir. Así, cada bloque contará con documentos, textos y enlaces de apoyo que faciliten la mejor compresión de cada uno de los temas.
 
 Los tutores de esta edición serán:
 

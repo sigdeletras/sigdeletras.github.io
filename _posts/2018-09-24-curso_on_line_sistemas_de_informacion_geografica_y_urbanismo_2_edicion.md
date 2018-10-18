@@ -16,10 +16,10 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/201809_curso_sig_urbanismo/2ed_curso_sig_urbanismo.png)
 
+Nos alegra comentaros que del **6 de noviembre al 17 de diciembre 2018** tendrá lugar la 2º Edición de nuestro **curso-online “Sistemas de Información Geográfica y Urbanismo”**.
+
 **Datos del curso:** Descarga de la Ficha completa del curso. [(Enlace)](/images/blog/201809_curso_sig_urbanismo/ficha_2ed_curso_sig_urbanismo_almagre_2018.pdf)
 {: .notice--info}
-
-Nos alegra comentaros que del **6 de noviembre al 17 de diciembre 2018** tendrá lugar la 2º Edición de nuestro **curso-online “Sistemas de Información Geográfica y Urbanismo”**.
 
 Como novedad comentar, que para esta nueva edición hemos adaptados los temarios y las prácticas a la versión más reciente del Sistema de Información Geográfico QGIS. [**QGIS 3**](https://www.qgis.org/es/site/forusers/download.html) cuenta con un amplio repertorio de novedades que facilitan su usos y mejoran la rentabilidad del trabajo realizado con este conocido paquete SIG abierto.
 

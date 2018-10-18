@@ -16,7 +16,7 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/201809_curso_sig_urbanismo/2ed_curso_sig_urbanismo.png)
 
-**Datos del curso:** [**Descarga de la Ficha completa del curso. (Enlace)**](/images/blog/201809_curso_sig_urbanismo/ficha_2ed_curso_sig_urbanismo_almagre_2018.pdf)
+**Datos del curso:** Descarga de la Ficha completa del curso. [(Enlace)](/images/blog/201809_curso_sig_urbanismo/ficha_2ed_curso_sig_urbanismo_almagre_2018.pdf)
 {: .notice--info}
 
 Nos alegra comentaros que del **6 de noviembre al 17 de diciembre 2018** tendrá lugar la 2º Edición de nuestro **curso-online “Sistemas de Información Geográfica y Urbanismo”**.
@@ -27,7 +27,11 @@ Como novedad comentar, que para esta nueva edición hemos adaptados los temarios
 
 *Componentes de un SIG. Autor: Patricio Soriano y José Carlos Rico*
 
-El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. Para realizar la **inscripción y formalizar la matrícula debe completarse el siguiente formulario [http://bit.ly/curso_sigurbanisno](http://bit.ly/curso_sigurbanisno)**.
+El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación.**
+
+**Formulario de inscripción:** Inscripción y formalizar la matrícula . [Enlace](http://bit.ly/curso_sigurbanisno)
+{: .notice--info}
+
 
 El **objetivo principal** del curso es el de adquirir los conocimientos teóricos y prácticos básicos necesarios para la aplicación de los datos e información geográfica en la gestión urbana y del territorio. Al final del mismo los alumnos seréis capaces de afrontar las tareas de identificación, gestión, análisis y representación de la información territorial mediante el manejo de herramientas SIG. 
 

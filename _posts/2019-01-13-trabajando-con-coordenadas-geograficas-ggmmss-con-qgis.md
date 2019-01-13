@@ -1,5 +1,5 @@
 ---
-title:  "Trabajando con coordendas geográficas GGMMSS con QGIS"
+title:  "Trabajando con coordenadas geográficas GGMMSS con QGIS 3"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

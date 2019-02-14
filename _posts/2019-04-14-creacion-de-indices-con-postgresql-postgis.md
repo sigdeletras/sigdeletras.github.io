@@ -1,5 +1,5 @@
 ---
-title:  "Creación de indices en PostgreSQL/PostGIS"
+title:  "Creación de índices en PostgreSQL/PostGIS"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

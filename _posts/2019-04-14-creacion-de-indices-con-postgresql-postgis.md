@@ -8,8 +8,8 @@ header:
 categories: 
   - 2019
 tags:
-  - Postgis
-  - Postgres
+  - PostGIS
+  - PostgreSQL
   - Bases de datos geográficas
 ---
 

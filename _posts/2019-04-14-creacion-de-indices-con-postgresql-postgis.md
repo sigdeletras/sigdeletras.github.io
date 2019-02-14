@@ -8,7 +8,9 @@ header:
 categories: 
   - 2019
 tags:
-  - database, postgis, postgres, bases de datos geográficas
+  - Postgis
+  - Postgres
+  - Bases de datos geográficas
 ---
 
 La generación de **índices dentro de las bases de datos** debe ser un paso fundamental a la hora de modelar el diseño de la misma. Estos índices van a tener varias utilidades. Su **principal beneficio será el de agilitar las consultas a los datos**. Si bien en una tabla con pocas filas es casi inapreciable, cuando trabajo con millones de registros o tuplas el diseño de unos índices correctos es prioritario.

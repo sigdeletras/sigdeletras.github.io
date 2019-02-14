@@ -71,6 +71,10 @@ ON municipios USING GIST (geom);
 
 ```
 
+![Index](/images/blog/201902_index/qgis_index.png)
+
+*Opción de crear índice espacial en el Administrador de BBDD de QGIS*
+
 ## Referencias
 
 - [Documentation PostgreSQL Index Types](https://www.postgresql.org/docs/9.4/indexes-types.html)

@@ -14,7 +14,8 @@ Desde SIGdeletras ofrecemos **formación a entidades públicas, empresas o profe
 Para empresas, podemos ofrecer cursos bajo la modalidad **Formación Bonificada**.
 
 Algunas acciones formativas:
-
+- Curso **"Sistemas de Información Geográfica. [QGIS 3](http://www.sigdeletras.com/tags/#qgis)"**. Técnicos Instituto Geográfico de Aragón IGEAR. Gobierno de Aragón. 200 horas. Modalidad SemiPresencial. Febrero-Abril 2019
+- Curso **"QGIS Avanzado"** Personal investigador  Estación Biológica de Doñana - CSIC. Sevilla Presencial 30 horas. Septiembre 2018.
 - Curso **"Sistemas de Información Geográfica. [QGIS](http://www.sigdeletras.com/tags/#qgis)"**. Personal Plan Emple@30+. VIMCORSA, Empresa municipal de la vivienda de Córdoba. 21 horas. Modalidad Presencial. Septiembre 2017
 - Curso **"Sistemas de Información Geográfica y Urbanismo"**. Personal técnico de VIMCORSA, Empresa municipal de la vivienda de Córdoba. Acción formativa dentro del Proyecto de redacción del Plan Municipal de Vivienda y Suelo. 21 horas. Modalidad Presencial. Junio 2017
 - Curso **"Análisis y gestión de proyectos SIG"**. Personal técnico de VIMCORSA, Empresa municipal de la vivienda de Córdoba. Acción formativa dentro del Proyecto de redacción del Plan Municipal de Vivienda y Suelo. Córdoba. 9 horas. Modalidad Presencial. Junio 2017

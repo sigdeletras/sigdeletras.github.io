@@ -66,7 +66,7 @@ Las unidades generales del **temario del curso** son las siguientes:
 - Unidad 5 Análisis espacial aplicado
 - Unidad 6 Visualización. Generación de mapas y planos.
 
-El temario completo, junto a toda la información del curso se encuentra disponible en la [**ficha en PDF del curso. (Enlace)**](/images/blog/curso_sig_urbanismo/ficha_3ed_curso_sig_urbanismo_almagre_2019.pdf)
+El temario completo, junto a toda la información del curso se encuentra disponible en la [**ficha en PDF del curso. (Enlace)**](/images/blog/curso_sig_urbanismo/ficha_3ed_curso_sig_qgis_urbanismo_almagre_2019.pdf)
 
 ![Salida gráfica con vistas múltiples en QGIS](/images/blog/curso_sig_urbanismo/alternativas.jpg)
 

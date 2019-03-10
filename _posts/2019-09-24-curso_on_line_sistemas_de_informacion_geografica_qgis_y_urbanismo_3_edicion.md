@@ -18,7 +18,7 @@ tags:
 
 Para todos aquellos interesados os comentamos que del **24 de abril al 4 de junio 2019** tendrá lugar uan nueva edición, ya van 3, del  **curso-online “Sistemas de Información Geográfica QGIS y Urbanismo”**.
 
-**Datos del curso:** Descarga de la Ficha completa del curso. [(Enlace)](/images/blog/curso_sig_urbanismo/ficha_3ed_curso_sig_qgis_urbanismo_almagre_2019.pdf)
+**Datos del curso:** Descarga de la Ficha completa del curso. [Enlace PDF](https://drive.google.com/file/d/1OGKSwkAp8NLIvdYbCl50NH49bbHpy1eg/view?usp=sharing)
 {: .notice--info}
 
 ![Componentes de un SIG](/images/blog/curso_sig_urbanismo/sistema_sig.jpg)
@@ -27,7 +27,7 @@ Para todos aquellos interesados os comentamos que del **24 de abril al 4 de juni
 
 El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación.** entre los días 10 de marzo al 16 de abril de 2019.
 
-**Formulario de inscripción:** [Enlace a formulario de ](http://bit.ly/curso_sigurbanisno) activa **hasta el 16 de abril**.
+**Formulario de inscripción:** [Enlace a formulario de inscpción ](http://bit.ly/curso_sigurbanisno) Activa **hasta el 16 de abril**.
 {: .notice--warning}
 
 

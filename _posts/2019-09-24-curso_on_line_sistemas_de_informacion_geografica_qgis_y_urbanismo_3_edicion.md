@@ -16,7 +16,7 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/curso_sig_urbanismo/3ed_curso_sig_urbanismo.png)
 
-Para todos aquellos interesados os comentamos que del **24 de abril al 4 de junio 2019** tendrá lugar uan nueva edición, ya van 3, del  **curso-online “Sistemas de Información Geográfica QGIS y Urbanismo”**.
+Para todos aquellos interesados os comentamos que del **24 de abril al 4 de junio 2019** tendrá lugar uan nueva edición, ya van 3, del  **Curso-online “Sistemas de Información Geográfica QGIS y Urbanismo”**.
 
 **Datos del curso:** Descarga de la Ficha completa del curso. [Enlace PDF](/images/blog/curso_sig_urbanismo/ficha_3ed_curso_sig_qgis_urbanismo_almagre_2019.pdf)
 {: .notice--info}
@@ -25,7 +25,9 @@ Para todos aquellos interesados os comentamos que del **24 de abril al 4 de juni
 
 *Componentes de un SIG. Autor: Patricio Soriano y José Carlos Rico*
 
-El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación.** entre los días 10 de marzo al 16 de abril de 2019.
+El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**. 
+
+Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación** entre los días 10 de marzo al 16 de abril de 2019.
 
 **Formulario de inscripción:** [Enlace a formulario de inscpción ](http://bit.ly/curso_sigurbanisno) Activa **hasta el 16 de abril**.
 {: .notice--warning}

@@ -29,7 +29,7 @@ El curso cuenta con un total de **80 horas**  y tendrá un **precio de 250 €**
 
 Para realizar la **inscripción y formalizar la matrícula debe completarse el formulario que se encuentra a continuación** entre los días 10 de marzo al 16 de abril de 2019.
 
-**Formulario de inscripción:** [Enlace a formulario de inscpción ](http://bit.ly/curso_sigurbanisno) Activa **hasta el 16 de abril**.
+**Formulario de inscripción:** [Enlace a formulario de inscripción ](http://bit.ly/curso_sigurbanisno) Activa **hasta el 16 de abril**.
 {: .notice--warning}
 
 

@@ -39,7 +39,7 @@ El **objetivo principal** del curso es el de adquirir los conocimientos teórico
 
 El curso está destinado a todos aquellos interesados en adquirir las competencias necesarias para el uso de herramientas de producción y análisis de información geográfica. Entre los alumnos pueden encontrarse  profesionales, investigadores y técnicos, tanto del sector privado como público, vinculados con el urbanismo, la gestión urbana, edición catastral o planificación de la ciudad...
 
-![Logo QGIS](/images/blog/curso_sig_urbanismo/sistema_sig.jpg)
+![Logo QGIS](/images/blog/curso_sig_urbanismo/qgis.png)
 
 Mediante el **sistema de enseñanza e-learning** a través del [Aula Virtual Almagre](http://www.almagre.es), el curso se organizará en bloques teóricos y prácticos, donde se entregará una documentación sobre el tema y un guión de prácticas a seguir. Así, cada bloque contará con documentos, textos y enlaces de apoyo que faciliten la mejor compresión de cada uno de los temas.
 

@@ -16,7 +16,7 @@ tags:
 
 ![Flayer Geowebinar](/images/blog/curso_sig_urbanismo/3ed_curso_sig_urbanismo.png)
 
-Para todos aquellos interesados os comentamos que del **24 de abril al 4 de junio 2019** tendrá lugar uan nueva edición, ya van 3, del  **Curso-online “Sistemas de Información Geográfica QGIS y Urbanismo”**.
+Para todos aquellos interesados os comentamos que del **24 de abril al 4 de junio 2019** tendrá lugar la 3ª edición del  **Curso-online “Sistemas de Información Geográfica QGIS y Urbanismo”**.
 
 **Datos del curso:** Descarga de la Ficha completa del curso. [Enlace PDF](/images/blog/curso_sig_urbanismo/ficha_3ed_curso_sig_qgis_urbanismo_almagre_2019.pdf)
 {: .notice--info}

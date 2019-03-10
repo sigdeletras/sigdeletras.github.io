@@ -72,9 +72,3 @@ El temario completo, junto a toda la información del curso se encuentra disponi
 
 *Salida gráfica con vistas múltiples en QGIS. Autor: Planem Urbanismo, Arquiectura e Ingeniería*
 
-**Fechas clave:** 
-- Inscripción: hasta el 16 de abril.
-- Pago de matrícula: 9-17 de abril.
-- Realización del curso: 24 de abril al 4 de junio.
-{: .notice--info}
-

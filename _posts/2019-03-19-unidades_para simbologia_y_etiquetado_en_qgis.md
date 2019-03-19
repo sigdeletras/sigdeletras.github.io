@@ -8,10 +8,12 @@ header:
 categories: 
   - 2019
 tags:
-  - QGIS 3
+  - QGIS
 ---
 
-Adaptando los materiales sobre diseño de impresiones de los cursos que imparto con QGIS, pudo comprobar que en la nueva versión había sido añada la opción "Metros a escala" dentro del tipo de unidades a aplicar a las simbologías y etiquetado. 
+Adaptando los materiales sobre diseño de impresiones de los cursos que imparto con QGIS, pudo comprobar que en la nueva versión había sido añada la opción "Metros a escala" dentro del tipo de unidades a aplicar a las simbologías y etiquetado.
+
+![Etiquetastolocas](/images/blog/201903_unidades/portada.png)
 
 Para aquellos que vengan del CAD, el conocimiento de las funciones y parámetros para el diseño de impresiones (composiciones en QGIS) de un SIG es un principio una tarea ardua. Esto no significa que con un poco de dedicación y/o formación se lleguen a obtener  excelentes resultados. Siempre comparto con l@s alumn@s este enlace cuando trato este tema. Es sin duda para dedicarle un buen rato.
 

@@ -40,7 +40,7 @@ Las unidades en QGIS tanto para la altura de textos como para anchuras, desplaza
 
 Como he comentado para que las dimensiones y medidas se adapten a la escala de la visualización debe elegirse las unidades milímetros, puntos, píxeles o pulgadas. Se suele usar pode defecto puntos o píxeles que son las unidades frecuente en diseño gráfico. En este aspecto también tenemos que tener encuentra la resolución de nuestra pantalla y de la exportación (ej. a PDF) de una composición. Así, aunque definamos las equivalencia entre puntos y píxel, el resultado será diferente si lo vemos en la vista de mapa que en la composición.
 
-Consultando sobre este tema el el grupo [Telegram de usuarios de QGIS], Agustín Gutiérrez (https://www.linkedin.com/in/agustingutierrezfornes/) cartógrafo y especialista en GIS compartió este enlace https://reeddesign.co.uk/test/points-pixels.html  listado de equivalencias y porcentajes.
+Consultando sobre este tema el el grupo Telegram de usuarios de QGIS, [Agustín Gutiérrez](https://www.linkedin.com/in/agustingutierrezfornes/), cartógrafo y especialista en GIS, compartió este [enlace con un listado de equivalencias y porcentajes](https://reeddesign.co.uk/test/points-pixels.html).
 
 Para generar las siguientes capturas, se ha definido para las unidades y los tamaños para que en la vista de mapa se apreciaran todos iguales. Las capturas sin embargo están tomadas del resultado de las mismas en el Compositor. 
 

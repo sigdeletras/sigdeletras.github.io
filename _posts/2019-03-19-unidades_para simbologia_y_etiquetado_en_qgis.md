@@ -11,13 +11,13 @@ tags:
   - QGIS
 ---
 
-Adaptando los materiales sobre diseño de impresiones de los cursos que imparto con QGIS, pudo comprobar que en la nueva versión había sido añada la opción "Metros a escala" dentro del tipo de unidades a aplicar a las simbologías y etiquetado.
+Adaptando los materiales sobre diseño de impresiones de los [cursos que imparto](http://www.sigdeletras.com/formacion/) con QGIS, pudo comprobar que en la nueva versión había sido añada la opción "Metros a escala" dentro del tipo de unidades a aplicar a las simbologías y etiquetado.
 
 ![Etiquetastolocas](/images/blog/201903_unidades/portada.png)
 
 Para aquellos que vengan del CAD, el conocimiento de las funciones y parámetros para el diseño de impresiones (composiciones en QGIS) de un SIG es un principio una tarea ardua. Esto no significa que con un poco de dedicación y/o formación se lleguen a obtener  excelentes resultados. Siempre comparto con l@s alumn@s este enlace cuando trato este tema. Es sin duda para dedicarle un buen rato.
 
-Creo que un aspecto importante a tener en cuenta como base al empezar, es que el SIG suele trabajar con los datos de forma dinámica. Esto llevado a temas de diseño, supone que las dimensiones de grosores de líneas, patrones de rellenos, ancho de bordes, tamaño de tipografías, espacio entre letras... se gestiona de forma automática y se adapta a la escala de visualización en la que nos encontremos.
+Creo que un aspecto importante a tener en cuenta como base al empezar, es que **el SIG suele trabajar con los datos de forma dinámica**. Esto llevado a temas de diseño, supone que las dimensiones de grosores de líneas, patrones de rellenos, ancho de bordes, tamaño de tipografías, espacio entre letras... se gestiona de forma automática y se adapta a la escala de visualización en la que nos encontremos.
 
 Esto no quita para que tengamos también la opción de usar unidades de medidas fijas que nos van a ser de utilidad cuando comencemos a diseñar nuestra composición en "espacio papel". En este caso las dimensiones definidas para simbología y etiquetado deberán ser pensadas para la escala de representación final  de la composición de mapa y por lo tanto ajustada a esta.
 

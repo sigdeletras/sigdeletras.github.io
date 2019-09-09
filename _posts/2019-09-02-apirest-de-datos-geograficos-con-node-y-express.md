@@ -1,5 +1,5 @@
 ---
-title:  "API Restful de datos geográficos con Node.js y Express"
+title:  "API REST de datos geográficos con Node.js y Express"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

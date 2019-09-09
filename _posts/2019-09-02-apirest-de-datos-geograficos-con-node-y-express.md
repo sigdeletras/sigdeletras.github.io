@@ -269,4 +269,4 @@ Podemos guardar los datos en nuestro equipo con la extensión geojson (ej. aloja
 ![Drag Racing](/images/blog/201909_apirest/08_geojsonio.png)
 
 
-El proyecto final se encuentra en [GitHub](https://github.com/sigdeletras/geoapi).
+El proyecto final se encuentra en [GitHub](https://github.com/sigdeletras/geoapi/releases/tag/v0.1).

@@ -14,13 +14,13 @@ tags:
   - QGIS
 ---
 
-Vamos a continuar con la [serie de entradas](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express_2/) vinculadas con la **creación de una APIRest para ofrecer servicios y datos geográficos con Node.js y Express**. Toca describir las formas de consumir estos datos. Empezamos indicando cómo hacerlo desde un Sistema de Información Geográfica, en concreto con la última versión de [QGIS](https://www.qgis.org/es/site/), la 3.8 Zanzibar
+Vamos a continuar con la [serie de entradas](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express_2/) vinculadas con la **creación de una API Rest para ofrecer servicios y datos geográficos con [Node.js](https://nodejs.org/es/) y [Express](https://expressjs.com/es/)**. Toca describir las formas de consumir estos datos. Empezamos indicando cómo hacerlo desde un Sistema de Información Geográfica, en concreto con la última versión de [QGIS](https://www.qgis.org/es/site/), la 3.8 Zanzibar
 
-# Añadir mapa base mediante *server tiles*
-Arrancamos QGIS para añadir una capa base sobre la representar nuestros datos. Los recursos son grandes, pero para esta entrada vamos a cargar como mapa de referencia OpentreeetMap mediando servicio de teselas del tipo *XYZ Tiles*. 
+## Añadir mapa base mediante *server tiles*
+Arrancamos QGIS para añadir una capa base sobre la representar nuestros datos. Los recursos son grandes, pero para esta entrada vamos a cargar como **mapa de referencia OpentreeetMap mediando servicio de teselas del tipo *XYZ Tiles**. 
 
-- Accedemos desde el menú a **Capa>Administrador de fuentes de datos** y elegimos **Navegador**.
-- Dentro de las opciones que nos presenta QGIS hacemos clic y botón derecho sobre *XYZ Tiles*. Elegimos la opción *"Conexión nueva"*.
+- Accedemos desde el menú a **Capa > Administrador de fuentes de datos** y elegimos **Navegador**.
+- Dentro de las opciones que nos presenta QGIS hacemos clic y botón derecho sobre *XYZ Tiles*. Elegimos la opción **Conexión nueva**.
 - Damos un nombre a nuestra nueva conexión (ej. OpenStreetMap) y añadimos la URL del servicio *https://tile.openstreetmap.org/{z}/{x}/{y}.png*
 
 ![XYZ Tiles](/images/blog/201909_apirest/3parteqgis/01_xyxtiles.png)
@@ -35,15 +35,15 @@ Podemos encontrar más ejemplos de [servicios de teselas de OpenStreetMap](https
 - Google Terrain: https://mt1.google.com/vt/lyrs=t&x={x}&y={y}&z={z}
 - Google Roads: https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}
 
-# Cargando capas desde nuestra geo API
+## Cargando capas desde nuestra geo API
 
 En las dos entradas anteriores dimos unas guías generales de cómo [crear una API Rest de datos geográficos con Node.js](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express) y [cómo configurarla para poder obtenter GeoJSON](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express_2/) de datos almacenados en PostgreSQL/PostGIS.
 
-Trabajábamos en un entorno de desarrollo, en el que está levantado nuetro servidor REST. La API desarrollada permitía consultar el listado de capas dispobibles mediante una petición GET usando la dirección *http://localhost:3000/api/catalog*. Si queríamos obtener el archivo GeoJSON de una capa concreta (ej.centros) debíamos escribir en nuestro navegador *http://localhost:3000/api/layers/centrosalud*.
+Trabajábamos en un entorno de desarrollo, en el que está levantado nuetro servidor REST. La API desarrollada permitía consultar el listado de capas dispobibles mediante una petición GET usando la dirección *http://localhost:3000/api/catalog*. Si queríamos obtener el archivo GeoJSON de una capa concreta (ej.centros de salud de Andalucía) debíamos escribir en nuestro navegador *http://localhost:3000/api/layers/centrosalud*.
 
 ![Servisios API Rest](/images/blog/201909_apirest/3parteqgis/02_geoapi.png)
 
-# Consumientos servicos API Rest desde QGIS
+## Consumientos servicos API Rest desde QGIS
 
 Esta misma petición HTTP es la que podemos usar en QGIS para trabajar con cualquiera de las capas servidas en nuestro proyecto geográfico. 
 
@@ -58,7 +58,7 @@ Tras hacer clic en *Añadir*, comprobaremos que ya tenemos cargada la capa de ce
 
 ![Capa en QGIS](/images/blog/201909_apirest/3parteqgis/04_carga_infoqgis.png)
 
-# Complementos QGIS para consumir datos de API Rest
+## Complementos QGIS para consumir datos de API Rest
 
 Tras las pasadas entradas, he tenido la oportunidad de hablar con algunos compañeros sobre el tema de servir datos geográficos mediante APIs frente a servicios [OGC de tipo WFS](https://www.opengeospatial.org/standards/wfs). Habría que sopesar el coste en desarrollo e infraestructuras según el alcance del proyecto, analizar pros/contras y un conjunto de aspectos que quedan fuera de esta entrada. 
 

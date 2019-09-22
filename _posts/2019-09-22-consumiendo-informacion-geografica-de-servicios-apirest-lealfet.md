@@ -15,13 +15,17 @@ tags:
   - webmapping
 ---
 
-En el siguiente artículo se explica **cómo crear una página web para presentar datos espaciales consumidos desde una API Rest usando la librería Javascript Leaflet**. El texto forma parte de una serie de [entradas vinculadas con la puesta en marcha de un servidor de tipo Rest de información geoposicionada](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express/). Esta guía sería la continuación de la página titulada [Consumiento información geográfica de servicios API REST. QGIS](http://www.sigdeletras.com/2019/consumiendo-informacion-geografica-de-servicios-apirest-qgis/) donde vemos cómo acceder a nuestros datos desde Sistema de Información Geográfica QGIS.
+Este texto forma parte de una serie de [entradas vinculadas con la puesta en marcha de un servidor de tipo Rest de información geoposicionada](http://www.sigdeletras.com/2019/apirest-de-datos-geograficos-con-node-y-express/). Esta guía sería la continuación de la página titulada [Consumiento información geográfica de servicios API REST. QGIS](http://www.sigdeletras.com/2019/consumiendo-informacion-geografica-de-servicios-apirest-qgis/) donde vemos cómo acceder a nuestros datos desde Sistema de Información Geográfica QGIS.
+
+En esta ocasión vamos a explicar **cómo crear una página web para presentar datos espaciales consumidos desde una API Rest usando la librería Javascript Leaflet**.
 
 ![html](/images/blog/201909_apirest/4parteleaflet/portada_4.png)
 
 # Crear estructura HTML básica del proyecto
 
-Empezamos creando una carpeta en nuestro equipo que podemos llamar *appgeoservicios*. Dentro crearemos el archivo *index.html*. Para desarrollar esta guía es recomendable usar un editor de código tipo Sublime Text, Atom, Visual Studio Code. Si manejamos Visual Studio Code podemos usar algunos de los atajos o *snippets* para crear el código básico de una página HTML5. 
+Para desarrollar esta guía es recomendable usar un editor de código tipo Sublime Text, Atom, Visual Studio Code.
+
+Empezamos creando una carpeta en nuestro equipo que podemos llamar *appgeoservicios*. Dentro crearemos el archivo *index.html*. Si manejamos Visual Studio Code podemos usar algunos de los atajos o *snippets* para crear el código básico de una página HTML5. 
 
 ![html](/images/blog/201909_apirest/4parteleaflet/00_html.gif)
 
@@ -47,7 +51,7 @@ El código inicial sería el siguiente.
 
 ```
 
-Vamos a añadir un elemento div dentro de la sección body del HTML. Una vez creado le asignaremos su identificador único (*id='map'*). Esta será la capa donde se pintará nuestro mapa. El mapa va a ocupar toda el espacio de la página por lo que definimos sus propiedades mediante CSS.
+Vamos a añadir un elemento *div* dentro de la sección *body* del HTML. Una vez creado le asignaremos su identificador único (*id='map'*). Esta será la capa donde se pintará nuestro mapa. El mapa va a ocupar toda el espacio de la página por lo que definimos sus propiedades mediante CSS.
 
 ```html
 <!DOCTYPE html>
@@ -88,20 +92,19 @@ Vamos a añadir un elemento div dentro de la sección body del HTML. Una vez cre
 
 Existen varias librerías JavaScript que permite crear aplicaciones de mapas. Entre las las más conocidas está [Google Maps API](https://cloud.google.com/maps-platform/?hl=es), [OpenLayer](https://openlayers.org/) o [Leaflet](https://leafletjs.com/). Usaremos Leaflet para este ejemplo.
 
-Lo primero que debemos hacer es añadir los recursos necesarios para manejar esta librería de mapas. Podemos [descargar la librería de Leaflet](https://leafletjs.com/download.html) y guardarla en una carpeta de recursos dentro de nuestro proyecto. Pero en esta ocasión, vamos a enlazar los recursos necesarios de forma externa desde  un CDN (Content Delivery Network o Red de entrega de contenidos). Esto requiere que tengamos conexión a Internet para poder usarlos.
+Lo primero que debemos hacer es añadir los recursos necesarios para manejar esta librería de mapas.Hay varias formas de hacer esto, pero en esta ocasión, vamos a enlazar los recursos necesarios de forma externa desde  un CDN (Content Delivery Network o Red de entrega de contenidos). Esto requiere que tengamos conexión a Internet para poder usarlos. Si desemamos tener una copia de la librería en nuestro proyecto podemos [descargar la librería de Leaflet](https://leafletjs.com/download.html) y guardarla en una carpeta de recursos dentro de nuestro proyecto.
 
-En la sección *head*  enlazamos el archivo CSS de Leaflet. También añadimos la librería Leaflet y la biblioteca JQuery. La biblioteca JQuery está pensada para ayudarnos a programar en Javascript, simplificando las llamadas a elementos del DOM, eventos, interacciones. En esta primera parte acceder la usaremos para acceder a los datos GeoJSON de nuestra API.
+En la sección *head*  enlazamos el archivo CSS de Leaflet. También añadimos la librería Leaflet y la biblioteca JQuery. La biblioteca [JQuery](https://jquery.com/) está pensada para ayudarnos a programar en Javascript, simplificando las llamadas a elementos del DOM, eventos, interacciones. En esta primera parte acceder la usaremos para acceder a los datos GeoJSON de nuestra API. La versión de JQuery debe ser la completa, ya la versión slim no tiene algunos recursos que necesitaremos.
 
 ```html
-    ...
+...
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
-    ...
-
+...
 ```
 
 # Código Javascript del mapa

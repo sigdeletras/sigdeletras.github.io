@@ -13,7 +13,7 @@ tags:
 ---
 
 
-El próximo 15 de octubre tendré el placer de tutorizar el curso "**QGIS Avanzado. Herramientas avanzadas** organizado por la [Asociación Geoinnova.](https://geoinnova.org/) Geoinnova es una entidad compuesta por amplio equipo de profesionales y que está especializada en la consultoría ambiental y la formación dentro del ámbito geoespacial.
+El próximo 15 de octubre tendré el placer de tutorizar el curso "**QGIS Avanzado. Herramientas avanzadas**" organizado por la [Asociación Geoinnova.](https://geoinnova.org/) Geoinnova es una entidad compuesta por amplio equipo de profesionales y que está especializada en la consultoría ambiental y la formación dentro del ámbito geoespacial.
 
 ![html](/images/blog/201910_cursogeoinnova/GEOINNOVA.png)
 
@@ -21,7 +21,7 @@ Este curso supone para mi una magnífica oportunidad para poder trasladar a los 
 
 ![QGIS 3.8](/images/blog/201910_cursogeoinnova/qgis318.png)
 
-Junto al equipo de Geoinnova he preparado un temario pensado en la adquisición de conocimientos y habilidades para usuarios y profesionales que ya posean cierta experiencia en el uso de QGIS pero que quieren mejorar la explotación de esta potente herramienta.
+Junto al equipo de Geoinnova he preparado un temario pensado en la adquisición de conocimientos y habilidades para usuarios y profesionales que ya posean cierta experiencia en el uso de QGIS pero que quieran mejorar la explotación de esta potente herramienta.
 
 En un primer bloque se tratarán temas relacionados con la configuración avanzada de QGIS (opciones, manejo de capas, archivos de definición, acciones...) sobre su **última versión QGIS 3.8 Zanzibar**. Se puede consultar en la siguiente en la hoja de ruta de la documentación oficial la relación de [novedades de esta última versión](http://changelog.qgis.org/en/qgis/version/3.8/) denominada así por la ubicación la reunión de desarrolladores del proyecto en 2018.
 
@@ -39,7 +39,7 @@ Una vez que hayamos aprendido a manejar PostGIS, seguiremos con una unidad espec
 ![red](/images/blog/201910_cursogeoinnova/red.png)
 *Red por distancia*
 
-En la programación se ha incluido un apartado dedicado al **manejo avanzado de simbología y etiquetado** (basada en reglas, diagramas,  contornos estilo Tanaka o simbología por tamaño)** y la **presentación de salidas gráficas e informes con  Atlas**. El uso de expresiones y de texto HTML enriquecido dentro de nuestro diseño de mapas permitirá la creación optimizada de presentaciones profesionales.
+En la programación se ha incluido un apartado dedicado al **manejo avanzado de simbología y etiquetado (basada en reglas, diagramas,  contornos estilo Tanaka o simbología por tamaño)** y la **presentación de salidas gráficas e informes con  Atlas**. El uso de expresiones y de texto HTML enriquecido dentro de nuestro diseño de mapas permitirá la creación optimizada de presentaciones profesionales.
 
 ![atlas](/images/blog/201910_cursogeoinnova/atlas.png)
 *Composión con Atlas con análisis ráster y 3D*

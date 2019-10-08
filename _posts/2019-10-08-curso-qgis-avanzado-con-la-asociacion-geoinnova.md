@@ -23,6 +23,9 @@ Este curso supone para mi una magnífica oportunidad para poder trasladar a los 
 
 Junto al equipo de Geoinnova he preparado un temario pensado en la adquisición de conocimientos y habilidades para usuarios y profesionales que ya posean cierta experiencia en el uso de QGIS pero que quieran mejorar la explotación de esta potente herramienta.
 
+**+Información:** Ficha completa del curso en la [página de Geoinnova](https://geoinnova.org/cursos/curso-qgis-avanzado-online-certificado/)
+{: .notice--info}
+
 En un primer bloque se tratarán temas relacionados con la configuración avanzada de QGIS (opciones, manejo de capas, archivos de definición, acciones...) sobre su **última versión QGIS 3.8 Zanzibar**. Se puede consultar en la siguiente en la hoja de ruta de la documentación oficial la relación de [novedades de esta última versión](http://changelog.qgis.org/en/qgis/version/3.8/) denominada así por la ubicación la reunión de desarrolladores del proyecto en 2018.
 
 Tras esta primera unidad, nos centraremos en el manejo de datos vectoriales. En el tema se explicarán aspectos del SIG para la **gestión de datos alfanuméricos, las consultas mediante expresiones, la personalización de formularios y la obtención de estadísticas** sobre los mismos. Siguiendo con la información en modelo vectorial, veremos herramientas para **edición profesional** de este tipo de geometrías, así como la creación de capas de datos a partir de geoprocesos espaciales y usando expresiones. Pienso que también será de interés aprender a enriquecer nuestras capas con la unión de conjuntos de datos externos. 

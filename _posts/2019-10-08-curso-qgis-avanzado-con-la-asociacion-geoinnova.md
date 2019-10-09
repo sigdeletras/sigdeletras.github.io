@@ -13,7 +13,7 @@ tags:
 ---
 
 
-El próximo 15 de octubre tendré el placer de tutorizar el curso "**QGIS Avanzado. Herramientas avanzadas**" organizado por la [Asociación Geoinnova.](https://geoinnova.org/) Geoinnova es una entidad compuesta por amplio equipo de profesionales y que está especializada en la consultoría ambiental y la formación dentro del ámbito geoespacial.
+El próximo 15 de octubre tendré el placer de tutorizar el curso *on-line* "**QGIS Avanzado. Herramientas avanzadas**" organizado por la [Asociación Geoinnova.](https://geoinnova.org/) Geoinnova es una entidad compuesta por amplio equipo de profesionales y que está especializada en la consultoría ambiental y la formación dentro del ámbito geoespacial.
 
 ![html](/images/blog/201910_cursogeoinnova/GEOINNOVA.png)
 
@@ -56,7 +56,7 @@ Este bloque temático se cerrara con el **trabajo de datos LiDAR**. La unidad co
 
 He querido añadir un tema dedicado al conocimiento del **Modelador gráfico de procesos de QGIS**. La parte práctica está enfocada como un proyecto profesional de uso de los SIG en que el que definirán distintos procesos para el análisis desarrollados en un modelo totalmente configurable.
 
-Pero este curso de QGIS avanzado no podría terminar sin incluir una **última unidad orientada a la difusión de datos espaciales en Internet**. Tras una introducción al desarrollo web basados en sus principales lenguajes de programación (HTML, CSS y JavaScript) usaremos un conjunto de complementos de QGIS (**QGIS2WEB**) para la creación de visores de mapas desde nuestro SIG de escritorio.
+Pero este curso de QGIS avanzado no podría terminar sin incluir una **última unidad orientada a la difusión de datos espaciales en Internet**. Tras una introducción al desarrollo web basados en sus principales lenguajes de programación (HTML, CSS y JavaScript) y a las dos principales librerías Javascript de mapas como son **Leaflet y OpenLayers**, usaremos un conjunto de complementos de QGIS (**QGIS2WEB**) para la creación de visores de mapas desde nuestro SIG de escritorio.
 
 Toda la información del curso de **QGIS Avanzado** (objetivos, destinatarios, precio y plazos de matriculación) pude consultarse en la [página de la Asociación Geoinnova](https://geoinnova.org/cursos/curso-qgis-avanzado-online-certificado/), a la que desde aquí quiero agradecer que cuente conmigo para esta acción formativa.
 

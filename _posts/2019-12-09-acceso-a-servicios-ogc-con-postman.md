@@ -30,7 +30,7 @@ Toda esta comunicación se realzia mediante el [protocolo HTTP](https://develope
 
 Como he comentado en la mayoría de las ocasiones las consultas a nuestros servicios van a ser realizadas con un Sistema de Información Geográfica (SIG) o con un visor de mapas web que lo tenga implementado, por ejemlo usando librerías JavaScript como OpenLayers o Leaflet. Esto no quiere decir que no podamos **realizar una petición directamente desde un navegador, o incluso desde un terminal** de nuestro equipo siempre que estemos conectados a Internet.
 
-Así, si copiamos la siguiente URL en nuestro navegador, obtendremos los metadatos del servicio [WFS de la Encuesta de Infraestructurasy Equipamientos suministrado por la Diputación de Córdoba](https://www.dipucordoba.es/servicios_geoportal). 
+Así, si copiamos la siguiente URL en nuestro navegador, obtendremos los metadatos del servicio [WFS de la Encuesta de Infraestructuras y Equipamientos suministrado por la Diputación de Córdoba](https://www.dipucordoba.es/servicios_geoportal). 
 
 ```
 https://mapserver.eprinsa.es/cgi-bin/eiel_wfs?service=WFS&version=1.1.0&request=GetCapabilities
@@ -57,11 +57,11 @@ Una vez que nos hemos instalado Postman, lo abriremos y creamos una un espacio d
 
 La primera peticion que vamos a realizar es la que hemos usado en el apartado anterior. La pegamos en la entrada donde indica *Enter request URL*. Veremos como se completan cada uno de los parámetros de la petición. Esto nos va a permitir modificarlos o añadir más forma muy sencilla. Una vez creada la petición, la vamos a ejecutar haciendo clic en *Send*. Si todos los datos son correcto, podremos comprobar en la parte inferior el resultado de la petición. Por defecto se presenta en el formato que tenga establecido el servidor. Para servidores OGC el formato es XML. Puede modificarse la vista previa si lo deseamos, siempre que esté permitida o definida en la petición.
 
-En la captura vemos los datos del servicio WFS de los datos de la EIEL de la Diputación de Córdoba. Los datos de la EIEL...
+En la captura vemos los datos del servicio WFS de los datos del **Sistema de Información Geográfica Provincial de la Diputación de Córdoba**. Los datos corresponden con la EIEL que
 
 *...es un instrumento de análisis cuantitativo y cualitativo de los servicios de competencia municipal. Constituye un inventario de ámbito nacional, de carácter censal, que tiene como objetivo conocer periódicamente la situación y el nivel de dotación de infraestructuras y equipamientos locales, a fin de poder evaluar las necesidades de dichos sectores, permitir una correcta distribución de los recursos, eliminando los desequilibrios regionales mediante una mejor planificación de las inversiones públicas que la Administración Central y Local realiza en los municipios* [Más información](http://www.mptfp.es/portal/politica-territorial/local/coop_econom_local_estado_fondos_europeos/eiel.html)
 
-La Diputación de Córdoba a través del [Sistema de Información Geográfica y Estadística (SIGE)](https://www.dipucordoba.es/sige) es el responsable de mantener los servicios geográficos de acceso a la EIEL que constituyen un recurso de mucho interés no solo para la administracione locales sino para los profesionales que lo necesiten
+La Diputación de Córdoba a través del [Sistema de Información Geográfica y Estadística (SIGE)](https://www.dipucordoba.es/sige),soporte tecnológico de EPRINSA,  es el responsable de mantener los servicios geográficos de acceso a la EIEL que constituyen un recurso de mucho interés no solo para la administracione locales sino para los profesionales que lo necesiten
 
 ![Petición navegador](/images/blog/201912_postman/06_peticion.png)
 

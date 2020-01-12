@@ -14,9 +14,7 @@ tags:
   - api rest
 ---
 
-![html](/images/blog/202001_fp/portada.png)
-
-La semana pasada tuvo la lugar de la presentación y defensa del proyecto titulado
+El pasado 9 de enero tuvo la lugar de la presentación y defensa del proyecto titulado
 **"Aplicación web de gestión de rutas turísticas mediante Node.js y API REST"** dentro de los estudios del Ciclo Superior de Desarrollo de Aplicaciones Webs realizados en el [IES Trassierra](http://www.iestrassierra.com/). Con la presentación del mismo, llego al final de un viaje, nada sencillo, que comenzó hace tres años y  que ha desembocado en un cambio profesional relevante.
 
 La justificación principal del proyecto ha consistido en el **diseño de una aplicación web para la de gestión de datos relativos a rutas turísticas y sus puntos de interés**. Este tipo de páginas son propias de empresas que ofrecen visitas guiadas y servicios turísticos. Están teniendo cada vez más auge, sobre todo desde la aparición del concepto de rutas guiadas libres o *[free tour](https://www.muchosol.es/escapes/estos-son-los-mejores-free-tours/)*. Entre las más conocidas se encuentran [civitatis](https://www.civitatis.com/es/), [Freetour](www.freetour.com) o [Weplan](https://www.weplann.com/).

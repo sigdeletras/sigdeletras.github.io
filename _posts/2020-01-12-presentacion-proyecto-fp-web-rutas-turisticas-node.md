@@ -48,11 +48,11 @@ En relación a la puesta el marcha de un servidor con Node indicar que es bastan
 
 En una de las revisiones con los tutores del proyecto, y coincidiendo con la presentación del sistema de atenticación mediante token usando [JSON Web Tokens (JWT)](https://www.npmjs.com/package/jsonwebtoken), un profesor me comentó que seguro ya existía un *framework* en el que todo esto ya estaba desarrollado. Tras una búsqueda rápida, encontré [Adonis.js](https://adonisjs.com/). Mirando al documentación pensé la gran cantidad de tiempo que me hubiera ahorrado usando este paquete. Pero al momento me di cuenta había llegado a esta conclusión gracias a las horas dedicadas en aprender a montar Node.js desde cero. Sin duda, ahora usaría este o cualquier otro *framework* si tuviera que realizar un trabajo profesional de estas características. Pero sin tener una mínima base sobre Node.js esta parte del proyecto hubiera sido un fracaso si no la huera acometido partiendo de lo mínimo.
 
-El departamento de Informática dota a los alumnos de un dominio y espacio dentro de los servidores para desplegar la aplicación. Este es un requisito obligatorio para poder aprobar el proyecto. Estos espacios están pensados principalmente para proyecto basados en PHP y bases de datos relacionales. En mi caso, debido a los objetivos marcados, tuve que buscar una solución externa para poder subir a producción tanto el servidor, la aplicación y la base de datos. Para ello he utilicé  [Heroku](https://www.heroku.com/) y [Mongo DB Atlas](https://www.mongodb.com) usando las posibilidades que ofrecen las cuentas **freemium**. 
+El departamento de Informática dota a los alumnos de un dominio y espacio dentro de los servidores para desplegar la aplicación. Este es un requisito obligatorio para poder aprobar el proyecto. Estos espacios están pensados principalmente para proyecto basados en PHP y bases de datos relacionales. En mi caso, debido a los objetivos marcados, tuve que buscar una solución externa para poder subir a producción tanto el servidor, la aplicación y la base de datos. Para ello he utilicé  [Heroku](https://www.heroku.com/) y [Mongo DB Atlas](https://www.mongodb.com) usando las posibilidades que ofrecen las cuentas *freemium*. 
 
 ### API Rest
 
-La programación de la  API REST ha sido un gran acierto. La rapidez y la flexibilidad que ha aportado Express.js ha favorecido la puesta en marcha rápida de la API. Toda la configuración de los ficheros de rutas, la parametrización de la URLs, la definición de las vistas a renderizar, el servicio de archivos estáticos ha sido sencillo y la página de Express está realmente bien documentada.
+La programación de la  API REST ha sido un gran acierto. La rapidez y la flexibilidad que ha aportado **Express.js** ha favorecido la puesta en marcha rápida de la API. Toda la configuración de los ficheros de rutas, la parametrización de la URLs, la definición de las vistas a renderizar, el servicio de archivos estáticos ha sido sencillo y la página de Express está realmente bien documentada.
 
 En el ciclo vimos como montar servicios con PHP y Java. Al menos  para este tipo de aplicaciones, esta parte ha sido muy "agradecida" si la comparo con los visto en el ciclo. 
 
@@ -66,7 +66,7 @@ Como apunte, indicar que probé a acceder a los datos geo de la API desde QGIS y
 
 El cambio de paradigma, de relacional a no relacional, me ha provocado cierta dificultad a la hora de desarrollar las consultas de la base de datos, consultas que por otro lado no eran demasiado complejas. Hay que tener muy presente cómo funciona la referencia entre documentos JSON para poder sacar el máximo rendimiento a los datos. La clave de todo esto se encuentra en leer bien la documentación y saber sacarle el máximo rendimiento a Mongoose. 
 
-En la parte geo de los datos comentar que las formas básicas de representación geográfica estaban representadas en las entidades de Puntos de Interés o POIs (puntos), rutas (lineas) y zonas (polígonos). La geometría de los puntos era almacenada en un par de campos numéricos (longitud y latitud), mientras que las representaciones lineales y poligonales correspondían con *arrays* de pares de números correspondientes con los nodos.
+En la parte geo de los datos comentar que las **formas básicas de representación geográfica estaban identificadas en las entidades de Puntos de Interés o POIs (puntos), rutas (líneas) y zonas (polígonos)**. La geometría de los puntos era almacenada en un par de campos numéricos (longitud y latitud), mientras que las representaciones lineales y poligonales correspondían con *arrays* de pares de números correspondientes con los nodos.
 
 ![Objeto JSON con datos geográficos en MongoDB](/images/blog/202001_fp/03_nosql.png)
 
@@ -76,19 +76,23 @@ Mongoose da soporte a este tipo de [esquemas geo](https://mongoosejs.com/docs/ge
 
 ### CRUD Geo
 
-Como he comentado he usado Leaflet para toda la parte geográfica del proyecto. Se definieron los mapa base sobre los que representar lso datos (OpenStreetMap y PNOA) y fueron añadidos los complementos de geolocalización y callejero (Nominatim). Tanto Leaflet como Openlayers están perfectamente preparadas para poder soportar este tipo de desarrollos, por lo que no hace ninguna falta usar otras librerías de pago.
+Como he comentado he usado **Leaflet** para toda la parte geográfica del proyecto. Se definieron los mapa base sobre los que representar los datos (OpenStreetMap y PNOA) y fueron añadidos los complementos de geolocalización y callejero (Nominatim).
+
+Tanto Leaflet como Openlayers están perfectamente preparadas para poder soportar este tipo de desarrollos, por lo que no hace ninguna falta usar otras librerías de pago.
 
 La parte que más tiempo y lineas de código se ha llevado ha sido la permite la creación y modificación de los elementos geográficos. Todo esto se ha realizado usando [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html) pudiendo por ejemplo, crear los puntos de interés de las rutas sobre el mapa y almacenarlos en la base de datos o poder modificar el trazado de la ruta nodo a nodo.
 
 ![Actualización de geometría de ruta con Leaflet Draw](/images/blog/202001_fp/04_leafletdraw.gif)
 
-*Actualización de geometría de ruta con Leaflet Draw*
+*Actualización de geometría de ruta con Leaflet Draw.*
 
 En este sentido, al menos para mi, se me abren gran cantidad de posibilidades para trasladar a la web determinadas funciones SIG.
 
-### Frontend
+### Front-end
 
-Para el desarrollo de las vistas he usado el motor de plantillas [Handlebars](https://handlebarsjs.com/) y como *framework* CSS [Material Design Bootstrap](https://mdbootstrap.com/). Los resultados han sido satisfactorios, al menos desde el punto de vista del diseño que no es sin duda mi especialidad. Gracias el trabajo con token, se ha podido personalizar los elementos que debían presentarse según el rol del usuario (guía o administrador) y al usar un sistema basado en grid la aplicación es totalmente *responsive*.
+Para el desarrollo de las vistas he usado el motor de plantillas [Handlebars](https://handlebarsjs.com/) y como *framework* CSS [Material Design Bootstrap](https://mdbootstrap.com/). Los resultados han sido satisfactorios, al menos desde el punto de vista del diseño que no es sin duda mi especialidad. 
+
+Gracias el trabajo con token, se ha podido personalizar los elementos que debían presentarse según el rol del usuario (guía o administrador) y al usar un sistema basado en *grid* la aplicación es totalmente *responsive*.
 
 ![Vista responsive de la aplicación](/images/blog/202001_fp/05_responsive.png)
 
@@ -98,7 +102,9 @@ De todas formas, creo que esta parte del proyecto podría optimizarse más usand
 
 ### Pruebas y testing
 
-Para el testeo de los servicios de la API REST se ha usado Postman e igualmente se definieron un conjunto de pruebas de humo (*smoke testing*) definiendo las funcionalidades básicas (login, alta ruta, edición POI, cambio contraseña..) que debían funcionar correctamente en cada despliegue según el desarrollo realizado en cada sprint.
+Para el testeo de los servicios de la API REST se ha usado **Postman** e igualmente se definieron un conjunto de **pruebas de humo (*smoke testing*)** definiendo las funcionalidades básicas (login, alta ruta, edición POI, cambio contraseña...) que debían funcionar correctamente en cada despliegue según el desarrollo realizado en cada sprint.
 
-Al final del proyecto, la API tenía 40 *endpoints* por lo que su testeo con Postman cada vez se iba haciendo más complicado por lo que comencé a ver documentación sobre librerías javascript de testeo como **Mocha y Chai** para el diseño de pruebas unitarias. Aunque el proyecto es sencillo respecto a su programación y testeo creo que es fundamental comenzar este tipo de desarrollos basados en la metodología de *Diseño Orientado a Pruebas (TDD)*. El aspecto negativo es haberme dado cuenta cuando esta parte del proyecto ya estaba implementada, pudiendo haber ahorrado tiempo y esfuerzo tiendo todo esto automatizado.
+Al final del proyecto, la API tenía 40 *endpoints* por lo que su testeo con Postman cada vez se iba haciendo más complicado por lo que comencé a ver documentación sobre librerías javascript de testeo como **Mocha y Chai** para el diseño de pruebas unitarias. 
+
+Aunque el proyecto es sencillo respecto a su programación y testeo creo que es fundamental comenzar este tipo de desarrollos basados en la metodología de **Diseño Orientado a Pruebas (TDD)**. El aspecto negativo es haberme dado cuenta cuando esta parte del proyecto ya estaba implementada, pudiendo haber ahorrado tiempo y esfuerzo tiendo todo esto automatizado.
 

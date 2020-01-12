@@ -108,3 +108,4 @@ Al final del proyecto, la API tenía 40 *endpoints* por lo que su testeo con Pos
 
 Aunque el proyecto es sencillo respecto a su programación y testeo creo que es fundamental comenzar este tipo de desarrollos basados en la metodología de **Diseño Orientado a Pruebas (TDD)**. El aspecto negativo es haberme dado cuenta cuando esta parte del proyecto ya estaba implementada, pudiendo haber ahorrado tiempo y esfuerzo tiendo todo esto automatizado.
 
+<iframe width="595" height="485" src="https://www.youtube.com/embed/w-af7R4FVzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

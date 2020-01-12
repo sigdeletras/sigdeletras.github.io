@@ -32,7 +32,7 @@ Con base a estas ideas, los objetivos formativos y las habilidades técnicas gen
 
 Para saber más sobre el proyecto he dejado una presentación larga desarrollando la metodología usada y haciendo referencia a cada uno de los apartados del trabajo. 
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/sGxkikQd7fGRlq" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/PatricioSoriano/presentacin-proyecto-aplicacin-web-de-gestin-de-rutas-tursticas-mediante-nodejs-y-api-rest" title="Presentación proyecto &quot;Aplicación web de gestión de rutas turísticas mediante Node.js y API REST&quot;" target="_blank">Presentación proyecto &quot;Aplicación web de gestión de rutas turísticas mediante Node.js y API REST&quot;</a> </strong> de <strong><a href="//www.slideshare.net/PatricioSoriano" target="_blank">Patricio Soriano Castro</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/sGxkikQd7fGRlq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 
 ## Algunas Conclusiones
 

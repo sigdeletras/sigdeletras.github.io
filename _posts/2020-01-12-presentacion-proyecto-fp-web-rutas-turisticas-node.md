@@ -43,6 +43,7 @@ Creo más interesante aprovechar esta entrada para poder exponer algunas conclus
 En relación a la puesta el marcha de un servidor con Node indicar que es bastante sencillo o como comenté en la presentación tiene una curva de aprendizaje corta. Sin embargo, a medida que el proyecto va aumentando en funcionalidades y complejidad, va siendo necesario la instalación de varias dependencias y su consiguiente configuración. 
 
 ![Dependencias del servidor Node](/images/blog/202001_fp/01_dependencias_node.png)
+
 *Dependencias del servidor Node.js*
 
 En una de las revisiones con los tutores del proyecto, y coincidiendo con la presentación del sistema de atenticación mediante token usando JWT, un profesor me comentó que seguro ya existía un *framework* en el que todo esto ya estaba desarrollado. Tras una búsqueda rápida, encontré [Adonis.js](https://adonisjs.com/). Mirando al documentación pensé la gran cantidad de tiempo que me hubiera ahorrado usando este paquete. Pero al momento me di cuenta había llegado a esta conclusión gracias a las horas dedicadas en aprender a montar Node.js desde cero. Sin duda, ahora usaría este o cualquier otro *framework* si tuviera que realizar un trabajo profesional de estas características. Pero sin tener una mínima base sobre Node.js esta parte del proyecto hubiera sido un fracaso si no la huera acometido partiendo de lo mínimo.
@@ -56,6 +57,7 @@ La programación de la  API REST ha sido un gran acierto. La rapidez y la flexib
 En el ciclo vimos como montar servicios con PHP y Java. Al menos  para este tipo de aplicaciones, esta parte ha sido muy "agradecida" si la comparo con los visto en el ciclo. 
 
 ![Express](/images/blog/202001_fp/02_express.png)
+
 *Ejemplo de archivo de routes con Express.js*
 
 Como apunte, indicar que probé a acceder a los datos geo de la API desde QGIS y sin problema...
@@ -67,6 +69,7 @@ El cambio de paradigma, de relacional a no relacional, me ha provocado cierta di
 En la parte geo de los datos comentar que las formas básicas de representación geográfica estaban representadas en las entidades de Puntos de Interés o POIs (puntos), rutas (lineas) y zonas (polígonos). La geometría de los puntos era almacenada en un par de campos numéricos (longitud y latitud), mientras que las representaciones lineales y poligonales correspondían con *arrays* de pares de números correspondientes con los nodos.
 
 ![Objeto JSON con datos geográficos en MongoDB](/images/blog/202001_fp/03_nosql.png)
+
 *Documento JSON (zona) con datos geográficos en MongoDB*
 
 Mongoose da soporte a este tipo de [esquemas geo](https://mongoosejs.com/docs/geojson.html) y permite trabajar con archivos GeoJSON incluso realizar consultas geoespaciales básicas.
@@ -78,6 +81,7 @@ Como he comentado he usado Leaflet para toda la parte geográfica del proyecto. 
 La parte que más tiempo y lineas de código se ha llevado ha sido la permite la creación y modificación de los elementos geográficos. Todo esto se ha realizado usando [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html) pudiendo por ejemplo, crear los puntos de interés de las rutas sobre el mapa y almacenarlos en la base de datos o poder modificar el trazado de la ruta nodo a nodo.
 
 ![Actualización de geometría de ruta con Leaflet Draw](/images/blog/202001_fp/04_leafletdraw.gif)
+
 *Actualización de geometría de ruta con Leaflet Draw*
 
 En este sentido, al menos para mi, se me abren gran cantidad de posibilidades para trasladar a la web determinadas funciones SIG.
@@ -87,6 +91,7 @@ En este sentido, al menos para mi, se me abren gran cantidad de posibilidades pa
 Para el desarrollo de las vistas he usado el motor de plantillas [Handlebars](https://handlebarsjs.com/) y como *framework* CSS [Material Design Bootstrap](https://mdbootstrap.com/). Los resultados han sido satisfactorios, al menos desde el punto de vista del diseño que no es sin duda mi especialidad. Gracias el trabajo con token, se ha podido personalizar los elementos que debían presentarse según el rol del usuario (guía o administrador) y al usar un sistema basado en grid la aplicación es totalmente *responsive*.
 
 ![Vista responsive de la aplicación](/images/blog/202001_fp/05_responsive.png)
+
 *Vista responsive de la aplicación*
 
 De todas formas, creo que esta parte del proyecto podría optimizarse más usando alguno de los *framework* JavaScript actuales tipo Angular, React o Vue.  Es una opción que barajé al principio consultando documentación e  incluso asistiendo a un taller de Vue.js organiza por el Aula de Software Libre de la UCO, pero al final descarté esta idea más que nada por falta de tiempo.

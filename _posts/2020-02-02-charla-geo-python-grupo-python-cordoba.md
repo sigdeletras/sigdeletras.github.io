@@ -1,5 +1,5 @@
 ---
-title:  "Charla Geo & Python en la reunión de Python Cordoba (ES)"
+title:  "Charla Geo & Python en la reunión de Python Córdoba (ES)"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

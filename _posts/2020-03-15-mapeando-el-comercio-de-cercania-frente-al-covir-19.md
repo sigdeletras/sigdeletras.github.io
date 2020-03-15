@@ -30,14 +30,14 @@ En primer lugar he buscado los datos de alguno de los tipo de estos comercios en
 
 Añadir estos datos en OpenStreetMap es muy sencillo.
 
-1.- Accedemos a OpenStreetMap en esta dirección https://www.openstreetmap.org
-2.- Nos registramos si somos usuarios nuevos o metemos nuestros datos si ya somos usuarios.
-3.- Localizamos la zona qu vayamos a mapear, por ejemplo nuestra calle, el barrio...
-4.- Hacemos clic en Editar. el mapa de fondo cambiará, viéndose un mapa aéreo y los objetos que ya existen.
-5.- Una vez localizado el lugar donde queramos añadir algún comercio, hacemos click en la herramienta Punto.
-6.- situado el comercio añadimos como mínimo el tipo de tienda, usando el formulario de la derecha. Solo tenemos que introducir el tipo, por ejemplo panadería, carnicería, frutería
-7.- Podemos seguir añadiendo de esta forma más puntos o bien guardar los datos
-8.- Antes de terminar añadimos un breve comentario E. "Comercio de cercanía del Zoco" y listo.
+1. Accedemos a OpenStreetMap en esta dirección https://www.openstreetmap.org
+2. Nos registramos si somos usuarios nuevos o metemos nuestros datos si ya somos usuarios.
+3. Localizamos la zona qu vayamos a mapear, por ejemplo nuestra calle, el barrio...
+4. Hacemos clic en Editar. el mapa de fondo cambiará, viéndose un mapa aéreo y los objetos que ya existen.
+5. Una vez localizado el lugar donde queramos añadir algún comercio, hacemos click en la herramienta Punto.
+6. situado el comercio añadimos como mínimo el tipo de tienda, usando el formulario de la derecha. Solo tenemos que introducir el tipo, por ejemplo panadería, carnicería, frutería
+7. Podemos seguir añadiendo de esta forma más puntos o bien guardar los datos
+8. Antes de terminar añadimos un breve comentario E. "Comercio de cercanía del Zoco" y listo.
 
 ![Panaderías Córdoba](/images/blog/202003_covid19/crear_panadería.gif)
 

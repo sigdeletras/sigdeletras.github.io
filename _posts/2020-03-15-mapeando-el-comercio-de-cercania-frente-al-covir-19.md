@@ -37,7 +37,7 @@ Añadir estos datos en OpenStreetMap es muy sencillo.
 5. Una vez localizado el lugar donde queramos añadir algún comercio, hacemos click en la herramienta Punto.
 6. situado el comercio añadimos como mínimo el tipo de tienda, usando el formulario de la derecha. Solo tenemos que introducir el tipo, por ejemplo panadería, carnicería, frutería
 7. Podemos seguir añadiendo de esta forma más puntos o bien guardar los datos
-8. Antes de terminar añadimos un breve comentario E. "Comercio de cercanía del Zoco" y listo.
+8. Antes de terminar añadimos un breve comentario, por ejemplo "Comercio de cercanía del Zoco" y listo.
 
 ![Panaderías Córdoba](/images/blog/202003_covid19/crear_panadería.gif)
 

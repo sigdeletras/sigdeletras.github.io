@@ -19,7 +19,7 @@ El grupo ha surgido de forma natural frente a la complicada situación que estam
 
 Dándole vueltas durante la hora de la comida, he pensado que una **labor de utilidad** que cualquiera que se maneje con un ordenador y sepa conectarse a Internet podría ser la es **la incorporación en [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page) de datos vinculados con el comercio de cercanía (panaderías, pescaderías, carnicerías...)**. La compra de productos alimenticios en este tipo de negocios minoristas puede ayudar a mantener la economía a este nivel de "barrio" y además favorecerá la descongestión en las grandes superficies que tantas imágenes alarmantes nos está dando.
 
-Muchos pensarán que para esto ya está Google Maps. Pues es verdad, pero la cuestión es que la mayoría de estos pequeños comercios no están en Google Maps. Quizás esto se deba a que los dueños de este tipo de establecimientos no tengan habilidades técnicas para dar su negocio de alta. Por otra parte, los datos de OpenStreetMap son abiertos y pueden ser reutilizados por ejemplo, para hacer mapas específicos con la localización de estos locales. Esto favorecerá la reducción de los recorridos para la compra del día a día siguiendo así las recomendaciones gubernamentales.
+Muchos pensarán que para esto ya está Google Maps. Pues es verdad, pero la cuestión es que la mayoría de estos pequeños comercios no están en Google Maps. Quizás esto se deba a que los dueños de este tipo de establecimientos no tengan habilidades técnicas para dar su negocio de alta. Por otra parte, **los datos de OpenStreetMap son abiertos y pueden ser reutilizados** por ejemplo, para hacer mapas específicos con la localización de estos locales. Esto favorecerá la reducción de los recorridos para la compra del día a día siguiendo así las recomendaciones gubernamentales.
 
 En primer lugar he buscado los datos de alguno de los tipo de estos comercios en mi ciudad, Córdoba y el resultado es sin duda desolador (ej. ¡¡¡¡10 panaderías!!!!!)
 
@@ -43,6 +43,6 @@ Añadir estos datos en OpenStreetMap es muy sencillo.
 
 Estos datos posteriormente podrán ser usados dentro de aplicaciones móviles o para calcular rutas a pie a las tiendas más cercanas.
 
-Como se puede comprobar es un acto sencillo, que podemos hacer desde casa, incluso con los niños o los jóvenes, y que pueden ayudar en diferentes aspectos a combatir el maldito Coronavirus.
+Como se puede comprobar es un **acto sencillo, que podemos hacer desde casa, incluso con los niños o los jóvenes, y que pueden ayudar en diferentes aspectos a combatir el maldito Coronavirus**.
 
 !!!Mucho ánimo!!!! [#YoMeQuedoEnCasa](https://twitter.com/search?q=%23YoMeQuedoEnCasa&src=typeahead_click)

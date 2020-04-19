@@ -255,7 +255,7 @@ import SelectList from './components/SelectList/SelectList.js';
 
 Los datos del listado van a proceder de un objeto JSON. Dentro de la carpeta del componente, he creado el archivo *municipalities.json* y lo importaremos dentro de *SelectList.js*.
 
-Los componetes de React tiene dos objetos, *state* y *props*, con información que influirá en el estado del render. Según la documentación oficial *"props se pasa al componente (similar a los parámetros de una función) mientras que state se administra dentro del componente (similar a las variables declaradas dentro de una función).*
+Los componetes de React tiene dos objetos, **state y props**, con información que influirá en el estado del render. Según la documentación oficial **"props se pasa al componente (similar a los parámetros de una función) mientras que state se administra dentro del componente (similar a las variables declaradas dentro de una función).**
 
 Quizás quede más claro entender directamente que en *state* se guarda el estado del componente. También es importante saber que si cambiamos los valores de *state* el componente se "actualizará". Por ejemplo, si nuestro componente *MapView*, tiene dentro de su estado un valor con un array de coordenadas de las que depende el punto central de visualización, y creamos una función que modifique este valor del estado al hacer un clic, el renderizado del mapa cambiará, por lo que se habrá realiza un desplazamiento del mapa.
 
@@ -280,9 +280,9 @@ class SelectList extends React.Component {
 
 ```
 
-Ahora toca renderizar los valores de *option* de nuestra lista con los del valor *data*. Vuelvo a recurrir a los ejemplos vistos y en esta ocasión se suele usar el método *map()*. Este método nos devuelve un array nuevo como resultado de pasar una función al array al que es llamado. En el proyecto nos devolverá un array de *options* con los parámetros obtenidos del *data* definido en el estado del elemento.
+Ahora toca renderizar los valores de *option* de nuestra lista con los del valor *data*. Vuelvo a recurrir a los ejemplos vistos y en esta ocasión se suele usar el **método *map()***. Este método nos devuelve un array nuevo como resultado de pasar una función al array al que es llamado. En el proyecto nos devolverá un array de *options* con los parámetros obtenidos del *data* definido en el estado del elemento.
 
-Lo primero que vamos a hacer es crear una constante que almacene la información de *state* dentro de *render()*. Aprovechamos para ello la opción de desestructuración de ES6.
+Lo primero que vamos a hacer es crear una constante que almacene la información de *state* dentro de *render()*. Aprovechamos para ello la opción de **desestructuración de ES6**.
 
 Para terminar, añadimos el método *map* sobre este array.
 

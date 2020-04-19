@@ -46,8 +46,7 @@ npm install -S bootstrap
 ```
 Que añadiremos al fichero index.js, tal y como está definido en la [documentación de CRA](https://create-react-app.dev/docs/adding-bootstrap/).
 
-![Bootstrap](images/blog/images/blog/202004_react_leaflet_2/2_add_bootstrap.png)
-
+![Bootstrap](/images/blog/202004_react_leaflet_2/2_add_bootstrap.png)
 
 ## Depurando archivos de CRA
 
@@ -151,7 +150,7 @@ export default App;
 ```
 
 
-![03_grid_desktop.png](/images/blog/images/blog/202004_react_leaflet_2/03_grid_desktop.png)
+![03_grid_desktop.png](/images/blog/202004_react_leaflet_2/03_grid_desktop.png)
 
 ## Componente MapView
 
@@ -205,11 +204,11 @@ import MapView from './components/MapView/MapView.js'
 ```
 Ya dentro de la clase App, añadimos nuestro componente. El componente se añade como un elemento HTML, en la posición correcta dentro de nuetro grid.
 
-![04_mapview.png](/images/blog/images/blog/202004_react_leaflet_2/04_mapview.png)
+![04_mapview.png](/images/blog/202004_react_leaflet_2/04_mapview.png)
 
 ...y Voalà!
 
-![05_mapview_in_app.png](/images/blog/images/blog/202004_react_leaflet_2/05_mapview_in_app.png)
+![05_mapview_in_app.png](/images/blog/202004_react_leaflet_2/05_mapview_in_app.png)
 
 # Componente *SelectList*
 
@@ -249,7 +248,7 @@ import SelectList from './components/SelectList/SelectList.js';
 
 ```
 
-![06_selectlist.png](/images/blog/images/blog/202004_react_leaflet_2/06_selectlist.png)
+![06_selectlist.png](/images/blog/202004_react_leaflet_2/06_selectlist.png)
 
 ## Añadiendo opciones en SelectList mediante la función map()
 
@@ -261,7 +260,7 @@ Quizás quede más claro entender directamente que en *state* se guarda el estad
 
 Voy a usar *state* para añadir un valor que almacene los datos de un JSON. Este JSON tiene datos que quiero que se usen para las opciones de la lista de selección. El archivo *municipalities.json* lo he guardado en una subcarpeta dentro del componente y para usarlo la importo.
 
-![07_json.png](/images/blog/images/blog/202004_react_leaflet_2/07_json.png)
+![07_json.png](/images/blog/202004_react_leaflet_2/07_json.png)
 
 Dentro de la clase creo un nuevo valor para *state* denominado *data* que va a almacenar este objeto.
 
@@ -310,11 +309,11 @@ Para terminar, añadimos el método *map* sobre este array.
 
 Guardados los cambios y si accedemos a las herramientas de desarrollador del navegador podremos ver el código HTML renderizado.
 
-![08_options_select_map.png](/images/blog/images/blog/202004_react_leaflet_2/08_options_select_map.png)
+![08_options_select_map.png](/images/blog/202004_react_leaflet_2/08_options_select_map.png)
 
 # Resumen de tareas del Sprint #1
 
-![00_01_sprint.png](/images/blog/images/blog/202004_react_leaflet_2/00_01_sprint.png)
+![00_01_sprint.png](/images/blog/202004_react_leaflet_2/00_01_sprint.png)
 
 # Hilo de entradas
 

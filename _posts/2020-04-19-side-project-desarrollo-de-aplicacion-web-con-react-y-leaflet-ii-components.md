@@ -46,7 +46,7 @@ npm install -S bootstrap
 ```
 Que añadiremos al fichero index.js, tal y como está definido en la [documentación de CRA](https://create-react-app.dev/docs/adding-bootstrap/).
 
-![Bootstrap](/images/blog/images/blog/202004_react_leaflet_2/2_add_bootstrap.png)
+![Bootstrap](images/blog/images/blog/202004_react_leaflet_2/2_add_bootstrap.png)
 
 
 ## Depurando archivos de CRA

@@ -12,34 +12,32 @@ tags:
   - leaflet
 ---
 
-Como primera tarea dentro de side proyect personal que tiene como objetivo adquirir los conocimientos básicos de la librería React encuentra el tema de la instalación. 
+Como primera tarea dentro de este *side proyect personal*, que tiene como *objetivo adquirir los conocimientos básicos de la librería React*, encuentra el tema de la instalación. 
 
-Lo más frecuente para empezar un proyecto React, al menos para alguien que está empezando es usar [Create React App](https://create-react-app.dev/docs/getting-started/) un CLI oficial que nos va a instalar las librerías y crear la estructura básica para una aplicación de una única página (single-page application o SPA). La idea de un side project es poder completar con éxito nuestro proyecto y centrarnos al máximo en nuestro objetivo. Es por ello recomendable usar la sherramiemtas disponibles para ello y que agilicen el trabajo. En esta ocacisión no quiero ver como realziar todo el despliegue de una aplicación (instalación, paquetizado, transpilación...) solo me interesa centrarme en Reat. Es por ello que el usos de CRA me parece una idea acertada.
+## Creando la aplicación baśica con Create React App
 
-La documentación es bastante completa, así que no entraré en detalles de como usarlo
+Lo más frecuente para empezar un proyecto React, al menos para alguien que está empezando, es usar [Create React App](https://create-react-app.dev/docs/getting-started/) un CLI oficial que nos va a instalar las librerías y crear la estructura básica para una aplicación de una única página (single-page application o SPA). 
 
-Una vez instalado, ejecutamos el comando
+La idea de un side project es poder completar con éxito nuestro proyecto y centrarnos al máximo en nuestro objetivo. Es por ello recomendable usar las herramiemtas disponibles que agilicen el trabajo. No pararme ahora en  ver cómo realziar todo el despliegue de una aplicación (instalación, paquetizado, transpilación...). Solo me interesa centrarme en Reat y usar CRA me parece una idea acertada.
+
+La documentación es bastante completa, así que no entraré en detalles de como usarlo. Para crear la aplicación ejecutamos siguiente comando:
 
 ```
 npx create-react-app geoapp
 cd geoapp
 ```
 
-Usamos el script *start* que viene definido en package.json y levantamos nuestro servidor de prueba
+Usamos el script *start* que viene definido en *package.json* y levantamos nuestro servidor de desarrollo.
 
-```
-npm start
-```
+## Instalación de librerías: Leaflet, React-Leaflet y Boostrap
 
-![React con CRA]()
-
-Siguiendo con las instalaciones vamos a usar nmp para añadir las librerías de mapas. [Leaflet](https://leafletjs.com/) será el paquete de base nuestro visor de mapas we, donde queremos representar los datos geográficos que obtendremos de un servicio WFS. Siguiendo con la filosofía de no reinventar la rueda, al menos por ahora, instalaremos también [React-Leaflet](https://react-leaflet.js.org/en/) que crear componentes React a partir de las clasese de Leaflet.
+Usamos  el gestor de paquetes nmp para añadir las librerías de mapas. [Leaflet](https://leafletjs.com/) será el paquete de base nuestro visor web, donde representaremos los datos geográficos que obtendremos de un servicio WFS, en su contexto geográfico. Siguiendo con la filosofía de "no reinventar la rueda", al menos por ahora, instalaremos también [React-Leaflet](https://react-leaflet.js.org/en/) que crea componentes React a partir de las clases de Leaflet.
 
 ```
 npm install -S leaflet react-leaflet
 ```
 
-Terminamos las instalaciones instalando [Bootstrap] como *framework* CSS
+Terminamos las instalaciones instalando [Bootstrap] como *framework* CSS.
 
 ```
 npm install -S bootstrap
@@ -50,16 +48,14 @@ Que añadiremos al fichero index.js, tal y como está definido en la [documentac
 
 ## Depurando archivos de CRA
 
-Antes de crear nuestros componentes creo oportuno limpiar el código y eliminar los archivos que no vamos a usar del proyecto de ejemplo creado por CRA. En este trabajo he eleiminado el código de la función App dentro del archivo App.js (archivo principal de la aplicación). También he quitado el código CSS y algún archivo SVG.
+Antes de crear nuestros componentes creo oportuno limpiar el código y eliminar los archivos que no vamos a usar del proyecto creado por CRA. He eliminado el código de la función App dentro del archivo *App.js* (archivo principal de la aplicación). También he quitado el código CSS y algún archivo SVG.
 
 
-## Funciones de clase o 
+## Componentes funcionales - Componentes de clase
 
-Una de los primeros conceptos de React que he tenido que aprender ha cosnsistido en las distintas formas que existen para crear Componentes.
+Una de los primeros conceptos de React que he tenido que aprender ha consistido en las distintas formas que existen para crear Componentes. *Los componentes puede crear mediante una función o una clase*.
 
-Los componentes puede crear medinate una función o una clase.
-
-Un ejemplo de un componente creado mediente una función JS que devuelve un elemento H1 es el siguiente:
+Un ejemplo de un componente creado mediente una función JS (componente funcional) que devuelve un elemento H1 es el siguiente:
 
 ```javascript
 function Welcome(props) {
@@ -67,7 +63,7 @@ function Welcome(props) {
 }
 ```
 
-Mientras que si usamos clases ES6,  extendiendo desde  *React.Component*  y usando la función render() para devolver el elemento.
+Mientras que si usamos clases ES6,  extendiendo desde  *React.Component*  y usando la función render() para devolver el elemento, es decir creando un componente de clase el código quedaría así.
 
 ```javascript
 class Welcome extends React.Component {
@@ -76,9 +72,11 @@ class Welcome extends React.Component {
   }
 }
 ```
-Los dos son equivalentes, y ambos devuelven código JSX. En el proyecto voy usar clases más que nada porque veo con más claridad el tema de las propiedades y los estados de los componentes. 
+Los dos son equivalentes, y ambos devuelven código JSX. En mi proyecto voy usar crear lo componentes como clases porque ahora mismo me resultan más entendibles (seguro que hay mejores razones técnias...)
 
-Con esto, el código de nuestro componente principal quedará así en el fichero *App.js*, una vez definida la rejilla básica de la página con Bootstrap. He añadido código de ejemplo dentro del componente principal App. Este será el que posteriormente me sirva para definir los componentes hijos.
+Con esto, el código del componente principal quedará así en el fichero *App.js*, una vez definida la rejilla básica de la página con Bootstrap. 
+
+He añadido código de ejemplo dentro del componente principal App. Este será el que posteriormente me sirva para definir los componentes hijos.
 
 ```javascript
 import React from 'react';
@@ -149,16 +147,15 @@ export default App;
 
 ```
 
-
 ![03_grid_desktop.png](/images/blog/202004_react_leaflet_2/03_grid_desktop.png)
 
-## Componente MapView
+## Componente *MapView*
 
-Vamos a crear nuestro primer componente que será el mapa en sí. La documentación y ejemplos que he consultado recomientan crear una carpeta */components* que contendrá el código de cada nuevo componente. Para una mejor organizacización y pensando que voy a crear tres componentes crearé para cada uno su correspondiente subcarpeta, ya que en ella además del código javascript puede guardarse el archivo CSS asociado.
+El primer componente será el mapa. La documentación y ejemplos que he consultado recomientan crear una carpeta */components* que contendrá el código de cada nuevo componente. Para una mejor organizacización, y pensando que voy a crear tres componentes, añadiré para cada uno su correspondiente subcarpeta, ya que en ella además del código Javascript puede guardarse el archivo CSS asociado, datos necesarios...
 
-El archivo principal del componente MapView (MapView.js) debe incluir importación de React. Debemos importar los componentes de Leaflet desde React-Leaflet y concretamente el que permite añadir un  objeto Map de Leaflet y un TileLayer con el mapa base. Terminado con las importaciones añidimos el css de Leaflet.
+El archivo principal del componente MapView (*MapView.js*) debe incluir la importación de React. Debemos también añadir los componentes de Leaflet desde React-Leaflet. Concretamente vamos a neesitar el objeto Map de Leaflet y un TileLayer para la capa base. Terminado con las importaciones añidimos el CSS de Leaflet.
 
-He creado el componente como una clase. Dentro de él se ecuentran los componentes de Map y TileLayer, a los que se les pasan determinadas propiedades a modo de parámetros (zoom, center) con síntasis JXS, usando que principalmente se caracteriza por usar llaves.
+He creado el componente como una clase. Dentro de él se ecuentran los componentes de Map y TileLayer, a los que se les pasan determinadas propiedades a modo de parámetros (zoom, center) con síntasis JSX, usando que principalmente se caracteriza por usar llaves.
 
 ```javascript
 import React from "react";
@@ -187,13 +184,15 @@ class MapView extends React.Component {
 export default MapView;
 ```
 
-Hay varias formas de pasar CSS a nuestro componente. La más sencilla, que es la que he usado por ahora es la que usa el atributo *style*. En vez de meter el código dentro, he creado una variables con los datos. Podemos también añadir el código en un fichero CSS dentro de la carpeta de del componente. Para terminar, comentar que he visto algunos manuales en los que el css está definido dentro de una función. Esto permite por ejemplo añadir condicionales ternarios para evaluare estados o propiedades del componente cambiar el CSS a estos.
+Hay varias formas de pasar CSS a nuestro componente. La más sencilla, que es la que he usado por ahora, es la que usa el atributo *style*. En vez de meter el código dentro, he creado una variable con los datos. Podemos también añadir el código en un fichero CSS dentro de la carpeta del componente.
+
+Para terminar, comentar que he visto algunos manuales en los que el CSS puede estar definido dentro de una función. Esto permite por ejemplo añadir condicionales ternarios para evaluar estados o propiedades del componente y cambiar el CSS a estos.
 
 ## Añadiendo el compomente MapView a App.js
 
 Creado el componente, el siguiente paso es añadirlo a nuestro componente padre *App*.
 
-En primer lugar debemos importar el componente, apuntando correctamente a su ubicación dentro del 
+En primer lugar, debemos importar el componente, apuntando correctamente a su ubicación dentro del 
 árbol de carpeta del proyecto.
 
 ```javascript

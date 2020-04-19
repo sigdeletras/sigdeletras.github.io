@@ -12,7 +12,7 @@ tags:
   - leaflet
 ---
 
-Como primera tarea dentro de este *side proyect personal*, que tiene como *objetivo adquirir los conocimientos básicos de la librería React*, encuentra el tema de la instalación. 
+Como primera tarea dentro de este *side project personal*, que tiene como *objetivo adquirir los conocimientos básicos de la librería React*, encuentra el tema de la instalación. 
 
 ## Creando la aplicación baśica con Create React App
 
@@ -79,6 +79,7 @@ Con esto, el código del componente principal quedará así en el fichero *App.j
 He añadido código de ejemplo dentro del componente principal App. Este será el que posteriormente me sirva para definir los componentes hijos.
 
 ```javascript
+//App.js
 import React from 'react';
 
 import './App.css';
@@ -158,6 +159,7 @@ El archivo principal del componente MapView (*MapView.js*) debe incluir la impor
 He creado el componente como una clase. Dentro de él se ecuentran los componentes de Map y TileLayer, a los que se les pasan determinadas propiedades a modo de parámetros (zoom, center) con síntasis JSX, usando que principalmente se caracteriza por usar llaves.
 
 ```javascript
+//MapView.js
 import React from "react";
 import { Map, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -211,7 +213,7 @@ Ya dentro de la clase App, añadimos nuestro componente. El componente se añade
 
 # Componente *SelectList*
 
-El siguiente componente será un elemento HTML de tipo *select*. Las opciones de este listado van a ser cargadas desde un objeto que incluya el nombre del munipipio y que almacene las coordenadas del centro del municipio.  Los datos seleccionados deberán servir para centrar la vista del mapa y a su vez para realizar la petición de datos al servicio WFS..pero eso para otro *sprint*.
+El siguiente componente será un elemento HTML de tipo *select*. Las opciones de este listado van a ser cargadas desde un objeto que incluya el nombre del munipipio y que almacene las coordenadas del centro del municipio.  Los datos seleccionados deberán servir para centrar la vista del mapa y a su vez para realizar la petición de datos al servicio WFS...pero eso lo dejaremos para otro *sprint*.
 
 Creamos el nuevo componente dentro de */components* que vamos a llamar *SelectList*. Para empezar vamos a cortar el código JSX de este elemento del archivo *App.js* y lo pegaremos dentro del componente.
 
@@ -236,7 +238,7 @@ class SelectList extends React.Component {
 export default SelectList;
 ```
 
-Tras guardar los cambios del nuevo fichero, ahora debemos importarlo en App.js para poder usarlo y añadir el componente donde antes teníamos el código cortado.
+Tras guardar los cambios del nuevo fichero, ahora debemos importarlo en *App.js* para poder usarlo y añadir el componente donde antes teníamos el código cortado.
 
 ```javascript
 //App.js
@@ -249,19 +251,19 @@ import SelectList from './components/SelectList/SelectList.js';
 
 ![06_selectlist.png](/images/blog/202004_react_leaflet_2/06_selectlist.png)
 
-## Añadiendo opciones en SelectList mediante la función map()
+## Añadiendo opciones en *SelectList* mediante la función *map()*
 
 Los datos del listado van a proceder de un objeto JSON. Dentro de la carpeta del componente, he creado el archivo *municipalities.json* y lo importaremos dentro de *SelectList.js*.
 
-Los componetes de React tiene dos objetos, state y props, con información que influirá en el estado del render. Según la documentación oficial *"props se pasa al componente (similar a los parámetros de una función) mientras que state se administra dentro del componente (similar a las variables declaradas dentro de una función).*
+Los componetes de React tiene dos objetos, *state* y *props*, con información que influirá en el estado del render. Según la documentación oficial *"props se pasa al componente (similar a los parámetros de una función) mientras que state se administra dentro del componente (similar a las variables declaradas dentro de una función).*
 
-Quizás quede más claro entender directamente que en *state* se guarda el estado del componente. Y también es importante saber que si cambiamos los valores de *state* el componente se "actualizará". Por ejemplo si nuestro componente MapView, tiene dentro de su estado un valor con un array de coordenadas de las que depende el punto central de visualización, y creamos una función que modifique este valor del estado al hacer un clic, el renderizado del mapa cambiará, por lo que se habrá realiza un desplazamiento del mapa.
+Quizás quede más claro entender directamente que en *state* se guarda el estado del componente. También es importante saber que si cambiamos los valores de *state* el componente se "actualizará". Por ejemplo, si nuestro componente MapView, tiene dentro de su estado un valor con un array de coordenadas de las que depende el punto central de visualización, y creamos una función que modifique este valor del estado al hacer un clic, el renderizado del mapa cambiará, por lo que se habrá realiza un desplazamiento del mapa.
 
-Voy a usar *state* para añadir un valor que almacene los datos de un JSON. Este JSON tiene datos que quiero que se usen para las opciones de la lista de selección. El archivo *municipalities.json* lo he guardado en una subcarpeta dentro del componente y para usarlo la importo.
+Voy a usar *state* para añadir un valor que almacene los datos de un objeto JSON. Este JSON tiene valores que quiero que se usen para las opciones de la lista de selección. El archivo *municipalities.json* lo he guardado en una subcarpeta dentro de la carpeta componente *SelectList*. Para usarlo la importo en el js.
 
 ![07_json.png](/images/blog/202004_react_leaflet_2/07_json.png)
 
-Dentro de la clase creo un nuevo valor para *state* denominado *data* que va a almacenar este objeto.
+Dentro de la clase creo un nuevo valor para *state* denominado *data*. Aquí vamos a almacenar este objeto.
 
 ```javascript
 //SelectList.js
@@ -278,9 +280,9 @@ class SelectList extends React.Component {
 
 ```
 
-Ahora toca renderizar los valores de *option* de nuestra lista con los del valor *data*. Vuelvo a recorrir a los ejemplos vistos y en esta ocasión se suele usar el método map(). Este método nos devuelve un array nuevo como resultado de pasar función al array al que es llamado. Para nuestro ejemplo nos devolverá un array de *options* con los parámetros obtenidos del valor (array) *data* definido en el estado del elemento.
+Ahora toca renderizar los valores de *option* de nuestra lista con los del valor *data*. Vuelvo a recurrir a los ejemplos vistos y en esta ocasión se suele usar el método *map()*. Este método nos devuelve un array nuevo como resultado de pasar una función al array al que es llamado. En el proyecto nos devolverá un array de *options* con los parámetros obtenidos del *data* definido en el estado del elemento.
 
-Lo primero que vamos a hacer es crear una constante dentro de *render()* y aprovechar la opción de desestructuración de ES6, almacene la información de *state*.
+Lo primero que vamos a hacer es crear una constante que almacene la información de *state* dentro de *render()*. Aprovechamos para ello la opción de desestructuración de ES6.
 
 Para terminar, añadimos el método *map* sobre este array.
 
@@ -310,7 +312,7 @@ Guardados los cambios y si accedemos a las herramientas de desarrollador del nav
 
 ![08_options_select_map.png](/images/blog/202004_react_leaflet_2/08_options_select_map.png)
 
-# Resumen de tareas del Sprint #1
+# Resumen de tareas realizadas en el Sprint #1
 
 ![00_01_sprint.png](/images/blog/202004_react_leaflet_2/00_01_sprint.png)
 

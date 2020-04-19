@@ -211,7 +211,7 @@ Ya dentro de la clase *App*, añadimos nuestro componente. El componente se aña
 
 ![05_mapview_in_app.png](/images/blog/202004_react_leaflet_2/05_mapview_in_app.png)
 
-# Componente *SelectList*
+## Componente *SelectList*
 
 El siguiente componente será un elemento HTML de tipo *select*. Las opciones de este listado van a ser cargadas desde un objeto que incluya el nombre del munipipio y que almacene las coordenadas del centro del municipio.  Los datos seleccionados deberán servir para centrar la vista del mapa y a su vez para realizar la petición de datos al servicio WFS...pero eso lo dejaremos para otro *sprint*.
 
@@ -312,14 +312,14 @@ Guardados los cambios y si accedemos a las herramientas de desarrollador del nav
 
 ![08_options_select_map.png](/images/blog/202004_react_leaflet_2/08_options_select_map.png)
 
-# Resumen de tareas realizadas en el Sprint #1
+## Resumen de tareas realizadas en el Sprint #1
 
 ![00_01_sprint.png](/images/blog/202004_react_leaflet_2/00_01_sprint.png)
 
-# Hilo de entradas
+## Hilo de entradas
 
 - [Side Project: Desarrollo de aplicación web con React y Leaflet (I)](http://www.sigdeletras.com/2020/side-project-desarrollo-de-aplicacion-web-con-react-y-leaflet-i/)
 
-# Enlaces 
+## Enlaces 
 
 - Repositorio GitHub [React & Maps](https://github.com/sigdeletras/react_maps) (rama *master*)

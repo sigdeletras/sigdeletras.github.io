@@ -12,16 +12,16 @@ tags:
   - leaflet
 ---
 
-En este **segundo *sprint*** del proyecto que he llamdo [Desarrollo de una aplicación web con React y Leaflet]() la tarea principal ha consistido en desarrollar, mejor dicho **en aprender a desarrollar*, la siguiente historia de usuario:
+En este **segundo *sprint*** del proyecto que he llamdo [Desarrollo de una aplicación web con React y Leaflet]() la tarea principal ha consistido en desarrollar, mejor dicho **en aprender a desarrollar**, la siguiente historia de usuario:
 
-> *"Como usuario quiero seleccionar un muncipio de un listado de opciones, hacer click en el botón y ver el mapa centrado en el municipioa una escala correcta de visualización"*
+> *"Como usuario quiero seleccionar un muncipio de un listado de opciones, hacer click en el botón y ver el mapa centrado en el municipio a una escala correcta de visualización"*
 
 La implementación de única tarea me ha servido para adquirir los siguientes conocimientos:
 
-- Dar relevancia a saber dónde desarrollar incluir las funciones de la aplicación dentro del árbol de componentes.
-- Cómo establecer la comunicación entre un componente hijo en el componente padre para ejecutar funciones.
+- Dar relevancia a saber dónde ubicar las funciones de la aplicación dentro del árbol de componentes.
+- Cómo establecer la comunicación entre un componentes hijo-padre para ejecutar funciones.
 - Aprender que se puede pasar funciones a un componente en la sus propiedades.
-- Sacarle provecho a los eventos que se lanzan al cambiar un valor de *state*. Para todo esto, la función *this.setState()* de React es clave.
+- Sacarle provecho a los eventos que se lanzan al cambiar un valor de *state*. La función *this.setState()* de React es clave.
 - Ir mejorando el entorno de desarrollo en VSCode con *snippets* para React con la extensión [ES7 React/Redux/GraphQL/React-Native](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets). La vida es mucho más fácil con *snippets* 👌	
 
 ![react_snippet.gif](/images/blog/202004_react_leaflet_3/react_snippet.gif)
@@ -66,14 +66,15 @@ Y en *MapView*
 
 ## Pasando funciones a componentes
 
-Debemos conseguir que, una vez que el usuario elija un municipio y pulse el botón "Load", se actualice el mapa. Respecto a la implementación en el flujo de los componentes React esto se traduciría en:
+Debemos conseguir que, una vez que **el usuario elija un municipio y pulse el botón "Load", se actualice el mapa**. Respecto a la implementación en el flujo de los componentes React esto se traduciría en:
 - Obtener los datos del componente *SelectList* para ser usados en la actualización del estado del *App*.
 - Pasar estos datos a la instancia de *MapView* mediante sus *prop*.
 - Usar estas propiedades para actualizar su estado (centrado y zum).
 
 ### Obtener los datos del componente *SelectList*
 
-Según la [documentación de React](https://reactjs.org/docs/faq-functions.html) *Hay varias maneras de asegurarte que las funciones tengan acceso a los atributos del componente como this.props y this.state, dependiendo de qué tipo de sintaxis"*
+Según la [documentación de React](https://reactjs.org/docs/faq-functions.html) 
+>*Hay varias maneras de asegurarte que las funciones tengan acceso a los atributos del componente como this.props y this.state, dependiendo de qué tipo de sintaxis"*
 
 Lo primero ha sido crear una nueva función (*munipalityChange*) responsable de actualizar el estado. La función se ha enlazado dentro del constructor.
 
@@ -108,7 +109,7 @@ A continuación, esta función se pasa como propiedad en la instancia *SelectLis
 
 Es importante comentar que dentro de este componente, se ha añadido una función que modifica los valores del estado cuando se lanza el evento *onChange()* del elemento *select*.
 
-Una vez salvado cambios ya tendremos disponible esta nueva funcionalidad de nuestra GeoAPP.
+Salvados los cambios ya tendremos disponible esta nueva funcionalidad de nuestra GeoApp.
 
 ![change_task.gif](/images/blog/202004_react_leaflet_3/change_task.gif)
 

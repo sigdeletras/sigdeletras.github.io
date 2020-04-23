@@ -7,7 +7,7 @@ header:
   teaser: "/images/blog/202004_react_leaflet/react.png" 
 categories: 
   - 2020
-tags:s
+tags:
   - react
   - leaflet
 ---

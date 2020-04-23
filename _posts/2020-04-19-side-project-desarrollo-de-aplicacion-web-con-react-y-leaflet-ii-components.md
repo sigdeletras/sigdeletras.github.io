@@ -12,7 +12,6 @@ tags:
   - leaflet
 ---
 
-
 ## Creando la aplicación básica con Create React App
 
 Como primera tarea dentro de este **side project personal**, que tiene como **objetivo adquirir los conocimientos básicos de la librería [React](https://reactjs.org/)**, encuentra el tema de la instalación. 

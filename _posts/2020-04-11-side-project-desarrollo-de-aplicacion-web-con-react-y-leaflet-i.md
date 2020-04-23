@@ -12,8 +12,6 @@ tags:
   - leaflet
 ---
 
-# Side project: Desarrollo de aplicación web con React y Leaflet
-
 Una conclusiones de mi [proyecto de fin de ciclo](http://www.sigdeletras.com/2020/presentacion-proyecto-fp-web-rutas-turisticas-node/), que presenté en enero de 2020, fue la necesidad de aprender a usar un entorno de trabajo JavaScript para la parte *front-end* de cualquier proyecto web.
 
 > “No lo intentes. Hazlo, o no lo hagas, pero no lo intentes” — Maestro Yoda

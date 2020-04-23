@@ -12,7 +12,7 @@ tags:s
   - leaflet
 ---
 
-En este segundo *sprint* del proyecto que he llamdo [Desarrollo de una aplicación web con React y Leaflet]() la tarea principal ha consistido en desarrollar, mejor dicho **en aprender a desarrollar*, la siguiente historia de usuario:
+En este **segundo *sprint*** del proyecto que he llamdo [Desarrollo de una aplicación web con React y Leaflet]() la tarea principal ha consistido en desarrollar, mejor dicho **en aprender a desarrollar*, la siguiente historia de usuario:
 
 > *"Como usuario quiero seleccionar un muncipio de un listado de opciones, hacer click en el botón y ver el mapa centrado en el municipioa una escala correcta de visualización"*
 

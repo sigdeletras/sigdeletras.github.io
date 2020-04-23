@@ -1,5 +1,5 @@
 ---
-title:  "Side Project: Desarrollo de aplicación web con React y Leaflet (III). Trabajando con *state*, *props* y funciones".
+title:  "Side Project: Desarrollo de aplicación web con React y Leaflet (III). Trabajando con state, props y funciones".
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

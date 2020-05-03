@@ -16,7 +16,7 @@ Vamos con el tercer *sprint* de este [**proyecto para crear una aplicación de m
 
 ![react.png](/images/blog/202004_react_leaflet_4/react.png)
 
-Las tareas finalizadas son las siguientes
+Estas son las tareas realizadas en esta nueva versión:
 
 - 11 Conexión a servicio WFS.
 - 12 Consulta WFS por muncipio.
@@ -24,15 +24,16 @@ Las tareas finalizadas son las siguientes
 - 15 Consulta datos en mapa (popup).
 - 23 Añadir capas WMS y gestión con LayerControl.
 
-Los temas aprendidos sobre React a partir del desarrollo de estas tareas son los siguientes:
+Los temas aprendidos sobre React a partir del desarrollo de las tareas son los siguientes:
 
-- La gestión de forma asíncrona de peticiones/respuestas a servicios WFS usando [fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch).
-- El uso de referencias y métodos de cliclo de vida en React.
-- Nuevos componentes de la librería React-Leaflet (LayerControl, WMS).
+- La gestión de forma asíncrona de **peticiones/respuestas a servicios WFS** usando [fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch).
+- El uso de **referencias y métodos de cliclo** de vida en React.
+- Nuevos **componentes del mapa (LayerControl, WMS)** de la librería React-Leaflet.
 
 ## Petición de datos a un servicio WFS
 
 El consumo de datos geográficos mediante [servicios OGC](https://es.wikipedia.org/wiki/Open_Geospatial_Consortium) se encuentra extendido en proyectos de estas características. Dentro de estos servicios estándar, el conocido como **Web Feature Service (WFS)** ofrece una interfaz de comunicación que permite consultar o descargar objetos geográficos. En la la entrada titulada ["Acceso a servicios OGC (WMS,WFS..) con Postman"](http://www.sigdeletras.com/2019/acceso-a-servicios-ogc-con-postman/) tengo desarrollado algunos de estos aspectos.
+
 Hay una gran cantidad de datos que pueden consumirse no solo con un SIG de escritorio, sino también mediante una aplicación web. Sirva come ejemplo la [recopilación de servicios de descargas en la web de la IDE España](https://www.idee.es/es_ES/web/guest/directorio-de-servicios?p_p_id=DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_descSrv=DESCARGA). Al ser un recurso muy especializado técnicamente, pienso que se encuentra realmente poco explotado tanto por parte de los profesionales "geo" como desde del desarrollo web en general.
 
 Para el proyecto voy a usar los datos de Servicios de Salud del [WFS de los Datos Espaciales de Rerencia de Andalucía (DERA)](http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/servicios.htm).  En esta capa se encuentran la *"distribución de los equipamientos sanitarios públicos y privados integrados en el Sistema Sanitario Público de Andalucía."*

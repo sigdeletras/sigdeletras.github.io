@@ -42,8 +42,7 @@ Para la instalación de Docker en Windows simplemente he siguido los pasos de la
 Pensando de nuevos en mis alumnos, existe también una entrada  para [instalar Docker en Mac](https://docs.docker.com/docker-for-mac/install/)
 
 - Descargamos **Docker Desktop for Windows** desde la siguiente [dirección web](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) e instalamos en el equipo.
-- Podemos comprobar que todo se ha instalado correctamente abriendo la consola de comandos y ejecutando *docker -version*
-```
+- Podemos comprobar que todo se ha instalado correctamente abriendo la consola de comandos y ejecutando *docker -version*.
 
 ![01_docker_version.jpg](/images/blog/202007_docker/01_docker_version.jpg)
 

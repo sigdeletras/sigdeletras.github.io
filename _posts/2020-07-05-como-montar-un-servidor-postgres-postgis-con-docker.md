@@ -105,7 +105,7 @@ Para terminar debemos abrir de nueva un terminar de comandos, acceder a la carpe
 
 La imagen y el contendor Docker que hemos usado son accesibles desde la ip 127.1.0.0 o localhost. La imagen usa el puerto 5435 y el contendor el 5433. 
 
-Si usamos la interfaz gráfica de [pgAdmin](https://www.pgadmin.org/ vamos ahora a conectarnos nuestros dos nuevos servidores de datos.
+Si usamos la interfaz gráfica de [pgAdmin](https://www.pgadmin.org/) vamos ahora a conectarnos nuestros dos nuevos servidores de datos.
 
 En la siguiente captura está el ejemplo de la conexión al servidor del contendor.
 

@@ -1,5 +1,5 @@
 ---
-title:  "Coomo montar un servidor Postgres-PosGIS con Docker"
+title:  "Cómo montar un servidor Postgres-PostGIS con Docker"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

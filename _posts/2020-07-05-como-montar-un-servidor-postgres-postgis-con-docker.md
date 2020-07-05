@@ -20,6 +20,8 @@ Dependiendo del sistema de operativo de los alumnos, hay veces en las que tenemo
 
 Motivado por un [pasado tuit](https://twitter.com/pgrouting/status/1278498807836073984) desde la cuenta de [Twitter de pgRouting](https://twitter.com/pgrouting?lang=es) donde se comentaba que se iba a mantener la imagen oficial de a extensión de redes para Docker, he pensado que sería interesante hacer una **guía sobre cómo instalar Docker y añadir una imagen/contenedor que permita usar distintas versiones de Postgres y de sus extensiones geográficas**.
 
+![Love is in the air](/images/blog/202007_docker/portada.png)
+
 Llevo tiempo usando con Docker en mi equipo con contenedores para PostgreSQL/PostGIS, Geoserver, nginx o Odoo y tras repasar la documentación del repositorio, me pareció lo suficientemente completa para animar al que le tenga curiosodad adentrarse en el mundo de la "dokerizanción".
 
 Aunque trabajo con Linux, en esta ocasión **la instalación de Docker será para Windows** ya que es el sistema operativo que más suelen usar mis alumnos. Después de Windows el sistema operativo que más usan es macOS.

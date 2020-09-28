@@ -77,7 +77,7 @@ El porcentaje sobre un *height* se aplica sobre el número de píxeles del eleme
 
 El siguiente razonamiento es obtener el ancho de nuestra pantalla actual y usarlo para la anchura del mapa. Pero,  ¿qué ocurre cuando usamos otra resolución?. Para resoluciones más pequeñas tendremos que usar las barras de desplazamiento y para las superiores a la definida estaremos de nuevo el punto de partida.
 
-Lo más sencillo es indicar que la **anchura se ajuste al tamaño de la ventana de visualización (viewport)  esto se usa con la [unidad de medida vh (viewport-width)](https://www.sitepoint.com/css-viewport-units-quick-start/)**.
+Lo más sencillo es indicar que la **anchura se ajuste al tamaño de la ventana de visualización (viewport)  esto se usa con la [unidad de medida vh (Viewport Height ](https://www.sitepoint.com/css-viewport-units-quick-start/)**. Con esta unidad, el valor indicado representa el porcentage de pantalla a ocupar. Así, 100vh significa el 100% de la ventana de visualización.
 
 ```css
 .map {
@@ -88,6 +88,7 @@ Lo más sencillo es indicar que la **anchura se ajuste al tamaño de la ventana 
 
 Para que esta regla funcione correctamente debemos borrar el margen que trae por defecto el navegador. Modificamos el archivo CSS eliminando los márgenes para el elemento HTML y el body.
 
+
 ![Basic map](/images/blog/202009_css/02_margenes.png)
 
 Cambiamos el CSS para que queda como vemos en el código que sigue. 
@@ -95,7 +96,8 @@ Cambiamos el CSS para que queda como vemos en el código que sigue.
 
 ```css
 html, body {
-    margin: 0px;
+     margin: 0; 
+     padding: 0; 
 }
 
 .map {
@@ -103,6 +105,8 @@ html, body {
     width: 100%;
   }
 ```
+
+*Tras publicar la entrada en Linkedin, mi compañero y diseñador y maquetador web [Luis Guzmán](https://www.linkedin.com/in/luis-guzm%C3%A1n-rubio-a426435b/) me recomendó usar un [reset](https://es.wikipedia.org/wiki/Reset_CSS) con el que establecer unos valores iniciales para el formato de elementos HTML. Entre las opciones se encuentra [Normalice.css](https://necolas.github.io/normalize.css/)*
 
 Conseguiremos tener nuestro mapa a pantalla completa y que se reajusta con el tamaño del visor.
 

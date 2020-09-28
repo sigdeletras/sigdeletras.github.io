@@ -77,7 +77,7 @@ El porcentaje sobre un *height* se aplica sobre el número de píxeles del eleme
 
 El siguiente razonamiento es obtener el ancho de nuestra pantalla actual y usarlo para la anchura del mapa. Pero,  ¿qué ocurre cuando usamos otra resolución?. Para resoluciones más pequeñas tendremos que usar las barras de desplazamiento y para las superiores a la definida estaremos de nuevo el punto de partida.
 
-Lo más sencillo es indicar que la **anchura se ajuste al tamaño de la ventana de visualización (viewport)  esto se usa con la [unidad de medida vh (Viewport Height ](https://www.sitepoint.com/css-viewport-units-quick-start/)**. Con esta unidad, el valor indicado representa el porcentage de pantalla a ocupar. Así, 100vh significa el 100% de la ventana de visualización.
+Lo más sencillo es indicar que la **anchura se ajuste al tamaño de la ventana de visualización (viewport)  esto se usa con la [unidad de medida vh (Viewport Height)](https://www.sitepoint.com/css-viewport-units-quick-start/)**. Con esta unidad, el valor indicado representa el porcentage de pantalla a ocupar. Así, 100vh significa el 100% de la ventana de visualización.
 
 ```css
 .map {

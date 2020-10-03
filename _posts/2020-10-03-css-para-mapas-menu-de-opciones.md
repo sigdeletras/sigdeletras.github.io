@@ -18,15 +18,15 @@ Vamos a continuar montando un visor de mapas sencillo que nos está sirviendo pa
 
 En la entrada anterior, escribimos el código básico para tener una [mapa a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/) y que se adaptara a distintas resoluciones.
 
-Ahora vamos a ver **cómo incluir una barra de menú superior con algunos botones que permitan realizar eventos sencillos usando OpenLayer**, una de las librería de mapas JavaScript más usadas.
+Ahora vamos a ver **cómo incluir una barra de menú superior con algunos botones que permitan realizar eventos de mapa usando OpenLayer**, una de las librería de mapas JavaScript más usadas.
 
 ## Cabecera con menú de opciones.
 
-Partiremos del código de la entrada anterior que se encuentra en el [repositorio Github](https://github.com/sigdeletras/css-map) que se creo para la entrada.
+Partiremos del código de la entrada anterior que se encuentra en el [repositorio Github](https://github.com/sigdeletras/css-map).
 
 La barra de navegación va a tener los siguientes elementos:
 - Un título con el nombre de la aplicación (CSS Map, así todo loco)
-- Botón (Init view) reiniciar el mapa a la vista inicial.
+- Botón para reiniciar el mapa a la vista inicial (Init view).
 - Botón para ver el nivel de zum de la vista (Zoom level)
 - Botón para obtener la extensión en WGS84 (EPSG:4326) del mapa. La función realiza una reproyección.
 
@@ -82,7 +82,7 @@ viewExtentButton.addEventListener('click', getCurrentExtent);
 ...
 ```
 
-Añadimos también una tipografía (Montserrat) a nuestra web. siguiendo los pasos que nos da [Google Fonts](https://fonts.google.com/specimen/Montserrat)
+Añadimos también una tipografía (Montserrat) a nuestra web, siguiendo los pasos que nos da [Google Fonts](https://fonts.google.com/specimen/Montserrat)
 
 ```css
 /* style.css */
@@ -100,7 +100,7 @@ Abrimos el navegador y vemos el (feo) resultado.
 
 ## Mejorando el diseño de nuestra barra de navegación.
 
-Vamos a dar un poco de gracia a la barra. Usando los selectores CSS de tipo y clase modificamos el **estilo de los elemento HTML tipo enlace**  que se encuentra dentro de *nav*.
+Vamos a dar un poco de gracia a la barra de menú. Usando los selectores CSS de tipo y clase modificamos el **estilo de los elementos HTML tipo enlace**  que se encuentra dentro de *nav*.
 
 Existen ciento y un páginas que nos ayudarán a elegir una **gama de color** en condiciones. Para la aplicación hemos usado la siguiente https://coolors.co/161925-23395b-406e8e-8ea8c3-cbf7ed
 
@@ -144,16 +144,15 @@ Al final el CSS ha quedado así.
         
 ```
 
-Como detalle final, al añadir la barra de nevagación, la opción de pantalla completa del mapa no funciona correctamente. Tenemos más espacio de la vista al sumar los píxeles de la cabecera. 
+Como remate final, al añadir la barra de opciones, la visualización de pantalla completa del mapa no funciona correctamente y nos aparece una barra de desplazamiento vertical. Tenemos más espacio de la vista al sumar los píxeles de la cabecera. 
 
-Seguro que existen más opciones, pero he encontrado que podemos usar una función dentro del css para realizar cálculos. La función en concreto es [calc()](https://developer.mozilla.org/es/docs/Web/CSS/calc) y la usamos para restar al tamaño de la vista el espacio del menú. 
+Seguro que existen más opciones, pero he encontrado que podemos incluir una función dentro del CSS para realizar cálculos. La función es [calc()](https://developer.mozilla.org/es/docs/Web/CSS/calc) y la usamos para restar al tamaño de la vista el espacio del menú. 
 
-Obtenemos el tamaño de la barra con las herramientas para desarrolladores de nuestro navegador.
-
+Obtenemos el tamaño de la barra con las herramientas para desarrolladores del navegador.
 
 ![Alto header](/images/blog/202009_css/alto_menu.png)
 
-Para terminar añadimos la función calc para obtener la altura de la caja del mapa.
+Para terminar añadimos la función *calc* para obtener la altura de la caja del mapa.
 
 ```CSS
 /* style.css */
@@ -169,7 +168,7 @@ Para terminar añadimos la función calc para obtener la altura de la caja del m
 ## Conclusiones
 
 
-Pongo la mano en el fuego de que el CSS que acabo de usar es muy mejorable. Es más, tras compartir la primera entrada he recibido buenas referencias de amigos y conocidos para mejora el código. Al menos por eso, ya ha merecido la pena compartir la entrada.
+Pongo la mano en el fuego de que el CSS que acabo de usar es muy mejorable. Es más, tras compartir la primera entrada, he recibido buenas referencias de amigos y conocidos para mejora el código. Al menos por eso, ya ha merecido la pena hacer esta serie de entradas.
 
 Queda pendiente hacer la versión *responsive* de nuestro visor de mapas y añadir un panel lateral. 
 

@@ -114,5 +114,9 @@ Conseguiremos tener nuestro mapa a pantalla completa y que se reajusta con el ta
 
 Esta es la primera entrada sencilla sobre este tema y espero que sea de utilidad. En las siguientes, irenos avanzando en este tema añadiendo por ejemplo una barra superior a modo de menú y el panel lateral.
 
+## Entradas relacionadas
+
+- [CSS para mapas. Menú de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/)
+
 
 

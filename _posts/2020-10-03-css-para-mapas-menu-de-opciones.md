@@ -177,6 +177,9 @@ Pero como digo, eso ya para el próximo fin de semana.
 ![Header con CSS](/images/blog/202009_css/02_header_css_color.gif)
 
 
+## Entradas relacionadas
+
+- [CSS para mapas. Visor a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/)
 
 
 

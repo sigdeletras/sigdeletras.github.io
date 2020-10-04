@@ -110,7 +110,7 @@ Un detallito que mejora la visualización es añadir **sombras a las cajas**. La
 
 Al final el CSS ha quedado así.
 
-```CSS
+```css
 /* style.css */
 ...
 
@@ -154,7 +154,7 @@ Obtenemos el tamaño de la barra con las herramientas para desarrolladores del n
 
 Para terminar añadimos la función *calc* para obtener la altura de la caja del mapa.
 
-```CSS
+```css
 /* style.css */
 ...
 

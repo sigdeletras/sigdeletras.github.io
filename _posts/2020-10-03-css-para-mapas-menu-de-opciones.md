@@ -175,7 +175,7 @@ Queda pendiente hacer la versión *responsive* de nuestro visor de mapas y añad
 Pero como digo, eso ya para el próximo fin de semana.
 
 - [Web Ejemplo 2](http://www.sigdeletras.com/css-map/02_header_menu/index.html)
-- Carpeta de código [02_header_menu](02_header_menu) en GitHub
+- Carpeta de código [02_header_menu](https://github.com/sigdeletras/css-map/tree/master/02_header_menu) en GitHub
 
 ![Header con CSS](/images/blog/202009_css/02_header_css_color.gif)
 

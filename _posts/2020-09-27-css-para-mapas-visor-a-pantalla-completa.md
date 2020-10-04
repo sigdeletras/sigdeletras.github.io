@@ -115,7 +115,7 @@ Conseguiremos tener nuestro mapa a pantalla completa y que se reajusta con el ta
 Esta es la primera entrada sencilla sobre este tema y espero que sea de utilidad. En las siguientes, irenos avanzando en este tema añadiendo por ejemplo una barra superior a modo de menú y el panel lateral.
 
 - [Web Ejemplo 1](http://www.sigdeletras.com/css-map/01_full_viewport/index.html)
-- Carpeta de código [01_full_viewport](01_full_viewport) en Github
+- Carpeta de código [01_full_viewport](https://github.com/sigdeletras/css-map/tree/master/01_full_viewport) en Github
 
 ## Entradas relacionadas
 

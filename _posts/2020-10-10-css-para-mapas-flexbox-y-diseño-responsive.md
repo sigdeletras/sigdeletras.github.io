@@ -153,7 +153,7 @@ Para gestionar la visualización de las nuevas capas base he usado el módulo [O
 ## Recursos en GitHub
 
 - [Web Ejemplo 3](http://www.sigdeletras.com/css-map/03_flexbox_responsive/index.html)
-- Carpeta de código [02_header_menu](https://github.com/sigdeletras/css-map/tree/master/03_flexbox_responsive) en GitHub
+- Carpeta de código [03_flexbox_responsive](https://github.com/sigdeletras/css-map/tree/master/03_flexbox_responsive) en GitHub
 
 
 ## Entradas relacionadas

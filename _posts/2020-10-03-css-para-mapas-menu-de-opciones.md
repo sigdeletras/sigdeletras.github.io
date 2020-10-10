@@ -183,6 +183,7 @@ Pero como digo, eso ya para el próximo fin de semana.
 ## Entradas relacionadas
 
 - [CSS para mapas. Visor a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/)
+- [CSS para mapas. Flexbox y diseño responsive](http://www.sigdeletras.com/2020/css-para-mapas-flexbox-y-diseño-responsive/)
 
 
 

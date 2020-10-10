@@ -120,6 +120,7 @@ Esta es la primera entrada sencilla sobre este tema y espero que sea de utilidad
 ## Entradas relacionadas
 
 - [CSS para mapas. Menú de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/)
+- [CSS para mapas. Flexbox y diseño responsive](http://www.sigdeletras.com/2020/css-para-mapas-flexbox-y-diseño-responsive/)
 
 
 

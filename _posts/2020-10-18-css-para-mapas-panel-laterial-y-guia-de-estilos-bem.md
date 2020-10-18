@@ -159,7 +159,7 @@ Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que
 
 ## Recursos en GitHub
 
-- [Web Ejemplo 4](http://www.sigdeletras.com/css-map/04_flexbox_sidepanel/index.html)
+- [Web Ejemplo 4](http://www.sigdeletras.com/css-map/04_sidepanel/index.html)
 - Carpeta de código [04_flexbox_responsive](https://github.com/sigdeletras/css-map/tree/master/04_sidepanel) en GitHub
 
 

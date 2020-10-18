@@ -160,7 +160,7 @@ Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que
 ## Recursos en GitHub
 
 - [Web Ejemplo 4](http://www.sigdeletras.com/css-map/04_flexbox_sidepanel/index.html)
-- Carpeta de código [03_flexbox_responsive](https://github.com/sigdeletras/css-map/tree/master/04_sidepanel) en GitHub
+- Carpeta de código [04_flexbox_responsive](https://github.com/sigdeletras/css-map/tree/master/04_sidepanel) en GitHub
 
 
 ## Entradas relacionadas
@@ -168,7 +168,3 @@ Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que
 - [CSS para mapas. Visor a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/)
 - [CSS para mapas. Menú de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/)
 - [CSS para mapas. Flexbox y diseño responsive](http://www.sigdeletras.com/2020/css-para-mapas-flexbox-y-dise%C3%B1o-responsive/)
-
-
-
-

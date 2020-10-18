@@ -27,7 +27,7 @@ La verdad es que este tema era totalmente nuevo, pero tras la lectura del comple
 
 Esta metodología, desarrollada por el equipo de Yandex, se basa en nombrar las clases distinguiendo entre bloques, elementos y modificadores, de ahí su nombre **Block Element Modifier o BEM**. El método, según se pueden ver en su [web](https://en.bem.info/), es también apliable al desarrollo de componentes JavaScript.
 
-![BEM](img/04_bem_page.png)
+![BEM](/images/blog/202009_css/04_bem_page.png)
 
 Un **Bloque** es el nivel superior de abstracción de un nuevo componente independiente. En nuestro caso, nuestra barra de botones sería un bloque identificado con la clase *.header-nav*. 
 
@@ -102,6 +102,49 @@ export default function getData() {
 
 He ajustado el ancho del panel lateral como el del mapa, indicando una altura a partir de dispositivo menos la barra superior. Ya que la lista de ciudades de España es amplia, la caja tiene una barra de desplazamiento mediante la propiedad *overflow*.
 
+```css
+/* Sidepanel */
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidepanel {
+    width: 280px;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    height: calc(100vh - 48px);
+    overflow: auto;
+}
+
+.sidepanel__title {
+    padding: 10px;
+}
+
+.resultList__item {
+    color: rgb(100, 100, 100);
+    padding: 10px 10px;
+    border-bottom: 0.5px solid rgb(220, 220, 220);
+}
+
+.resultList__item:hover {
+    background-color: #8EA8C3;
+    color: #fff;
+}
+
+.resultList__item--name {
+    font-size: 1.1rem;
+}
+
+.resultList__item--pop {
+    font-size: 0.775rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em; 
+    font-style: italic;
+}
+```
+
 Para la versión responsive, el panel se coloca encima del mapa usando Flexbox, permitiendo con ello ver el listado y el mapa de forma simultánea.
 
 Como mejora, al hacer clic en cada ciudad, la aplicación ajusta el zum de la vista.
@@ -112,7 +155,7 @@ Solo quiero comentar, que además de la utilidad que hayan podido tener para aqu
 
 Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que son bien recibidas.
 
-![LayerSwitcher with Stamen](/images/blog/202009_css/03_stamen.png)
+![04 Sidepanel](/images/blog/202009_css/04_responsive.gif)
 
 ## Recursos en GitHub
 
@@ -125,22 +168,6 @@ Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que
 - [CSS para mapas. Visor a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/)
 - [CSS para mapas. Menú de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/)
 - [CSS para mapas. Flexbox y diseño responsive](http://www.sigdeletras.com/2020/css-para-mapas-flexbox-y-dise%C3%B1o-responsive/)
-
-
-
-
-
-
-## Recursos en GitHub
-
-- [Web Ejemplo 3](http://www.sigdeletras.com/css-map/03_flexbox_responsive/index.html)
-- Carpeta de código [03_flexbox_responsive](https://github.com/sigdeletras/css-map/tree/master/03_flexbox_responsive) en GitHub
-
-
-## Entradas relacionadas
-
-- [CSS para mapas. Visor a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/)
-- [CSS para mapas. Menú de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/)
 
 
 

@@ -17,11 +17,11 @@ tags:
 Con esta entrada termina una serie de textos en los que he comentado **ejemplos sobre uso de Hojas de Estilo en Cascada (CSS) para el diseño de aplicaciones web mapas**.
 
 
-Para finalizar, voy a explicar **cómo añadir un panel lateral a modo de navegador y dejar apuntado la aplicación BEM como metodología de guía de estilos**.
+Para finalizar, voy a explicar **cómo añadir un panel lateral a modo de navegador y dejar apuntado la aplicación de BEM como metodología de guía de estilos CSS**.
 
 # Aplicando una guía de estilos a nuestro CSS
 
-Con el objetivo de crear código más legible, mantenible y escalable, y al igual que se hace (se debe hacer) cuando picamos código JavaScript, existen un conjunto de guías de estilo CSS que podemos usar.
+Con el objetivo de crear código más **legible, mantenible y escalable**, y al igual que se hace (se debe hacer) cuando picamos código JavaScript, existen un conjunto de guías de estilo CSS que podemos usar.
 
 La verdad es que este tema era totalmente nuevo, pero tras la lectura del completísimo artículo ["CSS Craftsmanship"](https://softwarecrafters.io/css/css-craftsmanship) de **Joan León** [@nucliweb](https://twitter.com/nucliweb) en el blog de Software Crafters, me he decidido al menos dejarlo apuntado.
 
@@ -33,9 +33,9 @@ Un **Bloque** es el nivel superior de abstracción de un nuevo componente indepe
 
 Los bloques están compuestos por **Elementos**, que se situán dentro de los bloques y que cumplen una función específica. El nombre de las clases de los elementos se define a partir del bloque padre, seguido de doble barra baja y su nombre. Los botones de nuestra barra de navegación tiene la clase *header-nav__btn*. 
 
-Para terminar, los **Modificadores** representan entidades que usaremos para definir la apariencia o comportamiento de un Bloque o Elemento concreto. Los Modificadores los representaremos con doble guión. Los he usado para diferenciar el datos de la ciudad y del númro de habitantes. 
+Para terminar, los **Modificadores** representan entidades que usaremos para definir la apariencia o comportamiento de un Bloque o Elemento concreto. Los Modificadores los representaremos con doble guión. Los he usado para diferenciar el datos de la ciudad y del número de habitantes en listado del panel lateral. 
 
-El código html del la barra de botones quedaría de esta manera al aplicar la metdología BEM en las clases CSS.
+El código HTML del la barra de botones quedaría de manera siguiente al aplicar la metodología BEM en las clases CSS.
 
 ```html
     <header>
@@ -81,9 +81,11 @@ En el CSS, todo esto se traduce en las siguientes líenas.
 ```
 ## Panel lateral
 
-Muchísimas aplicaciones web de mapas cuentan con uno a varios paneles laterales. Estos son usado para añadir el control de capas, embeber formularios, usarlos para mostrar detalles de consultas... Nuestra aplicación va a contar con una **panel lateral con un listado de ciudades de España y su población**.
+Muchísimas aplicaciones web de mapas cuentan con uno a varios paneles laterales. Estos son usado para añadir el control de capas, embeber formularios, usarlos para mostrar detalles de consultas... 
 
-Los datos los sacaremos de un archivo JSON, generado a partir de la información de la web [Natural Earth](http://www.naturalearthdata.com/). En un principio pensaba cargarlos como formato GeoJSON usando Openlayers, pero ya que tenía ganas de jugar con Javascript, los he pasado a JSON.  La obtención de la información está programada como si se consumira mediente una API usando el método Fetch y promesas.
+Nuestra aplicación va a contar con una **panel lateral con un listado de ciudades de España y su población**. Los datos los sacaremos de un archivo JSON, generado a partir de la información de la web [Natural Earth](http://www.naturalearthdata.com/). 
+
+En un principio pensaba cargarlos como formato GeoJSON usando Openlayers, pero ya que tenía ganas de jugar con Javascript, los he pasado a JSON.  La obtención de la información está programada como si se consumira mediente una API usando el método **Fetch y promesas**.
 
 ```javascript
 // getData.js
@@ -100,7 +102,9 @@ export default function getData() {
 }
 ```
 
-He ajustado el ancho del panel lateral como el del mapa, indicando una altura a partir de dispositivo menos la barra superior. Ya que la lista de ciudades de España es amplia, la caja tiene una barra de desplazamiento mediante la propiedad *overflow*.
+He ajustado el ancho del panel lateral como el del mapa, indicando una altura a partir de dispositivo menos la barra superior. 
+
+Ya que la lista de ciudades de España es amplia, la caja tiene una barra de desplazamiento mediante la propiedad *overflow*.
 
 ```css
 /* Sidepanel */
@@ -151,9 +155,9 @@ Como mejora, al hacer clic en cada ciudad, la aplicación ajusta el zum de la vi
 
 # Fin
 
-Solo quiero comentar, que además de la utilidad que hayan podido tener para aquellos que los lean, personalmente ha sido una magnífica oportunidad para aprender nuevos conceptos y habilidades dentro del campo del desarrollo web.
+Solo quiero comentar, que además de la utilidad que hayan podido tener para aquellos que los lean, **personalmente ha sido una magnífica oportunidad para aprender nuevos conceptos y habilidades dentro del campo del desarrollo web**.
 
-Sin duda habrá muchas mejoras, el repositorio está abierto a ello y seguro que son bien recibidas.
+Sin duda habrá muchas mejoras, el [repositorio de GitHub](https://github.com/sigdeletras/css-map/) está abierto a ello y seguro que son bien recibidas.
 
 ![04 Sidepanel](/images/blog/202009_css/04_responsive.gif)
 

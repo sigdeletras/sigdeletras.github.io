@@ -12,28 +12,28 @@ tags:
   - desarrollo
   - api
 ---
-Si estamos en los primeros momentos del desarrollo de una aplicación web, móvil o escritorio y necesitamos contar con el acceso a los datos suministrados por nuestra futura API, podemos montar de forma rápida una API REST falsa (fake REST API).
+Si estamos en los primeros momentos del desarrollo de una aplicación web, móvil o escritorio y necesitamos contar con el acceso a los datos suministrados por nuestra futura API, podemos montar de forma rápida una **API REST falsa (fake REST API)**.
 
-Podemos necesitar también tener acceso a una API para realizar una demo, un prototipo, o simplemente, afrontar un *side project* para probar o aprender alguna nueva funcionalidad.
+Podemos necesitar también tener acceso a una API para realizar una **demo, un prototipo, o simplemente, afrontar un *side project* para probar o aprender** alguna nueva funcionalidad.
 
 Seguramente, el desarrollo una API para acceso, consulta y edición de datos la esté desarrollando a la vez el equipo de *backend* de nuestra empresa. Otra posibilidad, es que vaya a ser facilitada por el cliente en algún momento del desarrollo. Estos son un par de motivos por las puede que no contemos desde un primer con los *endpoints* sobre los que montar nuestra proyecto.
 
 
-Si no queremos complicarnos mucho la vida, aunque como veremos no demasiado costoso montar tu propia API de pruebas, existen páginas que nos dan la posibibilidad de acceder a este tipo de recursos. He llegado a usar [mockapi](https://www.mockapi.io/) y me ha parecido realmente buena. 
+Si no queremos complicarnos mucho la vida, aunque como veremos no demasiado costoso montar tu propia API de pruebas, **existen páginas que nos dan la posibibilidad de acceder a este tipo de recursos**. He llegado a usar [mockapi](https://www.mockapi.io/) y me ha parecido realmente buena. 
 
 ![MockAPI](/images/blog/202011_fakeapi/mockapi.png)
 
-Otra opción es aprovechar alguna de las APIs existentes con cientos de temáticas. Se puede encontrar una buena recopilación  organizada por temáticas (animales, juegos, geocodificación, noticias...) en este repositorio de Github. https://github.com/public-apis/public-apis 
+Otra opción es **aprovechar alguna de las APIs existentes con cientos de temáticas**. Se puede encontrar una buena recopilación  organizada por temáticas (animales, juegos, geocodificación, noticias...) en este repositorio de Github. https://github.com/public-apis/public-apis 
 
 ![public_api.png](/images/blog/202011_fakeapi/public_api.png)
 
-A pesar de los recursos existentes, que sin duda nos facilitarían la vida, vamos a montar nuestro propia API con el módulo JavaScript [JSON Server](https://github.com/typicode/json-server). 
+A pesar de los recursos existentes, que sin duda nos facilitarían la vida, **vamos a montar nuestro propia API con el módulo JavaScript [JSON Server](https://github.com/typicode/json-server)**. 
 
 Puede ocurrir que queramos que los datos sean los más parecidos a los que nos ofrecerá la API en producción o, simplemente, queremos aprender nuevas habilidades en el ámbito del desarrollo *frontend*.
 
 ## Montando una API de prueba JSON Server
 
-JSON Server es una verdadera maravilla. Gracias a este módulo, y como podéis encontrar en muchas páginas web, en menos de 5 minutos podéis tener una Fake REST API funcionando. 
+**JSON Server** es una verdadera maravilla. Gracias a este módulo, y como podéis encontrar en muchas páginas web, **en menos de 5 minutos podéis tener una Fake REST API funcionando**. 
 
 Nuestra API "de mentira", no solo nos permitirá realizar peticiones de tipo GET, sino también crear (POST), actualizar(PUT) o borrar (DELETE) datos.
 
@@ -45,13 +45,13 @@ De todas formas, voy a explicar algunos puntos básicos.
 
 ## Instalación
 
-El primer paso es la instalación del módulo con Node o Yarm en nuestro proyecto.
+El primer paso es la **instalación del módulo con Node o Yarn** en nuestro proyecto.
 
 ```
 npm install json-server
 ```
 
-Creamos ahora un archivo json (ej. *db.json*) que contendrá nuestros datos de ejempl.
+Creamos ahora un **archivo json (ej. *db.json*) que contendrá nuestros datos de ejemplo**.
 
 ```json
 {
@@ -113,7 +113,7 @@ Ponemos en marcha nuestra API con el comando *json-server* apuntando al archivo 
 json-server --watch db.json
 ```
 
-O mejor, ya que la vamos a usar con frecuencia definimos un script a nuestro *package.json*. Hemos añadido en un parámetro la opción para poder indicar un puerto diferente al 3000.
+O mejor, ya que la vamos a usar con frecuencia definimos un **script a nuestro *package.json***. Hemos añadido en un parámetro la opción para poder indicar un puerto diferente al 3000.
 
 ```json
 //package.json
@@ -124,7 +124,7 @@ O mejor, ya que la vamos a usar con frecuencia definimos un script a nuestro *pa
   },
 ```
 
-Y ahora levantamos el servidor con npm start.
+Y ahora levantamos el servidor con *npm start*.
 
 ```
 npm start
@@ -149,15 +149,13 @@ Solo algunos ejemplos.
 http://localhost:3000/shop/?q=lo
 ```
 
-Búsqueda de tiendas en las calles que contengan la palabra 'Cruz' usando el campo de busqueda seguido del operador _like. 
+- Búsqueda de tiendas en las calles que contengan la palabra 'Cruz' usando el campo de busqueda seguido del operador _like. 
 
 ```
 http://localhost:3000/shop?address_like=Cruz
 ```
 
-Tenemos también las opciones *_sort* para ordenar por un valo y *_order* para indicar si queremos que se haga de forma ascendente o descendente. 
-
-Por ejemplo, obtenemos el listado de tiendas ordenas de forma descendente por tipo.
+- Tenemos también las opciones *_sort* para ordenar por un valo y *_order* para indicar si queremos que se haga de forma ascendente o descendente. Por ejemplo, obtenemos el listado de tiendas ordenas de forma descendente por tipo.
 
 ```
 http://localhost:3000/api/shop?_sort=type&_order=desc
@@ -165,7 +163,7 @@ http://localhost:3000/api/shop?_sort=type&_order=desc
 
 ## Obtener datos relacionados
 
-Me interesa destacar que podemos obtener resultados con referencias entre objetos padre-hijo mediante su id usando *_embed*.
+Me interesa destacar que podemos **obtener resultados con referencias entre objetos padre-hijo** mediante su id usando *_embed*.
 
 Obtenemos los datos de la tienda número 1 y los productos que venden.
 
@@ -175,7 +173,7 @@ http://localhost:3000/shop/1?_embed=products
 
 Gracias a que hemos añadido un valor de referencia entre los objetos también podríamos realizar un petición con los resultados de la tabla hija a partir del fitro por ide del padre. 
 
-Esta sería la url para extraer los productos de la tien cuyo id es 1.
+Esta sería la url para extraer los productos de la tienda cuyo id es 1.
 
 ```
 http://localhost:3000/shop/1/products
@@ -209,7 +207,7 @@ json-server db.json --routes routes.json
 
 Si solo pudíeramos hacer peticiones de tipo GET la librería estária muy limitada. Afortunadamente es posible crear, actualizar y borrar los datos.
 
-Podemos usar los clientes REST Postman o Insomnia para realizar por ejemplo una prueba de POST.
+Podemos usar los **clientes REST Postman o Insomnia** para realizar por ejemplo una prueba de POST.
 
 ![post_postman.png](/images/blog/202011_fakeapi/post_postman.png)
 

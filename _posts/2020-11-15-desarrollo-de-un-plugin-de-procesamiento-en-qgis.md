@@ -58,7 +58,7 @@ Podemos ver ejemplos de proveedores que ya vienen por defecto en QGIS dentro de 
 
 Dentro de este archivo Python, que vamos a llamar *my_tools_provider.py*, tendremos las funciones para asignar nombre al proveedor, añadir una descripción, asignarle un icono y sobre todo, la configuración de herramienta procesamiento que vamos a añadir.
 
-```Python
+```python
 # my_tools_provider.py
 
 from processing_provider.example_processing_algorithm import \
@@ -106,7 +106,7 @@ El paquete debe contener el archivo **__init__.py** y el otro archivo *clip_laye
 
 En *init* realizaremos la importación del archivo con el proceso.
 
-```Python
+```python
 # __init__.py
 
 # -*- coding: utf-8 -*-
@@ -121,7 +121,7 @@ Dentro de *clip_layer.py* incluiremos el proceso generado en esta ocasión desde
 
 Es importante fijarse en las funciones que definen el nombre o el grupo donde se insertará el proceso en el caso de que tengamos varios.
 
-```Python
+```python
 # clip_layer.py
 
 # -*- coding: utf-8 -*-
@@ -188,7 +188,7 @@ class ClipLayer(QgsProcessingAlgorithm):
 
 El último paso será añadir el algoritmo en el proveedor, importando la clase **ClipLayer** desde el nuevo paquete, y añadiendolo dentro de la función *loadAlgorithms()**
 
-```Python
+```python
 # my_tools_provider.py
 ...
 
@@ -209,7 +209,7 @@ Si recargamos el complemento en este momento podemos comprobar que no se han añ
 
 Para ello vamos a añadir en *my_tools.py* la función que se encarga de ello. Debemos también importar los módulos del *core* de QGIS correspondiente.
 
-```Python
+```python
 # my_tools.py
 ...
     def initProcessing(self):
@@ -221,7 +221,7 @@ Para ello vamos a añadir en *my_tools.py* la función que se encarga de ello. D
 
 Y para terminar, incluimos la función dentro del constructor del complemento encargado de iniciarlo.
 
-``` Python
+```python
 # my_tools.py
 
 ...

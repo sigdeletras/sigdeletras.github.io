@@ -13,7 +13,7 @@ tags:
   - pyqgis
   - plugin
 ---
-Cada día que pasa usando [QGIS](https://www.qgis.org/es/site/), me sorprende más. Su aplicación a nivel profesional no tiene que envidiar al cualquier GIS del mercado. **Las posibilidades de desarrollo e integración de herramientas y complementos usando Python, la API [PyQGIS](https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/index.html) y PyQt son enormes**.
+Cada día que pasa usando [QGIS](https://www.qgis.org/es/site/), me sorprende más. Su aplicación a nivel profesional no tiene que envidiar a cualquier GIS del mercado. **Las posibilidades de desarrollo e integración de herramientas y complementos usando Python, la API [PyQGIS](https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/index.html) y PyQt son enormes**.
 
 En la siguiente entrada quiero mostrar **cómo integrar procesos creados con el Modelador gráfico de QGIS dentro de un plugin**.
 
@@ -22,7 +22,7 @@ En la siguiente entrada quiero mostrar **cómo integrar procesos creados con el 
 
 Como el objetivo es integrar opciones de procesamiento en un complemento ya existente, usamos **Plugin Builder** para generar de forma rápida nuestro plugin. Os recomiendo también instalar **Plugin Reloader**.
 
-El complemento no va a tener ninguna funcionalidad, solo la que trae por defecto, que añade un icono a la barra de herramientas. Al hacer clic sobre botón se abre un panel con sencillo información.
+El complemento no va a tener ninguna funcionalidad, solo la que trae por defecto, que añade un icono a la barra de herramientas. Al hacer clic sobre el botón se abre un panel sencillo información.
 
 
 El complemento se va a llamar **MyTools**. Será el nombre que tendrá la **clase**. 
@@ -32,7 +32,7 @@ El **módulo**, siguiendo criterios correctos para la asignación de nombres en 
 ![01pluginbuilder.png](/images/blog/202011_procesingplugin/01pluginbuilder.png)
 
 
-Vamos también a inicializar **Git** en nuestro proyecto y así tener controlado los cambios y versiones. 
+Vamos también a iniciar **Git** en nuestro proyecto y así tener controlados los cambios y versiones. 
 
 Dentro de la carpeta añadimos también un archivo *.gitignore* para proyectos Python. Descubrí hace poco el complemento [".gitignore Generator"](https://marketplace.visualstudio.com/items?itemName=piotrpalarz.vscode-gitignore-generator) para Visual Studio Code, una joya para decirle a Git qué archivos o directorios completos debe ignorar y no subir al repositorio de código.
 
@@ -44,7 +44,7 @@ Movemos la carpeta del proyecto a la ruta de complementos de nuestro perfil de Q
 
 Plugin Builder tiene una opción que permite crear proyectos para añadir geoprocesos a la Caja de herramientas. Pero en esta ocasión, me parece más interesante poder ver cómo integrar código en un complemento ya existente. Es un buen ejercicio para revisar **cómo se desarrollan e importan módulos en Python**. 
 
-En este sentido, quiero comentar que gracias a las herramiemtas, complementos de desarrollo y entradas como esta, cada vez es más sencillo que un usuario con interés pueda crear complementos. 
+En este sentido, quiero comentar que gracias a las herramientas, complementos de desarrollo y entradas como esta, cada vez es más sencillo que un usuario con interés pueda crear complementos. 
 
 Pero desde el punto de vista profesional, y para aquellas personas que no vengan directamente de ciclos o carreras vinculadas con la programación, **es fundamental ir adquiriendo una buena base teórica sobre el lenguaje con el que se trabaja**.
 
@@ -115,7 +115,7 @@ from .clip_layer import ClipLayer
 
 ```
 
-Dentro de *clip_layer.py* incluiremos el proceso generado en esta ocasión desde el Modelador Gráfico. Es un simpe recorte a capa vectorial que no sirve de ejemplo. 
+Dentro de *clip_layer.py* incluiremos el proceso generado en esta ocasión desde el Modelador Gráfico. Es un simple recorte a capa vectorial que no sirve de ejemplo. 
 
 ![Modelo de QGIS](/images/blog/202011_procesingplugin/05model_builder.png)
 
@@ -186,7 +186,7 @@ class ClipLayer(QgsProcessingAlgorithm):
         return ClipLayer()
 ```
 
-El último paso será añadir el algoritmo en el proveedor, importando la clase **ClipLayer** desde el nuevo paquete, y añadiendolo dentro de la función *loadAlgorithms()**
+El último paso será añadir el algoritmo en el proveedor, importando la clase **ClipLayer** desde el nuevo paquete, y añadiendolo dentro de la función *loadAlgorithms()*
 
 ```python
 # my_tools_provider.py
@@ -205,7 +205,7 @@ class MyToolsProvider(QgsProcessingProvider):
 
 ## Cargando nuestro proveedor
 
-Si recargamos el complemento en este momento podemos comprobar que no se han añadidos nuestras herramientas personalizadas. Esto se debe que no hemos indicado en el archivo del complemento la función para que se cargue.
+Si recargamos el complemento en este momento podemos comprobar que no se han añadido nuestras herramientas personalizadas. Esto se debe a que no hemos indicado en el archivo del complemento la función para que se cargue.
 
 Para ello vamos a añadir en *my_tools.py* la función que se encarga de ello. Debemos también importar los módulos del *core* de QGIS correspondiente.
 
@@ -242,15 +242,15 @@ Tenéis el código completo del ejemplo en mi [repositorio de GitHub](https://gi
 
 Como he comentado al principio, **QGIS es grande y su licencia abierta permite realizar este tipo de desarrollos sin problema**. 
 
-El ejemplo que he comentado es muy básico, no necesitamos un complemento para hacer un simple 'Clip' una capa. Es más, a nivel de usuario esta misma posibilidad podemos suplirla con los modelos.
+El ejemplo que he comentado es muy básico, no necesitamos un complemento para hacer un simple 'Clip' una capa. Es más, a nivel de usuario esta misma posibilidad la podemos suplir con los modelos.
 
 Pero **desde el punto de vista profesional**, o a nivel corporativo, las opciones son muchas. **Tener un plugin propio con la recopilación de los procesos que más se usan dentro de la empresa y poder controlar versiones y actualizaciones, es un desarrollo a tener en cuenta**.
 
-De igual manera, gracias al paquetizado de proceso complejos, **podemos dar acceso a usuarios no avanzados, y hacer más accesible este tipo de herramientas**.
+De igual manera, gracias al paquetizado de procesos complejos, **podemos dar acceso a usuarios no avanzados, y hacer más accesible este tipo de herramientas**.
 
 ## Referencias
 
 - [Documentación oficial de QGIS](https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/processing.html)
-- [Building a Processing Plugin (QGIS3)](https://www.qgistutorials.com/en/docs/3/processing_python_plugin.html)¶ de la web QGIS Tutorials and Tips de Ujaval Gandhi.
+- [Building a Processing Plugin (QGIS3)](https://www.qgistutorials.com/en/docs/3/processing_python_plugin.html) de la web QGIS Tutorials and Tips de Ujaval Gandhi.
 
 

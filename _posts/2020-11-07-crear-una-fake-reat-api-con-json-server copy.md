@@ -16,10 +16,10 @@ Si estamos en los primeros momentos del desarrollo de una aplicación web, móvi
 
 Podemos necesitar también tener acceso a una API para realizar una **demo, un prototipo, o simplemente, afrontar un *side project* para probar o aprender** alguna nueva funcionalidad.
 
-Seguramente, el desarrollo una API para acceso, consulta y edición de datos la esté desarrollando a la vez el equipo de *backend* de nuestra empresa. Otra posibilidad, es que vaya a ser facilitada por el cliente en algún momento del desarrollo. Estos son un par de motivos por las puede que no contemos desde un primer con los *endpoints* sobre los que montar nuestra proyecto.
+Seguramente, el desarrollo una API para acceso, consulta y edición de datos la esté desarrollando a la vez el equipo de *backend* de nuestra empresa. Otra posibilidad, es que vaya a ser facilitada por el cliente en algún momento del desarrollo. Estos son un par de motivos por las puede que no contemos desde un primer momento con los *endpoints* sobre los que montar nuestro proyecto.
 
 
-Si no queremos complicarnos mucho la vida, aunque como veremos no demasiado costoso montar tu propia API de pruebas, **existen páginas que nos dan la posibibilidad de acceder a este tipo de recursos**. He llegado a usar [mockapi](https://www.mockapi.io/) y me ha parecido realmente buena. 
+Si no queremos complicarnos mucho la vida, aunque como veremos no es demasiado costoso montar tu propia API de pruebas, **existen páginas que nos dan la posibilidad de acceder a este tipo de recursos**. He llegado a usar [mockapi](https://www.mockapi.io/) y me ha parecido realmente buena. 
 
 ![MockAPI](/images/blog/202011_fakeapi/mockapi.png)
 
@@ -27,7 +27,7 @@ Otra opción es **aprovechar alguna de las APIs existentes con cientos de temát
 
 ![public_api.png](/images/blog/202011_fakeapi/public_api.png)
 
-A pesar de los recursos existentes, que sin duda nos facilitarían la vida, **vamos a montar nuestro propia API con el módulo JavaScript [JSON Server](https://github.com/typicode/json-server)**. 
+A pesar de los recursos existentes, que sin duda nos facilitan la vida, **vamos a montar nuestro propia API con el módulo JavaScript [JSON Server](https://github.com/typicode/json-server)**. 
 
 Puede ocurrir que queramos que los datos sean los más parecidos a los que nos ofrecerá la API en producción o, simplemente, queremos aprender nuevas habilidades en el ámbito del desarrollo *frontend*.
 
@@ -39,7 +39,7 @@ Nuestra API "de mentira", no solo nos permitirá realizar peticiones de tipo GET
 
 Por si fuera poco, podremos acceder al listado de objetos, buscar por ID o por alguno de sus campos, filtrar, ordenar, añadir rutas personalizadas...
 
-Por mucho que quiera, no voy a poder mejorar la [documentación el módulo](https://github.com/typicode/json-server#routes) que contiene gran cantidad de ejemplos. 
+Por mucho que quiera, no voy a poder mejorar la [documentación del módulo](https://github.com/typicode/json-server#routes) que contiene gran cantidad de ejemplos. 
 
 De todas formas, voy a explicar algunos puntos básicos.
 
@@ -130,7 +130,7 @@ Y ahora levantamos el servidor con *npm start*.
 npm start
 ```
 
-Accediendo a la URL local, en este caso http://localhost:3000, tenndremos una página estática con los *endpoits* de nuestra API.
+Accediendo a la URL local, en este caso http://localhost:3000, tendremos una página estática con los *endpoints* de nuestra API.
 
 ![json-server.png](/images/blog/202011_fakeapi/json-server.png)
 
@@ -149,13 +149,13 @@ Solo algunos ejemplos.
 http://localhost:3000/shop/?q=lo
 ```
 
-- Búsqueda de tiendas en las calles que contengan la palabra 'Cruz' usando el campo de busqueda seguido del operador _like. 
+- Búsqueda de tiendas en las calles que contengan la palabra 'Cruz' usando el campo de búsqueda seguido del operador _like. 
 
 ```
 http://localhost:3000/shop?address_like=Cruz
 ```
 
-- Tenemos también las opciones *_sort* para ordenar por un valo y *_order* para indicar si queremos que se haga de forma ascendente o descendente. Por ejemplo, obtenemos el listado de tiendas ordenas de forma descendente por tipo.
+- Tenemos también las opciones *_sort* para ordenar por un valor y *_order* para indicar si queremos que se haga de forma ascendente o descendente. Por ejemplo, obtenemos el listado de tiendas ordenadas de forma descendente por tipo.
 
 ```
 http://localhost:3000/api/shop?_sort=type&_order=desc
@@ -171,7 +171,7 @@ Obtenemos los datos de la tienda número 1 y los productos que venden.
 http://localhost:3000/shop/1?_embed=products
 ```
 
-Gracias a que hemos añadido un valor de referencia entre los objetos también podríamos realizar un petición con los resultados de la tabla hija a partir del fitro por ide del padre. 
+Gracias a que hemos añadido un valor de referencia entre los objetos también podríamos realizar una petición con los resultados de la tabla hija a partir del filtro por id del padre. 
 
 Esta sería la url para extraer los productos de la tienda cuyo id es 1.
 
@@ -205,7 +205,7 @@ json-server db.json --routes routes.json
 
 ## Más allá del GET
 
-Si solo pudíeramos hacer peticiones de tipo GET la librería estária muy limitada. Afortunadamente es posible crear, actualizar y borrar los datos.
+Si solo pudiéramos hacer peticiones de tipo GET la librería estaría muy limitada. Afortunadamente es posible crear, actualizar y borrar los datos.
 
 Podemos usar los **clientes REST Postman o Insomnia** para realizar por ejemplo una prueba de POST.
 
@@ -216,4 +216,4 @@ Podemos usar los **clientes REST Postman o Insomnia** para realizar por ejemplo 
 
 Como hemos visto, contar con una API REST personalizada es realmente cuestión de pocos minutos. El uso de JSON Server combinado con las opciones es muy sencillo.
 
-Voy a dejar para otra entrada, el uso de otras **librerías como Faker y JSON Schema que nos van a permitir generar 'fake data' de forma masiva** y poder así, no tener que dedicarle tiempo a añadir dartos a mano.
+Voy a dejar para otra entrada, el uso de otras **librerías como Faker y JSON Schema que nos van a permitir generar 'fake data' de forma masiva** y poder así, no tener que dedicarle tiempo a añadir datos a mano.

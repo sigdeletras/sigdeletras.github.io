@@ -25,17 +25,17 @@ Con el objetivo de crear código más **legible, mantenible y escalable**, y al 
 
 La verdad es que este tema era totalmente nuevo, pero tras la lectura del completísimo artículo ["CSS Craftsmanship"](https://softwarecrafters.io/css/css-craftsmanship) de **Joan León** [@nucliweb](https://twitter.com/nucliweb) en el blog de Software Crafters, me he decidido al menos dejarlo apuntado.
 
-Esta metodología, desarrollada por el equipo de Yandex, se basa en nombrar las clases distinguiendo entre bloques, elementos y modificadores, de ahí su nombre **Block Element Modifier o BEM**. El método, según se pueden ver en su [web](https://en.bem.info/), es también apliable al desarrollo de componentes JavaScript.
+Esta metodología, desarrollada por el equipo de Yandex, se basa en nombrar las clases distinguiendo entre bloques, elementos y modificadores, de ahí su nombre **Block Element Modifier o BEM**. El método, según se puede ver en su [web](https://en.bem.info/), es también aplicable al desarrollo de componentes JavaScript.
 
 ![BEM](/images/blog/202009_css/04_bem_page.png)
 
 Un **Bloque** es el nivel superior de abstracción de un nuevo componente independiente. En nuestro caso, nuestra barra de botones sería un bloque identificado con la clase *.header-nav*. 
 
-Los bloques están compuestos por **Elementos**, que se situán dentro de los bloques y que cumplen una función específica. El nombre de las clases de los elementos se define a partir del bloque padre, seguido de doble barra baja y su nombre. Los botones de nuestra barra de navegación tiene la clase *header-nav__btn*. 
+Los bloques están compuestos por **Elementos**, que se sitúan dentro de los bloques y que cumplen una función específica. El nombre de las clases de los elementos se define a partir del bloque padre, seguido de doble barra baja y su nombre. Los botones de nuestra barra de navegación tiene la clase *header-nav__btn*. 
 
 Para terminar, los **Modificadores** representan entidades que usaremos para definir la apariencia o comportamiento de un Bloque o Elemento concreto. Los Modificadores los representaremos con doble guión. Los he usado para diferenciar el datos de la ciudad y del número de habitantes en listado del panel lateral. 
 
-El código HTML del la barra de botones quedaría de manera siguiente al aplicar la metodología BEM en las clases CSS.
+El código HTML de la barra de botones quedaría de manera siguiente al aplicar la metodología BEM en las clases CSS.
 
 ```html
     <header>
@@ -48,9 +48,9 @@ El código HTML del la barra de botones quedaría de manera siguiente al aplicar
     </header>
 ```
 
-Según la documentación, usando esta metodología deberíamos omitir los IDs con el fin de fomentar la reutilización del código. En la web los he mantenido porque los usamos para asignarle lógica JavaScript.
+Según la documentación, usando esta metodología deberíamos omitir los IDs con el fin de fomentar la reutilización del código. En la web los he mantenido porque los usamos para asignar lógica JavaScript.
 
-En el CSS, todo esto se traduce en las siguientes líenas.
+En el CSS, todo esto se traduce en las siguientes líneas.
 
 ```css
 /* header-nav block */
@@ -81,11 +81,11 @@ En el CSS, todo esto se traduce en las siguientes líenas.
 ```
 ## Panel lateral
 
-Muchísimas aplicaciones web de mapas cuentan con uno a varios paneles laterales. Estos son usado para añadir el control de capas, embeber formularios, usarlos para mostrar detalles de consultas... 
+Muchísimas aplicaciones web de mapas cuentan con uno a varios paneles laterales. Estos son usados para añadir el control de capas, embeber formularios, usarlos para mostrar detalles de consultas... 
 
-Nuestra aplicación va a contar con una **panel lateral con un listado de ciudades de España y su población**. Los datos los sacaremos de un archivo JSON, generado a partir de la información de la web [Natural Earth](http://www.naturalearthdata.com/). 
+Nuestra aplicación va a contar con un **panel lateral con un listado de ciudades de España y su población**. Los datos los sacaremos de un archivo JSON, generado a partir de la información de la web [Natural Earth](http://www.naturalearthdata.com/). 
 
-En un principio pensaba cargarlos como formato GeoJSON usando Openlayers, pero ya que tenía ganas de jugar con Javascript, los he pasado a JSON.  La obtención de la información está programada como si se consumira mediente una API usando el método **Fetch y promesas**.
+En un principio pensaba cargarlos como formato GeoJSON usando Openlayers, pero ya que tenía ganas de jugar con Javascript, los he pasado a JSON.  La obtención de la información está programada como si se consumiera mediante una API usando el método **Fetch y promesas**.
 
 ```javascript
 // getData.js
@@ -102,7 +102,7 @@ export default function getData() {
 }
 ```
 
-He ajustado el ancho del panel lateral como el del mapa, indicando una altura a partir de dispositivo menos la barra superior. 
+He ajustado el ancho del panel lateral como el del mapa, indicando una altura a partir del dispositivo menos la barra superior. 
 
 Ya que la lista de ciudades de España es amplia, la caja tiene una barra de desplazamiento mediante la propiedad *overflow*.
 

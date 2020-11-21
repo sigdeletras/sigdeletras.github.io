@@ -14,7 +14,7 @@ tags:
   - responsive
   - flexbox
 ---
-Seguimos con las entradas sobre uso de CSS para diseño de visores de mapas. En los textos anteriores, montamos sencilla [aplicación *webmapping* para que se viera a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/). Posteriormente añadimos una [barra superior de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/). 
+Seguimos con las entradas sobre uso de CSS para diseño de visores de mapas. En los textos anteriores, montamos una sencilla [aplicación *webmapping* para que se viera a pantalla completa](http://www.sigdeletras.com/2020/css-para-mapas-visor-a-pantalla-completa/). Posteriormente añadimos una [barra superior de opciones](http://www.sigdeletras.com/2020/css-para-mapas-menu-de-opciones/). 
 
 En esta ocasión, vamos a modificar nuestro código CSS para que la barra de opciones se adapte a distintos dispositivos, lo que se conoce como diseño *responsive*
 
@@ -77,13 +77,13 @@ El selector nav, que será nuestro contenedor, tiene las siguientes propiedades:
 
 - [display: flex](https://developer.mozilla.org/es/docs/Web/CSS/display) Establecemos la propiedad display de la caja *nav* como *flex*. Esto indica que todos los elementos hijos dentro de este contenedor se ajustarán al diseño flexible por cajas.
 - [flex-direction](https://developer.mozilla.org/es/docs/Web/CSS/flex-direction) La propiedad se usa para especificar el eje principal y la dirección de los objetos dentro del contenedor. Podemos disponerlos como filas (*row*) o columnas (*column*) y con dirección normal o inversa.
-- [flex-wrap](https://developer.mozilla.org/es/docs/Web/CSS/flex-wrap) especifica si los elementos "hijos" son obligados a permanecer en una misma línea (*wrap*) o pueden fluir en varias líneas (*nowrap*).
-- [justify-content](https://developer.mozilla.org/es/docs/Web/CSS/justify-content) distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor. Hemos usado *flex-start* para alinear las opciones del menú desde el comienzo.
+- [flex-wrap](https://developer.mozilla.org/es/docs/Web/CSS/flex-wrap) especifica si los elementos "hijos" están obligados a permanecer en una misma línea (*wrap*) o pueden fluir en varias líneas (*nowrap*).
+- [justify-content](https://developer.mozilla.org/es/docs/Web/CSS/justify-content) distribuye el espacio entre y alrededor de los ítems flex, a lo largo del eje principal de su contenedor. Hemos usado *flex-start* para alinear las opciones del menú desde el comienzo.
 
 ![Flex properties](/images/blog/202009_css/03_flex_properties.gif)
 
 
-Si usáis el editor de código **Visual* Studio Code**, se puede instalar el complemento **CSS Flexbox Cheatsheet** que ofrece ayuda contextual sobre Flexbox y una "chuleta" con todas las propiedades.
+Si usáis el editor de código **Visual  Studio Code**, se puede instalar el complemento **CSS Flexbox Cheatsheet** que ofrece ayuda contextual sobre Flexbox y una "chuleta" con todas las propiedades.
 
 ![CSS Flexbox Cheatsheet](/images/blog/202009_css/03_flexbox_chearsheet.png)
 
@@ -97,7 +97,7 @@ Para aplicar un estilo a una determinada resolución se usa la [regla-at CSS @me
 
 *Autor: Muhammad Rafizeldi (MRafizeldi) / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)*
 
-Las dimensiones generales de los distintos dispositivos son las que se encuentran en la imagen superior. Para simplificar el ejemplo hemos definido las reglas para dispositivos de ancho máximo de 768px (tablets) y de 480px (móviles).
+Las dimensiones generales de los distintos dispositivos son las que se encuentran en la imagen superior. Para simplificar el ejemplo hemos definido las reglas para dispositivos de ancho máximo de 768 px (tablets) y de 480px (móviles).
 
 Para tabletas, el logo ocupará una primera línea a ancho total y los botones se ajustarán al espacio en una segunda línea
 ```css
@@ -141,7 +141,7 @@ Vemos una animación del resultado a distintas resoluciones.
 
 ## Mejorando nuestro visor con algo de JavaScript
 
-No es mi intención en estas entradas hablar el desarrollo de JavaScript aplicado al desarrollo de aplicaciones de mapas. De todas formas, no puedo resistirme a añadir algunas pequeñas mejoras al visor.
+No es mi intención en estas entradas hablar el desarrollo de JavaScript para aplicaciones de mapas. De todas formas, no puedo resistirme a añadir algunas pequeñas mejoras al visor.
 
 En esta tercera versión del visor, he añadido código para la **incorporación de dos mapas base** más: uno el servicio WMS del PNOA con datos del mapa base del IGN y el segundo, uno de los estilo de renderizado sobre OpenStreetMap de la web de [Stamen](http://maps.stamen.com/#terrain/12/37.7706/-122.3782).
 

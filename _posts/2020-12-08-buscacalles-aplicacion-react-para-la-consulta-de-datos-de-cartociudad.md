@@ -12,7 +12,7 @@ tags:
   - react
   - cartociudad
 ---
-Aprovechando días de fiesta del largo puente de la Constitución, he ido sacando ratos para poder terminar una aplicación web que tenía iniciada hace algún tiempo. 
+Aprovechando los días de fiesta del largo puente de la Constitución, he ido sacando ratos para poder terminar una aplicación web que tenía iniciada hace algún tiempo. 
 
 A modo de *side project*, la finalidad principal ha sido la de seguir profundizando en el desarrollo de web tipo aplicación de página única (SAP) usando la librería JavaScript React.
 
@@ -32,7 +32,7 @@ Desde el punto de vista técnico, el proyecto ha estado centrado en las siguient
 
 El punto de partida fue el conocimiento del servicio API REST de CartoCiudad. CartoCiudad es *“una base de datos con cobertura nacional que contiene la siguiente información: red viaria continua, cartografía urbana y toponimia, códigos postales y divisiones censales”*.
 
-El proyecto está coordinado por el Instituto Geográfico Nacional (IGN) y se genera a partir de datos oficiales del IGN, la Dirección General del Catastro (DGC), el Instituto Nacional de Estadística (INE) y el Grupo Correos. Además, colaboran en su elaboración y mantenimiento varias las comunidades autónomas. 
+El proyecto está coordinado por el Instituto Geográfico Nacional (IGN) y se genera a partir de datos oficiales del IGN, la Dirección General del Catastro (DGC), el Instituto Nacional de Estadística (INE) y el Grupo Correos. Además, colaboran en su elaboración y mantenimiento varias comunidades autónomas. 
 
 Puede consultarse toda la información es su página web [http://www.cartociudad.es/portal/](http://www.cartociudad.es/portal/)
 
@@ -46,7 +46,7 @@ En esta primera versión de la aplicación, se realiza una petición de tipo GET
 
 ![01_peticion_get_candidates](/images/blog/202012_buscacalles/01_peticion_get_candidates.png)
 
-El análisis de los resultados obtenidos es fundamental para el diseño de los procesos de la aplicación. Así, además de la búsqueda, se ha implementado una opción de filtro que elimina los posibles resultados los municipios, poblaciones o ambos obteniendo solo los datos de tipo callejero.
+El análisis de los resultados obtenidos es fundamental para el diseño de los procesos de la aplicación. Así, además de la búsqueda, se ha implementado una opción de filtro que elimina los resultados de municipios, poblaciones o ambos, obteniendo solo los datos de tipo callejero.
 
 ## Diseño
 
@@ -56,7 +56,7 @@ De este primer diseño surgió en primer lugar el CSS y poco a poco cada uno de 
 
 Como he comentado, he preferido trabajar directamente con CSS sin ningún framework. Quizás sea uno de los puntos de los que más contento estoy, no tanto por el diseño final, que seguro es muy mejorable, sino por todo lo aplicado y aprendido.
 
-He usado variables CSS para definir el tamaño de letra, la tipografía y los colores de la aplicación. Flexbox me ha dado juego para hacer el diseño responsivo de la web. Tras ver un vídeo de CodelyTV ()sobre[ 5 Grandes Errores con CSS Layouts](https://www.youtube.com/watch?v=C1J__Iz1CH4), he usado en todo lo posible em como unidad de medida. Y, para terminar, descubría recientemente la metodología CSS BEM que he intentado seguir para los nombres de las reglas.
+He usado variables CSS para definir el tamaño de letra, la tipografía y los colores de la aplicación. Flexbox me ha dado juego para hacer el diseño responsivo de la web. Tras ver un vídeo de CodelyTV ()sobre[ 5 Grandes Errores con CSS Layouts](https://www.youtube.com/watch?v=C1J__Iz1CH4), he usado en todo lo posible em como unidad de medida. Y, para terminar, descubrí recientemente la metodología CSS BEM que he intentado seguir para los nombres de las reglas.
 
 ## Desarrollo con React
 
@@ -83,7 +83,7 @@ La estructura de un componente básico en nuestra aplicación es por ejemplo la 
 
 ## Hooks
 
-Entre los[Hooks disponibles](https://es.reactjs.org/docs/hooks-reference.html ) para esta primera vez he usado principalmente *useState* y *useEffect*.
+Entre los [Hooks disponibles](https://es.reactjs.org/docs/hooks-reference.html ) para esta primera vez he usado principalmente *useState* y *useEffect*.
 
 Gracias a [useState](https://es.reactjs.org/docs/hooks-reference.html#usestate), tenemos un valor con estado y una función para actualizar. Dentro de nuestra componente SearchTools existía una variable que almacenaba el listado de objetos con los datos de los candidatos tras realizar la consulta a la API de CartoCiudad. Con los datos, teníamos la función para su actualización que se ejecutaba por ejemplo al cambiar las opciones de filtrado.
 
@@ -99,7 +99,7 @@ Dentro de la aplicación, usamos useEffect para llamar a la función que hace la
 
 La función que realiza la petición de datos a la API y que es llamada usando *useEffect*, se ha generado en una carpeta dedicada a almacenar la consulta a servicios.
 
-Es una función asíncrona https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona que devuelve el JSON con los datos.
+Es una función [asíncrona](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona) que devuelve el JSON con los datos.
 
 Como detalle, quiero comentar que la API de CartoCiudad no devuelve los datos directamente en JSON sino en una envoltura, o lo que es lo mismo en JSONP. En JSONP en lugar de enviar solo el dato, lo que se envía es una función, normalmente llamada *callback*, que es como un JavaScript que engloba el dato que hemos solicitado. Gracias a JSONP se solucionan situaciones de *cross-domain*.
 
@@ -109,7 +109,7 @@ Debido a esto, el proyecto incorpora la librería [fetch-jsonp](https://www.npmj
 
 ## Conclusiones y temas pendientes
 
-La experiencia ha sido realmente positiva. Al menos a mí, realizar este tipo de proyectos paralelos, sin presiones y simplemente por el mero hecho de aprender tiene muchas ventajas. 
+La experiencia ha sido realmente positiva. Al menos para mí, realizar este tipo de proyectos paralelos, sin presiones y simplemente por el mero hecho de aprender tiene muchas ventajas. 
 
 Cada vez me gusta más React y aprender el funcionamiento básico de los Hooks mejora sin duda el código de la aplicación y la velocidad de desarrollo.
 
@@ -118,3 +118,19 @@ Cada vez me gusta más React y aprender el funcionamiento básico de los Hooks m
 Quiero desarrollar el acceso a los datos “geo” de cada resultado. Los datos se obtienen con otra petición de la API y al añadir información geográfica, el deseo de añadir un mapita se hace irresistible.
 
 El código se encuentra en [GitHub](https://github.com/sigdeletras/buscacalles-cartociudad) para poder ser descargado y mejorado. Por supuesto, son totalmente bienvenidas las críticas y comentarios constructivos.
+
+## Recursos de interés
+
+- [Presentando Hooks](https://es.reactjs.org/docs/hooks-intro.html)
+- [Referencia de la API de los Hooks](https://es.reactjs.org/docs/hooks-reference.html)
+
+- [React Hooks, useEffect. Añadiendo funcionalidad en el ciclo de vida de nuestro componente - III](https://midu.dev/react-hooks-use-effect-funcionalidad-en-el-ciclo-vida-componentes/)
+- [React Hooks: Un gran cambio se avecina](https://pablomagaz.com/blog/react-hooks-gran-cambio-se-avecina)
+- [Conoce como reutilizar código con los custom hooks de React](https://ed.team/blog/conoce-como-reutilizar-codigo-con-los-custom-hooks-de-react)
+- [How To Call Web APIs with the useEffect Hook in React | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-call-web-apis-with-the-useeffect-hook-in-react)
+- [Custom React Hooks Make Asynchronous Data Fetching Easy (er)](https://nimblewebdeveloper.com/blog/custom-react-hooks-data-fetching)
+- [Learn about data fetching with custom React hooks](https://nimblewebdeveloper.com/blog/custom-react-hooks-data-fetching)
+- [Fetching Data With React Hooks and Fetch API [Beginners Guide] - DEV](https://dev.to/madara/fetching-data-with-react-hooks-and-fetch-api-beginners-guide-2ick)
+- [Learn about data fetching with custom React hooks](https://nimblewebdeveloper.com/blog/custom-react-hooks-data-fetching)
+- [Fetching Asynchronous Data with React Hooks](https://www.polvara.me/posts/fetching-asynchronous-data-with-react-hooks/)
+- [How to Fetch Data from an API with React Hooks (React Hooks API Tutorial)](https://rapidapi.com/blog/react-hooks-fetch-data-api/)

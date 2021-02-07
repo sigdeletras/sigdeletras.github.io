@@ -20,7 +20,8 @@ Desde que empecé aprender a usar la librería React para proyectos como [BuscaC
 Uno de los proyectos recientes de Miguel Ángel ha sido la creación de una **covid-vacuna una aplicación web hecha con React que muestra el estado y progreso de la vacunación en España es contra el COVID-19 utilizando datos públicos**.  El proyecto se encuentra en [GitHub](https://github.com/midudev/covid-vacuna) y está abierto a colaboraciones. Y ha tenido cierta [repercusión en medios digitales](https://www.20minutos.es/noticia/4552926/0/lanzan-una-web-con-datos-del-gobierno-que-permite-ver-como-avanza-en-espana-la-vacunacion-contra-el-coronavirus/).
 
 ![covid_app.gif](/images/blog/202102_pr/covid_app.gif)
-https://covid-vacuna.app/
+
+[https://covid-vacuna.app/](https://covid-vacuna.app/)
 
 Tenía ganas de revisar el código de la aplicación ya que seguro que iba a aprender bastante. De paso, si surgía algún aspecto en el que pudiera contribuir, me parecía una buena labor poder añadir un granito de arena sobre todo por la utilidad de la aplicación.
 

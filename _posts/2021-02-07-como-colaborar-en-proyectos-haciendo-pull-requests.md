@@ -1,5 +1,5 @@
 ---
-title:  "Cómo colaborara en proyectos haciendo Pull Request"
+title:  "Cómo colaborar en proyectos de código haciendo Pull Requests"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

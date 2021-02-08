@@ -51,7 +51,7 @@ Tras completar los pasos, podemos comprobar que ahora tenemos copia del reposito
 
 Si queremos que nuestra colaboración se acabe incorporando en el proyecto original,  debemos tener en cuenta los criterios que para ello ha establecido el autor para ello.
 
-Miguel Ángel ha añadido información de las [características que deben tener los Pull Requests](https://github.com/sigdeletras/covid-vacuna#aceptas-pull-request) para que lleguen a buen puerto. Pero podemos decir que, cualquier proyecto de código abierto, debe tener su correspondiente guía de contribución. Muestras de esto en proyectos o librerias de mapas son la guía de [Leafet](https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md), [pgRouting](https://pgrouting.org/docs/howto/contribute.html) o de [Python.](https://devguide.python.org/) 
+Miguel Ángel ha añadido información de las [características que deben tener los Pull Requests](https://github.com/sigdeletras/covid-vacuna#aceptas-pull-request) para que lleguen a buen puerto. Pero podemos decir que, cualquier proyecto de código abierto, debe tener su correspondiente guía de contribución. Muestra de esto en proyectos o librerias de mapas pueden ser guía de [Leafet](https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md), la documentación de [QGIS](https://docs.qgis.org/3.10/es/docs/documentation_guidelines/first_contribution.html), [pgRouting](https://pgrouting.org/docs/howto/contribute.html) o de [Python.](https://devguide.python.org/) 
 
 ## Flujo básico de Git
 

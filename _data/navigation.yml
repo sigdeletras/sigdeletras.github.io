@@ -4,7 +4,7 @@ main:
     url: /formacion/ 
   - title: "Servicios"
     url: /servicios/
-  - title: "Sobre mi"
+  - title: "Sobre mí"
     url: /sobre-mi/
   - title: "Presentaciones"
     url: /presentaciones/   

@@ -1,5 +1,5 @@
 ---
-title:  "Cómo colaborar en proyectos de código haciendo Pull Requests"
+title:  "Desarrollo web de visor de mapas con la librería D3"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true
@@ -9,9 +9,9 @@ categories:
   - 2021
 tags:
   - desarrollo web
-  - git
+  - D3
+  - webmapping
 ---
-# Entrada 1
 
 Hace unas semanas comenté en una entrada mi experiencia de [colaboración en un proyecto de código abierto](http://sigdeletras.com/2021/como-colaborar-en-proyectos-haciendo-pull-requests/) cuyo objetivo era la consulta de la evolución del proceso de vacunación contra el COVID-19 en España. La aplicación desarrollada por Miguel Ángel Durán cuenta un mapa que indica el porcentaje de la vacunación por provincias.
 

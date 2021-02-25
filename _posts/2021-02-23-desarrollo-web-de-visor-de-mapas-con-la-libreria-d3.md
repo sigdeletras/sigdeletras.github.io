@@ -13,7 +13,9 @@ tags:
   - webmapping
 ---
 
-Hace unas semanas comenté en una entrada mi experiencia de [colaboración en un proyecto de código abierto](http://sigdeletras.com/2021/como-colaborar-en-proyectos-haciendo-pull-requests/) cuyo objetivo era la consulta de la evolución del proceso de vacunación contra el COVID-19 en España. La aplicación desarrollada por Miguel Ángel Durán cuenta un mapa que indica el porcentaje de la vacunación por provincias.
+Hace unas semanas comenté en una entrada mi experiencia de [colaboración en un proyecto de código abierto](http://sigdeletras.com/2021/como-colaborar-en-proyectos-haciendo-pull-requests/). El proyecto tiene como objetivo la consulta de la evolución del proceso de vacunación contra el COVID-19 en España. La aplicación desarrollada por Miguel Ángel Durán cuenta un mapa que indica el porcentaje de la vacunación por provincias.
+
+![mapa_app_covid](/images/blog/202102_d3/mapa_app_covid.png)
 
 Mi primera idea era apoyar en la mejora de este mapa, pero surgieron un par cuestiones que me hicieron cambiar de opinión. En primer lugar, encontré que el apartado de descarga de los datos no funcionaba correctamente. Y por otro lado, al consultar el código comprobé con sorpresa que **el mapa estaba hecho con la librería JavaScript D3 de la que soy un total desconocido**.
 
@@ -33,17 +35,15 @@ Destaca igualmente, la capacidad de trabajar con **múltiples tipos de proyeccio
 
 Para completar la visión de D3 en su uso en el campo de la información espacial, la biblioteca **añade las opciones para crear mapas temáticos** basados en categorías o clasificaciones (mapas coropléticos) e incluir esquemas de color y leyendas.
 
-[IMG]
-
 ## Dificultad
 
 Como primera piedra en el camino, debemos tener en cuenta que D3 trabaja con [Gráficos Vectoriales Escalables (del inglés Scalable Vector Graphics) o SVG](https://developer.mozilla.org/en-US/docs/Web/SVG). Esto requiere tener un conocimiento base sobre lenguaje de marcado XML, los tipos de elementos gráficos de SVG y el trabajo con atributos.
 
 Si pensamos que en D3 que la programación de datos en mapas se parece algo a las librerías JavaScript más conocidas como Leaflet u OpenLayers vamos por mal camino. D3 trabaja preferente con selectores al estilo de CSS y aplica operadores de forma parecida a JQuery para la manipulación de elementos del DOM.
 
-Otra dificultad que me he encontrado es la documentación. Hay muchísimos ejemplos para diseño de gráficos e infografías, pero no tantos para diseño de mapas. Además, según he podido comprobar hubo [cambios entre versiones](https://github.com/d3/d3/blob/master/CHANGES.md) en la denominación de las funciones, por lo que hay estar muy atento a la versión de la [API](https://github.com/d3/d3/blob/master/API.md) que se usa en cada ejemplo que se use como referencia.
+Otra dificultad que me he encontrado es la documentación. Hay muchísimos ejemplos para diseño de gráficos e infografías, pero no tantos para diseño de mapas. Además, según he podido comprobar que hubo [cambios entre versiones](https://github.com/d3/d3/blob/master/CHANGES.md) en la denominación de las funciones, por lo que hay estar muy atento a la versión de la [API](https://github.com/d3/d3/blob/master/API.md) que se usa en cada ejemplo que se use como referencia.
 
-Como recurso principal está la propia [galería de ejemplos la web de D3](https://observablehq.com/@d3/gallery) con un apartado dedicado a mapas. Existe también muchos recursos de D3 en https://bl.ocks.org/
+Como recurso principal está la propia [galería de ejemplos la web de D3](https://observablehq.com/@d3/gallery) con un apartado dedicado a mapas. Existe también muchos recursos de D3 en [https://bl.ocks.org/](https://bl.ocks.org/)
 
 ## Un ejemplo "Mapa de consumo de energía de municipios de Andalucía"
 
@@ -148,7 +148,7 @@ La función *d3.json()* se utiliza para recuperar el archivo geoJSON.
 const municipios = d3.json(municipiosandalucia);
 ```
 
-Para terminar, añadimos al SVG los datos usando una llamada asíncrona.
+Para terminar, vinculamos al SVG los datos usando una llamada asíncrona.
 
 ```javascript
 // main.js

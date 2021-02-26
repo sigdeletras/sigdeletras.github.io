@@ -17,6 +17,8 @@ Hace unas semanas comenté en una entrada mi experiencia de [colaboración en un
 
 ![mapa_app_covid](/images/blog/202102_d3/mapa_app_covid.png)
 
+[https://covid-vacuna.app/](https://covid-vacuna.app/)
+
 Mi primera idea era apoyar en la mejora de este mapa, pero surgieron un par cuestiones que me hicieron cambiar de opinión. En primer lugar, encontré que el apartado de descarga de los datos no funcionaba correctamente. Y por otro lado, al consultar el código comprobé con sorpresa que **el mapa estaba hecho con la librería JavaScript D3 de la que soy un total desconocido**.
 
 Esto último, me ha impulsado a dedicarle un tiempo a estudiar y probar las opciones de esta biblioteca que si bien está pensada para producir a partir de datos gráficas estadísticas e infografías muy potentes, permite representar datos geográficos.
@@ -208,5 +210,5 @@ Una vez terminada esta primera versión, en la siguiente entrada vamos a ver có
 # Recursos
 
 - Repositorio GitHub [https://github.com/sigdeletras/d3-energy-map/](https://github.com/sigdeletras/d3-energy-map/)
-- Página del ["Visor de consumo anual de energía eléctrica de los municipios de Andalucía 2019"](http://sigdeletras.com/d3-energy-map/public/index.html)
+- Página del ["Visor de consumo anual de energía eléctrica de los municipios de Andalucía 2019"](http://sigdeletras.com/d3-energy-map/public/v1/index.html)
 

@@ -39,7 +39,7 @@ Otra decisión ha sido separar los datos en dos capas. La primera con los munici
 
 Según he podido ver D3 tiene la opción de filtros, pero he preferido hacerlo directamente con JavaScript mediante el método [filter()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
 
-```JavaScript
+```javascript
 Promise.all([municipios, provincias]).then((data) => {
   let all_municipios = data[0].features;
 
@@ -57,7 +57,7 @@ Para crear nuestro mapa temático con D3 usamos las **escalas**. Gracias a este 
 
 Para nuestro proyecto definimos un tipo de escala basada en límites o umbrales (*scaleThreshold*). El dominio serán los valores de las rupturas naturales, obtenidas con QGIS. Y para el rango, usaremos los esquemas cromáticos de D3 definiendo a partir de 5 clases.
 
-```JavaScript
+```javascript
 //main.js
 ...
 const colorScaleResidencial = d3
@@ -118,7 +118,7 @@ Mejorado el aspecto visual, podemos completar la información ofrecida al usuari
 
 Lo primero que haremos es crear una función para que formatee el valor numérico del total. La función redondea a dos decimales y añade comas para diferenciar los millares.
 
-```JavaScript
+```javascript
 //main.js
 ...
 function roundDecimal(number) {
@@ -141,7 +141,7 @@ Y para finalizar, vamos a usarla como valor de *title* para añadir el nombre de
 ```
 Solo un último detalle. Nuestros elementos tienen clases asignadas. Con unas pocas de código en el CSS, añadimos un efecto de resalte cuando pasamos el curso.
 
-```CSS
+```css
 /*style.css*/
 
 .municipality {

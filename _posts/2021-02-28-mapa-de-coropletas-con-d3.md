@@ -59,6 +59,8 @@ Para crear nuestro mapa temático con D3 usamos las [escalas](https://github.com
 
 Para nuestro proyecto definimos un tipo de escala basada en límites o umbrales ([scaleThreshold](https://github.com/d3/d3-scale#threshold-scales)). El dominio serán los valores de las rupturas naturales, obtenidas con QGIS. Y para el rango, usaremos los [esquemas cromáticos](https://github.com/d3/d3-scale-chromatic) de D3 definiendo a partir de 5 clases.
 
+![Ejemplo de escalas cromáticas con D3](/images/blog/202102_d3/02_escala_cromatica.png)
+
 ```javascript
 //main.js
 ...
@@ -68,8 +70,6 @@ const colorScaleResidencial = d3
   .range(d3.schemeYlOrBr[5]);
 ...
 ```
---------------------------
-
 Para aplicar nuestra escala definida en la variable *colorScaleResidencial* cambiaremos el atributo de relleno del *path* de municipios por una función que aplique el valor de la variable para cada dato del total de consumo.
 
 Hemos mejorado el resultado a nivel visual añadiendo un color gris a la delimitación de los municipios.
@@ -142,6 +142,8 @@ Y para finalizar, vamos a usarla como valor de *title* para añadir el nombre de
 ...
 ```
 Solo un último detalle. Nuestros elementos tienen clases asignadas. Con unas pocas de código en el CSS, añadimos un efecto de resalte cuando pasamos el curso.
+
+![Detalle de title con CSS](/images/blog/202102_d3/02_title_detail.png)
 
 ```css
 /*style.css*/

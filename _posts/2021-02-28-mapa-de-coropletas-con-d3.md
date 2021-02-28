@@ -19,13 +19,15 @@ En la primera de ellas vimos [cómo crear una estructura básica de ficheros par
 
 Ahora toca usar los atributos de las capas que almacenan el consumo anual de energía eléctrica por municipios de Andalucía en 2019. La información procede del [Sistema de Información Multiterritorial de Andalucía](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/informe/anual?CodOper=b3_151&idNode=23204) del IECA. 
 
-Mi objetivo es **crear un mapa donde quede reflejado en agrupaciones que reflejen áreas, en este caso municipios, con un consumo energético anual similar**.
+Mi objetivo es **crear un mapa donde quede reflejado por agrupaciones de límites municipales el consumo energético anual**.
 
 ## Mapa de coropletas
 
 Dentro del ámbito del diseño cartográfico este tipo de representaciones se denomina **mapa de coropletas**, es decir un mapa temático que representa una variable estadística.
 
-Para este tipo de representaciones es importante elegir correctamente el método que vamos a usar para clasificar los datos. Los métodos más usados son: **intervalo manual, intervalo definido, equivalente, basado en cuantiles, rupturas naturales de Jenks o desviación estándar**. La mayoría de los Sistemas de Información Geográfica cuenta con opciones para aplicarlos.
+Para estas representaciones es importante elegir correctamente el método que vamos a usar para clasificar los datos. Los métodos más usados son: **intervalo manual, intervalo definido, equivalente, basado en cuantiles, rupturas naturales de Jenks o desviación estándar**. 
+
+La mayoría de los Sistemas de Información Geográfica cuenta con opciones para aplicarlos. En la captura siguiente vemos las opciones en QGIS.
 
 ![02_01_QGIS](/images/blog/202102_d3/02_01_QGIS.png)
 
@@ -33,7 +35,7 @@ Usaremos el método de **rupturas naturales** creado por el cartógrafo George F
 
 ## Filtrado de datos para consumo residencial
 
-He decidido cambiar la variable a representar. En vez de mostrar el valor total, los datos van a representar solo el consumo residencial. En valor total contenía la suma de los consumos de todos los sectores (residencial, industrial, servicios...) y a fines didácticos y de análisis creo que la información residencial da más juego.
+He decidido cambiar la variable a representar. En vez de mostrar el valor total, los datos van a representar solo el consumo residencial. El valor total contenía la suma de los consumos de todos los sectores (residencial, industrial, servicios...) pero a fines didácticos y de análisis, creo que la información residencial da más juego.
 
 Otra decisión ha sido separar los datos en dos capas. La primera con los municipios con datos y la segunda, con el grupo de municipios de los que el IECA no ofrece información. 
 
@@ -53,9 +55,9 @@ Promise.all([municipios, provincias]).then((data) => {
 
 ## Creando un esquema de color con D3
 
-Para crear nuestro mapa temático con D3 usamos las **escalas**. Gracias a este tipo de objetos podremos representar una dimensión de datos abstractos en una representación visual (píxeles). Los valores estarán definidos por un dominio (*domain*) que es usado como elemento de entrada. Los datos de salida, o representación visual se hace mediante un rango (*range*). 
+Para crear nuestro mapa temático con D3 usamos las [escalas](https://github.com/d3/d3-scale). Gracias a este tipo de objetos podremos representar una dimensión de datos abstractos en una representación visual (píxeles). Los valores estarán definidos por un dominio (*domain*) que es usado como elemento de entrada. Los datos de salida, o representación visual se hace mediante un rango (*range*). 
 
-Para nuestro proyecto definimos un tipo de escala basada en límites o umbrales (*scaleThreshold*). El dominio serán los valores de las rupturas naturales, obtenidas con QGIS. Y para el rango, usaremos los esquemas cromáticos de D3 definiendo a partir de 5 clases.
+Para nuestro proyecto definimos un tipo de escala basada en límites o umbrales ([scaleThreshold](https://github.com/d3/d3-scale#threshold-scales)). El dominio serán los valores de las rupturas naturales, obtenidas con QGIS. Y para el rango, usaremos los [esquemas cromáticos](https://github.com/d3/d3-scale-chromatic) de D3 definiendo a partir de 5 clases.
 
 ```javascript
 //main.js
@@ -116,7 +118,7 @@ Como vemos, el valor de un mapa correctamente simbolizado es alto y su análisis
 
 Mejorado el aspecto visual, podemos completar la información ofrecida al usuario mediante etiquetas.
 
-Lo primero que haremos es crear una función para que formatee el valor numérico del total. La función redondea a dos decimales y añade comas para diferenciar los millares.
+Lo primero que haremos es crear una función para que formatee el valor numérico del total. La función redondea a dos decimales y añade comas para diferenciar los miles.
 
 ```javascript
 //main.js

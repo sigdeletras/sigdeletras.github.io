@@ -144,5 +144,10 @@ Tras insertar el marco HTML, completamos la información con un HTML básico en 
 ```
 Podríamos mejorar el resultado sacando el máximo provecho a los sistemas de distribución de elementos HTML basados en CSS como Flexbox o CSS Grid pero eso en principio con esto ya estamos obteniendo la solución a nuestro desarrollo.
 
-![Vídeo de generación de informes con QGIS](/images/blog/202104_informes/video_informe_foto_qgis.mp4)
+
+    <iframe width="560" height="315"
+src="https://youtu.be/U_Cpi75ZUqo" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 

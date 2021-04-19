@@ -127,10 +127,6 @@ Tras insertar el marco HTML, completamos la información con un HTML básico en 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <body>
-<!DOCTYPE html>
-<html lang="en">
-
 <body>
   [%
   aggregate(layer:='listado_fotos',aggregate:='
@@ -142,9 +138,7 @@ Tras insertar el marco HTML, completamos la información con un HTML básico en 
   '</div>', 
   filter:= "codruta" =attributes( @atlas_feature )['cod'])
   %]
-  </body>
-</html>
-  </body>
+ </body>
 </html>
 
 ```

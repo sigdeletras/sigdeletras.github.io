@@ -12,8 +12,6 @@ tags:
   - informes
 ---
 
-# Informes fotográficos con QGIS usando HTML
-
 En el mundo de la informática, creo que rara vez se no se puede encontrar una solución a un determinado "problema". Cuando algún compañero, cliente, alumno o amigo me pregunta sí se puede realizar un proceso concreto con SIG o desarrollar una función dentro de una aplicación web, mi respuesta es siempre SÍ, sí se puede. 
 
 Esta respuesta categórica, está sin embargo vinculada con una serie de cuestiones que debemos tener en consideración. Partiendo de los conocimientos y experiencia que nosotros o nuestro equipo tenga ¿seremos capaces de hacerlo?, ¿cuánto tiempo (coste) tardaremos en hacerlo?, ¿nos será rentable, en sentido no estrictamente económico del término, hacerlo? ¿nuestras herramientas son lo suficientemente versátiles y potentes para ofrecer una solución?, ¿la respuesta que planteemos será la óptima? o simplemente ¿nos apetece remangarnos y dedicarle parte de nuestro tiempo a encontrar un desenlace a todo esto?

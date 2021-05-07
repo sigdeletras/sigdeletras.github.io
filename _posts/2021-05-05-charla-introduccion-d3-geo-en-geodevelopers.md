@@ -8,8 +8,8 @@ header:
 categories: 
   - 2021
 tags:
-  - qgis
-  - informes
+  - d3
+  - charlas
 ---
 
 GeoDevelopers es una comunidad centrada en los desarrolladores o profesionales del ámbito SIG. Desde el 2015 organiza charlas y talleres sobre tecnologías geoespaciales. Estos eventos cumplen la doble labor: difundir tendencias, habilidades y conocimientos sobre temática vinculada con los Tecnologías de Información Geográfica y dar visibilidad a los geodevelopers de la comunidad.

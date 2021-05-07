@@ -12,9 +12,14 @@ tags:
   - charlas
 ---
 
-GeoDevelopers es una comunidad centrada en los desarrolladores o profesionales del ámbito SIG. Desde el 2015 organiza charlas y talleres sobre tecnologías geoespaciales. Estos eventos cumplen la doble labor: difundir tendencias, habilidades y conocimientos sobre temática vinculada con los Tecnologías de Información Geográfica y dar visibilidad a los geodevelopers de la comunidad.
+**GeoDevelopers** es una comunidad centrada en los desarrolladores o profesionales del ámbito SIG. Desde el 2015 organiza charlas y talleres sobre tecnologías geoespaciales. Estos eventos cumplen la doble labor: 
+
+- Difundir tendencias, habilidades y conocimientos sobre temática vinculada con los Tecnologías de Información Geográfica.
+- Dar visibilidad a los geodevelopers de la comunidad.
 
 Además de las citas, desde su página web [https://www.geodevelopers.org/](https://www.geodevelopers.org/) se pueden acceder a un repositorio de contenidos y código, lista de correos y videos y presentaciones de su canal de YouTube...
+
+![Página web de GeoDevelopers](/images/blog/202105_d3_geodevelopers/geodevelopers_web.png)
 
 El último "invento" de [Raúl Jiménez]((https://www.linkedin.com/in/jimenezortegaraul/?locale=es_ES)) y [Liber Chapinal]((https://www.linkedin.com/in/libertadchapinalcervantes/)) , responsable de la comunidad, es un espacio coworking virtual abierto en Discord. Este geocowork está pensado para mejorar la experiencia del teletrabajo, poder socializar durante momento de pausa y ayudar a conocer a personas nuevas con intereses comunes. Hay una [página de FAQS](https://github.com/Geo-Developers/organization/blob/master/coworking.md#preguntas-frecuentes-acerca-del-coworking ) con toda la información.
 
@@ -24,10 +29,11 @@ En esta ocasión, la temática de la charla se centró  en la librería **D3.js*
 
 ![Presentación](/images/blog/202105_d3_geodevelopers/slides.png)
 
-
 El manejo y programación con las funciones geográficas de [D3-geo](https://github.com/d3/d3-geo)  es muy diferente al de las bibliotecas JavaScript de mapas más conocidas como Leaflet y OpenLayers. Debemos tener en cuenta su sintaxis, que recuerda a JQuery, como realizar la transformación de datos geográficos (GeoJSON) en paths de SVG, las opciones que ofrece el formato [TopoJSON](https://github.com/topojson/topojson), la aplicación de las proyecciones cartográficas o la forma en la que D3 crea elementos SVG con sus correspondientes atributos.
 
 La segunda parte práctica del taller consistió en ir montando una visualización de datos geográficos con D3. El resultado sería un mapa temático con los datos del padrón de habitantes por municipios de Andalucía. El ejercicio se basa en dos entradas del blog sobre D3 pero subiendo un poco de nivel.
+
+![D3 mapa final](/images/blog/202105_d3_geodevelopers/youtube.png)
 
 Hacía tiempo que no preparaba un taller de este tipo. La pandemia y el confinamiento ha hecho que la mayoría de las actividades presenciales en Córdoba hayan quedado en stand-by. Es por ello por lo que ha hecho mucha ilusión  preparar esta charla en Geodevelopers. Preparar un taller de este tipo y que todo salga bien me requiere sin duda un esfuerzo y dedicación. A pesar de esto,  preparar una charla siempre me aporta beneficios. Estos eventos son una magnífica experiencia para seguir aprendiendo y adquirir nuevas habilidades. 
 

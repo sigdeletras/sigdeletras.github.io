@@ -24,7 +24,9 @@ En el trabajo tenemos desarrollos para clientes en distintas versiones, damos fo
 
 ## Problemas al instalar QGIS 3.20
 
-El pasado 22 de junio, si abrió a la comunidad la versión QGIS 3.20 y me dispuse a instalarla para comenzar a probar las nuevas funcionalidades. Al lanzar el Setup de OSGeo4W, con la opción avanzada de instalación, e intentar actualizar la versión de QGIS de la 3.18 a la 3.20, cuál fue mi sorpresa 😮 de que esta opción no estaba disponible.
+El pasado 22 de junio, si abrió a la comunidad la versión [QGIS 3.20](https://www.qgis.org/en/site/forusers/visualchangelog320/index.html) y me dispuse a instalarla para comenzar a probar las nuevas funcionalidades. 
+
+Al lanzar el Setup de OSGeo4W, con la opción avanzada de instalación, e intentar actualizar la versión de QGIS de la 3.18 a la 3.20, cuál fue mi sorpresa 😮 de que esta opción no estaba disponible.
 
 ![QGIS 3.20](/images/blog/202106_osgeo4w/qgis320.jpg)
 

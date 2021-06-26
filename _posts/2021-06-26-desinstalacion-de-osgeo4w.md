@@ -102,4 +102,6 @@ Tras finalizar el proceso de instalación conseguí tener las versiones de QGIS 
 
 ![Accesos de directos de QGIS en Windows](/images\blog\202106_osgeo4w\04_accesos_directos.jpg)
 
+<iframe src="https://giphy.com/embed/xT0GqssRweIhlz209i" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/breaking-bad-bryan-cranston-i-won-xT0GqssRweIhlz209i">via GIPHY</a></p>
+
 

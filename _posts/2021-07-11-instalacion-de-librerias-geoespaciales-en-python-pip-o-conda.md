@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: true
 related: true
 header:
-  teaser: "/images/blog/202107-pip-conda/" 
+  teaser: "/images/blog/202107-pip-conda/04_jupiter.jpg" 
 categories: 
   - 2021
 tags:
@@ -12,7 +12,6 @@ tags:
   - anaconda
 ---
 
-![IMG OSGeo4W](/images/blog/202106_osgeo4w/00_osgeo4w-logo.png)
 
 Python, junto a R, es uno de los lenguajes de uso más frecuente en el ámbito SIG. Este lenguaje de programación suele ser la primera opción para comenzar a programas de aquellas personas que trabajan en el ámbito del análisis geoespacial. 
 

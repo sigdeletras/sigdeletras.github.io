@@ -108,26 +108,26 @@ Nuestro proyecto va a requerir la instalación de las siguientes librerías:
 
 Usaremos  como entorno interactivo para trabajar [Jupiter Lab](https://jupyter.org/).
 
-- Tras instalar Miniconda lo primer que debemos hacer es crear un *enviroment* y activarlo.
+1. Tras instalar Miniconda lo primer que debemos hacer es crear un *enviroment* y activarlo.
   
 ```
 conda create --name geoenv
 conda activate geoenv
 ```
 
-- El siguiente paso será la instalación de las librerías. 
+2. El siguiente paso será la instalación de las librerías. 
 
 ```
 conda install rasterio matplotlib 
 ```
 
-- Y necesitaremos también Jupiter Lab pero usando el repositorio [conda-forge](https://conda-forge.org/)
+3. Y necesitaremos también Jupiter Lab pero usando el repositorio [conda-forge](https://conda-forge.org/)
 
 ```
 conda install -c conda-forge jupyterlab
 ```
 
-- Tras las instalaciones lanzaremos Jupiter y ya tendremos todo listo para ir creando nuestro código Python.
+4. Tras las instalaciones lanzaremos Jupiter y ya tendremos todo listo para ir creando nuestro código Python.
 
 ```
 jupyter lab

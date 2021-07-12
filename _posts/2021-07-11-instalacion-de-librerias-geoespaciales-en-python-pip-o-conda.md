@@ -29,7 +29,7 @@ En la siguiente entrada voy a dejar comentados algunos **aspectos para tener en 
 
 Python se encuentra preinstalado en máquinas con GNU/Linux. Abriendo una consola de comandos y escribiendo python  o python3 nuestro equipo está preparado para empezar a programar.
 
-Para equipos con Windows tenemos que realizar la descarga de los instaladores según la arquitectura de nuestro equipo desde web de Python (https://www.python.org/) y proceder a su instalación.
+Para equipos con Windows tenemos que realizar la descarga de los instaladores según la arquitectura de nuestro equipo desde web de Python [https://www.python.org/](https://www.python.org/) y proceder a su instalación.
 
 ![Hello World Python](/images/blog/202107-pip-conda/00_python_hellworld.jpg)
 
@@ -39,7 +39,7 @@ No trabajo con MacOS, pero según leo, creo que viene  preinstalado Python 2.7 p
 
 Al instalar Python en nuestro equipo tenemos disponibles por defecto un conjunto de módulos y paquetes destinados a cubrir las operaciones más comunes de la programación diaria.
 
-A estos paquetes o librerías se suman sin embargo otros módulos desarrollados por la comunidad de programadores de Python. La mayoría de ellos se encuentran alojados en el repositorio de software PyPI (https://pypi.org/).
+A estos paquetes o librerías se suman sin embargo otros módulos desarrollados por la comunidad de programadores de Python. La mayoría de ellos se encuentran alojados en el [repositorio de software PyPI](https://pypi.org/).
 
 ![Pypi](/images/blog/202107-pip-conda/01_pypi_gdal.jpg)
  

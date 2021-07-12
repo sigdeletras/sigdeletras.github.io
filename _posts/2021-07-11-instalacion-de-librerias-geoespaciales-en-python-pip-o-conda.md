@@ -1,5 +1,5 @@
 ---
-title:  "Desinstalación de OSGeo4W… e instalación de la versión 2 de OSGeo4W"
+title:  "Instalación de librerías geoespaciales en Python. ¿Pip o Conda?"
 excerpt_separator: "<!--more-->"
 comments: true
 related: true

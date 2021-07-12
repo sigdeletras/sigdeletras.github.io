@@ -12,8 +12,8 @@ tags:
   - anaconda
 ---
 
-
 Python, junto a R, es uno de los lenguajes de uso más frecuente en el ámbito SIG. Este lenguaje de programación suele ser la primera opción para comenzar a programas de aquellas personas que trabajan en el ámbito del análisis geoespacial. 
+<!--more-->
 
 Entre las razones de esta elección, además de su rápida curva de aprendizaje, se encuentra su integración como lenguaje de scripting en SIG de escritorio tan conocidos como QGIS o ArcGIS.
 
